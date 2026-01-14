@@ -1,0 +1,16 @@
+---
+title: "Step 6. Complete Policy Configuration"
+source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_sql_complete.html"
+last_updated: "10/15/2025"
+product_version: ""
+---
+
+# Step 6. Complete Policy Configuration
+
+In this article
+
+At the Summary step of the wizard, review the backup policy settings and click Finish.
+
+[![Complete Policy Configuration](images/azure_backup_create_sql_complete.png)](images/azure_backup_create_sql_complete.png "Complete Policy Configuration")
+
+Page updated 10/15/2025

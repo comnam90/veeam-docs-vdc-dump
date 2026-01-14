@@ -1,0 +1,40 @@
+---
+title: "Backup Storage Regions"
+source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_region_availability.html"
+last_updated: "9/16/2025"
+product_version: ""
+---
+
+# Backup Storage Regions
+
+In this article
+
+This section lists the available regions for Veeam Data Cloud for Microsoft 365 data storage.
+
+| Global Region | Azure Region |
+| --- | --- |
+| AMER | Brazil South |
+| Canada Central |
+| Central US |
+| East US |
+| West US |
+| West US 3 |
+| APJ | Australia East |
+| Central India |
+| East Asia |
+| Indonesia Central |
+| Japan West |
+| South India |
+| Southeast Asia |
+| EMEA | France Central |
+| Germany West Central |
+| Italy North |
+| North Europe |
+| South Africa North |
+| Sweden Central |
+| Switzerland North |
+| UAE North |
+| UK South |
+| West Europe |
+
+Page updated 9/16/2025
