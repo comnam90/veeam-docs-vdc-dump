@@ -1,7 +1,9 @@
 ---
 title: "Step 5. Review Tenant Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_tenant_add_summary.html"
-last_updated: "10/20/2025"
+last_updated: "1/9/2026"
 product_version: ""
 ---
 
@@ -17,4 +19,4 @@ After you add an Azure tenant, it will appear in the list of workload tenants on
 
 After Veeam provisions backup infrastructure to the tenant, you can access this tenant's management dashboard. For more information, see [Accessing Microsoft Azure Tenant Dashboard](azure_tenant_dashboard.md).
 
-Page updated 10/20/2025
+Page updated 1/9/2026

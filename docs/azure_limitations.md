@@ -1,7 +1,9 @@
 ---
 title: "Considerations and Limitations"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_limitations.html"
-last_updated: "12/17/2025"
+last_updated: "1/9/2026"
 product_version: ""
 ---
 
@@ -63,4 +65,4 @@ Backup and restore operations are supported within one Azure region only. If you
 
 For more information on Azure Disk Encryption, see [Microsoft Docs](https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview).
 
-Page updated 12/17/2025
+Page updated 1/9/2026
