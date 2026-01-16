@@ -1,7 +1,9 @@
 ---
 title: "Supported Entra ID Item Properties"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_properties.html"
-last_updated: "12/19/2025"
+last_updated: "1/14/2026"
 product_version: ""
 ---
 
@@ -9,16 +11,18 @@ product_version: ""
 
 In this article
 
-Veeam Data Cloud protects the following Microsoft Entra ID items:
+Veeam Data Cloud for Microsoft Entra ID protects the following items:
 
 * Entra ID objects with their properties
+* Microsoft Intune policies with their properties
 * Entra ID audit logs
 * Entra ID sign-in logs
-* Microsoft Intune policies with their properties
 
-Veeam Data Cloud supports the protection of the listed Entra ID objects and their properties:
+This article lists all supported properties for the items that Veeam Data Cloud for Microsoft Entra ID protects.
 
 Users
+
+Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID user properties.
 
 | Property | Comments |
 | --- | --- |
@@ -70,6 +74,8 @@ Users
 
 Groups
 
+Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID group properties.
+
 | Property | Comments |
 | --- | --- |
 | AppRoleAssignments | Not available for restore. |
@@ -97,6 +103,8 @@ Groups
 
 Administrative Units
 
+Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID administrative unit properties.
+
 | Property | Comments |
 | --- | --- |
 | Description | — |
@@ -107,6 +115,8 @@ Administrative Units
 | ScopedRoleMembers | Limited to directory role membership, custom role membership is not supported. |
 
 Roles
+
+Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID role properties.
 
 | Property | Comments |
 | --- | --- |
@@ -121,6 +131,8 @@ Roles
 | Version | — |
 
 Applications and Service Principals
+
+Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID applications and service principals.
 
 Applications
 
@@ -209,6 +221,8 @@ Service Principals
 
 Conditional Access Policies
 
+Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID conditional access policies.
+
 | Property | Comments |
 | --- | --- |
 | Conditions | — |
@@ -222,47 +236,38 @@ Conditional Access Policies
 
 Microsoft Intune Policies
 
-Microsoft Intune Policy Types
+Veeam Data Cloud for Microsoft Entra ID protects the following types of Microsoft Intune policies. For more information on supported properties for each policy type, see [Supported Microsoft Intune Policy Properties](entra_id_properties_intune.md).
 
 | Policy Type | Comments |
 | --- | --- |
-| AndroidCompliancePolicy | — |
-| AndroidCustomConfiguration | — |
-| AndroidGeneralDeviceConfiguration | — |
-| AndroidWorkProfileCompliancePolicy | — |
-| AndroidWorkProfileGeneralDeviceConfiguration | — |
-| IosCompliancePolicy | — |
-| IosCustomConfiguration | — |
-| IosDeviceFeaturesConfiguration | — |
-| IosGeneralDeviceConfiguration | — |
-| IosUpdateConfiguration | — |
-| MacOSCompliancePolicy | — |
-| MacOSCustomConfiguration | — |
-| MacOSDeviceFeaturesConfiguration | — |
-| MacOSGeneralDeviceConfiguration | — |
-| SharedPCConfiguration | — |
-| Windows10CompliancePolicy | — |
-| Windows10CustomConfiguration | — |
-| Windows10EndpointProtectionConfiguration | — |
-| Windows10EnterpriseModernAppManagementConfiguration | — |
-| Windows10GeneralConfiguration | — |
-| Windows10MobileCompliancePolicy | — |
-| Windows10SecureAssessmentConfiguration | — |
-| Windows10TeamGeneralConfiguration | — |
-| Windows81CompliancePolicy | — |
-| Windows81GeneralConfiguration | — |
-| WindowsDefenderAdvancedThreatProtectionConfiguration | — |
-| WindowsPhone81CustomConfiguration | — |
-| WindowsPhone81GeneralConfiguration | — |
-| WindowsUpdateForBusinessConfiguration | — |
+| AndroidCompliancePolicy | For details on supported properties, see [AndroidCompliancePolicy](entra_id_properties_intune.md#androidcompliancepolicy). |
+| AndroidCustomConfiguration | For details on supported properties, see [AndroidCustomConfiguration](entra_id_properties_intune.md#androidcustomconfiguration). |
+| AndroidGeneralDeviceConfiguration | For details on supported properties, see [AndroidGeneralDeviceConfiguration](entra_id_properties_intune.md#androidgeneraldeviceconfiguration). |
+| AndroidWorkProfileCompliancePolicy | For details on supported properties, see [AndroidWorkProfileCompliancePolicy](entra_id_properties_intune.md#androidworkprofilecompliancepolicy). |
+| AndroidWorkProfileGeneralDeviceConfiguration | For details on supported properties, see [AndroidWorkProfileGeneralDeviceConfiguration](entra_id_properties_intune.md#androidworkprofilegeneraldeviceconfiguration). |
+| IosCompliancePolicy | For details on supported properties, see [IosCompliancePolicy](entra_id_properties_intune.md#ioscompliancepolicy). |
+| IosCustomConfiguration | For details on supported properties, see [IosCustomConfiguration](entra_id_properties_intune.md#ioscustomconfiguration). |
+| IosDeviceFeaturesConfiguration | For details on supported properties, see [IosDeviceFeaturesConfiguration](entra_id_properties_intune.md#iosdevicefeaturesconfiguration). |
+| IosGeneralDeviceConfiguration | For details on supported properties, see [IosGeneralDeviceConfiguration](entra_id_properties_intune.md#iosgeneraldeviceconfiguration). |
+| IosUpdateConfiguration | For details on supported properties, see [IosUpdateConfiguration](entra_id_properties_intune.md#iosupdateconfiguration). |
+| MacOSCompliancePolicy | For details on supported properties, see [MacOSCompliancePolicy](entra_id_properties_intune.md#macoscompliancepolicy). |
+| MacOSCustomConfiguration | For details on supported properties, see [MacOSCustomConfiguration](entra_id_properties_intune.md#macoscustomconfiguration). |
+| MacOSDeviceFeaturesConfiguration | For details on supported properties, see [MacOSDeviceFeaturesConfiguration](entra_id_properties_intune.md#macosdevicefeaturesconfiguration). |
+| MacOSGeneralDeviceConfiguration | For details on supported properties, see [MacOSGeneralDeviceConfiguration](entra_id_properties_intune.md#macosgeneraldeviceconfiguration). |
+| SharedPCConfiguration | For details on supported properties, see [SharedPCConfiguration](entra_id_properties_intune.md#sharedpcconfiguration). |
+| Windows10CompliancePolicy | For details on supported properties, see [Windows10CompliancePolicy](entra_id_properties_intune.md#windows10compliancepolicy). |
+| Windows10CustomConfiguration | For details on supported properties, see [Windows10CustomConfiguration](entra_id_properties_intune.md#windows10customconfiguration). |
+| Windows10EndpointProtectionConfiguration | For details on supported properties, see [Windows10EndpointProtectionConfiguration](entra_id_properties_intune.md#windows10endpointprotectionconfiguration). |
+| Windows10EnterpriseModernAppManagementConfiguration | For details on supported properties, see [Windows10EnterpriseModernAppManagementConfiguration](entra_id_properties_intune.md#windows10enterprisemodernappmanagementconfiguration). |
+| Windows10GeneralConfiguration | For details on supported properties, see [Windows10GeneralConfiguration](entra_id_properties_intune.md#windows10generalconfiguration). |
+| Windows10MobileCompliancePolicy | For details on supported properties, see [Windows10MobileCompliancePolicy](entra_id_properties_intune.md#windows10mobilecompliancepolicy). |
+| Windows10SecureAssessmentConfiguration | For details on supported properties, see [Windows10SecureAssessmentConfiguration](entra_id_properties_intune.md#windows10secureassessmentconfiguration). |
+| Windows10TeamGeneralConfiguration | For details on supported properties, see [Windows10TeamGeneralConfiguration](entra_id_properties_intune.md#windows10teamgeneralconfiguration). |
+| Windows81CompliancePolicy | For details on supported properties, see [Windows81CompliancePolicy](entra_id_properties_intune.md#windows81compliancepolicy). |
+| Windows81GeneralConfiguration | For details on supported properties, see [Windows81GeneralConfiguration](entra_id_properties_intune.md#windows81generalconfiguration). |
+| WindowsDefenderAdvancedThreatProtectionConfiguration | For details on supported properties, see [WindowsDefenderAdvancedThreatProtectionConfiguration](entra_id_properties_intune.md#windowsdefenderadvancedthreatprotectionconfiguration). |
+| WindowsPhone81CustomConfiguration | For details on supported properties, see [WindowsPhone81CustomConfiguration](entra_id_properties_intune.md#windowsphone81customconfiguration). |
+| WindowsPhone81GeneralConfiguration | For details on supported properties, see [WindowsPhone81GeneralConfiguration](entra_id_properties_intune.md#windowsphone81generalconfiguration). |
+| WindowsUpdateForBusinessConfiguration | For details on supported properties, see [WindowsUpdateForBusinessConfiguration](entra_id_properties_intune.md#windowsupdateforbusinessconfiguration). |
 
-Microsoft Intune Policy Properties
-
-* [Supported Microsoft Intune Policy Properties A to B](entra_id_properties_intune_ab.md)
-* [Supported Microsoft Intune Policy Properties C to E](entra_id_properties_intune_ce.md)
-* [Supported Microsoft Intune Policy Properties F to L](entra_id_properties_intune_fl.md)
-* [Supported Microsoft Intune Policy Properties M to P](entra_id_properties_intune_mp.md)
-* [Supported Microsoft Intune Policy Properties Q to S](entra_id_properties_intune_qs.md)
-* [Supported Microsoft Intune Policy Properties T to W](entra_id_properties_intune_tw.md)
-
-Page updated 12/19/2025
+Page updated 1/14/2026

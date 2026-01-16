@@ -1,7 +1,9 @@
 ---
 title: "Considerations and Limitations"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_limitations.html"
-last_updated: "12/16/2025"
+last_updated: "1/12/2026"
 product_version: ""
 ---
 
@@ -46,6 +48,9 @@ Backup and Restore
 * Backup of embedded images added to ContentNote types of objects is not supported.
 * Backup of embedded images in rich text area fields is supported only if the fields are not encrypted.
 * Backup of FeedItem and FeedAttachment types of objects can be performed only when back up of ContentVersion object is enabled.
+
+* Restore of the Apex class metadata type is not supported in the Professional edition due to Salesforce API limitations.
+
 * Restore of MobileApplicationDetail and MailmergeTemplate types of content is not supported.
 * Restore of embedded images deleted from ContentNote types of objects is not supported.
 * Restore of FeedAttachment types of objects can be performed only when restoring the related FeedItem object hierarchy and only if the related FeedItem object is deleted from Salesforce.
@@ -58,4 +63,4 @@ Backup and Restore
 | Important |
 | For fields that already have backups, it is recommended that you do not change their types in Salesforce since this may cause backup failures. |
 
-Page updated 12/16/2025
+Page updated 1/12/2026
