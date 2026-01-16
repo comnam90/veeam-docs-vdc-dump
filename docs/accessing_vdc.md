@@ -1,7 +1,9 @@
 ---
 title: "Accessing Veeam Data Cloud"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/accessing_vdc.html"
-last_updated: "11/28/2025"
+last_updated: "1/16/2026"
 product_version: ""
 ---
 
@@ -36,7 +38,7 @@ To log in to the Veeam Data Cloud portal, use your Veeam My Account credentials 
 |  |
 | --- |
 | Note |
-| Veeam Data Cloud supports the latest stable versions of Google Chrome, Microsoft Edge (Chromium only) and Mozilla Firefox browsers. |
+| * Veeam Data Cloud supports the latest stable versions of Google Chrome, Microsoft Edge (Chromium only) and Mozilla Firefox browsers. * Veeam Data Cloud automatically logs you out after 30 minutes of inactivity and displays a notification two minutes before the session ends. |
 
 Logging In with Invitation Link
 
@@ -74,4 +76,4 @@ To log out, click the user name initials in the top-right corner of the Veeam Da
 
 [![Overview](images/accessing_vdc_logout.png)](images/accessing_vdc_logout.png "Overview")
 
-Page updated 11/28/2025
+Page updated 1/16/2026
