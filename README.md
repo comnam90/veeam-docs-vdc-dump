@@ -10,11 +10,11 @@
 
 ## About
 
-Markdown conversions of Veeam Data Cloud documentation, optimized for Context7 and LLM consumption. Includes documentation for VDCM365, VDCAzure, and VDC Vault.
+Markdown conversions of Veeam Data Cloud documentation, optimized for Context7 and LLM consumption. Includes documentation for VDC for Microsoft 365, VDC for Azure, VDC for Salesforce, and VDC Vault (SaaS backup storage).
 
 |                  |                                                      |
 | ---------------- | ---------------------------------------------------- |
-| **Source**       | https://helpcenter.veeam.com/docs/vdc/               |
+| **Source**       | https://helpcenter.veeam.com/docs/vdc/userguide/     |
 | **Last Updated** | 2025-01-15                                           |
 | **Maintainer**   | [@comnam90](https://github.com/comnam90)             |
 
@@ -29,7 +29,7 @@ docs/
 ## Usage with Context7
 
 ```
-use context7: veeam data cloud vdc vault baas draas
+use context7: veeam data cloud vdc vault m365 azure salesforce saas backup
 ```
 
 ## Subscribe to Updates
