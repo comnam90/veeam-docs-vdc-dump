@@ -8,5 +8,7 @@
   "rules": [
     "This is unofficial documentation - always verify against official Veeam Help Center",
     "Covers Veeam Data Cloud SaaS backup for M365, Azure, Salesforce, and Vault (SaaS backup storage)"
-  ]
+  ],
+  "url": "https://context7.com/comnam90/veeam-docs-vdc-dump",
+  "public_key": "pk_vgr5FzV3CQdIPvTbuNnlU"
 }
