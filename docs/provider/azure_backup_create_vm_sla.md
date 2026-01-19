@@ -1,0 +1,47 @@
+---
+title: "Step 4. Specify Policy Protection Settings"
+product: "vdc"
+doc_type: "provider"
+source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_vm_sla.html"
+last_updated: "1/12/2026"
+product_version: ""
+---
+
+# Step 4. Specify Policy Protection Settings
+
+
+At the Protection Settings step of the wizard, select an SLA template that will be applied to the protected resources.
+
+|  |
+| --- |
+| Note |
+| Veeam Data Cloud for Microsoft Azure creates backups automatically according to the schedule of the selected SLA template. You cannot run ad hoc backups manually. |
+
+You can select one of the following SLA templates:
+
+* Gold — select this option if you want to create VM snapshots and backups with the following settings:
+
+* Snapshots are created every hour and retained for 1 day.
+* Daily backups are created every 8 hours and retained for 30 days.
+* Weekly backups are created once per day and retained for 90 days.
+* Monthly backups are created on the first day of each month and retained for 24 months.
+
+* Silver — select this option if you want to create VM snapshots and backups with the following settings:
+
+* Snapshots are created every 8 hours and retained for 1 day.
+* Weekly backups are created once per day and retained for 30 days.
+* Monthly backups are created on the first day of each month and retained for 12 months.
+
+* Bronze — select this option if you want to create VM snapshots and backups with the following settings:
+
+* Snapshots are created every 24 hours and retained for 7 days.
+* Weekly backups are created every Monday and retained for 30 days.
+* Monthly backups are created on the first day of each month and retained for 12 months.
+
+|  |
+| --- |
+| Note |
+| To store backups, Veeam Data Cloud for Microsoft Azure automatically creates a repository in every Azure region whose resources are protected by the backup policy. |
+
+[![Specify Policy Protection Settings](images/azure_backup_create_vm_sla.webp)](images/azure_backup_create_vm_sla.webp "Specify Policy Protection Settings")
+

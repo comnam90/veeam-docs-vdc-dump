@@ -1,0 +1,20 @@
+---
+title: "Step 3. Finish Working with Wizard"
+product: "vdc"
+doc_type: "provider"
+source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_restore_role_prop_summary.html"
+last_updated: "8/21/2025"
+product_version: ""
+---
+
+# Step 3. Finish Working with Wizard
+
+
+At the Confirmation step of the wizard, review the summary information and click Restore.
+
+In the Restore Reason field, you can enter a reason for restoring the role. This information will be saved to the session history, and you will be able to reference it later.
+
+After you finish the wizard, Veeam Data Cloud will start the restore session. You will receive an email notification once the restore is completed successfully or fails.
+
+[![Finishing Work with Wizard](images/entra_id_restore_role_prop_summary.webp)](images/entra_id_restore_role_prop_summary.webp "Finishing Work with Wizard")
+
