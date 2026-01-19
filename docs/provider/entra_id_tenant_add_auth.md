@@ -1,0 +1,20 @@
+---
+title: "Step 2. Authorize Access to Entra ID Domain"
+product: "vdc"
+doc_type: "provider"
+source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_tenant_add_auth.html"
+last_updated: "8/19/2025"
+product_version: ""
+---
+
+# Step 2. Authorize Access to Entra ID Domain
+
+
+At the Connection step of the wizard, log in to the Microsoft 365 account of your customer to authorize Veeam Data Cloud to access the Microsoft Entra ID tenant of your customer. Before authorization, make sure your Veeam Data Cloud account has permissions that are required for adding, backing up and restoring of the customer tenant. For details, see [Permissions](entra_id_permissions.md).
+
+After authorization, Veeam Data Cloud will create a Microsoft Entra ID service principal in the Microsoft Entra ID tenant. This service principal allows Veeam Data Cloud to back up and restore Entra ID objects and logs.
+
+To authorize the access, click Authorize and log in to the Microsoft 365 account. Make sure to log in with the user account that has the Global Administrator role. For more information about this role, see [this Microsoft article](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference).
+
+[![Authenticating Entra ID Tenant](images/entra_id_tenant_add_auth.webp)](images/entra_id_tenant_add_auth.webp "Authenticating Entra ID Tenant")
+

@@ -1,0 +1,16 @@
+---
+title: "Step 2. Specify Restore Job Name"
+product: "vdc"
+doc_type: "provider"
+source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_restore_field_values_name.html"
+last_updated: "8/22/2025"
+product_version: ""
+---
+
+# Step 2. Specify Restore Job Name
+
+
+At the Name step of the wizard, use the Job name and Job details or reason for restore fields to specify a name for the new restore job and to provide a description for future reference. The maximum length of the session name is 100 characters.
+
+[![Specifying Restore Job Name](images/sf_restore_field_values_name.webp)](images/sf_restore_field_values_name.webp "Specifying Restore Job Name")
+

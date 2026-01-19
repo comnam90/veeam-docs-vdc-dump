@@ -1,0 +1,21 @@
+---
+title: "Deleting Backup Policies"
+product: "vdc"
+doc_type: "provider"
+source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_delete.html"
+last_updated: "10/15/2025"
+product_version: ""
+---
+
+# Deleting Backup Policies
+
+
+You can delete a backup policy if you do not need it anymore.
+
+To delete a backup policy, do the following:
+
+1. Open the Policies page.
+2. In the policies list, select the required policy and click Delete or right-click the policy and select Delete.
+
+[![Delete Backup Policy](images/azure_backup_delete.webp)](images/azure_backup_delete.webp "Delete Backup Policy")
+
