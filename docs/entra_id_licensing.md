@@ -1,15 +1,21 @@
 ---
 title: "Licensing"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_licensing.html"
-last_updated: "1/5/2026"
+last_updated: "1/19/2026"
 product_version: ""
 ---
 
 # Licensing
 
-In this article
 
 Licensing for Veeam Data Cloud for Microsoft Entra ID is based on the user accounts you back up. Each enabled Entra ID member user is counted towards your purchased license or free allowance. Groups, roles and other Microsoft Entra ID objects do not consume the license or allowance, but Veeam Data Cloud protects them too.
+
+|  |
+| --- |
+| note |
+| In Entra ID, the type of the user account is specified by the value of the userType attribute (Member or Guest). Microsoft Entra ID users who were created before the introduction of the userType attribute on August 31, 2014, have this value unset (null). Veeam Data Cloud licenses and processes these user accounts the same way it licenses and processes Entra ID member users. |
 
 Licensing Plans
 
@@ -29,4 +35,3 @@ License Expiration
 
 If your subscription expires and you do not renew it, Veeam Data Cloud will suspend your backup policy for 30 days. During this period, your existing Entra ID backups are still available, and you can use Veeam Data Cloud to restore your Entra ID data. After 30 days, Veeam Data Cloud will permanently delete your Entra ID tenant and all related data.
 
-Page updated 1/5/2026

@@ -1,13 +1,14 @@
 ---
-title: "Step 6. Complete Restore and Stop Session"
+title: "Step 6. Complete Restore Session"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_files_complete.html"
-last_updated: "12/15/2025"
+last_updated: "1/16/2026"
 product_version: ""
 ---
 
-# Step 6. Complete Restore and Stop Session
+# Step 6. Complete Restore Session
 
-In this article
 
 After you finish working with the File-Level Recovery Explorer, it is recommended that you stop the restore session.
 
@@ -25,6 +26,5 @@ To stop the restore session, do one of the following:
 * Locate the Azure file share whose files you are restoring and, in the File-level Recovery column, click the File-level Recovery link.
 * In the File-level Recovery window, click Stop Session.
 
-[![Step 6. Complete Restore and Stop Session](images/azure_restore_files_session_stop.png)](images/azure_restore_files_session_stop.png)
+[![Step 6. Complete Restore Session](images/azure_restore_files_session_stop.png)](images/azure_restore_files_session_stop.png)
 
-Page updated 12/15/2025
