@@ -1,13 +1,14 @@
 ---
 title: "Organization Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/dashboard.html"
-last_updated: "12/18/2025"
+last_updated: "1/19/2026"
 product_version: ""
 ---
 
 # Organization Dashboard
 
-In this article
 
 The organization dashboard provides a centralized view for monitoring data protection across all workloads in your Veeam Data Cloud organization without the need to access the individual tenants management. The Dashboard page contains information about tenant protection status, the number of protected objects and the recent backup sessions.
 
@@ -33,7 +34,9 @@ The protection status is represented as the ratio of protected objects to the to
 * The Tenants section displays the number of tenants that are included in the current view.
 * The Unprotected Objects section displays the number of objects for which no restore point has been created within the Recovery Point Objective (RPO) defined by the backup policy schedules assigned to those objects.
 
-* The Data Protection History section displays statistics for backed‑up objects and backup sessions, together with a chart that shows protection activity over the last 7 days. The data is grouped by item status:
+* The Data Protection History section displays statistics for backed‑up objects and backup sessions, together with a chart that shows protection activity over the last 7, 30 or 90 days. Click the time range to select a required one.
+
+The data is grouped by item status:
 
 * Success — The object was backed up, or the session completed successfully without warnings.
 * Warning — The object was not fully backed up, or the session completed with a warning. The Warning status means that an event occurred during the backup session that may or may not prevent the creation of a recovery point for the object.
@@ -54,4 +57,3 @@ To remove the filters and view all data, click Clear All.
 
 [![Viewing Organization Dashboard](images/dashboard.png)](images/dashboard.png "Viewing Organization Dashboard")
 
-Page updated 12/18/2025
