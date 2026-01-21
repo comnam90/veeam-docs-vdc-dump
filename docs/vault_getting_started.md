@@ -1,13 +1,14 @@
 ---
 title: "Getting Started with Veeam Data Cloud Vault"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_getting_started.html"
-last_updated: "11/28/2025"
+last_updated: "1/12/2026"
 product_version: ""
 ---
 
 # Getting Started with Veeam Data Cloud Vault
 
-In this article
 
 To quickly get started with Veeam Data Cloud Vault, follow these steps:
 
@@ -37,4 +38,3 @@ Veeam offers several ways for obtaining Veeam Data Cloud Vault. For more informa
 
 1. Review aggregated data on the state of tenant storage vaults on the Veeam Data Cloud Vault dashboard. For details, see [Viewing Dashboard](vault_dashboard.md).
 
-Page updated 11/28/2025

@@ -1,13 +1,14 @@
 ---
 title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_vbr.html"
-last_updated: "12/18/2025"
+last_updated: "1/12/2026"
 product_version: ""
 ---
 
 # Connecting Veeam Data Cloud Vault with Veeam Backup & Replication
 
-In this article
 
 You can use Veeam Data Cloud Vault as a target location for backups created by Veeam Backup & Replication. To do this, you must add Veeam Data Cloud Vault as an object storage repository in Veeam Backup & Replication and configure a backup job targeted at this repository.
 
@@ -59,4 +60,3 @@ For more information, see [Assigning Storage Vaults to Workloads](vault_storage_
 
 1. Complete the steps of the New Object Storage Repository wizard to add the storage vault as an object storage repository in Veeam Backup & Replication. For more information, see the [Adding Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vbr/userguide/osr_adding_veeam_data_cloud_vault.html?ver=13) section in the Veeam Backup & Replication User Guide.
 
-Page updated 12/18/2025

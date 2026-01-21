@@ -1,13 +1,14 @@
 ---
 title: "Considerations and Limitations"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_considerations_limitations.html"
-last_updated: "1/8/2026"
+last_updated: "1/20/2026"
 product_version: ""
 ---
 
 # Considerations and Limitations
 
-In this article
 
 This section lists considerations and known limitations in Veeam Data Cloud for Microsoft 365.
 
@@ -18,7 +19,6 @@ General
 * Backup of dynamic distribution groups is not supported. Members of dynamic distribution groups cannot be resolved. Dynamic Entra ID groups can be used instead. For more information, see [Dynamic Entra ID Groups](#entragroups).
 * Microsoft Entra Privileged Identity Management is not supported.
 * Backup is not supported for Microsoft organizations in US Government GCC High regions.
-* Express backup is not supported for Microsoft organizations in GCC regions.
 * You cannot delete mailboxes, OneDrives and SharePoint sites protected (or were protected in the past 365 days) under an Express backup policy. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/troubleshoot/sharepoint/sites/cannot-delete-sites-protected-by-microsoft365-backup).
 
 If you want to request the deletion of a specific mailbox, OneDrive or SharePoint site, contact Veeam Customer Support.
@@ -306,4 +306,3 @@ For more information, see [this Microsoft article](https://learn.microsoft.com/e
 * If you rename a tenant, move a tenant or change a SharePoint site URL, you cannot revert those changes when performing restore.
 * For OneDrive for Business restore, discovery search mailboxes, shared mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported.
 
-Page updated 1/8/2026
