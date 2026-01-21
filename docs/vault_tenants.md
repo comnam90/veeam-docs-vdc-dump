@@ -1,13 +1,14 @@
 ---
 title: "Managing Veeam Data Cloud Vault Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants.html"
-last_updated: "12/16/2025"
+last_updated: "1/12/2026"
 product_version: ""
 ---
 
 # Managing Veeam Data Cloud Vault Tenants
 
-In this article
 
 To start protecting your data with Veeam Data Cloud Vault, you must add a Vault tenant to Veeam Data Cloud. Vault tenants provide a mechanism to organize storage vaults, associate them with subscriptions, and control management access.
 
@@ -28,4 +29,3 @@ You can manage Veeam Data Cloud Vault tenants in the following ways:
 * [View tenant details](vault_tenants_view.md)
 * [Access the tenant dashboard](vault_tenants_dashboard.md)
 
-Page updated 12/16/2025
