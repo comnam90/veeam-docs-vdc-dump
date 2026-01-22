@@ -3,7 +3,7 @@ title: "Generating Reports"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_reports_generate.html"
-last_updated: "1/6/2026"
+last_updated: "1/22/2026"
 product_version: ""
 ---
 
@@ -16,13 +16,13 @@ You can generate reports on Veeam Data Cloud for Microsoft 365 usage. To do this
 2. Select Reports.
 3. In the Generate tab, select the report you want to generate from the following options:
 
-* Mailbox Protection Report. This report shows information about protected and unprotected mailboxes.
+* Mailbox Protection Report. This report lists mailboxes with their protection status, last backup date, owner email and organization.
 
-* User Protection Report. This report shows information about protected and unprotected users.
+* User Protection Report. This report lists usernames with their protection status, last backup date, emails and organization.
 
-* Backup Summary Report. This report summarizes backup information for the specified month.
-* Restore Activity Report. This report shows information about restore process activities.
-* Backup Policy Detail Report. This report shows session information of backup policies for the specified month.
+* Backup Summary Report. This report lists policy names, last status, last restore point, number of successful runs, failures, warnings, objects processed, data transferred (GiB) and a total row with object counts.
+* Restore Activity Report. This report lists session types, initiating user email, action, object, date and items processed in the restore session.
+* Backup Policy Detail Report. This report lists policy names, start and end times, policy type, status, processed objects and summary.
 
 [![Generating Reports](images/m365_reports_generate.webp)](images/m365_reports_generate.webp "Generating Reports")
 

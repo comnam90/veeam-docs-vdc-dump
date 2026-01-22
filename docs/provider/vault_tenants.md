@@ -3,7 +3,7 @@ title: "Managing Veeam Data Cloud Vault Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_tenants.html"
-last_updated: "12/16/2025"
+last_updated: "1/21/2026"
 product_version: ""
 ---
 
@@ -25,7 +25,7 @@ In Veeam Data Cloud Vault, you can create multiple tenants. Each tenant is linke
 
 You can manage Veeam Data Cloud Vault tenants in the following ways:
 
-* [Add a tenant](sp_vault_tenants_adding.md)
+* [Add a tenant](vault_tenants_adding.md)
 * [View tenant details](vault_tenants_view.md)
 * [Access the tenant dashboard](vault_tenants_dashboard.md)
 

@@ -3,7 +3,7 @@ title: "Editing Flex Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_edit_flex.html"
-last_updated: "1/8/2026"
+last_updated: "1/22/2026"
 product_version: ""
 ---
 
@@ -36,7 +36,7 @@ To edit a Flex backup policy, do the following:
 
 1. In the Add more items section, click Select next to Users, Groups, SharePoint Sites, Teams or Partial Organization and choose specific objects to back up.
 
-For Users, you can also click Upload file to upload a text file with one email address per line.
+For Users, you can also click Upload file to upload a CSV or text file with one email address per line.
 
 For SharePoint Sites, you can also click Upload file to upload a CSV file with one SharePoint URL per line.
 
@@ -56,7 +56,7 @@ For SharePoint Sites, you can also click Upload file to upload a CSV file with o
 
 1. In the Exclude more items section, click Select next to Users, Groups, SharePoint Sites or Teams and choose specific objects to exclude.
 
-For Users, you can also click Upload file to upload a text file with one email address per line.
+For Users, you can also click Upload file to upload a CSV or text file with one email address per line.
 
 For SharePoint Sites, you can also click Upload file to upload a CSV file with one SharePoint URL per line.
 

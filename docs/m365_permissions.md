@@ -1,13 +1,14 @@
 ---
 title: "Microsoft Entra Application Permissions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_permissions.html"
-last_updated: "1/9/2026"
+last_updated: "1/21/2026"
 product_version: ""
 ---
 
 # Microsoft Entra Application Permissions
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 uses Microsoft Entra applications to establish and maintain the connection between Veeam Data Cloud for Microsoft 365 and Microsoft 365 organizations, and perform backup and restore of the organization data.
 
@@ -30,10 +31,6 @@ When you run your first backup session, the Veeam Data Cloud for Microsoft 365 E
 
 For Express or Premium, you must (create, if manual connection, and) grant admin consent to a fourth Enterprise application, called Multi-tenant Registration for MBS Billing. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
 
-In this section you can find a list of permissions for Microsoft Entra applications that are granted automatically by Veeam Data Cloud for Microsoft 365 when you add your organization during onboarding.
-
-If you prefer to manually add your organization, make sure to manually grant all the listed permissions.
-
 |  |
 | --- |
 | Note |
@@ -43,7 +40,7 @@ Required User Account Roles for Microsoft Entra Application
 
 The user account that the Microsoft Entra application uses to log in to Microsoft 365 must be assigned the following roles:
 
-* Global Administrator — required for adding organizations, creating Microsoft Entra application for the Microsoft Azure service account, creating backup applications.
+* Global Administrator — required for adding organizations, creating Microsoft Entra application for the Microsoft Azure service account.
 * Owner — required for backing up public folder mailboxes.
 
 |  |
@@ -53,34 +50,55 @@ The user account that the Microsoft Entra application uses to log in to Microsof
 
 Required Permissions for Microsoft Entra Application
 
+In this section you can find a list of permissions for Microsoft Entra applications that are granted automatically by Veeam Data Cloud for Microsoft 365 when you add your organization during onboarding.
+
+If you prefer to manually add your organization, make sure to manually grant all the listed permissions.
+
 The Microsoft Entra application requires the Global Reader role. To learn how to grant the Global Reader role to the Microsoft Entra application, see [Granting Global Reader Role to Microsoft Entra Application](#globalreader).
+
+Permissions for Backup
+
+All listed permissions are of the Application type.
+
+| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
+| --- | --- | --- | --- | --- | --- |
+| Microsoft Graph | Directory.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
+| Group.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for the list of groups and group sites. |
+| Sites.Read.All |  | ✔ | ✔ | Querying Microsoft Entra ID for the list of sites and getting download URLs for files and their versions. |
+| TeamSettings.ReadWrite.All |  |  | ✔ | Accessing archived teams. |
+| ChannelMessage.Read.All |  |  | ✔ | Accessing Microsoft Teams public channel messages. |
+| ChannelMember.Read.All |  |  | ✔ | Accessing Microsoft Teams private and shared channels. |
+| Sites.Read.All |  | ✔ | ✔ | Retrieving the list of sites when creating a backup policy, during backup and restore and for objects caching. |
+| Reports.Read.All | ✔ | ✔ | ✔ | Building the Veeam Data Cloud dashboard. |
+| Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Reading mailboxes content. |
+| Exchange.ManageAsApp | ✔ |  |  | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox.   Note: This permission is required to back up public folders and discovery search mailboxes. This permission works along with the Global Reader role granted to the Microsoft Entra application. For more information, see [Granting Global Reader Role to Microsoft Entra Application](#globalreader). |
+| Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading SharePoint sites and OneDrive accounts content. |
+| User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive for Business permission to add a Microsoft 365 organization successfully. |
+
+1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](m365_check_perms_for_o365_exchange_api.md).
+
+Permissions for Restore
+
+All listed permissions are of the Application type.
+
+| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
+| --- | --- | --- | --- | --- | --- |
+| Microsoft Graph | Directory.Read.All | ✔ |  | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
+| Group.ReadWrite.All |  | ✔ | ✔ | Recreating in Microsoft Entra ID an associated group in case of a deleted team site restore. |
+| Sites.Read.All |  | ✔ | ✔ | Retrieving the list of sites when creating a backup policy, during backup and restore and for objects caching. |
+| Directory.ReadWrite.All |  | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location. * Creating sites that have Microsoft Teams template. |
+| Files.ReadWrite.All |  |  | ✔ | Reading the current state and restoring files of Microsoft Teams shared channels. |
+| ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
+| Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Restoring mailboxes content. |
+| Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading and restoring SharePoint sites and OneDrive accounts content. |
+| User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive for Business permission to add a Microsoft 365 organization successfully. |
+
+1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](m365_check_perms_for_o365_exchange_api.md).
 
 |  |
 | --- |
 | Note |
 | To restore data using Microsoft Entra application, make sure that you configure the Microsoft Entra application settings. For more information, see [Configuring Microsoft Entra Application Settings](m365_configuring_ms_entra_app_settings.md). |
-
-The required permissions for the Microsoft Entra application are the following:
-
-| API | Permission name | Permission type | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
-| --- | --- | --- | --- | --- | --- | --- |
-| Microsoft Graph | Directory.Read.All | Application | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
-| Group.Read.All | Application | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for the list of groups and group sites. |
-| Group.ReadWrite.All | Application |  | ✔ | ✔ | Recreating in Microsoft Entra ID an associated group in case of a deleted team site restore. |
-| Sites.Read.All | Application |  | ✔ | ✔ | Querying Microsoft Entra ID for the list of sites and getting download URLs for files and their versions.  Accessing sites of the applications that are installed from the SharePoint store. |
-| TeamSettings.ReadWrite.All | Application |  |  | ✔ | Accessing archived teams. |
-| ChannelMessage.Read.All | Application |  |  | ✔ | Accessing Microsoft Teams public channel messages. |
-| ChannelMember.Read.All | Application |  |  | ✔ | Accessing Microsoft Teams private and shared channels. |
-| Directory.ReadWrite.All | Application |  | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location. * Creating sites that have Microsoft Teams template. |
-| Files.ReadWrite.All | Application |  |  | ✔ | Reading the current state and restoring files of Microsoft Teams shared channels. |
-| ChannelMember.ReadWrite.All | Application |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
-| Reports.Read.All | Application | ✔ | ✔ | ✔ | This permission is required to build the VDC dashboard. |
-| Office 365 Exchange Online1 | full\_access\_as\_app | Application | ✔ |  | ✔ | Reading and restoring mailboxes content. |
-| Exchange.ManageAsApp | Application | ✔ |  |  | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox.   Note: This permission is required to back up public folders and discovery search mailboxes. This permission works along with the Global Reader role granted to the Microsoft Entra application. For more information, see [Granting Global Reader Role to Microsoft Entra Application](#globalreader). |
-| Office 365 SharePoint Online | Sites.FullControl.All | Application |  | ✔ | ✔ | Reading SharePoint sites and OneDrive accounts content. |
-| User.Read.All | Application |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive for Business permission to add a Microsoft 365 organization successfully. |
-
-1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](m365_check_perms_for_o365_exchange_api.md).
 
 Express or Premium Permissions for Microsoft Entra Application
 
@@ -112,4 +130,3 @@ To grant the Global Reader role to the Microsoft Entra application, do the follo
 6. In the Select a member window, select the Microsoft Entra application in the list and click Select. The selected application will appear in the Selected member(s) list.
 7. Click Next and then click Assign to finish working with the wizard.
 
-Page updated 1/9/2026
