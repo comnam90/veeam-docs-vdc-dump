@@ -1,13 +1,14 @@
 ---
 title: "Viewing Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants_view.html"
-last_updated: "11/20/2025"
+last_updated: "1/21/2026"
 product_version: ""
 ---
 
 # Viewing Tenants
 
-In this article
 
 The Vault page provides access to the list of tenants you manage and displays information about each tenant.
 
@@ -52,4 +53,3 @@ Click Refresh to update the list of tenants and displayed details. The refresh a
 
 Use arrows next to the column name to sort the list of your tenants alphabetically by their names, subscriptions and storage regions.
 
-Page updated 11/20/2025

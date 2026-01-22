@@ -3,14 +3,14 @@ title: "Viewing Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_tenants_view.html"
-last_updated: "11/20/2025"
+last_updated: "1/21/2026"
 product_version: ""
 ---
 
 # Viewing Tenants
 
 
-On the Vault page, you can view all added Veeam Data Cloud Vault tenants and information about the Veeam Data Cloud Vault subscription. You can also add a new Vault tenant. For details on adding tenants, see [Adding Veeam Data Cloud Vault Tenants](sp_vault_tenants_adding.md).
+On the Vault page, you can view all added Veeam Data Cloud Vault tenants and information about the Veeam Data Cloud Vault subscription. You can also add a new Vault tenant. For details on adding tenants, see [Adding Veeam Data Cloud Vault Tenants](vault_tenants_adding.md).
 
 To view the Vault page, select Vault on the left.
 

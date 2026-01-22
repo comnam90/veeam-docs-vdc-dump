@@ -1,13 +1,14 @@
 ---
 title: "Step 3. Configure Backup Data"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_flex_config_data.html"
-last_updated: "1/8/2026"
+last_updated: "1/22/2026"
 product_version: ""
 ---
 
 # Step 3. Configure Backup Data
 
-In this article
 
 At the Backup Data step of the wizard, select objects to back up.
 
@@ -15,7 +16,7 @@ At the Backup Data step of the wizard, select objects to back up.
 
 If you want to exclude specific objects from the backup policy, select the Exclude some items from the backup check box. Then click Select next to Users, Groups, SharePoint Sites or Teams and choose specific objects to exclude.
 
-For Users, you can also click Upload file to upload a text file with one email address per line.
+For Users, you can also click Upload file to upload a CSV or text file with one email address per line.
 
 For SharePoint Sites, you can also click Upload file to upload a CSV file with one SharePoint URL per line.
 
@@ -23,7 +24,7 @@ For SharePoint Sites, you can also click Upload file to upload a CSV file with o
 
 * Select Back up the following objects to back up specific objects within your Microsoft organization. Then do the following:
 
-* Click Select next to Users and choose users to back up. You can also use the Upload file button to upload a text file with one email address per line.
+* Click Select next to Users and choose users to back up. You can also use the Upload file button to upload a CSV or text file with one email address per line.
 * Click Select next to Groups and choose groups to back up.
 
 Use dynamic Entra ID groups if you want the groups to be automatically updated between backup policy runs. Otherwise, you must manually add and delete users from the groups.
@@ -34,7 +35,7 @@ Use dynamic Entra ID groups if you want the groups to be automatically updated b
 
 If you want to exclude specific objects from the backup policy, select the Exclude some items from the backup check box. Then click Select next to Users, Groups, SharePoint Sites or Teams and choose specific objects to exclude.
 
-For Users, you can also use the Upload file button to upload a text file with one email address per line.
+For Users, you can also use the Upload file button to upload a CSV or text file with one email address per line.
 
 For SharePoint Sites, you can also click Upload file to upload a CSV file with one SharePoint URL per line.
 
@@ -45,4 +46,3 @@ For SharePoint Sites, you can also click Upload file to upload a CSV file with o
 | NOTE |
 | By default, backup policies run every 24 hours and generate restore points. For more information, see [Retention Period](m365_security.md#rpo). |
 
-Page updated 1/8/2026
