@@ -3,7 +3,7 @@ title: "Viewing Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_tenant_view.html"
-last_updated: "11/12/2025"
+last_updated: "1/22/2026"
 product_version: ""
 ---
 
@@ -48,4 +48,9 @@ A Microsoft 365 tenant can have one of the following statuses:
 | Deleting | The retention period has expired and Veeam Data Cloud is removing the tenant and all related data. |
 | Deleting failed | Deletion of the tenant was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 | Invite Sent | You sent an email with an invitation to add a tenant to your customer and the customer has not added the tenant yet. The status also indicates the date when the invitation was sent. You can resend, edit or cancel the invitation. For details, see [Managing Invitations](sp_customers_invite_manage.md). |
+
+|  |
+| --- |
+| tip |
+| If you want to delete a tenant, contact Veeam Customer Support. |
 

@@ -1,13 +1,14 @@
 ---
 title: "Viewing Microsoft 365 Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_view.html"
-last_updated: "11/12/2025"
+last_updated: "1/22/2026"
 product_version: ""
 ---
 
 # Viewing Microsoft 365 Tenants
 
-In this article
 
 On the Microsoft 365 page, you can view all added Microsoft 365 workload tenants and information about the Veeam Data Cloud for Microsoft 365 subscription. You can also add a new Microsoft 365 tenant. For details on adding tenants, see [Adding Microsoft 365 Tenants](m365_tenant_add.md).
 
@@ -54,4 +55,8 @@ A Microsoft 365 tenant can have one of the following statuses:
 | Deleting | The retention period has expired and Veeam Data Cloud is removing the tenant and all related data. |
 | Deleting failed | Deletion of the tenant was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 
-Page updated 11/12/2025
+|  |
+| --- |
+| tip |
+| If you want to delete a tenant, contact Veeam Customer Support. |
+
