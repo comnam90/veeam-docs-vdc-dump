@@ -3,7 +3,7 @@ title: "Adding Storage Vaults for AWS Edition"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_add_aws.html"
-last_updated: "1/20/2026"
+last_updated: "1/22/2026"
 product_version: ""
 ---
 
@@ -19,7 +19,7 @@ To add a storage vault for an AWS Veeam Data Cloud Vault edition, do the followi
 
 1. In the Vault Name field, specify the name for the new storage vault. The name must be between 3 and 50 characters in length.
 2. From the Country drop-down list, select the country where you want to create the new storage vault.
-3. [For the Advanced Core and Advanced Non-Core editions] From the Region drop-down list, select your preferred storage region. This helps you specify a location for your data more precisely in case multiple data centers in different regions are available within the country you selected.
+3. [For the Advanced Core edition] From the Region drop-down list, select your preferred storage region. This helps you specify a location for your data more precisely in case multiple data centers in different regions are available within the country you selected.
 4. Click Next. Veeam Data Cloud Vault will create the storage vault and display the storage vault credentials at the next step of the wizard.
 
 [![Adding Another Storage Vault](images/vault_storage_vaults_add.png)](images/vault_storage_vaults_add.png "Adding Another Storage Vault")
