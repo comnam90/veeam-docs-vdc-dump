@@ -3,7 +3,7 @@ title: "Adding Veeam Data Cloud Vault Tenants with AWS Edition Subscriptions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_vault_tenants_adding_aws.html"
-last_updated: "1/21/2026"
+last_updated: "1/22/2026"
 product_version: ""
 ---
 
@@ -37,7 +37,7 @@ If the necessary subscription is not in the list, request a new subscription in 
 
 1. In the Vault Name field, specify the name for the new storage vault.
 2. From the Country drop-down list, select the country where you want to create the new storage vault.
-3. [For the Advanced Core and Advanced Non-Core editions] From the Region drop-down list, select your preferred storage region. This helps you specify location for your data more precisely in case multiple datacenters in different regions are available within the country that you selected.
+3. [For the Advanced Core edition] From the Region drop-down list, select your preferred storage region. This helps you specify location for your data more precisely in case multiple datacenters in different regions are available within the country that you selected.
 4. Click Next.
 
 [![Providing Storage Vault for Tenant](images/vault_tenant_vault_aws.webp)](images/vault_tenant_vault_aws.webp "Providing Storage Vault for Tenant")
