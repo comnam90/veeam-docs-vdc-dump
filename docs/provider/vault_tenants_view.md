@@ -3,7 +3,7 @@ title: "Viewing Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_tenants_view.html"
-last_updated: "1/21/2026"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,7 @@ To view the Vault page, select Vault on the left.
 
 Viewing Tenants
 
-In the upper section, the Subscriptions field shows the number of subscriptions your customers has assigned for this workload.
+In the upper section, the Active Subscriptions field shows the number of subscriptions your customers has assigned for this workload.
 
 In the tenant list, Veeam Data Cloud displays the following properties for each tenant:
 

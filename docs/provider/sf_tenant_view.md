@@ -3,7 +3,7 @@ title: "Viewing Salesforce Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_tenant_view.html"
-last_updated: "12/2/2025"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,7 @@ To view the Salesforce page, select Salesforce on the left.
 
 In the upper section, Veeam Data Cloud displays the following information:
 
-* The Subscriptions field shows the number of subscriptions your customers has assigned for this workload.
+* The Active Subscriptions field shows the number of subscriptions your customers has assigned for this workload.
 * The Status field shows the current status of the Veeam Data Cloud infrastructure. To view the status of regions where your Salesforce tenants are deployed, click See more next to the Status field.
 * The Upcoming Maintenance field provides information on the next planned maintenance date. To view all upcoming maintenance that can affect your Salesforce tenants, click See more next to the Upcoming Maintenance field.
 

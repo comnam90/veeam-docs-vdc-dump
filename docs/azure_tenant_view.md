@@ -1,13 +1,14 @@
 ---
 title: "Viewing Microsoft Azure Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_tenant_view.html"
-last_updated: "1/8/2026"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
 # Viewing Microsoft Azure Tenants
 
-In this article
 
 The Azure Management page provides an overview of your Veeam Data Cloud for Microsoft Azure subscription and backup storage consumption, as well as workload tenants.
 
@@ -45,4 +46,3 @@ Each workload tenant can have one of the following statuses:
 
 [![Viewing Microsoft Azure Tenants](images/azure_tenant_view_new.png)](images/azure_tenant_view_new.png)
 
-Page updated 1/8/2026

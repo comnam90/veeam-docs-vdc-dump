@@ -3,7 +3,7 @@ title: "Viewing Microsoft Entra ID Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_tenant_view.html"
-last_updated: "12/9/2025"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,7 @@ To view the Entra ID page, select Entra ID on the left.
 
 In the upper section, Veeam Data Cloud displays the following information:
 
-* The Subscriptions field shows the number of subscriptions your customers have assigned for this workload.
+* The Active Subscriptions field shows the number of subscriptions your customers have assigned for this workload.
 * The Infrastructure field provides information on the next planned maintenance date. To view all upcoming maintenance that can affect your Entra ID tenants, click See more.
 
 Tenant Properties
