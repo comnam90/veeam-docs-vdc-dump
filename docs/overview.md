@@ -1,13 +1,14 @@
 ---
 title: "Organization Overview"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/overview.html"
-last_updated: "11/12/2025"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
 # Organization Overview
 
-In this article
 
 A Veeam Data Cloud organization incorporates your Veeam Data Cloud accounts and one or more subscriptions for the workloads you want to protect.
 
@@ -19,4 +20,3 @@ Overview is the default landing page when you log in. To return to Overview from
 
 [![Veeam Data Cloud Overview Page](images/overview_workloads.png)](images/overview_workloads.png "Veeam Data Cloud Overview Page")
 
-Page updated 11/12/2025

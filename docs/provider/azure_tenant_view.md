@@ -3,7 +3,7 @@ title: "Viewing Microsoft Azure Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_tenant_view.html"
-last_updated: "1/8/2026"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ The Azure page provides an overview of the Veeam Data Cloud for Microsoft Azure 
 
 Subscription Information
 
-The Subscription section shows the number of subscriptions your customers have assigned for this workload.
+The Active Subscription section shows the number of subscriptions your customers have assigned for this workload.
 
 Workload Tenants
 

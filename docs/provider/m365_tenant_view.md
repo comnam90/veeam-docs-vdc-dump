@@ -3,7 +3,7 @@ title: "Viewing Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_tenant_view.html"
-last_updated: "1/22/2026"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ On the Microsoft 365 page, you can view all added Microsoft 365 workload tenants
 
 To view the Microsoft 365 page, select Microsoft 365 on the left or click Microsoft 365 on the overview page.
 
-In the upper section, the Subscriptions field shows the number of subscriptions your customers has assigned for this workload.
+In the upper section, the Active Subscriptions field shows the number of subscriptions your customers has assigned for this workload.
 
 Tenant Properties
 

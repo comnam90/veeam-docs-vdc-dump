@@ -3,7 +3,7 @@ title: "Step 4. Specify Policy Protection Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_vm_sla.html"
-last_updated: "1/12/2026"
+last_updated: "1/26/2026"
 product_version: ""
 ---
 
@@ -15,7 +15,7 @@ At the Protection Settings step of the wizard, select an SLA template that will 
 |  |
 | --- |
 | Note |
-| Veeam Data Cloud for Microsoft Azure creates backups automatically according to the schedule of the selected SLA template. You cannot run ad hoc backups manually. |
+| Veeam Data Cloud for Microsoft Azure creates backups automatically according to the schedule of the selected SLA template. You cannot modify SLA templates or run ad hoc backups manually. |
 
 You can select one of the following SLA templates:
 

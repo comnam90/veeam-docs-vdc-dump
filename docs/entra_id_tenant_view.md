@@ -1,13 +1,14 @@
 ---
 title: "Viewing Microsoft Entra ID Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_tenant_view.html"
-last_updated: "12/9/2025"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 
 # Viewing Microsoft Entra ID Tenants
 
-In this article
 
 On the Entra ID page, you can view all added Entra ID tenants and information on the Veeam Data Cloud for Microsoft Entra ID subscription and Veeam Data Cloud maintenance. You can also add a new Entra ID tenant. For details on adding tenants, see [Adding Microsoft Entra ID Tenants](entra_id_tenant_add.md).
 
@@ -57,4 +58,3 @@ Maintenance in Veeam Data Cloud involves various tasks that are designed to keep
 
 To view upcoming maintenance for your Entra ID tenants, select Entra ID on the left. The Infrastructure field provides information on the next planned maintenance date. To view all upcoming maintenance that can affect your Entra ID tenants, click See more.
 
-Page updated 12/9/2025
