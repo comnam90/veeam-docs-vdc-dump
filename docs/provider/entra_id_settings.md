@@ -3,7 +3,7 @@ title: "Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_settings.html"
-last_updated: "11/19/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 
@@ -29,7 +29,7 @@ You can include Entra ID Conditional Access policies and Microsoft Intune polici
 |  |
 | --- |
 | Note |
-| The restore of additional objects is available only if you enable the backup of those objects first and Veeam Data Cloud completes an Entra ID backup with this option enabled. For details, see [Entra ID Conditional Access Policies Restore](entra_id_cap_restore.md) and [Restoring Entire Intune Policies](entra_id_restore_intune.md). |
+| The restore of additional objects is available only if you enable the backup of those objects first and Veeam Data Cloud completes an Entra ID backup with this option enabled. For details, see [Entra ID Conditional Access Policies Restore](entra_id_cap_restore.md) and [Microsoft Intune Policies Restore](entra_id_intune_restore.md). |
 
 To enable backup of additional objects, do the following:
 

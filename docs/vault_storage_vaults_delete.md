@@ -1,13 +1,14 @@
 ---
 title: "Deleting Storage Vaults"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_delete.html"
-last_updated: "6/25/2025"
+last_updated: "1/28/2026"
 product_version: ""
 ---
 
 # Deleting Storage Vaults
 
-In this article
 
 You can permanently remove a storage vault from the backup infrastructure. To do that, you must contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support).
 
@@ -26,9 +27,8 @@ The procedure to delete a storage vault works in the following way:
 |  |
 | --- |
 | Important |
-| The customer can cancel the storage vault deletion within the 10 day grace period. After the grace period, the customer cannot cancel the storage vault deletion. |
+| The customer can cancel the storage vault deletion within the 30 day grace period. After the grace period, the customer cannot cancel the storage vault deletion. |
 
 1. The storage vault is deleted from Microsoft Azure and from the Veeam database.
 2. The customer receives a confirmation email from the Veeam Customer Support team that the storage vault has been deleted.
 
-Page updated 6/25/2025

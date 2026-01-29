@@ -1,13 +1,14 @@
 ---
 title: "Step 3. Specify Restore Options"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_group_options.html"
-last_updated: "10/9/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 
 # Step 3. Specify Restore Options
 
-In this article
 
 At the Options step of the wizard, configure the restore options, such as how to restore groups, their relationships and other:
 
@@ -30,4 +31,3 @@ To restore groups that cannot be restored from the recycle bin, launch the resto
 
 [![Specifying Restore Options](images/entra_id_restore_group_options.png)](images/entra_id_restore_group_options.png "Specifying Restore Options")
 
-Page updated 10/9/2025
