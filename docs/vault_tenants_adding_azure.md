@@ -3,7 +3,7 @@ title: "Adding Veeam Data Cloud Vault Tenants with Azure Edition Subscriptions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants_adding_azure.html"
-last_updated: "1/20/2026"
+last_updated: "1/21/2026"
 product_version: ""
 ---
 

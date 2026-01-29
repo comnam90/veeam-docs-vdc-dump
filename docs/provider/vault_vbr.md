@@ -3,7 +3,7 @@ title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr.html"
-last_updated: "12/18/2025"
+last_updated: "1/12/2026"
 product_version: ""
 ---
 

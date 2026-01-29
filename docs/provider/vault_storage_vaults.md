@@ -3,7 +3,7 @@ title: "Working with Storage Vaults"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_storage_vaults.html"
-last_updated: "11/21/2025"
+last_updated: "1/12/2026"
 product_version: ""
 ---
 

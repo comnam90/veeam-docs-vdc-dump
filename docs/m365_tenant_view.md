@@ -3,7 +3,7 @@ title: "Viewing Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_view.html"
-last_updated: "1/22/2026"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 

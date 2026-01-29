@@ -3,7 +3,7 @@ title: "Step 3. Specify Restore Options"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_restore_group_options.html"
-last_updated: "10/9/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 

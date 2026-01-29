@@ -3,7 +3,7 @@ title: "About Rental Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_about_rental_licensing.html"
-last_updated: "9/17/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 
