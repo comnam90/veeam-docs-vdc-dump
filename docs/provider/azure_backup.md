@@ -3,7 +3,7 @@ title: "Microsoft Azure Backup"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup.html"
-last_updated: "9/25/2025"
+last_updated: "1/28/2026"
 product_version: ""
 ---
 
@@ -22,4 +22,5 @@ In This Section
 * [Creating VM Backup Policy](azure_backup_create_vm.md)
 * [Creating SQL Backup Policy](azure_backup_create_sql.md)
 * [Creating Azure Files Backup Policy](azure_backup_create_files.md)
+* [Managing Backup Policies](azure_backup_manage.md)
 

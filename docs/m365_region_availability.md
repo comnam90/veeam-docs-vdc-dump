@@ -1,13 +1,14 @@
 ---
 title: "Backup Storage Regions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_region_availability.html"
-last_updated: "9/16/2025"
+last_updated: "1/28/2026"
 product_version: ""
 ---
 
 # Backup Storage Regions
 
-In this article
 
 This section lists the available regions for Veeam Data Cloud for Microsoft 365 data storage.
 
@@ -24,6 +25,7 @@ This section lists the available regions for Veeam Data Cloud for Microsoft 365 
 | East Asia |
 | Indonesia Central |
 | Japan West |
+| Korea Central |
 | South India |
 | Southeast Asia |
 | EMEA | France Central |
@@ -37,4 +39,3 @@ This section lists the available regions for Veeam Data Cloud for Microsoft 365 
 | UK South |
 | West Europe |
 
-Page updated 9/16/2025
