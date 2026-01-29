@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Review Default Policy Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_review.html"
 last_updated: "9/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Review Default Policy Settings
 
-In this article
 
 At the Summary step of the wizard, do either of the following:
 
@@ -19,4 +20,3 @@ At the Summary step of the wizard, do either of the following:
 
 [![Review Default Policy Settings](images/azure_backup_create_vm_review.png)](images/azure_backup_create_vm_review.png "Review Default Policy Settings")
 
-Page updated 9/25/2025

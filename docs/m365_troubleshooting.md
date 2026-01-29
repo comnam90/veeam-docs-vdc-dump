@@ -1,5 +1,7 @@
 ---
 title: "Troubleshooting"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_troubleshooting.html"
 last_updated: "7/9/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Troubleshooting
 
-In this article
 
 This section contains knowledge base articles that may help you troubleshoot issues when using Veeam Data Cloud for Microsoft 365.
 
@@ -21,4 +22,3 @@ In This Section
 * [Teams: Failed To Find Team MailboxOwner Account](m365_troubleshoot_teams_owner.md)
 * [SharePoint: Failed To Request File Versions For Item](m365_troubleshoot_sharepoint_file_versions.md)
 
-Page updated 7/9/2025

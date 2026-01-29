@@ -1,5 +1,7 @@
 ---
 title: "Step 8. Specify Notifications Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_notifications.html"
 last_updated: "10/2/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 8. Specify Notifications Settings
 
-In this article
 
 The Notifications step of the wizard is available if you have enabled the advanced settings configuration at the [Summary](azure_backup_create_vm_review.md) step of the wizard.
 
@@ -15,4 +16,3 @@ If you want to get notifications about the policy completion results, turn on th
 
 [![Specify Notifications Settings](images/azure_backup_create_vm_notifications.png)](images/azure_backup_create_vm_notifications.png "Specify Notifications Settings")
 
-Page updated 10/2/2025

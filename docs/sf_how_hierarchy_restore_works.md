@@ -1,5 +1,7 @@
 ---
 title: "How Object Hierarchy Restore Works"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_how_hierarchy_restore_works.html"
 last_updated: "7/24/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # How Object Hierarchy Restore Works
 
-In this article
 
 Consider the following example. You want to restore a record in the Contact object:
 
@@ -30,4 +31,3 @@ By default, the product restores child records 2 levels deep down the hierarchy 
 * If a child record exists in Salesforce but it is in the Salesforce Recycle Bin, the product restores the record from the Recycle Bin.
 * If a child record does not exist in Salesforce, the product creates the record in Salesforce using the backed-up data.
 
-Page updated 7/24/2025

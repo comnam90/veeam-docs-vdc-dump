@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Finish Working with Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_user_summary.html"
 last_updated: "8/21/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review the summary information and click Restore.
 
@@ -19,4 +20,3 @@ You will receive an email notification once the restore is completed successfull
 
 [![Finishing Work with Wizard](images/entra_id_restore_user_summary.png)](images/entra_id_restore_user_summary.png "Finishing Work with Wizard")
 
-Page updated 8/21/2025

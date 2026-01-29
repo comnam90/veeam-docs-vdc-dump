@@ -1,5 +1,7 @@
 ---
 title: "Performing Bulk Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_bulk.html"
 last_updated: "12/8/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Performing Bulk Restore
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 offers bulk restore for users under the Express plan. When you perform bulk restore, Veeam Data Cloud for Microsoft 365 replaces the data in the original location with the data from the backup. Bulk restore is a quick way to restore data of multiple users, groups or sites at once in a disaster recovery scenario.
 
@@ -73,4 +74,3 @@ For SharePoint, Veeam Data Cloud restores the data to a newly created site with 
 
 1. Veeam Data Cloud for Microsoft 365 will display the Your Express restore has started notification. Select Notifications in the main menu to view the progress of the restore process.
 
-Page updated 12/8/2025

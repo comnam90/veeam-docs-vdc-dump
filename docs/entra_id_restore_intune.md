@@ -1,5 +1,7 @@
 ---
 title: "Restoring Entire Intune Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_intune.html"
 last_updated: "11/12/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Entire Intune Policies
 
-In this article
 
 To restore an entire Entra ID application, use the Restore Intune Policies wizard.
 
@@ -16,4 +17,3 @@ To restore an entire Entra ID application, use the Restore Intune Policies wizar
 3. [Specify restore options](entra_id_restore_intune_options.md).
 4. [Finish working with the wizard](entra_id_restore_intune_summary.md).
 
-Page updated 11/12/2025

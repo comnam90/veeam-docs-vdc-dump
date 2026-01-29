@@ -1,5 +1,7 @@
 ---
 title: "Viewing Vault Assignments"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_assignments.html"
 last_updated: "12/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Vault Assignments
 
-In this article
 
 Veeam Data Cloud Vault allows you to view information about Veeam Backup & Replication integrations and Veeam Kasten integrations.
 
@@ -47,4 +48,3 @@ You can filter integrations by selecting the status from the drop-down list. You
 
 [![Viewing Vault Assignments](images/vault_assignments.png)](images/vault_assignments.png "Viewing Vault Assignments")
 
-Page updated 12/16/2025

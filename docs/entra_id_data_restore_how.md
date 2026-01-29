@@ -1,5 +1,7 @@
 ---
 title: "How Entra ID Restore Works"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_data_restore_how.html"
 last_updated: "12/12/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # How Entra ID Restore Works
 
-In this article
 
 When Veeam Data Cloud restores entire Entra ID objects, it attempts the following restore operations in sequence: restore from the Entra ID recycle bin and restore from a backup. You can specify how Veeam Data Cloud must proceed through these operations in the restore wizard, for example, in the Restore Users wizard. For more information on what Microsoft Entra ID objects Veeam Data Cloud can restore, see [Entra ID Restore](entra_id_data_restore.md).
 
@@ -24,4 +25,3 @@ To skip this step, clear the Restore from Entra ID Recycle Bin check box at the 
 
 To specify whether Veeam Data Cloud must skip or overwrite objects, select Skip or Overwrite at the Options step of the restore wizard.
 
-Page updated 12/12/2025

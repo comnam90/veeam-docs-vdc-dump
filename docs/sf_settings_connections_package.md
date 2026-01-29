@@ -1,5 +1,7 @@
 ---
 title: "Configuring Salesforce Package Connection"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_connections_package.html"
 last_updated: "12/4/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Configuring Salesforce Package Connection
 
-In this article
 
 Veeam Data Cloud Salesforce Extension is a solution that is developed for fast access and restore of Salesforce archived data directly from the Salesforce console. The extension improves user experience and reduces administrative workload required to process data requests. This solution is available on the [Salesforce AppExchange page](https://appexchange.salesforce.com/) and it is installed in your Salesforce tenant using a Salesforce managed package. A managed package is a container that includes the components of a Salesforce application, and a mechanism for installing the application. For details, see [Salesforce Documentation](https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/managed_packaging_intro.htm).
 
@@ -63,4 +64,3 @@ To disconnect the extension, do the following:
 
 [![Disconnecting Managed Package](images/sf_settings_connections_package_disconnect.png)](images/sf_settings_connections_package_disconnect.png "Disconnecting Managed Package")
 
-Page updated 12/4/2025

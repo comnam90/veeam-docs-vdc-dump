@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Specify Policy Details"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_sql_name.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Specify Policy Details
 
-In this article
 
 At the Policy Info step of the wizard, specify a name and description for the backup policy.
 
@@ -15,4 +16,3 @@ In the Description field, by default, Veeam Data Cloud for Microsoft Azure displ
 
 [![Specify Policy Details](images/azure_backup_create_sql_name.png)](images/azure_backup_create_sql_name.png "Specify Policy Details")
 
-Page updated 10/15/2025

@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Select Restore Points"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_user_point.html"
 last_updated: "12/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Select Restore Points
 
-In this article
 
 At the Users step of the wizard, select restore points to be used for restore.
 
@@ -27,4 +28,3 @@ After you select a restore point, Veeam Data Cloud verifies its availability for
 
 [![Selecting Restore Point](images/entra_id_restore_user_point.png)](images/entra_id_restore_user_point.png "Selecting Restore Point")
 
-Page updated 12/16/2025

@@ -1,5 +1,7 @@
 ---
 title: "Viewing Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_dashboard.html"
 last_updated: "10/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Dashboard
 
-In this article
 
 The Veeam Data Cloud for Microsoft Entra ID dashboard contains information on the state of the protection of your Microsoft Entra ID tenant, the number of protected objects and the recent restore sessions.
 
@@ -24,4 +25,3 @@ The Dashboard page displays the following widgets.
 
 [![Viewing Dashboard](images/entra_id_dashboard.png)](images/entra_id_dashboard.png "Viewing Dashboard")
 
-Page updated 10/14/2025

@@ -1,5 +1,7 @@
 ---
 title: "Restoring Azure Files"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_files.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Azure Files
 
-In this article
 
 You can recover corrupted or missing files of an Azure file share from a cloud-native snapshot. Veeam Data Cloud for Microsoft Azure allows you to restore files and folders to the original file share or to another file share.
 
@@ -19,4 +20,3 @@ To restore files and folders of a protected Azure file share, do the following:
 4. [Select files to restore](azure_restore_files_select.md).
 5. [Stop the restore session](azure_restore_files_complete.md).
 
-Page updated 12/15/2025

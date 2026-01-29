@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Configure General Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_create_options.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Configure General Settings
 
-In this article
 
 At the Options step of the wizard, you can select an archival schedule, specify API request and safety control limits and run the policy in the test mode.
 
@@ -39,4 +40,3 @@ Every time it processes a new child object, it checks the number of remaining AP
 
 [![Configuring General Settings](images/sf_archival_policies_create_options.png)](images/sf_archival_policies_create_options.png "Configuring General Settings")
 
-Page updated 8/22/2025

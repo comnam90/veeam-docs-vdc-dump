@@ -1,5 +1,7 @@
 ---
 title: "Viewing Notifications"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_notifications.html"
 last_updated: "10/24/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Notifications
 
-In this article
 
 Veeam Data Cloud allows you to view the history of notifications and notification details.
 
@@ -23,4 +24,3 @@ New notifications are displayed in bold. To mark all unread notifications as rea
 
 [![Viewing Notifications](images/m365_viewing_notifications.png)](images/m365_viewing_notifications.png "Viewing Notifications")
 
-Page updated 10/24/2025

@@ -1,5 +1,7 @@
 ---
 title: "Viewing Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_dashboard.html"
 last_updated: "1/8/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Dashboard
 
-In this article
 
 The Veeam Data Cloud for Microsoft Azure dashboard provides information on the state of backup and restore sessions and protected Microsoft Azure resources.
 
@@ -26,4 +27,3 @@ By default, Veeam Data Cloud for Microsoft Azure displays information for the la
 
 [![View Dashboard](images/azure_dashboard.png)](images/azure_dashboard.png "View Dashboard")
 
-Page updated 1/8/2026

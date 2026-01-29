@@ -1,5 +1,7 @@
 ---
 title: "Integration with Veeam Products"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_integration.html"
 last_updated: "11/20/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Integration with Veeam Products
 
-In this article
 
 Veeam Data Cloud Vault integrates with the following Veeam products:
 
@@ -42,4 +43,3 @@ The following table displays what Veeam Data Cloud Vault editions are available 
 | Note |
 | Veeam Data Cloud Vault does not support integration with Veeam Backup for AWS. |
 
-Page updated 11/20/2025

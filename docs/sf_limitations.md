@@ -9,7 +9,6 @@ product_version: ""
 
 # Considerations and Limitations
 
-In this article
 
 When you plan to protect your Salesforce data with Veeam Data Cloud, keep in mind the following limitations and considerations.
 
@@ -63,4 +62,3 @@ Backup and Restore
 | Important |
 | For fields that already have backups, it is recommended that you do not change their types in Salesforce since this may cause backup failures. |
 
-Page updated 1/12/2026

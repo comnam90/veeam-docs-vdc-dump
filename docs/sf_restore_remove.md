@@ -1,5 +1,7 @@
 ---
 title: "Removing Restore Job Drafts"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_remove.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Removing Restore Job Drafts
 
-In this article
 
 You to permanently remove a restore job draft from Veeam Data Cloud if you no longer need it. However, you cannot remove restore jobs that have already been launched.
 
@@ -21,4 +22,3 @@ To remove a restore job draft:
 
 [![Removing Restore Job Draft](images/sf_restore_remove.png)](images/sf_restore_remove.png "Removing Restore Job Draft")
 
-Page updated 10/17/2025

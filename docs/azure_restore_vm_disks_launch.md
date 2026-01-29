@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Restore Virtual Machine Disks Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_disks_launch.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Restore Virtual Machine Disks Wizard
 
-In this article
 
 To launch the Restore Virtual Machine Disks wizard, do the following:
 
@@ -23,4 +24,3 @@ To launch the Restore Virtual Machine Disks wizard, do the following:
 
 [![Step 1. Launch Restore Virtual Machine Disks Wizard](images/azure_restore_vm_disks_launch.png)](images/azure_restore_vm_disks_launch.png)
 
-Page updated 12/15/2025

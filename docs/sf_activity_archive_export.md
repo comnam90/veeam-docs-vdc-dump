@@ -1,5 +1,7 @@
 ---
 title: "Exporting Archived Data"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_archive_export.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Exporting Archived Data
 
-In this article
 
 You can export the list with all fields of the archived records as a CSV file.
 
@@ -25,4 +26,3 @@ To export archived data, do the following:
 
 [![Exporting Archived Data](images/sf_archival_policies_collecting_data.png)](images/sf_archival_policies_collecting_data.png "Exporting Archived Data")
 
-Page updated 10/17/2025

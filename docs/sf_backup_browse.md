@@ -1,5 +1,7 @@
 ---
 title: "Browsing Backups"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_browse.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Browsing Backups
 
-In this article
 
 Veeam Data Cloud allows you to view backed-up data of a specific Salesforce tenant before you restore it.
 
@@ -42,4 +43,3 @@ You can also choose the version of each record that will be restored. To do that
 
 [![Browsing Backups](images/sf_backup_browse.png)](images/sf_backup_browse.png "Browsing Backups")
 
-Page updated 10/17/2025

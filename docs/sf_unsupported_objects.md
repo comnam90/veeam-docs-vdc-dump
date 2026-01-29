@@ -1,5 +1,7 @@
 ---
 title: "Unsupported Salesforce Objects"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_unsupported_objects.html"
 last_updated: "10/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Unsupported Salesforce Objects
 
-In this article
 
 Veeam Data Cloud supports backup of objects available in API version 60 and earlier. However, most of the objects that cannot be restored are not collected. You can tell these objects in Salesforce by the following flags assigned: creatable = false, updatable = false. The only exception is that backup of the \*History objects is supported. For more information on backup and restore limitations, see [Considerations and Limitations](sf_limitations.md#limitations).
 
@@ -19,4 +20,3 @@ By default, Veeam Data Cloud can archive all objects and file types that can be 
 | Restore | AccountPartner, ContentFolder, DigitalSignature, OpportunityPartner |
 | Archive | \*History, \*Share, \*Tag, AccountPartner, ContentNote, ContentFolder, MailmergeTemplate, MobileApplicationDetail, OpportunityPartner, Organization, Profile, RecordType, SelfServiceUser, User, standard Salesforce objects that cannot be deleted through API. |
 
-Page updated 10/6/2025

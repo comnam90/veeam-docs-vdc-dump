@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Download Exported Files"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_object_export_download.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Download Exported Files
 
-In this article
 
 After Veeam Data Cloud completes the export session, download the exported JSON files. For download, the files are compressed in the ZIP format.
 
@@ -22,4 +23,3 @@ The download link is valid for 7 days. When the link expires, start a new export
 
 [![Finishing Work with Wizard](images/entra_id_object_export_download.png)](images/entra_id_object_export_download.png "Finishing Work with Wizard")
 
-Page updated 12/15/2025

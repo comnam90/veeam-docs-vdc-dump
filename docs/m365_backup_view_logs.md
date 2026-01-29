@@ -1,5 +1,7 @@
 ---
 title: "Viewing Backup Logs"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_view_logs.html"
 last_updated: "1/6/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Backup Logs
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 allows you to view and download backup logs with information about your Flex backup policies status, log messages and timestamps. For Express backup policies, you can view details of the protection status of objects within the backup policy.
 
@@ -126,4 +127,3 @@ The available protection statuses are the following:
 | note |
 | If you need further details on Express backup policies, such as access to warning or error logs, [submit a support case](https://my.veeam.com/my-cases). Enhancements to improve Express backup policy logs are planned for future releases. |
 
-Page updated 1/6/2026

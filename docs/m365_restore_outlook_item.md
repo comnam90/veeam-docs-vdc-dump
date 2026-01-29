@@ -1,5 +1,7 @@
 ---
 title: "Restoring Outlook Items"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_outlook_item.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Outlook Items
 
-In this article
 
 Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore).
 
@@ -60,4 +61,3 @@ If you select this option, in the Mailbox and Folder fields specify the address 
 | TIP |
 | Restored items appear in an Outlook mailbox based on the received date, not the restore date. |
 
-Page updated 9/19/2025

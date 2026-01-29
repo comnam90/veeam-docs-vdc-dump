@@ -1,5 +1,7 @@
 ---
 title: "Permissions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_permissions.html"
 last_updated: "12/11/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Permissions
 
-In this article
 
 To perform backup, restore and archival operations of Salesforce data, Veeam Data Cloud requires the following permissions to be provided.
 
@@ -65,4 +66,3 @@ The IAM and key policies that Veeam Data Cloud uses when encrypting data with AW
 | Decrypt | Allows Veeam Data Cloud to decrypt data with AWS KMS keys. |
 | DescribeKey | Allows Veeam Data Cloud to retrieve information about AWS KMS keys. |
 
-Page updated 12/11/2025

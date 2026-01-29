@@ -1,5 +1,7 @@
 ---
 title: "Starting and Stopping Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_start_stop.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Starting and Stopping Backup Policies
 
-In this article
 
 You can start a backup policy manually, for example, if you want to create an additional backup in the backup chain and do not want to modify the configured backup policy schedules. You can also stop a backup policy if processing of a session is about to take too long and you do not want the policy to affect the production environment during business hours.
 
@@ -36,4 +37,3 @@ To stop a backup policy:
 
 [![Starting Backup Policy](images/sf_backup_policies_start_stop.png)](images/sf_backup_policies_start_stop.png "Starting Backup Policy")
 
-Page updated 10/17/2025

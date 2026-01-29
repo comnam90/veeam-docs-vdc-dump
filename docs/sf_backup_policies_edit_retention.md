@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Edit Retention Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_retention.html"
 last_updated: "3/28/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Edit Retention Settings
 
-In this article
 
 At the Retention step of the wizard, you can edit retention settings that define how long the created backups will be stored before being deleted. It allows you to comply with the data retention policy of your company.
 
@@ -40,4 +41,3 @@ Note that attachments associated with records to which custom retention settings
 
 [![Editing Retention Settings](images/sf_backup_policies_edit_retention.png)](images/sf_backup_policies_edit_retention.png "Editing Retention Settings")
 
-Page updated 3/28/2025

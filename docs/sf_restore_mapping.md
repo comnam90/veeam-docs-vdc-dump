@@ -1,5 +1,7 @@
 ---
 title: "How Restore Mapping Works"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_mapping.html"
 last_updated: "3/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # How Restore Mapping Works
 
-In this article
 
 When restoring a record, Veeam Data Cloud uses the following algorithm to search for the record in Salesforce and compare it with the backed-up record:
 
@@ -24,4 +25,3 @@ When restoring a record, Veeam Data Cloud uses the following algorithm to search
 | Important |
 | * If you [specify override values for specific fields](sf_restore_records_options.md#override) when restoring a record, Veeam Data Cloud applies these settings first and then uses the override values to search for alternate keys. * If you apply a [data masking template](sf_settings_templates.md) when restoring a record, Veeam Data Cloud first masks data and then uses the masked values to search for alternate keys. * If you [configure mapping by field](sf_restore_records_options.md#map_old_fields) when restoring a record, Veeam Data Cloud first applies an alternate key and then the configured field mapping rules. |
 
-Page updated 3/25/2025

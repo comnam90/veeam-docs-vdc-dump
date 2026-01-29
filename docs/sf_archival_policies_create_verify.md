@@ -1,5 +1,7 @@
 ---
 title: "Step 6. Verify Backup Consistency"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_create_verify.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 6. Verify Backup Consistency
 
-In this article
 
 At the Verify step of the wizard, Veeam Data Cloud will check whether all child objects related to the root object have backups. You must thoroughly review the list of these child objects and confirm whether they can be safely deleted from Salesforce. To do that, select the Confirm permanent deletion option.
 
@@ -22,4 +23,3 @@ You must also verify whether the user that is used to perform the archival opera
 
 [![Verifying Backup Consistency](images/sf_archival_policies_create_verify.png)](images/sf_archival_policies_create_verify.png "Verifying Backup Consistency")
 
-Page updated 8/22/2025

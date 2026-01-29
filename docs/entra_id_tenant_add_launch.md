@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Add Entra ID Tenant Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_tenant_add_launch.html"
 last_updated: "11/13/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Add Entra ID Tenant Wizard
 
-In this article
 
 To launch the Add Entra ID tenant wizard, do the following:
 
@@ -21,4 +22,3 @@ To launch the Add Entra ID tenant wizard, do the following:
 
 [![Launching Add Entra ID Tenant Wizard](images/entra_id_tenant_add_launch.png)](images/entra_id_tenant_add_launch.png "Launching Add Entra ID Tenant Wizard")
 
-Page updated 11/13/2025

@@ -1,5 +1,7 @@
 ---
 title: "Veeam Data Cloud Vault"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault.html"
 last_updated: "9/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Veeam Data Cloud Vault
 
-In this article
 
 Veeam Data Cloud Vault is a managed storage solution that allows you to store and maintain data in a secure and protected environment. The product offers enhanced security features such as in-built immutability and encryption. Veeam Data Cloud Vault provides a secure and cost-effective storage option for Veeam products.
 
@@ -20,4 +21,3 @@ Veeam Backup & Replication users can add Veeam Data Cloud Vault storage as an ob
 * Veeam Backup for Microsoft Azure
 * Veeam Kasten
 
-Page updated 9/16/2025

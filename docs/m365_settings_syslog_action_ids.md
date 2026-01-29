@@ -1,5 +1,7 @@
 ---
 title: "Log Record Action IDs"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_syslog_action_ids.html"
 last_updated: "6/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Log Record Action IDs
 
-In this article
 
 This page contains a list of all Action IDs that can appear in a log record from a Veeam Data Cloud for Microsoft 365 syslog server.
 
@@ -66,4 +67,3 @@ This page contains a list of all Action IDs that can appear in a log record from
 | CancelSubscription | Cancel Veeam Data Cloud for Microsoft 365 subscription. |
 | CreatePortalSession | Create Stripe customer portal session. For more information, see [this article](https://docs.stripe.com/api/customer_portal/sessions). |
 
-Page updated 6/6/2025

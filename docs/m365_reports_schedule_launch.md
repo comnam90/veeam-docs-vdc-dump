@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Schedule Report Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_reports_schedule_launch.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Schedule Report Wizard
 
-In this article
 
 To schedule a report, use the Schedule Report wizard.
 
@@ -17,4 +18,3 @@ To schedule a report, use the Schedule Report wizard.
 
 [![Launch Schedule Report Wizard](images/m365_reports_schedule_launch.png)](images/m365_reports_schedule_launch.png "Launch Schedule Report Wizard")
 
-Page updated 9/19/2025

@@ -1,5 +1,7 @@
 ---
 title: "Restoring Microsoft Teams Data"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams.html"
 last_updated: "6/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Microsoft Teams Data
 
-In this article
 
 This section provides information on how to restore Microsoft Teams data with Veeam Data Cloud for Microsoft 365.
 
@@ -19,4 +20,3 @@ In This Section
 * [Restoring Files](m365_restore_teams_files.md)
 * [Restoring Tabs](m365_restore_teams_tabs.md)
 
-Page updated 6/6/2025

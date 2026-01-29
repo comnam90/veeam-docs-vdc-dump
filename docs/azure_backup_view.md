@@ -1,5 +1,7 @@
 ---
 title: "Viewing Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_view.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Backup Policies
 
-In this article
 
 To view the list of all policies, open the Policies page in the Backup section of the main menu and select the Virtual Machines, Azure SQL or Azure Files tab — depending on the type of the policies you want to view.
 
@@ -25,4 +26,3 @@ To narrow down the list of displayed backup policies, you can filter policies by
 
 [![View Backup Policies](images/azure_backup_view.png)](images/azure_backup_view.png "View Backup Policies")
 
-Page updated 10/15/2025

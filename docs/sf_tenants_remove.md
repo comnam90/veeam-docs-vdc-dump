@@ -1,5 +1,7 @@
 ---
 title: "Removing Salesforce Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_remove.html"
 last_updated: "12/4/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Removing Salesforce Tenants
 
-In this article
 
 You can permanently remove a Salesforce tenant if you no longer need it. You can remove all tenant types — production, trial, sandbox and developer. This feature is available only for users assigned the Salesforce:Administrator or Salesforce:BackupOperator role..
 
@@ -24,4 +25,3 @@ To remove a tenant, do the following:
 
 [![Removing Salesforce Tenants](images/sf_tenants_remove.png)](images/sf_tenants_remove.png "Removing Salesforce Tenants")
 
-Page updated 12/4/2025

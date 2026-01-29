@@ -1,5 +1,7 @@
 ---
 title: "Editing Archival Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_edit.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Archival Policies
 
-In this article
 
 You can edit archival policies created in Veeam Data Cloud. For example, you may need to modify the policy schedule, change API limits, and so on.
 
@@ -25,4 +26,3 @@ To edit an archival policy, do the following:
 
 [![Editing Archival Policy](images/sf_archival_policies_edit.png)](images/sf_archival_policies_edit.png "Editing Archival Policy")
 
-Page updated 10/17/2025

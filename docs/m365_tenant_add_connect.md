@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Connect to Flex"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_connect.html"
 last_updated: "1/6/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Connect to Flex
 
-In this article
 
 At the Connect to Flex step of the wizard (or Connection step if you only have a Foundation or Advanced plan), connect Veeam Data Cloud to your Microsoft 365 tenancy.
 
@@ -76,4 +77,3 @@ Make sure to select only the services that are available in the Microsoft 365 te
 | tip |
 | To ensure the manual connection is successful, confirm the following:   * You created an application registration in your Microsoft Entra ID and not an Enterprise application. * The manually created app registration is within the correct tenant ID. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/sharepoint/find-your-office-365-tenant-id). * You assigned all the required permissions to the application registration and ensured that all required permissions are consented to. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/entra/identity-platform/application-consent-experience). |
 
-Page updated 1/6/2026

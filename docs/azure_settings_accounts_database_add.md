@@ -1,5 +1,7 @@
 ---
 title: "Adding Database Account"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_settings_accounts_database_add.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Adding Database Account
 
-In this article
 
 To add a new database account, do the following:
 
@@ -28,4 +29,3 @@ The maximum length of the account name is 32 characters. The following character
 
 [![Add Database Account](images/azure_settings_accounts_database_add.png)](images/azure_settings_accounts_database_add.png "Add Database Account")
 
-Page updated 10/15/2025

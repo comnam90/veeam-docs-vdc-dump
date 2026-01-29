@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Restore Metadata Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_metadata_launch.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Restore Metadata Wizard
 
-In this article
 
 To launch the Restore Metadata wizard:
 
@@ -17,4 +18,3 @@ To launch the Restore Metadata wizard:
 
 [![Launching Restore Metadata Wizard](images/sf_restore_metadata_launch.png)](images/sf_restore_metadata_launch.png "Launching Restore Metadata Wizard")
 
-Page updated 10/17/2025

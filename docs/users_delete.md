@@ -1,5 +1,7 @@
 ---
 title: "Deleting Users"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_delete.html"
 last_updated: "9/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Deleting Users
 
-In this article
 
 You can delete a user account if you no longer need it.
 
@@ -20,4 +21,3 @@ To delete a user, do the following:
 
 [![Deleting User](images/users_delete.png)](images/users_delete.png "Deleting User")
 
-Page updated 9/22/2025

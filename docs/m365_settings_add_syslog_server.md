@@ -1,5 +1,7 @@
 ---
 title: "Adding Syslog Server"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_add_syslog_server.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Adding Syslog Server
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 allows you to define a syslog server where you can receive Veeam Data Cloud for Microsoft 365 user activity logs.
 
@@ -65,4 +66,3 @@ The following example shows a log record for the creation of a restore session:
 | --- |
 | 20.213.0.149    Jun 18 09:02:25        syslog    info    Action    RestoreOutlookItemsToLocal, User: Mary.Jones@COMPANY.ONMICROSOFT.COM, Session Type: vex, Object: Jack Smith / Inbox, Date: 6/18/2024 9:02:25 AM +00:00, Items:{"SessionDate":"2023-11-23T02:43:25.429Z","Option":{"Items":[{"Id":"LgAAAEYAAAAWAAAAAAAAAJWlMDRVs-1Om8ReIEAHypABAGyua\_AmugtHrGBbcMwomlsAAAAAAQwAAAAAAACVpTA0VbPtTpvEXiBAB8qQBwBsrmvwJroLR6xgW3DMKJpbAAAAAAEMAABsrmvwJroLR6xgW3DMKJpbAAIYDZuFAABsrmvwJroLR6xgW3DMKJpbAAIXZHpB"}]},"SessionType":"vet"} |
 
-Page updated 9/19/2025

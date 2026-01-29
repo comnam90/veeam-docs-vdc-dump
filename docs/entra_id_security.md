@@ -1,5 +1,7 @@
 ---
 title: "Security"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_security.html"
 last_updated: "8/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Security
 
-In this article
 
 This section lists the fundamental security features of Veeam Data Cloud for Microsoft Entra ID.
 
@@ -39,4 +40,3 @@ Service Level Agreements (SLAs)
 
 Veeam Data Cloud for Microsoft Entra ID offers a 99.9% uptime SLA, excluding planned outages. For details, see the [Veeam Data Cloud Service Agreement](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html).
 
-Page updated 8/6/2025

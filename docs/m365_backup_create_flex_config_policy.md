@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Configure Policy Information"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_flex_config_policy.html"
 last_updated: "7/21/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Configure Policy Information
 
-In this article
 
 At the Details step of the wizard, specify a name and description for the backup policy.
 
@@ -17,4 +18,3 @@ At the Details step of the wizard, specify a name and description for the backup
 
 [![Configuring Policy Information](images/m365_backup_create_flex_config_policy.png)](images/m365_backup_create_flex_config_policy.png "Configuring Policy Information")
 
-Page updated 7/21/2025

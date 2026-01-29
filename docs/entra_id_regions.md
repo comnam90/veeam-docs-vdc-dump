@@ -1,5 +1,7 @@
 ---
 title: "Backup Storage Regions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_regions.html"
 last_updated: "12/10/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Backup Storage Regions
 
-In this article
 
 Veeam Data Cloud supports the following Microsoft Azure regions where you can store your Entra ID backups:
 
@@ -35,4 +36,3 @@ Veeam Data Cloud supports the following Microsoft Azure regions where you can st
 | UK South |
 | West Europe |
 
-Page updated 12/10/2025

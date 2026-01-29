@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Specify Restore Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_sql_settings.html"
 last_updated: "1/8/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Specify Restore Settings
 
-In this article
 
 At the Settings step of the wizard, you can specify the following:
 
@@ -43,4 +44,3 @@ To specify a new name for each Azure SQL database you want to restore, do the fo
 
 [![Step 4. Specify Restore Settings](images/azure_restore_sql_rename.png)](images/azure_restore_sql_rename.png)
 
-Page updated 1/8/2026

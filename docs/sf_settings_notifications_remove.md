@@ -1,5 +1,7 @@
 ---
 title: "Removing Notifications"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_notifications_remove.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Removing Notifications
 
-In this article
 
 You can remove a notification if you no longer need it.
 
@@ -22,4 +23,3 @@ To remove a notification, do the following:
 
 [![Removing Alerts](images/sf_settings_notifications_remove.png)](images/sf_settings_notifications_remove.png "Removing Alerts")
 
-Page updated 10/17/2025

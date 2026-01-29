@@ -1,5 +1,7 @@
 ---
 title: "Audit Log Events"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_audit_events.html"
 last_updated: "11/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Audit Log Events
 
-In this article
 
 This article lists all events that are recorded in the Veeam Data Cloud audit log.
 
@@ -30,4 +31,3 @@ Resource Access
 | --- | --- |
 | User Login | User logged in to a Veeam Data Cloud organization. |
 
-Page updated 11/14/2025

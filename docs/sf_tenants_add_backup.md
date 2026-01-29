@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Configure Backup Policy"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_add_backup.html"
 last_updated: "12/10/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Configure Backup Policy
 
-In this article
 
 At the Backup step of the wizard, select Enable backup policy to allow Veeam Data Cloud to create the default backup policy and start the initial backup after the tenant is added. If you do not enable the backup policy now, Veeam Data Cloud will create the policy and you can edit and enable it later. For details, see [Editing Backup Policies](sf_backup_policies_edit.md) and [Enabling and Disabling Backup Policies](sf_backup_policies_disable_enable.md).
 
@@ -29,4 +30,3 @@ To back up and restore Salesforce data, the user that Veeam Data Cloud uses to c
 
 [![Configuring Backup Policy](images/sf_tenants_add_backup.png)](images/sf_tenants_add_backup.png "Configuring Backup Policy")
 
-Page updated 12/10/2025

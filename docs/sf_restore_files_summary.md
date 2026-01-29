@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Finish Working with Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_files_summary.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review configured settings and click Finish.
 
@@ -20,4 +21,3 @@ If you want Veeam Data Cloud to start restore automatically after you complete t
 
 [![Restoring Files](images/sf_restore_files_summary.png)](images/sf_restore_files_summary.png "Restoring Files")
 
-Page updated 8/22/2025

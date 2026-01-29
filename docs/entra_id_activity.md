@@ -1,5 +1,7 @@
 ---
 title: "Viewing Backup and Restore Sessions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_activity.html"
 last_updated: "10/20/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Backup and Restore Sessions
 
-In this article
 
 You can view the history and statuses of restore and backup sessions. For each session, you can also view a detailed session log. This may be useful when you are looking for a reason why a backup or restore session failed.
 
@@ -26,4 +27,3 @@ To display a window with detailed information about session events, click See de
 
 [![Viewing Backup Sessions](images/entra_id_actions_backup.png)](images/entra_id_actions_backup.png "Viewing Backup Sessions")
 
-Page updated 10/20/2025

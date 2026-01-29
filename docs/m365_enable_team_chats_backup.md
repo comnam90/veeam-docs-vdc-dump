@@ -1,5 +1,7 @@
 ---
 title: "Enabling Microsoft Team Chats Backup"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_enable_team_chats_backup.html"
 last_updated: "11/12/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Enabling Microsoft Team Chats Backup
 
-In this article
 
 To create team chats backups, Veeam Data Cloud for Microsoft 365 needs access to [Microsoft Teams Export APIs](https://docs.microsoft.com/en-us/microsoftteams/export-teams-content). Microsoft Teams Export APIs allow Veeam Data Cloud for Microsoft 365 to access sensitive data of team chats: private and shared channels and public channel messages. You must authorize Veeam Data Cloud for Microsoft 365 to use the required APIs. Microsoft Teams channels, tabs, files and metadata are protected regardless of whether you enable Microsoft team chats backup or not.
 
@@ -58,4 +59,3 @@ You must do this with a Microsoft 365 account with Global Admin rights.
 
 1. At the Enable step, select whether you want to enable the Microsoft Teams chat backup option automatically or manually.
 
-Page updated 11/12/2025

@@ -1,5 +1,7 @@
 ---
 title: "Viewing Outlook Emails"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_view_outlook_emails.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Outlook Emails
 
-In this article
 
 To view a single email within a specific folder of a mailbox:
 
@@ -30,4 +31,3 @@ To view a single email within a specific folder of a mailbox:
 
 [![Viewing Outlook Email](images/m365_view_outlook_email_body.png)](images/m365_view_outlook_email_body.png "Viewing Outlook Email")
 
-Page updated 9/19/2025

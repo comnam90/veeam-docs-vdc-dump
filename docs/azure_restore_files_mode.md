@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Specify Account and Restore Mode"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_files_mode.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Specify Account and Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, specify the following restore settings:
 
@@ -41,4 +42,3 @@ For a subscription to be displayed in the list of available subscriptions, it mu
 
 [![Step 3. Specify Account and Restore Mode](images/azure_restore_files_mode.png)](images/azure_restore_files_mode.png)
 
-Page updated 12/15/2025

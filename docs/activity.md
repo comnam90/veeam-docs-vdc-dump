@@ -1,5 +1,7 @@
 ---
 title: "Organization Activity"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity.html"
 last_updated: "12/18/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Organization Activity
 
-In this article
 
 The Activity view enables you to monitor and analyze protection activity across all workloads in your Veeam Data Cloud organization. It consolidates backup sessions and audit log events from your entire environment into a single, filterable interface. You can use this view to quickly identify issues, verify backup session statuses, and ensure that all objects are properly protected.
 
@@ -28,4 +29,3 @@ In This Section
 * [Viewing Backup Sessions](activity_backup.md)
 * [Viewing Audit Logs](activity_audit.md)
 
-Page updated 12/18/2025

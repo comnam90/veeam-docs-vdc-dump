@@ -1,5 +1,7 @@
 ---
 title: "Searching for Objects in Backup"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_search.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Searching for Objects in Backup
 
-In this article
 
 You can use Veeam Data Cloud for Microsoft 365 to search for objects in your Flex backups. The product offers 2 search mechanisms:
 
@@ -115,4 +116,3 @@ The search will display the In queue status, then the Processing status, and the
 
 1. Click Restore Selected Items to restore selected items.
 
-Page updated 9/19/2025

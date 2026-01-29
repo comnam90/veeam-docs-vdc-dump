@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Connect to Azure Tenant"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_tenant_add_connect.html"
 last_updated: "10/20/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Connect to Azure Tenant
 
-In this article
 
 At the Connection step of the wizard, log in to your Microsoft account to authorize Veeam Data Cloud to access your Azure tenant.
 
@@ -17,4 +18,3 @@ To authorize the access, click Authorize and log in to your Microsoft account. M
 
 [![Step 2. Connect to Azure Tenant](images/azure_tenant_add_connect.png)](images/azure_tenant_add_connect.png)
 
-Page updated 10/20/2025

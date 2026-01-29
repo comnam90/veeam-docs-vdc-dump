@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Specify Recipients"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_reports_schedule_recipients.html"
 last_updated: "7/30/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Specify Recipients
 
-In this article
 
 At the Recipients step of the wizard, specify the users who will receive the scheduled report as an email attachment.
 
@@ -26,4 +27,3 @@ At the Recipients step of the wizard, specify the users who will receive the sch
 | Tip |
 | To receive the scheduled report email, make sure to include no-reply@mail.cloud.veeam.com in your allowed, approved or safe senders list in your email client. |
 
-Page updated 7/30/2025

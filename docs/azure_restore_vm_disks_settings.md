@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Specify Disk Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_disks_settings.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Specify Disk Settings
 
-In this article
 
 |  |
 | --- |
@@ -54,4 +55,3 @@ You can remove disks that you do not want to restore from the scope of the curre
 
 To re-add a removed disk to the scope of restore, click Select Disk; then in the Select Disks window, choose a disk that you want to restore. The disk will be added to the list of disks to restore. Select the disk to [specify properties](#rg).
 
-Page updated 12/15/2025

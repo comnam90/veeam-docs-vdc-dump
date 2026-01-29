@@ -9,7 +9,6 @@ product_version: ""
 
 # Planning and Preparation
 
-In this article
 
 Before you start using Veeam Data Cloud for Microsoft Azure, review considerations and limitations, as well as Azure subscription requirements. If necessary, verify the list of permissions assigned to your [Azure Service Account](azure_settings_accounts_service.md).
 
@@ -20,4 +19,3 @@ In This Section
 * [Azure Resource Providers](azure_resource_providers.md)
 * [Considerations and Limitations](azure_limitations.md)
 
-Page updated 1/9/2026

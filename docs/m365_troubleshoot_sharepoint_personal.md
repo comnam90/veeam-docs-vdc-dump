@@ -1,5 +1,7 @@
 ---
 title: "SharePoint: Personal Site Was Not Found"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_troubleshoot_sharepoint_personal.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # SharePoint: Personal Site Was Not Found
 
-In this article
 
 Issue
 
@@ -37,4 +38,3 @@ References
 
 For information on how to check your backup session logs, see [Viewing Backup Logs](m365_backup_view_logs.md).
 
-Page updated 9/19/2025

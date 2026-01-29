@@ -1,5 +1,7 @@
 ---
 title: "Considerations and Limitations"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_limitations.html"
 last_updated: "9/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Considerations and Limitations
 
-In this article
 
 When you plan to protect your Microsoft Entra ID tenant with Veeam Data Cloud, keep in mind the following limitations and considerations.
 
@@ -23,4 +24,3 @@ Log Backup and Restore
 
 You cannot back up sign-in logs with Microsoft Entra ID free license. With this license, you can back up only audit logs.
 
-Page updated 9/25/2025

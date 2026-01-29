@@ -1,5 +1,7 @@
 ---
 title: "Restoring SharePoint Sites"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_sites.html"
 last_updated: "10/21/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring SharePoint Sites
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 offers 2 restore methods for restore of SharePoint sites: Flex Restore and Express Full Restore.
 
@@ -98,4 +99,3 @@ Select the Use fast restore points check box if you want to select from the fast
 
 [![Restoring SharePoint Sites](images/m365_restore_sharepoint_sites_express_options.png)](images/m365_restore_sharepoint_sites_express_options.png "Restoring SharePoint Sites")
 
-Page updated 10/21/2025

@@ -1,5 +1,7 @@
 ---
 title: "Restoring Archived Data"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_archive_create_jobs.html"
 last_updated: "11/18/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Archived Data
 
-In this article
 
 When Veeam Data Cloud archives records and files, the archived data is removed from Salesforce. To restore archived data, you can select the necessary archival session from the archival policy session list and launch a restore wizard. Veeam Data Cloud will open the Restore Records or Restore Files wizard depending on the type of object archived by the session. In the restore wizard you can either restore all data archived by the session or select specific records or files.
 
@@ -25,4 +26,3 @@ To restore archived data, do the following:
 
 [![Restoring Archived Data](images/sf_activity_archive_restore.png)](images/sf_activity_archive_restore.png "Restoring Archived Data")
 
-Page updated 11/18/2025

@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Specify Policy Processing Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_sql_process.html"
 last_updated: "12/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Specify Policy Processing Settings
 
-In this article
 
 At the Processing Settings step of the wizard, select the database processing options:
 
@@ -64,4 +65,3 @@ For an account to be displayed in the SQL Account list, it must be added to Veea
 
 [![Specify Policy Processing Settings](images/azure_backup_create_sql_process_staging.png)](images/azure_backup_create_sql_process_staging.png "Specify Policy Processing Settings")
 
-Page updated 12/19/2025

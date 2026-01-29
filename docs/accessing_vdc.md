@@ -9,7 +9,6 @@ product_version: ""
 
 # Accessing Veeam Data Cloud
 
-In this article
 
 Before you can start using Veeam Data Cloud, make sure you have a Veeam account and an active subscription. After your subscription is activated, you will receive an email invitation to your newly created Veeam Data Cloud organization. Follow the link in the invitation to log in to Veeam Data Cloud and start using the service.
 
@@ -76,4 +75,3 @@ To log out, click the user name initials in the top-right corner of the Veeam Da
 
 [![Overview](images/accessing_vdc_logout.png)](images/accessing_vdc_logout.png "Overview")
 
-Page updated 1/16/2026

@@ -1,5 +1,7 @@
 ---
 title: "Viewing Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_dashboard.html"
 last_updated: "12/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Dashboard
 
-In this article
 
 The Veeam Data Cloud for Microsoft 365 dashboard contains information on the state of backups, users and licenses, as well as information about user activity.
 
@@ -49,4 +50,3 @@ The Dashboard page displays the following sections:
 
 [![Viewing Dashboard](images/m365_viewing_dashboard.png)](images/m365_viewing_dashboard.png "Viewing Dashboard")
 
-Page updated 12/16/2025

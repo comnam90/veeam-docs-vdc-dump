@@ -1,5 +1,7 @@
 ---
 title: "Editing Restore Job Drafts"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_edit.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Restore Job Drafts
 
-In this article
 
 For each restore job that has the Draft status, you can edit settings configured while creating the job:
 
@@ -21,4 +22,3 @@ Note that changing the source and target tenants is not available for job drafts
 
 [![Editing Restore Job Draft](images/sf_restore_edit.png)](images/sf_restore_edit.png "Editing Restore Job Draft")
 
-Page updated 10/17/2025

@@ -1,5 +1,7 @@
 ---
 title: "Security"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_security.html"
 last_updated: "12/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Security
 
-In this article
 
 This section lists fundamental security features of Veeam Data Cloud for Microsoft 365.
 
@@ -58,4 +59,3 @@ Service Level Agreements (SLAs)
 
 Veeam Data Cloud for Microsoft 365 Flex offers a 99.9% uptime SLA, excluding planned outages. For details, see the [Veeam Data Cloud Service Agreement](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html).
 
-Page updated 12/16/2025

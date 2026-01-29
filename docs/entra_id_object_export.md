@@ -1,5 +1,7 @@
 ---
 title: "Entra ID Object Export"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_object_export.html"
 last_updated: "12/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Entra ID Object Export
 
-In this article
 
 You can export backed-up Microsoft Entra ID objects (such as users, groups, roles and so on) to JSON files for further import or restore into Microsoft Entra ID or compatible systems. The exported data includes all object properties, relationships and a relevant schema. Veeam Data Cloud also exports sensitive data if it was backed up.
 
@@ -20,4 +21,3 @@ To export objects, do the following:
 3. [Finish working with the wizard](entra_id_object_export_summary.md).
 4. [Download the exported files](entra_id_object_export_download.md).
 
-Page updated 12/16/2025

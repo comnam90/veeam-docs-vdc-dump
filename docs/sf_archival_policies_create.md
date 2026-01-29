@@ -1,5 +1,7 @@
 ---
 title: "Creating Archival Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_create.html"
 last_updated: "3/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Creating Archival Policies
 
-In this article
 
 You can create one or multiple archival policies for each Salesforce tenant. An archival policy can archive records of one root object only. If you want to archive records of multiple root objects, create an archival policy for each object.
 
@@ -23,4 +24,3 @@ To create an archival policy, use the Add Archival Policy wizard:
 6. [Verify backup consistency](sf_archival_policies_create_verify.md).
 7. [Finish working with the wizard](sf_archival_policies_create_summary.md).
 
-Page updated 3/25/2025

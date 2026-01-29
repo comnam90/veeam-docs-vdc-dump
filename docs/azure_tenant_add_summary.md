@@ -9,7 +9,6 @@ product_version: ""
 
 # Step 5. Review Tenant Settings
 
-In this article
 
 At the Summary step of the wizard, review the properties of the Azure tenant that you want to add to Veeam Data Cloud.
 
@@ -19,4 +18,3 @@ After you add an Azure tenant, it will appear in the list of workload tenants on
 
 After Veeam provisions backup infrastructure to the tenant, you can access this tenant's management dashboard. For more information, see [Accessing Microsoft Azure Tenant Dashboard](azure_tenant_dashboard.md).
 
-Page updated 1/9/2026

@@ -1,5 +1,7 @@
 ---
 title: "Deleting Database Account"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_settings_accounts_database_delete.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Deleting Database Account
 
-In this article
 
 You can remove a SQL server account from the configuration database if you no longer need it.
 
@@ -24,4 +25,3 @@ To delete a SQL server account from Veeam Data Cloud for Microsoft Azure, do the
 
 [![Delete Database Account](images/azure_settings_accounts_database_delete.png)](images/azure_settings_accounts_database_delete.png "Delete Database Account")
 
-Page updated 10/15/2025

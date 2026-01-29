@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Configure Backup Policy"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_backup.html"
 last_updated: "10/13/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Configure Backup Policy
 
-In this article
 
 At the Backup step of the wizard, select whether Veeam Data Cloud for Microsoft 365 should automatically configure backup policies or let you manually create the policies after onboarding.
 
@@ -23,4 +24,3 @@ At the Backup step of the wizard, select whether Veeam Data Cloud for Microsoft 
 
 1. Click Next.
 
-Page updated 10/13/2025

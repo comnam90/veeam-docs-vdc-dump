@@ -1,5 +1,7 @@
 ---
 title: "Restoring Tabs"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_tabs.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Tabs
 
-In this article
 
 To restore a Microsoft Teams channel tab:
 
@@ -37,4 +38,3 @@ To restore a Microsoft Teams channel tab:
 
 [![Restoring Teams Tabs](images/m365_restore_teams_tabs_original.png)](images/m365_restore_teams_tabs_original.png "Restoring Teams Tabs")
 
-Page updated 9/19/2025

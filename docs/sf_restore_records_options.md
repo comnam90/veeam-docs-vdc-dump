@@ -1,5 +1,7 @@
 ---
 title: "Step 7. Configure Additional Restore Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_records_options.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 7. Configure Additional Restore Settings
 
-In this article
 
 At the Options step of the wizard, you can instruct Veeam Data Cloud to automatically replace current field values in Salesforce with null, overwrite field values manually, map fields of backed-up records to specific fields in Salesforce, and choose the way you want to deactivate blocking automation in Salesforce.
 
@@ -46,4 +47,3 @@ Business logic and automated rules configured in Salesforce can block Veeam Data
 
 [![Configuring Additional Restore Settings](images/sf_restore_records_options.png)](images/sf_restore_records_options.png "Configuring Additional Restore Settings")
 
-Page updated 8/22/2025

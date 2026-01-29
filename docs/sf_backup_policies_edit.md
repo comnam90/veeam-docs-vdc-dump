@@ -1,5 +1,7 @@
 ---
 title: "Editing Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit.html"
 last_updated: "3/26/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Backup Policies
 
-In this article
 
 You can edit a backup policy that was automatically created when adding the Salesforce tenant.
 
@@ -20,4 +21,3 @@ To edit a backup policy, use the Edit Backup Policy wizard:
 5. [Edit retention settings](sf_backup_policies_edit_retention.md).
 6. [Finish working with the wizard](sf_backup_policies_edit_summary.md).
 
-Page updated 3/26/2025

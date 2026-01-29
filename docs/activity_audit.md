@@ -1,5 +1,7 @@
 ---
 title: "Viewing Audit Logs"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_audit.html"
 last_updated: "11/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Audit Logs
 
-In this article
 
 Veeam Data Cloud records all security-sensitive events and creates an audit log. In the Activity view, you can review a unified list of audit log events across all workloads within your Veeam Data Cloud organization. This helps you monitor security-sensitive activities and verify whether they comply with your security policies. The Activity view includes all events related to access management and resource access. For details, see [Audit Log Events](activity_audit_events.md).
 
@@ -47,4 +48,3 @@ To remove the filters and view all events, click Clear Filters.
 
 [![Viewing Audit Logs](images/activity_audit.png)](images/activity_audit.png "Viewing Audit Logs")
 
-Page updated 11/14/2025

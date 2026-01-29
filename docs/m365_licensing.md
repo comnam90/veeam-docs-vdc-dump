@@ -1,5 +1,7 @@
 ---
 title: "Licensing"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_licensing.html"
 last_updated: "1/6/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Licensing
 
-In this article
 
 Plans
 
@@ -78,4 +79,3 @@ Related Topics
 * [Viewing License Details](m365_settings_view_license_model.md)
 * [Activating Subscription in Microsoft Azure Marketplace](m365_settings_activate_subscription_azure.md)
 
-Page updated 1/6/2026

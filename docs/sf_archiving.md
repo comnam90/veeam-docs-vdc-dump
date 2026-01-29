@@ -1,5 +1,7 @@
 ---
 title: "Salesforce Archiving"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archiving.html"
 last_updated: "11/18/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Salesforce Archiving
 
-In this article
 
 You can configure archival policies and instruct Veeam Data Cloud to delete obsolete or excessive data from Salesforce production tenants to consume less storage space in Salesforce and improve its performance.
 
@@ -28,4 +29,3 @@ In This Section
 * [Editing Archival Policies](sf_archival_policies_edit.md)
 * [Removing Archival Policies](sf_archival_policies_remove.md)
 
-Page updated 11/18/2025

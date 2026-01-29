@@ -1,5 +1,7 @@
 ---
 title: "Starting and Stopping Archival Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_start_stop.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Starting and Stopping Archival Policies
 
-In this article
 
 You can start an archival policy manually, for example, if you want to archive more records and do not want to modify the configured policy schedule. You can also stop a policy manually if processing is about to take too long, and you do not want the policy to affect the production environment during business hours.
 
@@ -26,4 +27,3 @@ To stop an archival policy:
 
 [![Starting Archival Policy](images/sf_archival_policies_start_stop.png)](images/sf_archival_policies_start_stop.png "Starting Archival Policy")
 
-Page updated 10/17/2025

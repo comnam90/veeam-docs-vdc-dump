@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Connect to Salesforce Tenant"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_add_connect.html"
 last_updated: "12/11/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Connect to Salesforce Tenant
 
-In this article
 
 At the Connection step of the wizard, log in to the Salesforce tenant that you want to add and install a new connected app:
 
@@ -41,4 +42,3 @@ You may need to add another IP address when Veeam Data Cloud starts to provision
 
 [![Connecting to Salesforce Tenant](images/sf_tenants_add_connect.png)](images/sf_tenants_add_connect.png "Connecting to Salesforce Tenant")
 
-Page updated 12/11/2025

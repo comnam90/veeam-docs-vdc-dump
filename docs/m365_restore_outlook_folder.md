@@ -1,5 +1,7 @@
 ---
 title: "Restoring Outlook Folders"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_outlook_folder.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Outlook Folders
 
-In this article
 
 Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore).
 
@@ -53,4 +54,3 @@ If you select this option, in the Mailbox and Folder fields specify the address 
 * Click Restore if you selected to restore data to the original location or another mailbox.
 * Click Download if you selected to download data to the local computer or download data in the background.
 
-Page updated 9/19/2025

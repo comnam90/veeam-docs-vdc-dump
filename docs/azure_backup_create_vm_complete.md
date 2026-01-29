@@ -9,10 +9,8 @@ product_version: ""
 
 # Step 9. Complete Policy Configuration
 
-In this article
 
 At the Summary step of the wizard, review the backup policy settings and click Finish.
 
 [![Complete Policy Configuration](images/azure_backup_create_vm_complete.png)](images/azure_backup_create_vm_complete.png "Complete Policy Configuration")
 
-Page updated 1/16/2026

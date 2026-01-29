@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Edit Backup Policy Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_launch.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Edit Backup Policy Wizard
 
-In this article
 
 To launch the Edit Backup Policy wizard, do the following:
 
@@ -17,4 +18,3 @@ To launch the Edit Backup Policy wizard, do the following:
 
 [![Launching Edit Backup Policy Wizard](images/sf_backup_policies_edit_launch.png)](images/sf_backup_policies_edit_launch.png "Launching Edit Backup Policy Wizard")
 
-Page updated 10/17/2025

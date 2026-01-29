@@ -1,5 +1,7 @@
 ---
 title: "Accessing Microsoft Azure Tenant Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_tenant_dashboard.html"
 last_updated: "12/9/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Accessing Microsoft Azure Tenant Dashboard
 
-In this article
 
 To access the tenant dashboard, do the following:
 
@@ -16,4 +17,3 @@ To access the tenant dashboard, do the following:
 
 [![Accessing Microsoft Azure Tenant Dashboard](images/azure_tenant_access_dashboard_new.png)](images/azure_tenant_access_dashboard_new.png)
 
-Page updated 12/9/2025

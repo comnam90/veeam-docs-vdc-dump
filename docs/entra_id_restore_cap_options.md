@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Specify Restore Options"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_cap_options.html"
 last_updated: "10/9/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Specify Restore Options
 
-In this article
 
 At the Options step of the wizard, configure the restore options, such as how to restore Conditional Access policies, their relationships and other:
 
@@ -26,4 +27,3 @@ To restore Conditional Access policies that cannot be restored from the recycle 
 
 [![Specifying Restore Options](images/entra_id_restore_cap_options.png)](images/entra_id_restore_cap_options.png "Specifying Restore Options")
 
-Page updated 10/9/2025

@@ -1,5 +1,7 @@
 ---
 title: "Editing Backup Policy Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_edit.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Backup Policy Settings
 
-In this article
 
 You can modify settings configured while creating a policy:
 
@@ -16,4 +17,3 @@ You can modify settings configured while creating a policy:
 
 [![Edit Backup Policy](images/azure_backup_edit.png)](images/azure_backup_edit.png "Edit Backup Policy")
 
-Page updated 10/15/2025

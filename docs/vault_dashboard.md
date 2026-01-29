@@ -1,5 +1,7 @@
 ---
 title: "Viewing Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_dashboard.html"
 last_updated: "12/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Dashboard
 
-In this article
 
 Veeam Data Cloud Vault dashboard contains built-in widgets that provide aggregated data on the state of tenant storage vaults.
 
@@ -36,4 +37,3 @@ To view the Veeam Data Cloud Vault dashboard do the following:
 
 [![Viewing Storage Vaults Dashboard](images/vault_storage_manage.png)](images/vault_storage_manage.png "Viewing Storage Vaults Dashboard")
 
-Page updated 12/16/2025

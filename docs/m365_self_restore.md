@@ -1,5 +1,7 @@
 ---
 title: "Performing Self-Service Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_self_restore.html"
 last_updated: "12/5/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Performing Self-Service Restore
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 allows users under the Flex plan to perform self-service restore of their Outlook and OneDrive data. Once you enable the feature, users within the same domain as your organization, that have not been given access to any workload tenants, will be able to log in to Veeam Data Cloud and perform self-service restore. If you disable the self-service restore feature, the self-service users will no longer be able to log in to Veeam Data Cloud. Self-service users can only restore Outlook and OneDrive data to the original location.
 
@@ -31,4 +32,3 @@ In This Section
 * [Restoring Outlook Data](m365_self_restore_outlook_data.md)
 * [Restoring OneDrive Data](m365_self_restore_onedrive_data.md)
 
-Page updated 12/5/2025

@@ -1,5 +1,7 @@
 ---
 title: "Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings.html"
 last_updated: "11/13/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Settings
 
-In this article
 
 You can configure common settings for a Salesforce tenant. These features are available only for users assigned the Salesforce:Administrator and Salesforce:BackupOperator roles.
 
@@ -19,4 +20,3 @@ In this Section
 * [Managing Data Masking Templates](sf_settings_templates.md)
 * [Configuring Encryption Settings](sf_configuring_encryption.md)
 
-Page updated 11/13/2025

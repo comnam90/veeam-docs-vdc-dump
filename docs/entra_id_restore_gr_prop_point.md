@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Select Restore Point and Properties"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_gr_prop_point.html"
 last_updated: "8/21/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Select Restore Point and Properties
 
-In this article
 
 At the Compare step of the wizard, select a restore point and properties that you want to restore. You can compare the property values in the selected restore point with the values in production or in another restore point.
 
@@ -26,4 +27,3 @@ In the Selected Restore Point Version and Comparison Version columns, you can se
 
 [![Selecting Restore Points and Properties](images/entra_id_restore_gr_prop_point.png)](images/entra_id_restore_gr_prop_point.png "Selecting Restore Points and Properties")
 
-Page updated 8/21/2025

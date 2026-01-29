@@ -1,5 +1,7 @@
 ---
 title: "Configuring Data Filters"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_browse_filters.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Configuring Data Filters
 
-In this article
 
 When you browse Salesforce backups, Veeam Data Cloud displays the maximum number of 1000 records per page. If you want to apply specific search conditions and reduce the number of search results, or if you want to select specific Salesforce fields to be displayed in the search results, you can configure data filters.
 
@@ -29,4 +30,3 @@ By default, filters are combined by the AND logical operator. That is, a record 
 
 [![Configuring Data Filters](images/sf_backup_browse_filters.png)](images/sf_backup_browse_filters.png "Configuring Data Filters")
 
-Page updated 8/22/2025

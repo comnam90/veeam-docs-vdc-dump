@@ -1,5 +1,7 @@
 ---
 title: "Starting and Stopping Archival Sessions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_archive_start_stop.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Starting and Stopping Archival Sessions
 
-In this article
 
 If you do not want to start or stop the entire archival policy, you can start a new session or stop the latest running session of a policy.
 
@@ -28,4 +29,3 @@ To stop an archival session:
 
 [![Starting Archival Sessions](images/sf_activity_archive_start_stop.png)](images/sf_activity_archive_start_stop.png "Starting Archival Sessions")
 
-Page updated 10/17/2025

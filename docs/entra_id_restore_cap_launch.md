@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Restore Conditional Access Policies Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_cap_launch.html"
 last_updated: "12/12/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Restore Conditional Access Policies Wizard
 
-In this article
 
 To launch the Restore Conditional Access Policies wizard, do the following:
 
@@ -25,4 +26,3 @@ To launch the Restore Conditional Access Policies wizard, do the following:
 
 [![Launching Restore Applications Wizard](images/entra_id_restore_cap_launch.png)](images/entra_id_restore_cap_launch.png "Launching Restore Applications Wizard")
 
-Page updated 12/12/2025

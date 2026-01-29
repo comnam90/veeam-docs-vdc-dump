@@ -1,5 +1,7 @@
 ---
 title: "Restoring SharePoint Libraries"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_libraries.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring SharePoint Libraries
 
-In this article
 
 Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore).
 
@@ -64,4 +65,3 @@ You can click Advanced options to display more options. For details, see the nex
 * Click Restore if you selected to restore data to the original location or another site.
 * Click Download if you selected to download data to the local computer or download data in the background.
 
-Page updated 9/19/2025

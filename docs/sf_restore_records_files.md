@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Choose Files to Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_records_files.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Choose Files to Restore
 
-In this article
 
 At the Files step of the wizard, you can choose record files that you want to restore. To do that, set the Restore attachments toggle to On and apply filters to choose necessary files. If you do not specify any filtering conditions, Veeam Data Cloud will restore all files associated with the selected record.
 
@@ -22,4 +23,3 @@ For a file to be displayed in the list of available files, it must be associated
 
 [![Choosing Files to Restore](images/sf_restore_records_files.png)](images/sf_restore_records_files.png "Choosing Files to Restore")
 
-Page updated 8/22/2025

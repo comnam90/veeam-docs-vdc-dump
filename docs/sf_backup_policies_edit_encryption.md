@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Edit Encryption Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_encryption.html"
 last_updated: "10/30/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Edit Encryption Settings
 
-In this article
 
 Veeam Data Cloud encrypts backed-up fields and files and can extend Salesforce Shield Platform Encryption to secure sensitive data stored in backups from bad actors. For more details on Shield Platform Encryption, see [Salesforce Documentation](https://help.salesforce.com/s/articleView?id=xcloud.security_pe_concepts.htm&type=5). To encrypt data, Veeam Data Cloud uses data key that is enciphered with either a Veeam Data Cloud master key or an Amazon Web Services Key Management Service (AWS KMS) master key. The Veeam Data Cloud master key is configured as a default option to encrypt all file types and the object fields that you select to encrypt.
 
@@ -34,4 +35,3 @@ You must not remove the AWS master key from the related AWS account. Otherwise, 
 
 [![Editing Encryption Settings](images/sf_backup_policies_edit_encryption.png)](images/sf_backup_policies_edit_encryption.png "Editing Encryption Settings")
 
-Page updated 10/30/2025

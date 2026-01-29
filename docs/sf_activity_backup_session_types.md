@@ -1,5 +1,7 @@
 ---
 title: "Backup Session Types"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_backup_session_types.html"
 last_updated: "3/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Backup Session Types
 
-In this article
 
 When creating a backup policy, you configure the default backup schedule according to which Veeam Data Cloud backs up the Salesforce tenant. You can also enable custom schedules in the backup policy settings to additionally protect specific objects. Veeam Data Cloud uses the configured schedules to create backup sessions of 3 different types:
 
@@ -25,4 +26,3 @@ If you disable encryption for a backup policy, the next run of the encryption se
 
 For each object specified while [configuring encryption settings](sf_backup_policies_edit_encryption.md), Veeam Data Cloud runs a separate encryption session. If an encryption session completes with failure, the session is automatically restarted in an hour. The product will continue to restart the session every hour until it completes successfully.
 
-Page updated 3/14/2025

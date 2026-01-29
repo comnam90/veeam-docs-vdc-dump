@@ -1,5 +1,7 @@
 ---
 title: "Planning and Preparation"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_planning.html"
 last_updated: "7/30/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Planning and Preparation
 
-In this article
 
 Before you add a Microsoft 365 tenant, make sure to check the required permissions and other prerequisites for Veeam Data Cloud for Microsoft 365.
 
@@ -17,4 +18,3 @@ In This Section
 * [Microsoft Entra Application Permissions](m365_permissions.md)
 * [Data Backup](m365_data_backup.md)
 
-Page updated 7/30/2025

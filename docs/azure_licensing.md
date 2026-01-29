@@ -1,5 +1,7 @@
 ---
 title: "Licensing"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_licensing.html"
 last_updated: "9/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Licensing
 
-In this article
 
 Veeam Data Cloud for Microsoft Azure is licensed on a Back-End Terabyte (BETB) basis. This means that your subscription costs depend on the actual size of the backup data in the storage repository after compression.
 
@@ -18,4 +19,3 @@ Veeam Data Cloud for Microsoft Azure is licensed on a Back-End Terabyte (BETB) b
 
 You can monitor the storage space consumed by the Veeam Data Cloud backups on the Azure Management page. For more information, see [Viewing Microsoft Azure Tenants](azure_tenant_view.md).
 
-Page updated 9/25/2025

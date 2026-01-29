@@ -1,5 +1,7 @@
 ---
 title: "Managing Schedules"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_backup_manage_schedule.html"
 last_updated: "8/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Schedules
 
-In this article
 
 You can create and edit and delete your own schedules if the option is available in your subscription. You can create multiple schedules; however, only the schedule that you set as the default for your backup policy and the custom schedules assigned to specific objects can start the backup policy.
 
@@ -45,4 +46,3 @@ For example, If you specify to run a backup policy every 9 hours at 30 minutes o
 
 [![Managing Schedules](images/sf_backup_policies_edit_backup_manage_schedule.png)](images/sf_backup_policies_edit_backup_manage_schedule.png "Managing Schedules")
 
-Page updated 8/6/2025

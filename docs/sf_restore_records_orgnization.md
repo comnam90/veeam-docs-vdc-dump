@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Select Target Tenant"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_records_orgnization.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Select Target Tenant
 
-In this article
 
 At the Organization step of the wizard, you can choose to restore records to the same Salesforce tenant or its sandbox copy (for example, you may want to seed a sandbox with backed-up data of another tenant).
 
@@ -20,4 +21,3 @@ To select another target tenant, use the Restore to drop-down list. The list con
 
 [![Selecting Target Tenant](images/sf_restore_records_orgnization.png)](images/sf_restore_records_orgnization.png "Selecting Target Tenant")
 
-Page updated 8/22/2025

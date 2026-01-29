@@ -1,5 +1,7 @@
 ---
 title: "Managing Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_manage.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Backup Policies
 
-In this article
 
 After you create a backup policy, you can view its status, edit, disable and delete the policy.
 
@@ -18,4 +19,3 @@ In This Section
 * [Enabling and Disabling Backup Policy](azure_backup_enable.md)
 * [Deleting Backup Policy](azure_backup_delete.md)
 
-Page updated 10/15/2025

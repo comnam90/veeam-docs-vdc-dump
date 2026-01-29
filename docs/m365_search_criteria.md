@@ -1,5 +1,7 @@
 ---
 title: "Advanced Search Criteria"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_search_criteria.html"
 last_updated: "8/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Advanced Search Criteria
 
-In this article
 
 When you use advanced search to search for objects in backups created by Veeam Data Cloud for Microsoft 365, you can customize the search with parameters and conditions to narrow the search criteria.
 
@@ -241,4 +242,3 @@ The following table contains parameters that you can set in advanced search for 
 | Size | number and size unit (for example, 1KB, 1MB, 1GB) |
 | Version | text |
 
-Page updated 8/19/2025

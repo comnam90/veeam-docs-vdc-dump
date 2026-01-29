@@ -1,5 +1,7 @@
 ---
 title: "Viewing Audit Trail"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_audit.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Audit Trail
 
-In this article
 
 You can view a trail of all security-sensitive events such as connecting to Salesforce tenants, data backup and restore and so on.
 
@@ -24,4 +25,3 @@ To view Veeam Data Cloud events, do the following:
 
 [![Viewing Audit Trail](images/sf_audit.png)](images/sf_audit.png "Viewing Audit Trail")
 
-Page updated 10/17/2025

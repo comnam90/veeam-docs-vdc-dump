@@ -1,5 +1,7 @@
 ---
 title: "Managing AWS KMS Connections"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_kms.html"
 last_updated: "10/23/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing AWS KMS Connections
 
-In this article
 
 To encrypt backed-up data using an AWS KMS master key, you must first connect to an AWS account that manages this key. To learn how to do that, follow the instructions provided in section [Adding AWS KMS Connections](sf_settings_kms_add.md). After you add a connection to AWS KMS, you can use the AWS master key to encrypt the backed-up data as described in the [Edit Encryption Settings](sf_backup_policies_edit_encryption.md) step of the Editing Backup Policies section.
 
@@ -24,4 +25,3 @@ In This Section
 * [Adding AWS KMS Connections](sf_settings_kms_add.md)
 * [Removing AWS KMS Connections](sf_settings_kms_remove.md)
 
-Page updated 10/23/2025

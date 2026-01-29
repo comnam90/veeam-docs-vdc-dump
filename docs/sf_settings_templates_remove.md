@@ -1,5 +1,7 @@
 ---
 title: "Removing Data Masking Templates"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_templates_remove.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Removing Data Masking Templates
 
-In this article
 
 Veeam Data Cloud allows you to permanently remove a data masking template if you no longer need it.
 
@@ -21,4 +22,3 @@ To remove a template, do the following:
 
 [![Removing Templates](images/sf_settings_templates_remove.png)](images/sf_settings_templates_remove.png "Removing Templates")
 
-Page updated 10/17/2025

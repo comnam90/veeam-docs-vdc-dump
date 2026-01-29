@@ -1,5 +1,7 @@
 ---
 title: "Viewing Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_dashboard.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Dashboard
 
-In this article
 
 The Veeam Data Cloud for Salesforce dashboard provides information on the backup state, recent changes and activities in the Salesforce tenant that you are currently managing.
 
@@ -33,4 +34,3 @@ Click a chart section that displays a specific status (Success, Failed) to view 
 
 [![Viewing Dashboard](images/sf_dashboard.png)](images/sf_dashboard.png "Viewing Dashboard")
 
-Page updated 10/17/2025

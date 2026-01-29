@@ -1,5 +1,7 @@
 ---
 title: "Adding AWS KMS Connections"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_kms_add.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Adding AWS KMS Connections
 
-In this article
 
 To encrypt backed-up data using an AWS KMS master key, you must first add an AWS KMS connection. The added KMS connection will be available for all tenants in your Veeam Data Cloud organization that use the same Azure region.
 
@@ -21,4 +22,3 @@ To add a connection to the AWS Key Management service, do the following:
 
 [![Adding AWS KMS Connections](images/sf_settings_kms_add.png)](images/sf_settings_kms_add.png "Adding AWS KMS Connections")
 
-Page updated 10/17/2025

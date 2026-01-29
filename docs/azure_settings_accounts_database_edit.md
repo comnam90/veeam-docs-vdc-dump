@@ -1,5 +1,7 @@
 ---
 title: "Editing Database Account"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_settings_accounts_database_edit.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Database Account
 
-In this article
 
 To edit settings of an existing SQL server account, do the following:
 
@@ -17,4 +18,3 @@ To edit settings of an existing SQL server account, do the following:
 
 [![Edit Database Account](images/azure_settings_accounts_database_edit.png)](images/azure_settings_accounts_database_edit.png "Edit Database Account")
 
-Page updated 10/15/2025

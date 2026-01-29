@@ -1,5 +1,7 @@
 ---
 title: "Microsoft 365 Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore.html"
 last_updated: "12/5/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Microsoft 365 Restore
 
-In this article
 
 This section provides information on how to restore your data with Veeam Data Cloud for Microsoft 365.
 
@@ -28,4 +29,3 @@ In This Section
 * [Obtaining Downloaded Items](m365_obtain_downloaded_items.md)
 * [Performing Self-Service Restore](m365_self_restore.md)
 
-Page updated 12/5/2025

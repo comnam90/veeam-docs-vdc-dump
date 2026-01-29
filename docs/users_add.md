@@ -1,5 +1,7 @@
 ---
 title: "Adding Users"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_add.html"
 last_updated: "10/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Adding Users
 
-In this article
 
 Veeam Data Cloud allows you to add users, assign roles to them, and specify a role scope that defines which tenants the user can access. When you add a user to your Veeam Data Cloud organization, the user will receive an email with an invitation link.
 
@@ -58,4 +59,3 @@ This feature is currently only available for Microsoft 365 workloads.
 
 [![Adding User](images/users_invite.png)](images/users_invite.png "Adding User")
 
-Page updated 10/14/2025

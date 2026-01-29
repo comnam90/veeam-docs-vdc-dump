@@ -1,5 +1,7 @@
 ---
 title: "Reloading Fields and Files"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_backup_reload_fields.html"
 last_updated: "11/13/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Reloading Fields and Files
 
-In this article
 
 The functionality to reload fields and files compares the data in the backup with the data in Salesforce. This lets you identify the records and files that are missing in the backup and records that have different field values. The latter may be useful for the fields whose value change does not affect the last modified date of the record.
 
@@ -36,4 +37,3 @@ To reload object fields and files, do the following:
 
 [![Reloading Fields and Files](images/sf_backup_policies_reload_fields.png)](images/sf_backup_policies_reload_fields.png "Reloading Fields and Files")
 
-Page updated 11/13/2025

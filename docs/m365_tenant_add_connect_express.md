@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Connect to Express"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_connect_express.html"
 last_updated: "1/5/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Connect to Express
 
-In this article
 
 The Connect to Express step of the wizard is available only if you have a subscription to the Express or Premium license plan. For more information, see [Plans](m365_licensing.md#plans).
 
@@ -32,4 +33,3 @@ To connect Microsoft 365 Backup Storage to Veeam Data Cloud for Microsoft 365, d
 | TIP |
 | You can click Skip to skip this step if you do not want to connect the tenant to Express backups. |
 
-Page updated 1/5/2026
