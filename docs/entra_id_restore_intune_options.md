@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Specify Restore Options"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_intune_options.html"
 last_updated: "11/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Specify Restore Options
 
-In this article
 
 At the Options step of the wizard, configure the restore options, such as how to restore Intune policies, their relationships and other:
 
@@ -20,4 +21,3 @@ At the Options step of the wizard, configure the restore options, such as how to
 
 [![Specifying Restore Options](images/entra_id_restore_intune_options.png)](images/entra_id_restore_intune_options.png "Specifying Restore Options")
 
-Page updated 11/19/2025

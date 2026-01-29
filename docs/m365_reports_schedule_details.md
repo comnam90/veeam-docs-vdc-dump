@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Specify Report Details"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_reports_schedule_details.html"
 last_updated: "6/30/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Specify Report Details
 
-In this article
 
 At the Details step of the wizard, select the type of report you want to schedule and specify a name for the report.
 
@@ -24,4 +25,3 @@ At the Details step of the wizard, select the type of report you want to schedul
 
 [![Specify Report Details](images/m365_reports_schedule_details.png)](images/m365_reports_schedule_details.png "Specify Report Details")
 
-Page updated 6/30/2025

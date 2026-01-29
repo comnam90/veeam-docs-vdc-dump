@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Specify Notification Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_notifications_add_type.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Specify Notification Settings
 
-In this article
 
 At the Notification Type step of the wizard, specify the following settings:
 
@@ -22,4 +23,3 @@ The list displays only the objects that have been added to the backup policy tha
 
 [![Specifying Notification Settings](images/sf_settings_notifications_add_type.png)](images/sf_settings_notifications_add_type.png "Specifying Notification Settings")
 
-Page updated 8/22/2025

@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Add Microsoft 365 Tenant Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_launch.html"
 last_updated: "11/13/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Add Microsoft 365 Tenant Wizard
 
-In this article
 
 To launch the Add Microsoft 365 tenant wizard, do the following:
 
@@ -21,4 +22,3 @@ To launch the Add Microsoft 365 tenant wizard, do the following:
 
 [![Launching Add Microsoft 365 Tenant Wizard](images/m365_tenant_add_launch.png)](images/m365_tenant_add_launch.png "Launching Add Microsoft 365 Tenant Wizard")
 
-Page updated 11/13/2025

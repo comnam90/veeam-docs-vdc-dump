@@ -1,5 +1,7 @@
 ---
 title: "Viewing Backup Sessions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_backup.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Backup Sessions
 
-In this article
 
 For each data protection operation, Veeam Data Cloud starts a new backup session according to created backup policies. You can check all running and completed backup sessions in the Activity section.
 
@@ -48,4 +49,3 @@ Each object is described with the following set of properties:
 
 [![Viewing Backup Sessions](images/sf_backup_policies_view_backup_sessions.png)](images/sf_backup_policies_view_backup_sessions.png "Viewing Backup Sessions")
 
-Page updated 10/17/2025

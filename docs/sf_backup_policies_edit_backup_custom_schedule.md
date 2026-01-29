@@ -1,5 +1,7 @@
 ---
 title: "Specifying Custom Schedules for Specific Objects"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_backup_custom_schedule.html"
 last_updated: "8/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Specifying Custom Schedules for Specific Objects
 
-In this article
 
 If some objects are updated frequently and need to be backed up more or less often than other objects belonging to the Salesforce tenant, you can assign custom schedules to these objects. Veeam Data Cloud will launch a separate backup session to protect each group of objects according to the assigned schedule. It is recommended that you assign the same schedule to related Salesforce objects to ensure that these objects can be restored properly.
 
@@ -34,4 +35,3 @@ Salesforce objects that are not backed up by Veeam Data Cloud are listed in [Uns
 
 [![Specifying Custom Schedules for Specific Objects](images/sf_backup_policies_edit_backup_custom_schedule.png)](images/sf_backup_policies_edit_backup_custom_schedule.png "Specifying Custom Schedules for Specific Objects")
 
-Page updated 8/6/2025

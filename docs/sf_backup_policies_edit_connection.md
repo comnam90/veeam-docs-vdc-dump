@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Configure API Limits and Verify Permissions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_connection.html"
 last_updated: "11/13/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Configure API Limits and Verify Permissions
 
-In this article
 
 At the Connection step of the wizard, you can verify user permissions and modify the limits for API calls sent by Veeam Data Cloud to Salesforce.
 
@@ -32,4 +33,3 @@ Veeam Data Cloud can assign the required permissions automatically to the specif
 
 [![Configuring Connection to Salesforce Tenant](images/sf_backup_policies_edit_connection.png)](images/sf_backup_policies_edit_connection.png "Configuring Connection to Salesforce Tenant")
 
-Page updated 11/13/2025

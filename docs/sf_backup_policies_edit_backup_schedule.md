@@ -1,5 +1,7 @@
 ---
 title: "Step 3a. Configure Backup Schedules"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_backup_schedule.html"
 last_updated: "8/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3a. Configure Backup Schedules
 
-In this article
 
 In the Backup schedule section of the Backup step of the wizard, you can adjust default and custom schedules of the backup policy. Default schedule is applied to all existing and new objects in your Salesforce tenant. Objects that use custom schedules are excluded from the default schedule.
 
@@ -37,4 +38,3 @@ To set a default schedule, select one of the options from the Default schedule f
 
 [![Specifying Default Schedule for Backup Policy](images/sf_backup_policies_edit_backup_schedule.png)](images/sf_backup_policies_edit_backup_schedule.png "Specifying Default Schedule for Backup Policy")
 
-Page updated 8/6/2025

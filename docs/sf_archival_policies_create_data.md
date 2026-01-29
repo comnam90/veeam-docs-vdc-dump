@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Choose Data to Archive"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_create_data.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Choose Data to Archive
 
-In this article
 
 At the Data step of the wizard, do the following:
 
@@ -38,4 +39,3 @@ After you specify the filtering conditions, you can estimate the exact number of
 
 [![Choosing Data to Archive](images/sf_archival_policies_create_data.png)](images/sf_archival_policies_create_data.png "Choosing Data to Archive")
 
-Page updated 8/22/2025

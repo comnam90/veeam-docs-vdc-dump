@@ -1,5 +1,7 @@
 ---
 title: "Licensing"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_licensing.html"
 last_updated: "12/5/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Licensing
 
-In this article
 
 To protect your Salesforce tenants with Veeam Data Cloud for Salesforce you need to purchase a subscription-based license. Veeam offers annual subscriptions for Veeam Data Cloud for Salesforce, with multi-year options available. You can use one subscription to protect one or multiple Salesforce tenants. For more information on purchasing options, see [this Veeam article](https://www.veeam.com/products/veeam-data-cloud/purchasing-options.html#salesforce-tab).
 
@@ -28,4 +29,3 @@ Subscription Expiration
 
 If your subscription expires and you do not renew it, Veeam Data Cloud will handle your tenants and backed-up data according to the Veeam Data Cloud service agreement. For more information, see [this Veeam article](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html).
 
-Page updated 12/5/2025

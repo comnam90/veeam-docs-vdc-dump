@@ -1,5 +1,7 @@
 ---
 title: "Salesforce Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore.html"
 last_updated: "9/18/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Salesforce Restore
 
-In this article
 
 Veeam Data Cloud offers the following restore options:
 
@@ -45,4 +46,3 @@ In This Section
 * [Configuring Restore Mapping Settings](sf_restore_settings.md)
 * [Viewing Restore Job Details](sf_viewing_restore_job_details.md)
 
-Page updated 9/18/2025

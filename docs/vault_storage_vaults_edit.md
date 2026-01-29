@@ -1,5 +1,7 @@
 ---
 title: "Managing Storage Vaults"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html"
 last_updated: "12/16/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Storage Vaults
 
-In this article
 
 Veeam Data Cloud Vault provides detailed information about your storage vaults and allows you to edit vault names, configure sccess to storage vaults and assign storage vaults to workloads.
 
@@ -143,4 +144,3 @@ To regenerate the key, complete the following steps:
 
 [![Retrieving Secret Key](images/vault_storage_vault_key_retrieval.png)](images/vault_storage_vault_key_retrieval.png "Retrieving Secret Key")
 
-Page updated 12/16/2025

@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Restore Virtual Machines Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_entire_launch.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Restore Virtual Machines Wizard
 
-In this article
 
 To launch the Restore Virtual Machines wizard, do the following:
 
@@ -23,4 +24,3 @@ To launch the Restore Virtual Machines wizard, do the following:
 
 [![Step 1. Launch Restore Virtual Machines Wizard](images/azure_restore_vm_entire_launch.png)](images/azure_restore_vm_entire_launch.png)
 
-Page updated 12/15/2025

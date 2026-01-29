@@ -1,5 +1,7 @@
 ---
 title: "Users and Roles"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_manage.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Users and Roles
 
-In this article
 
 Veeam Data Cloud allows you to create, edit and delete users in your Veeam Data Cloud organization. You can assign multiple roles to a user and configure a role scope. User roles define the operations that the user can perform, including backup, restore and user management.
 
@@ -23,4 +24,3 @@ In This Section
 * [Deleting Users](users_delete.md)
 * [Configuring Partner Access](sp_partner_access.md)
 
-Page updated 10/15/2025

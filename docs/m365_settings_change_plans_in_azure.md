@@ -1,5 +1,7 @@
 ---
 title: "Changing Plans in Microsoft Azure Marketplace"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_change_plans_in_azure.html"
 last_updated: "6/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Changing Plans in Microsoft Azure Marketplace
 
-In this article
 
 If you purchased a subscription to Veeam Data Cloud for Microsoft 365 through the Microsoft Azure Marketplace, you can modify your plan in the Microsoft Azure portal. To do this, perform the following steps:
 
@@ -20,4 +21,3 @@ If you purchased a subscription to Veeam Data Cloud for Microsoft 365 through th
 7. Follow the prompts for your new plan and confirm your changes.
 8. Your new plan will be reflected in Veeam Data Cloud for Microsoft 365 in the next billing cycle.
 
-Page updated 6/6/2025

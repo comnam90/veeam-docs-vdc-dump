@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Specify Tenant Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_settings.html"
 last_updated: "9/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Specify Tenant Settings
 
-In this article
 
 At the Settings step of the wizard, specify the tenant name and select a storage region for your backups.
 
@@ -20,4 +21,3 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 
 [![Specifying Tenant Settings](images/m365_tenant_add_settings.png)](images/m365_tenant_add_settings.png "Specifying Tenant Settings")
 
-Page updated 9/17/2025

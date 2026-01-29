@@ -1,5 +1,7 @@
 ---
 title: "Veeam Intelligence"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/veeam_intelligence.html"
 last_updated: "8/21/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Veeam Intelligence
 
-In this article
 
 Veeam Intelligence is an AI-powered chatbot that helps with common issues and questions related to Veeam products. It is trained on Veeam technical documentation to provide accurate answers. You can communicate with the Veeam chatbot in any language you want and create both simple and complex inquiries.
 
@@ -44,4 +45,3 @@ You can click the plus button next to the prompt field to view more examples of 
 
 [![Using Veeam Intelligence](images/veeam_intelligence.png)](images/veeam_intelligence.png "Using Veeam Intelligence")
 
-Page updated 8/21/2025

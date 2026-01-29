@@ -1,5 +1,7 @@
 ---
 title: "Step 6. Enable Hierarchy Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_records_hierarchy.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 6. Enable Hierarchy Restore
 
-In this article
 
 At the Hierarchy step of the wizard, you can specify parent and child records to restore. While restoring hierarchy, Veeam Data Cloud analyzes all lookup relationship fields of the records and compares backed-up data with the current Salesforce data. For more information, see [How Object Hierarchy Restore Works](sf_how_hierarchy_restore_works.md).
 
@@ -56,4 +57,3 @@ The restore parent hierarchy settings are applied to every record in the session
 
 [![Enabling Hierarchy Restore](images/sf_restore_records_hierarchy.png)](images/sf_restore_records_hierarchy.png "Enabling Hierarchy Restore")
 
-Page updated 8/22/2025

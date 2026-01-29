@@ -3,7 +3,7 @@ title: "Step 4. Specify Subscription Products"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_subscriptions_request_products.html"
-last_updated: "12/18/2025"
+last_updated: "1/21/2026"
 product_version: ""
 ---
 

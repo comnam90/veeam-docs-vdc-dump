@@ -1,5 +1,7 @@
 ---
 title: "Getting Started with Veeam Data Cloud for Microsoft 365"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_getting_started.html"
 last_updated: "11/28/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Getting Started with Veeam Data Cloud for Microsoft 365
 
-In this article
 
 To quickly get started with Veeam Data Cloud for Microsoft 365, follow these steps:
 
@@ -30,4 +31,3 @@ If you chose to manually create backup policies after onboarding, create backup 
 3. View backup session logs and monitor the protection status of your Microsoft 365 tenant. For details see [Viewing Backup Logs](m365_backup_view_logs.md) and [Viewing Dashboard](m365_dashboard.md).
 4. Generate, download and schedule Veeam Data Cloud for Microsoft 365 usage reports. For details, see [Reports](m365_reports.md).
 
-Page updated 11/28/2025

@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Select Metadata to Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_metadata_data.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Select Metadata to Restore
 
-In this article
 
 At the Data step of the wizard, choose metadata files that you want to restore:
 
@@ -32,4 +33,3 @@ If you want to restore a metadata file that no longer exists in Salesforce, you 
 
 [![Selecting Metadata to Restore](images/sf_restore_metadata_data.png)](images/sf_restore_metadata_data.png "Selecting Metadata to Restore")
 
-Page updated 8/22/2025

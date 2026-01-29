@@ -3,7 +3,7 @@ title: "Managing Veeam Data Cloud Vault Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants.html"
-last_updated: "1/12/2026"
+last_updated: "1/21/2026"
 product_version: ""
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Permissions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_permissions.html"
 last_updated: "11/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Permissions
 
-In this article
 
 The accounts that Veeam Data Cloud uses to manage Microsoft Entra ID must be granted the following permissions.
 
@@ -50,4 +51,3 @@ Veeam Data Cloud assigns the Microsoft Entra service principal the following rol
 | Privileged Authentication Administrator | This role allows Veeam Data Cloud to restore objects that are assigned privileged permissions. |
 | User Administrator | This role allows Veeam Data Cloud to restore objects that are assigned privileged permissions. |
 
-Page updated 11/19/2025

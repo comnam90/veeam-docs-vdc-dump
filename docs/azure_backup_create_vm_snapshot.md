@@ -1,5 +1,7 @@
 ---
 title: "Step 7. Specify Snapshot Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_snapshot.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 7. Specify Snapshot Settings
 
-In this article
 
 The Snapshot Settings step of the wizard is available if you have enabled the advanced settings configuration at the [Summary](azure_backup_create_vm_review.md) step of the wizard.
 
@@ -29,4 +30,3 @@ If you want to keep the snapshots in the default resource group, skip this step.
 
 [![Specify Snapshot Settings](images/azure_backup_create_vm_snapshot.png)](images/azure_backup_create_vm_snapshot.png "Specify Snapshot Settings")
 
-Page updated 10/15/2025

@@ -1,5 +1,7 @@
 ---
 title: "Entra ID Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_data_restore.html"
 last_updated: "12/10/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Entra ID Restore
 
-In this article
 
 Veeam Data Cloud offers the following types of data restore:
 
@@ -21,4 +22,3 @@ Veeam Data Cloud offers the following types of data restore:
 * [Log restore](entra_id_log_restore.md) — to restore audit and sign-in logs.
 * [Object export](entra_id_object_export.md) — to export entire Entra ID objects to files in JSON format.
 
-Page updated 12/10/2025

@@ -1,5 +1,7 @@
 ---
 title: "Restoring Teams"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_team.html"
 last_updated: "10/3/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Teams
 
-In this article
 
 To restore a Microsoft Teams team:
 
@@ -45,4 +46,3 @@ To restore multiple teams, click on your organization and then select the check 
 
 [![Restoring Teams](images/m365_restore_teams_original.png)](images/m365_restore_teams_original.png "Restoring Teams")
 
-Page updated 10/3/2025

@@ -1,5 +1,7 @@
 ---
 title: "Managing Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_manage.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Backup Policies
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 allows you to manage backup policies.
 
@@ -33,4 +34,3 @@ If you delete a backup policy, you will not delete the data associated with it. 
 | TIP |
 | You can view and download backup session logs in the Backup sessions section. For more information, see [Viewing Backup Logs](m365_backup_view_logs.md). |
 
-Page updated 9/19/2025

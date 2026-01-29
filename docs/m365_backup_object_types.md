@@ -1,5 +1,7 @@
 ---
 title: "Backup Object Types"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_object_types.html"
 last_updated: "1/2/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Backup Object Types
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 allows you to select what types of objects to include in the backup and exclude from the backup, depending on your plan. Objects of each type consist of a set of child objects. You can specify processing and exclusion options — that is, select what child objects of a specific object to include in the backup and what to exclude from the backup.
 
@@ -79,4 +80,3 @@ Consider the following:
 * To create Microsoft team chats backups, Veeam Data Cloud for Microsoft 365 needs access to [Microsoft Teams Export APIs](https://docs.microsoft.com/en-us/microsoftteams/export-teams-content). You must authorize Veeam Data Cloud for Microsoft 365 to use the required APIs. To learn how to do that, see [Enabling Microsoft Team Chats Backup](m365_enable_team_chats_backup.md).
 * Veeam Data Cloud for Microsoft 365 does not back up the TeamsMessagesData folder.
 
-Page updated 1/2/2026

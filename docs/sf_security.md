@@ -1,5 +1,7 @@
 ---
 title: "Security"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_security.html"
 last_updated: "10/31/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Security
 
-In this article
 
 This section lists the fundamental security features of Veeam Data Cloud for Salesforce.
 
@@ -44,4 +45,3 @@ Service Level Agreements (SLAs)
 
 For information on service level agreements, see the [Veeam Data Cloud Service Agreement](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html).
 
-Page updated 10/31/2025

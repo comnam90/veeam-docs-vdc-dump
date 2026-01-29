@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Review Restore List"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_metadata_restore_list.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Review Restore List
 
-In this article
 
 At the Restore List step, review the list of items that you want to restore and proceed with the wizard. To remove some of the metadata items from the restore job, select the items and click Remove.
 
@@ -18,4 +19,3 @@ At the Restore List step, review the list of items that you want to restore and 
 
 [![Reviewing Restore List](images/sf_restore_metadata_restore_list.png)](images/sf_restore_metadata_restore_list.png "Reviewing Restore List")
 
-Page updated 8/22/2025

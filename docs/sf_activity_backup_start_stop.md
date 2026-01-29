@@ -1,5 +1,7 @@
 ---
 title: "Starting and Stopping Backup Sessions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_backup_start_stop.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Starting and Stopping Backup Sessions
 
-In this article
 
 If you do not want to start or stop the entire backup policy, you can do it for one of the policy sessions.
 
@@ -29,4 +30,3 @@ To stop a backup session:
 
 [![Starting Backup Policy](images/sf_activity_backup_start_stop.png)](images/sf_activity_backup_start_stop.png "Starting Backup Policy")
 
-Page updated 10/17/2025

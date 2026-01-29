@@ -1,5 +1,7 @@
 ---
 title: "Configuring Network Access Restrictions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_configure_network.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Configuring Network Access Restrictions
 
-In this article
 
 To increase security and control over your data, you can restrict access to Veeam Data Cloud for Microsoft 365 within specific IP address ranges. This approach lets you ensure that only authorized users or devices with IP addresses falling in the defined ranges can access Veeam Data Cloud for Microsoft 365. This can be particularly valuable in scenarios where you want to limit access to specific locations, such as corporate offices.
 
@@ -47,4 +48,3 @@ Repeat this step if you want to restrict multiple IP address ranges.
 | NOTE |
 | If network settings in your organization change unexpectedly, preventing access to your Veeam Data Cloud for Microsoft 365 instance, you can reach out to Veeam Customer Support for assistance in updating or temporarily removing the associated IP address ranges. In such cases, Veeam may require you to provide verification for security purposes. |
 
-Page updated 9/19/2025

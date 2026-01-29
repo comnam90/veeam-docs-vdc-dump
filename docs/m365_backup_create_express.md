@@ -1,5 +1,7 @@
 ---
 title: "Creating Express Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_express.html"
 last_updated: "1/8/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Creating Express Backup Policies
 
-In this article
 
 To create Express backup policies, your organization must have an active Express or Premium Veeam Data Cloud for Microsoft 365 plan.
 
@@ -58,4 +59,3 @@ For SharePoint, you can also click Upload file to upload a CSV file with one Sha
 
 1. Click Save to create the new Express backup policy.
 
-Page updated 1/8/2026

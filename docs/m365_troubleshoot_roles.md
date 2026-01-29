@@ -1,5 +1,7 @@
 ---
 title: "Cannot See SharePoint, Teams or Other Users Data"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_troubleshoot_roles.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Cannot See SharePoint, Teams or Other Users Data
 
-In this article
 
 Issue
 
@@ -34,4 +35,3 @@ Help And Support
 
 If you have followed the steps outlined above, and the issue recurs in the next backup cycle, or you need help with performing these changes, you can contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support).
 
-Page updated 9/19/2025

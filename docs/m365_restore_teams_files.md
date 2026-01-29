@@ -1,5 +1,7 @@
 ---
 title: "Restoring Files"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_files.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Files
 
-In this article
 
 You can use Veeam Data Cloud for Microsoft 365 to restore files of Microsoft Teams channels. You can restore either all files of a channel or specific files.
 
@@ -87,4 +88,3 @@ To restore specific files of a Microsoft Teams channel:
 
 [![Restoring Teams Files](images/m365_restore_teams_files_specific_options.png)](images/m365_restore_teams_files_specific_options.png "Restoring Teams Files")
 
-Page updated 9/19/2025

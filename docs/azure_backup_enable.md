@@ -1,5 +1,7 @@
 ---
 title: "Enabling and Disabling Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_enable.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Enabling and Disabling Backup Policies
 
-In this article
 
 Veeam Data Cloud for Microsoft Azure runs all created backup policies according to the specified schedules. However, you can temporarily disable a backup policy if you do not want to run the backup policy automatically.
 
@@ -18,4 +19,3 @@ To enable or disable a backup policy, do the following:
 
 [![Enable Backup Policy](images/azure_backup_enable.png)](images/azure_backup_enable.png "Enable Backup Policy")
 
-Page updated 10/15/2025

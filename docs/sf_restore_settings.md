@@ -1,5 +1,7 @@
 ---
 title: "Configuring Restore Mapping Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_settings.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Configuring Restore Mapping Settings
 
-In this article
 
 You can delete object mapping rules created automatically and add alternate keys that you want to use instead of record IDs. Veeam Data Cloud applies configured mapping settings to all restore jobs. For more information, see [How Restore Mapping Works](sf_restore_mapping.md).
 
@@ -58,4 +59,3 @@ To add an alternate key, do the following:
 
 [![Configuring Alternate Keys](images/sf_restore_settings.png)](images/sf_restore_settings.png "Configuring Alternate Keys")
 
-Page updated 10/17/2025

@@ -1,5 +1,7 @@
 ---
 title: "Enabling and Disabling Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_disable_enable.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Enabling and Disabling Backup Policies
 
-In this article
 
 By default, Veeam Data Cloud runs all created backup policies according to the specified schedules. However, you can temporarily disable a backup policy so that Veeam Data Cloud does not run the backup policy automatically. You will still be able to manually start or enable the disabled backup policy at any time you need.
 
@@ -19,4 +20,3 @@ To enable or disable a backup policy, do the following:
 
 [![Disabling Backup Policy](images/sf_backup_policies_disable_enable.png)](images/sf_backup_policies_disable_enable.png "Disabling Backup Policy")
 
-Page updated 10/17/2025

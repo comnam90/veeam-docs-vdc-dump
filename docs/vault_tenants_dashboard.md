@@ -1,5 +1,7 @@
 ---
 title: "Accessing Tenant Dashboard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants_dashboard.html"
 last_updated: "11/20/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Accessing Tenant Dashboard
 
-In this article
 
 To access the tenant dashboard, do the following:
 
@@ -16,4 +17,3 @@ To access the tenant dashboard, do the following:
 
 [![Viewing Vault Tenants](images/vault_dashboard_tenant_manage.png)](images/vault_dashboard_tenant_manage.png "Viewing Vault Tenants")
 
-Page updated 11/20/2025

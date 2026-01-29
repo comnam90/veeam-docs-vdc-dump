@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Restore Records Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_records_launch.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Restore Records Wizard
 
-In this article
 
 To launch the Restore Records wizard:
 
@@ -17,4 +18,3 @@ To launch the Restore Records wizard:
 
 [![Launching Restore Records Wizard](images/sf_restore_records_launch.png)](images/sf_restore_records_launch.png "Launching Restore Records Wizard")
 
-Page updated 10/17/2025

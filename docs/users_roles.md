@@ -1,5 +1,7 @@
 ---
 title: "Roles"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_roles.html"
 last_updated: "10/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Roles
 
-In this article
 
 Veeam Data Cloud provides built-in roles that you can assign to Veeam Data Cloud users. User roles define the operations that the user can perform, including backup, restore and user management. You can assign a role with access to your entire Veeam Data Cloud organization or a specific workload, such as Microsoft Entra ID, Salesforce, Microsoft 365, or Microsoft Azure.
 
@@ -109,4 +110,3 @@ The following table describes the functionality available to users with differen
 | OrganizationViewer | View tenants |
 | Vault:Administrator | Full |
 
-Page updated 10/14/2025

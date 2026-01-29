@@ -9,7 +9,6 @@ product_version: ""
 
 # Obtaining Veeam Data Cloud Vault
 
-In this article
 
 Veeam offers several scenarios for obtaining Veeam Data Cloud Vault. For more information on your options, see the [Veeam Data Cloud Vault product page](https://www.veeam.com/products/veeam-data-cloud/purchasing-options.html?ad=hero-banner#vault-tab).
 
@@ -31,4 +30,3 @@ To use this scenario, use the Buy Now or Buy More option on the My Account porta
 
 To use this scenario, contact a Veeam partner from the Veeam Data Cloud Vault page on the Veeam website.
 
-Page updated 1/13/2026

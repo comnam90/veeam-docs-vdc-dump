@@ -1,5 +1,7 @@
 ---
 title: "Viewing Backup Sessions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_backup.html"
 last_updated: "11/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Backup Sessions
 
-In this article
 
 For each data protection operation, Veeam Data Cloud starts a new backup session according to created backup policies. In the Activity view, you can review all running and completed backup sessions across all workloads within your Veeam Data Cloud organization. This helps you shorten your response time to issues and simplifies prevention and troubleshooting of potential problems.
 
@@ -47,4 +48,3 @@ To remove the filters and view all sessions, click Clear Filters.
 
 [![Viewing Backup Sessions](images/activity_backup.png)](images/activity_backup.png "Viewing Backup Sessions")
 
-Page updated 11/14/2025

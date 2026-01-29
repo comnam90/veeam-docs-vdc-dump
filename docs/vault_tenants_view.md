@@ -3,7 +3,7 @@ title: "Viewing Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants_view.html"
-last_updated: "1/21/2026"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 

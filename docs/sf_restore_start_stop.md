@@ -1,5 +1,7 @@
 ---
 title: "Starting and Stopping Restore Jobs"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_start_stop.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Starting and Stopping Restore Jobs
 
-In this article
 
 You can start a restore restore automatically right after you finish the restore job configuration wizard or manually on the Restore tab. Consider that after you start a restore job, it cannot be edited or removed. However, you can clone this job after the restore session completes, and then edit it.
 
@@ -29,4 +30,3 @@ To stop a restore job:
 
 [![Starting Restore Job](images/sf_restore_start_stop.png)](images/sf_restore_start_stop.png "Starting Restore Job")
 
-Page updated 10/17/2025

@@ -1,5 +1,7 @@
 ---
 title: "Getting Started with Veeam Data Cloud for Microsoft Entra ID"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_getting_started.html"
 last_updated: "11/28/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Getting Started with Veeam Data Cloud for Microsoft Entra ID
 
-In this article
 
 To quickly get started with Veeam Data Cloud for Microsoft Entra ID, follow these steps:
 
@@ -28,4 +29,3 @@ After you add a Microsoft Entra ID tenant, Veeam Data Cloud will automatically c
 
 If you have other workloads in Veeam Data Cloud, you can leverage the [Organization Dashboard](dashboard.md) and [Organization Activity](activity.md) views, which provide aggregated information across your entire Veeam Data Cloud organization.
 
-Page updated 11/28/2025

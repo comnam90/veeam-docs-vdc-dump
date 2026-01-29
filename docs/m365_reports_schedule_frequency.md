@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Select Schedule Frequency"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_reports_schedule_frequency.html"
 last_updated: "7/10/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Select Schedule Frequency
 
-In this article
 
 At the Frequency step of the wizard, select whether to receive the scheduled report daily, weekly or monthly.
 
@@ -19,4 +20,3 @@ Once you select the frequency, click Next.
 
 [![Select Schedule Frequency](images/m365_reports_schedule_frequency.png)](images/m365_reports_schedule_frequency.png "Select Schedule Frequency")
 
-Page updated 7/10/2025

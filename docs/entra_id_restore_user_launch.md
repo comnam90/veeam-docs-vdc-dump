@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Restore Users Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_user_launch.html"
 last_updated: "12/12/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Restore Users Wizard
 
-In this article
 
 To launch the Restore Users wizard, do the following:
 
@@ -25,4 +26,3 @@ To launch the Restore Users wizard, do the following:
 
 [![Launching Restore Users Wizard](images/entra_id_restore_user_launch.png)](images/entra_id_restore_user_launch.png "Launching Restore Users Wizard")
 
-Page updated 12/12/2025

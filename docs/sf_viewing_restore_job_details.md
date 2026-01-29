@@ -1,5 +1,7 @@
 ---
 title: "Viewing Restore Job Details"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_viewing_restore_job_details.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Restore Job Details
 
-In this article
 
 Veeam Data Cloud displays all restore jobs and restore job drafts on the Restore tab. After you run a restore session, it cannot be edited or removed.
 
@@ -22,4 +23,3 @@ You can also view restore session statistics in the Activity section. For detail
 
 [![Viewing Restore Job Details](images/sf_viewing_restore_job_details.png)](images/sf_viewing_restore_job_details.png "Viewing Restore Job Details")
 
-Page updated 10/17/2025

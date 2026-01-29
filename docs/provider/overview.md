@@ -3,7 +3,7 @@ title: "Organization Overview"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/overview.html"
-last_updated: "11/12/2025"
+last_updated: "1/27/2026"
 product_version: ""
 ---
 

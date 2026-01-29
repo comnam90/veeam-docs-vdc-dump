@@ -1,5 +1,7 @@
 ---
 title: "Veeam Data Cloud Vault Editions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_editions.html"
 last_updated: "12/4/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Veeam Data Cloud Vault Editions
 
-In this article
 
 Veeam Data Cloud Vault is available in several editions. They are available in the following variants:
 
@@ -34,4 +35,3 @@ The following table displays available Veeam Data Cloud Vault editions. For more
 | Advanced Core | ✔ | ✔ |
 | Advanced Non-Core | ✔ | ✖ |
 
-Page updated 12/4/2025

@@ -1,5 +1,7 @@
 ---
 title: "Removing Archival Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_remove.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Removing Archival Policies
 
-In this article
 
 Veeam Data Cloud allows you to permanently remove an archival policy if you no longer need it. When you delete an archival policy, the archived data and files will not be affected.
 
@@ -20,4 +21,3 @@ To delete an archival policy, do the following:
 
 [![Removing Archival Policy](images/sf_archival_policies_remove.png)](images/sf_archival_policies_remove.png "Removing Archival Policy")
 
-Page updated 10/17/2025

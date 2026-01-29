@@ -1,5 +1,7 @@
 ---
 title: "Step 5. Select Files to Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_files_select.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 5. Select Files to Restore
 
-In this article
 
 In the File-Level Recovery Explorer, you can browse and recover files and folders of the selected Azure Files share. All restored items will be saved to the specified target file share.
 
@@ -34,4 +35,3 @@ As soon as you click Restore, Veeam Data Cloud for Microsoft Azure will save the
 
 [![Step 5. Select Files to Restore](images/azure_restore_files_restore.png)](images/azure_restore_files_restore.png)
 
-Page updated 12/15/2025

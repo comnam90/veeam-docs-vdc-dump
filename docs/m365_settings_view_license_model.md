@@ -1,5 +1,7 @@
 ---
 title: "Viewing License Details"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_view_license_model.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing License Details
 
-In this article
 
 You can view information about the license model you use, licenses and licensed users.
 
@@ -19,4 +20,3 @@ To view license details, take the following steps:
 
 [![Viewing License Model Details](images/m365_settings_view_license_model.png)](images/m365_settings_view_license_model.png "Viewing License Model Details")
 
-Page updated 9/19/2025

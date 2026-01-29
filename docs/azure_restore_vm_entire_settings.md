@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Specify VM and Network Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_entire_settings.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Specify VM and Network Settings
 
-In this article
 
 |  |
 | --- |
@@ -76,4 +77,3 @@ To specify a new name for the restored Azure VM, as well as for each restored vi
 
 [![Step 4. Specify VM and Network Settings](images/azure_restore_vm_entire_rename.png)](images/azure_restore_vm_entire_rename.png)
 
-Page updated 12/15/2025

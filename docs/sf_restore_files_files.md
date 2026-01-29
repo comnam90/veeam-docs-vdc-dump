@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Select Files to Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_files_files.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Select Files to Restore
 
-In this article
 
 At the Data step of the wizard, choose the files that you want to restore:
 
@@ -40,4 +41,3 @@ By default, filters are combined by the AND logical operator. That is, a record 
 
 [![Restoring Files](images/sf_restore_files_files.png)](images/sf_restore_files_files.png "Restoring Files")
 
-Page updated 8/22/2025

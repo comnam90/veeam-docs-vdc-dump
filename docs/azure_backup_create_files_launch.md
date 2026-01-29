@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch New Azure Files Policy Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_files_launch.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch New Azure Files Policy Wizard
 
-In this article
 
 To launch the New Azure File Policy wizard, do the following:
 
@@ -16,4 +17,3 @@ To launch the New Azure File Policy wizard, do the following:
 
 [![Launch New Azure File Policy Wizard](images/azure_backup_create_files_launch.png)](images/azure_backup_create_files_launch.png "Launch New Azure File Policy Wizard")
 
-Page updated 10/15/2025

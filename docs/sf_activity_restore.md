@@ -1,5 +1,7 @@
 ---
 title: "Viewing Restore Sessions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_restore.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Restore Sessions
 
-In this article
 
 To perform a restore job, Veeam Data Cloud starts a new session. You can check the statistics of all running and completed restore sessions.
 
@@ -31,4 +32,3 @@ If you want to provide [Veeam Customer Support](https://my.veeam.com/my-cases) w
 
 [![Viewing Restore Sessions](images/sf_activity_restore_session.png)](images/sf_activity_restore_session.png "Viewing Restore Sessions")
 
-Page updated 10/17/2025

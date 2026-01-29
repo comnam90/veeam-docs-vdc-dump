@@ -1,5 +1,7 @@
 ---
 title: "Editing Users"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_edit.html"
 last_updated: "10/1/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Users
 
-In this article
 
 You may need to edit a user to adjust assigned roles and role scopes. Note that you cannot edit the user that you are currently logged in to Veeam Data Cloud.
 
@@ -51,4 +52,3 @@ This feature is currently only available for Microsoft 365 workloads.
 
 [![Editing User](images/users_edit.png)](images/users_edit.png "Editing User")
 
-Page updated 10/1/2025

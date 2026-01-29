@@ -1,5 +1,7 @@
 ---
 title: "Restoring Files"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_files.html"
 last_updated: "3/28/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Files
 
-In this article
 
 File restore jobs allow you to recover changed and deleted content and attachments.
 
@@ -28,4 +29,3 @@ To restore files, take the following steps:
 4. [Select files and attachments to restore](sf_restore_files_files.md).
 5. [Finish working with the wizard](sf_restore_files_summary.md).
 
-Page updated 3/28/2025

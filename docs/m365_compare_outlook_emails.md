@@ -1,5 +1,7 @@
 ---
 title: "Comparing Outlook Emails with Production"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_compare_outlook_emails.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Comparing Outlook Emails with Production
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 lets you compare backed-up Microsoft Outlook emails to their versions in the production environment. This operation may help you identify the necessary email and decide whether to restore it from the backup.
 
@@ -34,4 +35,3 @@ To compare an email with the production environment:
 
 Once you have completed comparing the backed-up email with the production environment, click Ok in the compare window.
 
-Page updated 9/19/2025

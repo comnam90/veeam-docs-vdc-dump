@@ -9,7 +9,6 @@ product_version: ""
 
 # Supported Entra ID Item Properties
 
-In this article
 
 Veeam Data Cloud for Microsoft Entra ID protects the following items:
 
@@ -270,4 +269,3 @@ Veeam Data Cloud for Microsoft Entra ID protects the following types of Microsof
 | WindowsPhone81GeneralConfiguration | For details on supported properties, see [WindowsPhone81GeneralConfiguration](entra_id_properties_intune.md#windowsphone81generalconfiguration). |
 | WindowsUpdateForBusinessConfiguration | For details on supported properties, see [WindowsUpdateForBusinessConfiguration](entra_id_properties_intune.md#windowsupdateforbusinessconfiguration). |
 
-Page updated 1/14/2026

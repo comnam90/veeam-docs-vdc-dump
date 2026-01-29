@@ -1,5 +1,7 @@
 ---
 title: "Restoring Synchronized Users (Hybrid Identity)"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_user_sync.html"
 last_updated: "7/24/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Synchronized Users (Hybrid Identity)
 
-In this article
 
 Veeam Data Cloud for Microsoft Entra ID allows you to restore users that are synchronized with Microsoft Active Directory (hybrid identities). Unlike the synchronization software (for example, [Microsoft Entra Connect](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect-v2)), restore with Veeam Data Cloud preserves relations stored in your Entra ID tenant: group memberships, assigned roles, used licenses and other relations.
 
@@ -51,4 +52,3 @@ Veeam Data Cloud will restore the user with a new object ID.
 
 After the synchronization, the relations restored using Veeam Data Cloud will be preserved, the existing properties will be overwritten, and the lacking properties will be restored. The user will become a hybrid identity.
 
-Page updated 7/24/2025

@@ -9,7 +9,6 @@ product_version: ""
 
 # Considerations and Limitations
 
-In this article
 
 |  |
 | --- |
@@ -65,4 +64,3 @@ Backup and restore operations are supported within one Azure region only. If you
 
 For more information on Azure Disk Encryption, see [Microsoft Docs](https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview).
 
-Page updated 1/9/2026

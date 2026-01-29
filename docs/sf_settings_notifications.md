@@ -1,5 +1,7 @@
 ---
 title: "Managing Notifications"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_notifications.html"
 last_updated: "3/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Notifications
 
-In this article
 
 Veeam Data Cloud can notify you about important events, state changes and issues. All users that have access to your Salesforce tenant can view the notifications in the Notification and Dashboard sections. You can also specify email addressees that will receive selected notifications.
 
@@ -26,4 +27,3 @@ In This Section
 * [Editing Notifications](sf_settings_notifications_edit.md)
 * [Removing Notifications](sf_settings_notifications_remove.md)
 
-Page updated 3/25/2025

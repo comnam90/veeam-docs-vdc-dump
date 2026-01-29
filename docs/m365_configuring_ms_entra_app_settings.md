@@ -1,5 +1,7 @@
 ---
 title: "Configuring Microsoft Entra Application Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_configuring_ms_entra_app_settings.html"
 last_updated: "5/30/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Configuring Microsoft Entra Application Settings
 
-In this article
 
 For data restore using Microsoft Entra application, do the following to configure the application settings:
 
@@ -21,4 +22,3 @@ Keep in mind that this option is unavailable for legacy Microsoft Entra Germany 
 
 When creating a new Microsoft Entra application automatically, Veeam Data Cloud for Microsoft 365 specifies http://localhost as a redirect URI.
 
-Page updated 5/30/2025

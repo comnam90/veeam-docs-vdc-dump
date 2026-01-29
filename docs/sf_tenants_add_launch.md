@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Add Salesforce Tenant Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_add_launch.html"
 last_updated: "12/4/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Add Salesforce Tenant Wizard
 
-In this article
 
 To launch the Add Salesforce Tenant wizard, do the following:
 
@@ -21,4 +22,3 @@ To launch the Add Salesforce Tenant wizard, do the following:
 
 [![Launching Add Salesforce Tenant Wizard](images/sf_tenants_add_launch.png)](images/sf_tenants_add_launch.png "Launching Add Salesforce Tenant Wizard")
 
-Page updated 12/4/2025

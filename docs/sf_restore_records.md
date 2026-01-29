@@ -1,5 +1,7 @@
 ---
 title: "Restoring Records"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_records.html"
 last_updated: "3/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Records
 
-In this article
 
 With record restore, you can restore earlier versions of modified or corrupted Salesforce records and linked objects. Veeam Data Cloud allows you to fully restore the content of a record, with all fields that are marked as updatable and creatable in Salesforce. You can also restore attachments associated with this record and the related object hierarchy.
 
@@ -23,4 +24,3 @@ To restore Salesforce records, perform the following steps:
 8. [Check permissions](sf_restore_records_verification.md).
 9. [Finish working with the wizard](sf_restore_records_summary.md).
 
-Page updated 3/25/2025

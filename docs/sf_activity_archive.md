@@ -1,5 +1,7 @@
 ---
 title: "Viewing Data Archival Sessions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_archive.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Data Archival Sessions
 
-In this article
 
 For each performed archival operation, Veeam Data Cloud starts a new session according to the created archival polices, and stores the session details. You can check all running and completed archival sessions in the Activity section.
 
@@ -50,4 +51,3 @@ If you want to provide [Veeam Customer Support](https://my.veeam.com/my-cases) w
 
 [![Viewing Data Archival Sessions](images/sf_activity_archive_sessions.png)](images/sf_activity_archive_sessions.png "Viewing Data Archival Sessions")
 
-Page updated 8/22/2025

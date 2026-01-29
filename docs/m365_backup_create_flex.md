@@ -1,5 +1,7 @@
 ---
 title: "Creating Flex Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_flex.html"
 last_updated: "8/26/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Creating Flex Backup Policies
 
-In this article
 
 You can create new backup policies in Veeam Data Cloud for Microsoft 365.
 
@@ -25,4 +26,3 @@ To create new backup policies, use the New Backup Policy wizard:
 | TIP |
 | During your initial full backup, Microsoft may be throttling your traffic due to the high load of Microsoft Exchange data. To mitigate this, you can temporarily disable Microsoft Exchange throttling in the Microsoft 365 admin center. For detailed instructions on how to disable Microsoft throttling, see [this Veeam KB article](https://www.veeam.com/kb4198). |
 
-Page updated 8/26/2025

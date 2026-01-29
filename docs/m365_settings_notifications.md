@@ -1,5 +1,7 @@
 ---
 title: "Managing Notifications"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_notifications.html"
 last_updated: "12/1/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Notifications
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 allows you to configure email recipients for Veeam Data Cloud for Microsoft 365 system notifications and add Microsoft Teams channels where you can receive Veeam Data Cloud for Microsoft 365 system notifications.
 
@@ -76,4 +77,3 @@ If you select any of the check boxes, you will receive email notifications even 
 
 [![Managing Notifications](images/m365_settings_notifications_preferences.png)](images/m365_settings_notifications_preferences.png "Managing Notifications")
 
-Page updated 12/1/2025

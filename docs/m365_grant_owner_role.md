@@ -1,5 +1,7 @@
 ---
 title: "Granting Owner Role in PowerShell"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_grant_owner_role.html"
 last_updated: "7/8/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Granting Owner Role in PowerShell
 
-In this article
 
 To grant the Owner role to the Microsoft 365 Global Admin account that the Microsoft Entra application uses to log in to Microsoft 365, do the following:
 
@@ -18,4 +19,3 @@ To grant the Owner role to the Microsoft 365 Global Admin account that the Micro
 | --- |
 | $folders = get-publicfolder "\" -recurse  foreach($folder in $folders)  {  Add-PublicFolderClientPermission -Identity $folder.identity -user <user\_account> -AccessRights Owner  } |
 
-Page updated 7/8/2025

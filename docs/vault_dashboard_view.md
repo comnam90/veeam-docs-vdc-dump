@@ -1,5 +1,7 @@
 ---
 title: "Accessing Veeam Data Cloud Vault"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_dashboard_view.html"
 last_updated: "8/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Accessing Veeam Data Cloud Vault
 
-In this article
 
 To access Veeam Data Cloud Vault, do either of the following:
 
@@ -31,4 +32,3 @@ The Vault page displays the following widgets.
 
 [![Viewing Vault Page](images/vault_dashboard.png)](images/vault_dashboard.png "Viewing Vault Page")
 
-Page updated 8/25/2025

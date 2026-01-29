@@ -1,5 +1,7 @@
 ---
 title: "Cloning Restore Jobs"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_clone.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Cloning Restore Jobs
 
-In this article
 
 You can clone a restore job if you want to launch it again or to create a new job based on the settings of the existing one. A cloned job is saved as a draft that you can edit before you stert the job.
 
@@ -23,4 +24,3 @@ To clone a restore job, do the following:
 
 [![Cloning Restore Job](images/sf_restore_clone.png)](images/sf_restore_clone.png "Cloning Restore Job")
 
-Page updated 10/17/2025

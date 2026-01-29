@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Compare and Restore Fields Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_gr_prop_launch.html"
 last_updated: "10/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Compare and Restore Fields Wizard
 
-In this article
 
 To launch the restore wizard, do the following:
 
@@ -25,4 +26,3 @@ To launch the restore wizard, do the following:
 
 [![Launching Compare and Restore Fields Wizard](images/entra_id_restore_gr_prop_launch.png)](images/entra_id_restore_gr_prop_launch.png "Launching Compare and Restore Fields Wizard")
 
-Page updated 10/14/2025

@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Select Restore Points"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_object_export_point.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Select Restore Points
 
-In this article
 
 At this step of the wizard, select restore points to be used for export.
 
@@ -27,4 +28,3 @@ After you select a restore point, Veeam Data Cloud verifies its availability for
 
 [![Launching Restore Users Wizard](images/entra_id_object_export_point.png)](images/entra_id_object_export_point.png "Launching Restore Users Wizard")
 
-Page updated 12/15/2025

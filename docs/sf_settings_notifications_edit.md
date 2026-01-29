@@ -1,5 +1,7 @@
 ---
 title: "Editing Notifications"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_notifications_edit.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Notifications
 
-In this article
 
 To edit a notification, use the Edit Notification wizard:
 
@@ -20,4 +21,3 @@ To edit a notification, use the Edit Notification wizard:
 
 [![Editing Notifications](images/sf_settings_notifications_edit.png)](images/sf_settings_notifications_edit.png "Editing Notifications")
 
-Page updated 10/17/2025

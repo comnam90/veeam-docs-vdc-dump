@@ -1,5 +1,7 @@
 ---
 title: "Restoring Channels"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_channel.html"
 last_updated: "10/24/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Channels
 
-In this article
 
 To restore a Microsoft Teams channel:
 
@@ -36,4 +37,3 @@ To restore a Microsoft Teams channel:
 
 [![Restoring Teams Channels](images/m365_restore_teams_channel_original.png)](images/m365_restore_teams_channel_original.png "Restoring Teams Channels")
 
-Page updated 10/24/2025

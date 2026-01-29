@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Specify Backup Policy Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_tenant_add_backup.html"
 last_updated: "11/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Specify Backup Policy Settings
 
-In this article
 
 At the Backup step of the wizard, specify the following:
 
@@ -25,4 +26,3 @@ If you allow Veeam Data Cloud to back up addtional Entra ID resources, Veeam Dat
 
 [![Specify Backup Policy Settings](images/entra_id_tenant_add_backup.png)](images/entra_id_tenant_add_backup.png "Specify Backup Policy Settings")
 
-Page updated 11/19/2025

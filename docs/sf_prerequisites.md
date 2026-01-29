@@ -1,5 +1,7 @@
 ---
 title: "Planning and Preparation"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_prerequisites.html"
 last_updated: "4/8/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Planning and Preparation
 
-In this article
 
 Before you start protecting your Salesforce tenants with Veeam Data Cloud, check required permissions and other prerequisites.
 
@@ -17,4 +18,3 @@ In This Section
 * [Unsupported Salesforce Objects](sf_unsupported_objects.md)
 * [Permissions](sf_permissions.md)
 
-Page updated 4/8/2025

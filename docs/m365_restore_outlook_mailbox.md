@@ -1,5 +1,7 @@
 ---
 title: "Restoring Outlook Mailboxes"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_outlook_mailbox.html"
 last_updated: "10/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Outlook Mailboxes
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 offers 2 restore methods for restore of Microsoft Outlook mailboxes: Flex Restore and Express Full Restore.
 
@@ -99,4 +100,3 @@ To restore multiple mailboxes, click on your organization and then select the ch
 
 [![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_express_options.png)](images/m365_restore_outlook_mailbox_express_options.png "Restoring Outlook Mailbox")
 
-Page updated 10/14/2025

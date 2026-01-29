@@ -1,5 +1,7 @@
 ---
 title: "Data Backup"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_data_backup.html"
 last_updated: "12/30/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Data Backup
 
-In this article
 
 This section describes backup concepts of Veeam Data Cloud for Microsoft 365.
 
@@ -62,4 +63,3 @@ Data Validation
 
 Veeam Data Cloud for Microsoft 365 uses various data validation methods to ensure that backed-up data is correct.
 
-Page updated 12/30/2025

@@ -1,5 +1,7 @@
 ---
 title: "Step 6. Specify Guest Processing Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_guest.html"
 last_updated: "12/5/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 6. Specify Guest Processing Settings
 
-In this article
 
 The Guest Processing step of the wizard is available if you have enabled the advanced settings configuration at the [Summary](azure_backup_create_vm_review.md) step of the wizard.
 
@@ -30,4 +31,3 @@ To enable application-aware processing, turn on the Enable application-aware sna
 
 [![Specify Guest Processing Settings](images/azure_backup_create_vm_guest.png)](images/azure_backup_create_vm_guest.png "Specify Guest Processing Settings")
 
-Page updated 12/5/2025

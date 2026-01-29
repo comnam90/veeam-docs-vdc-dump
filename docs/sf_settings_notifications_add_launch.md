@@ -1,5 +1,7 @@
 ---
 title: "Step 1. Launch Add Notification Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_notifications_add_launch.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 1. Launch Add Notification Wizard
 
-In this article
 
 To launch the Add Notification wizard, do the following:
 
@@ -18,4 +19,3 @@ To launch the Add Notification wizard, do the following:
 
 [![Launching Add Notification Wizard](images/sf_settings_notifications_add_launch.png)](images/sf_settings_notifications_add_launch.png "Launching Add Notification Wizard")
 
-Page updated 10/17/2025

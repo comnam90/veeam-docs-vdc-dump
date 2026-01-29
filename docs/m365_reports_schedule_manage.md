@@ -1,5 +1,7 @@
 ---
 title: "Managing Scheduled Reports"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_reports_schedule_manage.html"
 last_updated: "9/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Scheduled Reports
 
-In this article
 
 In Reports, in the Schedule tab, you can see a list of all the scheduled reports with information about the name, frequency, recipients, status, who created the report, and the date it was created.
 
@@ -35,4 +36,3 @@ The history overview also displays the following information:
 
 [![Managing Scheduled Reports](images/m365_reports_schedule_manage_history.png)](images/m365_reports_schedule_manage_history.png "Managing Scheduled Reports")
 
-Page updated 9/15/2025

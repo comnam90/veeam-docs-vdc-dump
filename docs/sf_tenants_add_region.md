@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Specify Tenant Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_add_region.html"
 last_updated: "8/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Specify Tenant Settings
 
-In this article
 
 At the Settings step of the wizard, specify the following settings:
 
@@ -21,4 +22,3 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 
 [![Specifying Tenant Settings](images/sf_tenants_add_region.png)](images/sf_tenants_add_region.png "Specifying Tenant Settings")
 
-Page updated 8/6/2025

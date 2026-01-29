@@ -9,7 +9,6 @@ product_version: ""
 
 # Supported Microsoft Intune Policy Properties
 
-In this article
 
 This article lists all supported properties for each Microsoft Intune policy type.
 
@@ -1218,4 +1217,3 @@ WindowsUpdateForBusinessConfiguration
 | UserStatusOverview | Read-only property in Entra ID. |
 | DeviceSettingStateSummaries | Read-only property in Entra ID. |
 
-Page updated 1/14/2026

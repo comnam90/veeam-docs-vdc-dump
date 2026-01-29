@@ -1,5 +1,7 @@
 ---
 title: "Step 6. Finish Working with Wizard"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_metadata_summary.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 6. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review configured settings and click Finish.
 
@@ -22,4 +23,3 @@ As soon as you start the restore job, you can see the status of the session both
 
 [![Finishing Work with Wizard](images/sf_restore_metadata_summary.png)](images/sf_restore_metadata_summary.png "Finishing Work with Wizard")
 
-Page updated 8/22/2025

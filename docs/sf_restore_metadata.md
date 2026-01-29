@@ -1,5 +1,7 @@
 ---
 title: "Restoring Metadata"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_metadata.html"
 last_updated: "5/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Metadata
 
-In this article
 
 You can restore metadata of objects deleted from Salesforce, including Apex classes, connected app configurations, reports, dashboards and so on. You can recover metadata to the same Salesforce tenant or to another tenant so that the object metadata in one Salesforce tenant matches the metadata in another one.
 
@@ -31,4 +32,3 @@ To restore Salesforce metadata, perform the following steps:
 5. [Review the restore list](sf_restore_metadata_restore_list.md).
 6. [Finish working with the wizard](sf_restore_metadata_summary.md).
 
-Page updated 5/6/2025

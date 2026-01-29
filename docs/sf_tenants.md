@@ -1,5 +1,7 @@
 ---
 title: "Managing Salesforce Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Managing Salesforce Tenants
 
-In this article
 
 To start protecting your Salesforce data, you must add a Salesforce tenant (production, sandbox or a developer organization) to Veeam Data Cloud. During the process, you connect Veeam Data Cloud to a Salesforce tenant (organization) and the basic tenant details and the OAuth authentication tokens of the Connected App are saved in Veeam Data Cloud. These features are available only for users assigned the Salesforce:Administrator and Salesforce:BackupOperator roles.
 
@@ -22,4 +23,3 @@ In This Section
 * [Viewing Salesforce Tenants](sf_tenant_view.md)
 * [Removing Salesforce Tenants](sf_tenants_remove.md)
 
-Page updated 10/17/2025

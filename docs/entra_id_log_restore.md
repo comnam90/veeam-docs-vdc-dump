@@ -1,5 +1,7 @@
 ---
 title: "Entra ID Log Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_log_restore.html"
 last_updated: "10/14/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Entra ID Log Restore
 
-In this article
 
 Entra ID log restore allows exporting Microsoft Entra ID audit and sign-in logs. After the restore session is finished, Veeam Data Cloud will create a shared access signature (SAS) URL that you can use in Microsoft Azure Storage Explorer to download the exported log files. For more information on Microsoft Azure Storage Explorer, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/storage/storage-explorer/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows).
 
@@ -47,4 +48,3 @@ The SAS link is valid for 2 hours. When the link expires, start a new restore se
 1. In the Explorer window, make sure that your new Blob container connection is selected.
 2. On the connection tab, select the logs folder and click Download to download the exported logs.
 
-Page updated 10/14/2025

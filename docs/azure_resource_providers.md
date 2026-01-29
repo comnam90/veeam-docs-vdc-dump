@@ -9,7 +9,6 @@ product_version: ""
 
 # Azure Resource Providers
 
-In this article
 
 Veeam Data Cloud for Microsoft Azure requires Azure subscriptions to be registered for the following resource providers:
 
@@ -24,4 +23,3 @@ Veeam Data Cloud for Microsoft Azure requires Azure subscriptions to be register
 
 For more information on registering an Azure subscription for a resource provider, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types#register-resource-provider).
 
-Page updated 1/9/2026

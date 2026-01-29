@@ -1,5 +1,7 @@
 ---
 title: "Creating VM Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm.html"
 last_updated: "9/26/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Creating VM Backup Policies
 
-In this article
 
 Use the New Azure Virtual Machine Policy wizard to create a backup policy to protect Azure virtual machines.
 
@@ -21,4 +22,3 @@ Use the New Azure Virtual Machine Policy wizard to create a backup policy to pro
 8. [Specify notifications settings](azure_backup_create_vm_name.md).
 9. [Complete the backup policy configuration](azure_backup_create_vm_complete.md).
 
-Page updated 9/26/2025

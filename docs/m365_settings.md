@@ -1,5 +1,7 @@
 ---
 title: "Settings"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings.html"
 last_updated: "1/8/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Settings
 
-In this article
 
 You can configure common settings for a Microsoft 365 tenant.
 
@@ -20,4 +21,3 @@ In This Section
 * [Managing Notifications](m365_settings_notifications.md)
 * [BYOK Encryption](m365_settings_byok_encryption.md)
 
-Page updated 1/8/2026

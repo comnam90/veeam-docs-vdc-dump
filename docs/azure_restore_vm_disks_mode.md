@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Select Account and Restore Mode"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_disks_mode.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Select Account and Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, specify the following restore settings:
 
@@ -35,4 +36,3 @@ In the Restore mode section, select one of the following options:
 
 [![Step 3. Select Account and Restore Mode](images/azure_restore_vm_disks_mode.png)](images/azure_restore_vm_disks_mode.png)
 
-Page updated 12/15/2025

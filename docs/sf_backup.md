@@ -1,5 +1,7 @@
 ---
 title: "Salesforce Backup"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup.html"
 last_updated: "12/10/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Salesforce Backup
 
-In this article
 
 To back up data of Salesforce tenants, Veeam Data Cloud runs backup policies. A backup policy is a collection of settings that define the way backup operations are performed: what data to back up, when to start a backup session, and so on.
 
@@ -40,4 +41,3 @@ In This Section
 * [Enabling and Disabling Backup Policies](sf_backup_policies_disable_enable.md)
 * [Browsing Backups](sf_backup_browse.md)
 
-Page updated 12/10/2025

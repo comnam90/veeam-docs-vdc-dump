@@ -1,5 +1,7 @@
 ---
 title: "Step 2. Select Restore Point"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_files_point.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 2. Select Restore Point
 
-In this article
 
 At the File Share step of the wizard, select a restore point that will be used to restore files from the selected Azure file share, as well as a reason for restore.
 
@@ -29,4 +30,3 @@ You can edit the information in this field. This information will be saved to th
 
 [![Step 2. Select Restore Point](images/azure_restore_files_point.png)](images/azure_restore_files_point.png)
 
-Page updated 12/15/2025

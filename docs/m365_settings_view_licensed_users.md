@@ -1,5 +1,7 @@
 ---
 title: "Viewing Licensed Users"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_view_licensed_users.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Licensed Users
 
-In this article
 
 You can check which accounts are currently using the Veeam Data Cloud for Microsoft 365 license. To do this, follow these steps:
 
@@ -34,4 +35,3 @@ In the table with your current Veeam Data Cloud for Microsoft 365 licensed users
 | TIP |
 | You can click Export to generate a User Protection Report. For more information, see [Generating Reports](m365_reports_generate.md). |
 
-Page updated 9/19/2025

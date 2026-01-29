@@ -1,5 +1,7 @@
 ---
 title: "Activity"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_activity.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Activity
 
-In this article
 
 This is a full overview of Veeam Data Cloud for Microsoft 365 user activity. For each action, you can also view a detailed action log.
 
@@ -20,4 +21,3 @@ In this section you can:
 
 [![Activity](images/m365_activity.png)](images/m365_activity.png "Activity")
 
-Page updated 9/19/2025

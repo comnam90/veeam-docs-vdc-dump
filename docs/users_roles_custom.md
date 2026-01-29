@@ -1,5 +1,7 @@
 ---
 title: "Creating Roles"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_roles_custom.html"
 last_updated: "10/1/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Creating Roles
 
-In this article
 
 Users with the OrganizationAdmin role can create custom roles with custom permissions. Organization administrators can then control what the users in the organization can access and what actions they can perform.
 
@@ -104,4 +105,3 @@ The following table lists the available permissions that you can assign to a use
 | Express Plan | |
 | Perform M365 Bulk Restore | Perform bulk restore (available only under the Express plan). |
 
-Page updated 10/1/2025

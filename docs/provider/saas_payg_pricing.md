@@ -3,7 +3,7 @@ title: "Pay-As-You-Go Pricing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_payg_pricing.html"
-last_updated: "9/10/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 

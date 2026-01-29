@@ -3,7 +3,7 @@ title: "Initial Contract Terms and Grace Periods"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_terms_grace_periods.html"
-last_updated: "9/17/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 

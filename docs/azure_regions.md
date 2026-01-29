@@ -1,5 +1,7 @@
 ---
 title: "Backup Storage Regions"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_regions.html"
 last_updated: "11/27/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Backup Storage Regions
 
-In this article
 
 Veeam Data Cloud for Microsoft Azure supports the following Microsoft Azure regions where you can store your Microsoft Azure backups.
 
@@ -43,4 +44,3 @@ Veeam Data Cloud for Microsoft Azure supports the following Microsoft Azure regi
 | UK South |
 | West Europe |
 
-Page updated 11/27/2025

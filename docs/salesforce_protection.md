@@ -1,5 +1,7 @@
 ---
 title: "Salesforce Protection"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/salesforce_protection.html"
 last_updated: "7/25/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Salesforce Protection
 
-In this article
 
 Veeam Data Cloud for Salesforce is a backup as a service solution developed for data and metadata protection of the Salesforce SaaS platform. With Veeam Data Cloud for Salesforce, you can perform the following operations:
 
@@ -27,4 +28,3 @@ Veeam Data Cloud for Salesforce is a backup as a service solution developed for 
 * Compare versions of production Salesforce metadata with versions of backed-up metadata stored in backups to see line-by-line differences.
 * Create real-time notifications for backup, recovery and Salesforce connection issues, as well as for any changes in protected data.
 
-Page updated 7/25/2025

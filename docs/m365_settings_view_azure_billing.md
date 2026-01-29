@@ -1,5 +1,7 @@
 ---
 title: "Viewing Billing for Microsoft Azure Marketplace Purchases"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_view_azure_billing.html"
 last_updated: "6/6/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Viewing Billing for Microsoft Azure Marketplace Purchases
 
-In this article
 
 If you purchased a subscription to Veeam Data Cloud for Microsoft 365 through the Microsoft Azure Marketplace and want to view your billing information, perform the following steps:
 
@@ -17,4 +18,3 @@ If you purchased a subscription to Veeam Data Cloud for Microsoft 365 through th
 4. On the Overview page, select the subscription you created when you processed the original offer.
 5. When the application loads, click View billing to view your billing information.
 
-Page updated 6/6/2025

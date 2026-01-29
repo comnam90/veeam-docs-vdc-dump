@@ -1,5 +1,7 @@
 ---
 title: "BYOK Encryption"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_byok_encryption.html"
 last_updated: "12/4/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # BYOK Encryption
 
-In this article
 
 Veeam Data Cloud for Microsoft 365 offers BYOK (Bring Your Own Key) encryption as a Limited Availability Preview for added control over your backup data. Only customers of Veeam Data Cloud for Microsoft 365 Premium can participate in this early access program. With BYOK encryption, you host, manage and control the encryption keys on your own Microsoft Azure Key Vault. Veeam Data Cloud for Microsoft 365 encrypts your backup data and never stores the encryption keys. You can revoke the Veeam Data Cloud access at any time.
 
@@ -155,4 +156,3 @@ After BYOK encryption is configured for your Veeam Data Cloud for Microsoft 365 
 
 Other ways to revoke the access are to delete the application registration you created, remove the role assignment from the key, delete the client secret or delete the key.
 
-Page updated 12/4/2025

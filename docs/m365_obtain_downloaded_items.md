@@ -1,5 +1,7 @@
 ---
 title: "Obtaining Downloaded Items"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_obtain_downloaded_items.html"
 last_updated: "9/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Obtaining Downloaded Items
 
-In this article
 
 When restoring Microsoft Exchange Online, OneDrive for Business, SharePoint Online and Teams data in Veeam Data Cloud for Microsoft 365, you can use the Download in background option. You can select this option in the following scenarios:
 
@@ -41,4 +42,3 @@ To obtain the downloaded items, do the following:
 | tip |
 | If you download a large mailbox, Veeam Data Cloud for Microsoft 365 will split the data into smaller .PST files, with each file representing up to 10 GB of the total size. For example, if your mailbox is 36 GB, Veeam Data Cloud for Microsoft 365 will generate a .ZIP file containing 4 .PST files: 3 .PST files of the 10 GB size and another .PST file of the 6 GB size. |
 
-Page updated 9/19/2025

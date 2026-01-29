@@ -1,5 +1,7 @@
 ---
 title: "Restoring Field Values"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_field_values.html"
 last_updated: "3/27/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Field Values
 
-In this article
 
 Field value restore allows you to recover earlier versions of changed or deleted field values. Using this type of restore, you can restore values of existing fields only. If a field no longer exists in Salesforce, restore Salesforce metadata first. For details, see [Restoring Metadata](sf_restore_metadata.md).
 
@@ -22,4 +23,3 @@ To restore field values, take the following steps:
 7. [Check permissions](sf_restore_field_values_verification.md).
 8. [Finish working with the wizard](sf_restore_field_values_summary.md).
 
-Page updated 3/27/2025

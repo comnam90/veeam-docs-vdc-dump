@@ -1,5 +1,7 @@
 ---
 title: "Configuring Backup Service Connection"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_connections.html"
 last_updated: "12/11/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Configuring Backup Service Connection
 
-In this article
 
 You may need to edit a backup service connection when you want to change the user that Veeam Data Cloud uses to connect to your Salesforce tenant. You can also verify whether the account has sufficient permission to perform backup operations.
 
@@ -44,4 +45,3 @@ To verify permissions, do the following:
 
 [![Launching Add Salesforce Organization Wizard](images/sf_settings_connections_verify.png)](images/sf_settings_connections_verify.png "Launching Add Salesforce Organization Wizard")
 
-Page updated 12/11/2025

@@ -1,5 +1,7 @@
 ---
 title: "Creating Azure Files Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_files.html"
 last_updated: "9/26/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Creating Azure Files Backup Policies
 
-In this article
 
 Use the New Azure Files Policy wizard to create a backup policy to protect Azure file shares.
 
@@ -17,4 +18,3 @@ Use the New Azure Files Policy wizard to create a backup policy to protect Azure
 4. [Specify the policy protection settings](azure_backup_create_files_sla.md).
 5. [Complete the backup policy configuration](azure_backup_create_sql_complete.md).
 
-Page updated 9/26/2025

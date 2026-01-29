@@ -1,5 +1,7 @@
 ---
 title: "Getting Started with Veeam Data Cloud"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/getting_started.html"
 last_updated: "11/28/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Getting Started with Veeam Data Cloud
 
-In this article
 
 To quickly get started with Veeam Data Cloud, keep to the following sequence of steps:
 
@@ -23,4 +24,3 @@ For more information, follow the instructions in the quick start guide for your 
 * [Getting Started with Veeam Data Cloud for Salesforce](sf_getting_started.md)
 * [Getting Started with Veeam Data Cloud Vault](vault_getting_started.md)
 
-Page updated 11/28/2025

@@ -1,5 +1,7 @@
 ---
 title: "Enabling and Disabling Archival Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_enable_disable.html"
 last_updated: "10/17/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Enabling and Disabling Archival Policies
 
-In this article
 
 By default, Veeam Data Cloud runs all created archival policies according to the specified schedules. However, you can temporarily disable an archival policy so that Veeam Data Cloud does not run the policy automatically. You will still be able to manually start or enable the disabled archival policy at any time you need.
 
@@ -25,4 +26,3 @@ To disable an archival policy, do the following:
 
 [![Disabling Archival Policy](images/sf_archival_policies_enable_disable.png)](images/sf_archival_policies_enable_disable.png "Disabling Archival Policy")
 
-Page updated 10/17/2025

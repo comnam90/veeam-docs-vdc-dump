@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Start Restore Session"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_files_start_session.html"
 last_updated: "12/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Start Restore Session
 
-In this article
 
 At the Summary step of the wizard, review summary information and start the restore session.
 
@@ -23,4 +24,3 @@ You can stop the running session any time by clicking the Stop session icon in t
 
 [![Step 4. Start Restore Session](images/azure_restore_files_explore.png)](images/azure_restore_files_explore.png)
 
-Page updated 12/15/2025

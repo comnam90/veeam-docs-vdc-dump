@@ -1,5 +1,7 @@
 ---
 title: "How Salesforce Backup Works"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_how_backup_works.html"
 last_updated: "11/18/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # How Salesforce Backup Works
 
-In this article
 
 Veeam Data Cloud performs the following types of backup:
 
@@ -32,4 +33,3 @@ For objects that have no incremental fields, Veeam Data Cloud compares values of
 | Note |
 | If a backup session does not respond for more than 24 hours (no data is uploaded), the session is terminated automatically. |
 
-Page updated 11/18/2025

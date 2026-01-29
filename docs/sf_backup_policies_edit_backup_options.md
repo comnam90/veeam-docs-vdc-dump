@@ -1,5 +1,7 @@
 ---
 title: "Step 3b. Configure Additional Options"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_backup_options.html"
 last_updated: "6/3/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3b. Configure Additional Options
 
-In this article
 
 In the Additional backup options section of the Backup step of the wizard, you can modify additional data protection options.
 
@@ -27,4 +28,3 @@ This option is available only if the Salesforce user that you have specified at 
 
 [![Configuring Additional Options](images/sf_backup_policies_edit_backup_options.png)](images/sf_backup_policies_edit_backup_options.png "Configuring Additional Options")
 
-Page updated 6/3/2025

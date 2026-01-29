@@ -1,5 +1,7 @@
 ---
 title: "Step 3. Specify Policy Source"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_source.html"
 last_updated: "10/15/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 3. Specify Policy Source
 
-In this article
 
 At the Source step of the wizard, specify an Azure account, region and resources to back up:
 
@@ -37,4 +38,3 @@ After you define the backup scope, you can select a resource and perform the fol
 
 [![Specify Policy Source](images/azure_backup_create_vm_source.png)](images/azure_backup_create_vm_source.png "Specify Policy Source")
 
-Page updated 10/15/2025

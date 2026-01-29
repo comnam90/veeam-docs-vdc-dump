@@ -1,5 +1,7 @@
 ---
 title: "Restoring Posts"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_posts.html"
 last_updated: "9/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Restoring Posts
 
-In this article
 
 You can use Veeam Data Cloud for Microsoft 365 to restore posts of Microsoft Teams channels. The restore options differ depending on whether you want to restore all posts of a channel or specific posts.
 
@@ -68,4 +69,3 @@ To restore specific posts of a Microsoft Teams channel:
 
 [![Restoring Teams Posts](images/m365_restore_teams_posts_specific_options.png)](images/m365_restore_teams_posts_specific_options.png "Restoring Teams Posts")
 
-Page updated 9/22/2025

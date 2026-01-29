@@ -1,5 +1,7 @@
 ---
 title: "Step 4. Choose Data to Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_restore_field_values_data.html"
 last_updated: "8/22/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Step 4. Choose Data to Restore
 
-In this article
 
 At the Data step of the wizard, do the following:
 
@@ -60,4 +61,3 @@ You can also choose the version of each record that will be restored. To do that
 
 [![Choosing Data to Restore](images/sf_restore_field_values_data.png)](images/sf_restore_field_values_data.png "Choosing Data to Restore")
 
-Page updated 8/22/2025

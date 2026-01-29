@@ -1,5 +1,7 @@
 ---
 title: "Adding Microsoft 365 Tenants"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
 last_updated: "8/26/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Adding Microsoft 365 Tenants
 
-In this article
 
 To start protecting the Microsoft 365 tenant data, add the Microsoft 365 tenant to Veeam Data Cloud.
 
@@ -22,4 +23,3 @@ To add a Microsoft 365 tenant, use the Add Microsoft 365 tenant wizard:
 5. [Configure backup policy](m365_tenant_add_backup.md).
 6. [Finish working with the wizard](m365_tenant_add_finish.md).
 
-Page updated 8/26/2025

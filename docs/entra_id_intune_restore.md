@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Intune Policies Restore"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_intune_restore.html"
 last_updated: "11/19/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Microsoft Intune Policies Restore
 
-In this article
 
 If you want to restore Microsoft Intune policy data, you can do either of the following:
 
@@ -19,4 +20,3 @@ If you want to restore Microsoft Intune policy data, you can do either of the fo
 | Note |
 | The Intune policies restore is available only if you enable the backup of Intune policies first and Veeam Data Cloud completes an Entra ID backup with this option enabled. For details, see [Settings](entra_id_settings.md#enabligcap). |
 
-Page updated 11/19/2025

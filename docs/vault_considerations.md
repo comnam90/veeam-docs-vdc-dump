@@ -1,5 +1,7 @@
 ---
 title: "Considerations and Limitations"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_considerations.html"
 last_updated: "11/21/2025"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Considerations and Limitations
 
-In this article
 
 This section lists considerations and known limitations for Veeam Data Cloud Vault.
 
@@ -61,4 +62,3 @@ Consider the following:
 * To enable immutability for the object storage repository, select the Make backups immutable check box at the Bucket step of the New Object Storage Repository wizard and specify the necessary immutability period. For more information, see the [Specify Object Storage Settings](https://helpcenter.veeam.com/docs/vbr/userguide/amazon_storage_details.html?ver=13) section in the Veeam Backup & Replication User Guide.
 * To enable data encryption for the backup job, select the Enable backup file encryption check box at the Storage step of the New Backup Job wizard and specify the data encryption settings. For more information, see the [Storage Settings](https://helpcenter.veeam.com/docs/vbr/userguide/backup_job_advanced_storage_vm.html?ver=13) section in the Veeam Backup & Replication User Guide.
 
-Page updated 11/21/2025

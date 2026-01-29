@@ -1,5 +1,7 @@
 ---
 title: "Editing Express Backup Policies"
+product: "vdc"
+doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_edit_express.html"
 last_updated: "1/8/2026"
 product_version: ""
@@ -7,7 +9,6 @@ product_version: ""
 
 # Editing Express Backup Policies
 
-In this article
 
 You can add and remove users and objects to and from backup policies created in Veeam Data Cloud for Microsoft 365.
 
@@ -62,4 +63,3 @@ To remove objects from an express backup policy, take the following steps:
 
 [![Editing Express Backup Policy](images/m365_backup_edit_express_remove.png)](images/m365_backup_edit_express_remove.png "Editing Express Backup Policy")
 
-Page updated 1/8/2026
