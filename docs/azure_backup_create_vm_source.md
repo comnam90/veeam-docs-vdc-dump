@@ -3,7 +3,7 @@ title: "Step 3. Specify Policy Source"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_source.html"
-last_updated: "10/15/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 
@@ -30,6 +30,11 @@ At the Source step of the wizard, specify an Azure account, region and resources
 1. From the Select one or more resources drop-down list, select resources that you want to protect. Click Add.
 
 Repeat steps a and b for each virtual machine or group of virtual machines that you want to add to the backup scope.
+
+|  |
+| --- |
+| tip |
+| Resources are synchronized every 24 hours. If you do not see recently added resources in the list, click Rescan to force synchronization. |
 
 After you define the backup scope, you can select a resource and perform the following actions:
 
