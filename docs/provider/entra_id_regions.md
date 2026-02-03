@@ -3,7 +3,7 @@ title: "Backup Storage Regions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_regions.html"
-last_updated: "12/10/2025"
+last_updated: "2/3/2026"
 product_version: ""
 ---
 
@@ -24,6 +24,7 @@ Veeam Data Cloud supports the following Microsoft Azure regions where you can st
 | East Asia |
 | Indonesia Central |
 | Japan East |
+| Korea Central |
 | Southeast Asia |
 | EMEA | France Central |
 | Germany West Central |

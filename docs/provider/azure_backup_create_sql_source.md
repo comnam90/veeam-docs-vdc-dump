@@ -3,7 +3,7 @@ title: "Step 3. Specify Policy Source"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_sql_source.html"
-last_updated: "11/20/2025"
+last_updated: "1/29/2026"
 product_version: ""
 ---
 
@@ -33,6 +33,11 @@ At the Source step of the wizard, specify an Azure account, regions and resource
 * SQL Server — select this option if you want to protect the whole SQL servers.
 
 1. From the Select one or more resources drop-down list, select resources that you want to protect.
+
+|  |
+| --- |
+| tip |
+| Resources are synchronized every 24 hours. If you do not see recently added resources in the list, click Rescan to force synchronization. |
 
 After you define the backup scope, you can select a resource and perform the following actions:
 
