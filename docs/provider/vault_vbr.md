@@ -3,7 +3,7 @@ title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr.html"
-last_updated: "1/12/2026"
+last_updated: "2/2/2026"
 product_version: ""
 ---
 
@@ -13,6 +13,13 @@ product_version: ""
 You can use Veeam Data Cloud Vault as a target location for backups created by Veeam Backup & Replication. To do this, you must add Veeam Data Cloud Vault as an object storage repository in Veeam Backup & Replication and configure a backup job targeted at this repository.
 
 For the Azure editions of Veeam Data Cloud Vault, you do not need to obtain credentials for a storage vault and provide them when connecting to Veeam Data Cloud Vault in Veeam Backup & Replication. Instead, you follow the procedure of connecting the products. Once the procedure is completed, Veeam Backup & Replication uses a security certificate to connect to Veeam Data Cloud Vault and transfer backup data to the target location over a secure connection.
+
+Before you start connecting Veeam Data Cloud Vault with Veeam Backup & Replication, make sure the following requirements are met:
+
+* Veeam Backup & Replication is using the support ID (rental contract number) of the service provider for Vault registration. For details, see [this Veeam KB article](https://www.veeam.com/kb4748).
+* The user account you use to log in to Veeam Data Cloud to assign a storage vault must be the Primary License Administrator or the Secondary License Administrator.
+
+To add a new secondary license administrator to your rental contract, contact [Veeam Customer Support](https://my.veeam.com/open-case) and submit a General Inquiry case for VCSP Pulse.
 
 To connect Veeam Data Cloud Vault with Veeam Backup & Replication, do the following:
 
