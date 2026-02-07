@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_limitations.html"
-last_updated: "2/4/2026"
+last_updated: "2/6/2026"
 product_version: ""
 ---
 
@@ -38,7 +38,7 @@ Consider the following about backing up Azure resources:
 * Veeam Data Cloud for Microsoft Azure does not support backup of Azure VMs whose source disks have the data access authentication mode enabled. For more information on the data access authentication mode, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/download-vhd?tabs=azure-portal#enable-data-access-authentication-mode).
 * Due to Microsoft Azure limitations, Veeam Data Cloud for Microsoft Azure does not support backup of [Ephemeral OS disks](https://learn.microsoft.com/en-us/azure/virtual-machines/ephemeral-os-disks#unsupported-features).
 * You can create SQL backup policies to protect only Azure SQL databases running on SQL Servers and databases located on SQL Managed Instances. If you want to protect a database hosted by a SQL Server on Azure VM, create an [Azure VM backup policy](azure_backup_create_vm.md). Note that in this case, you will not be able to restore a single database without restoring the entire VM.
-
+* Due to export process limitations, it is recommended that you back up Azure SQL databases up to 16 TB in size for optimal reliability. Backup of larger databases has not been tested and may not be supported.
 * Veeam Data Cloud for Microsoft Azure does not support backup of databases hosted by Azure Arc-enabled SQL Managed Instances and SQL Servers on Azure Arc-enabled servers.
 * Veeam Data Cloud for Microsoft Azure uses BACPAC files to back up SQL databases. BACPAC export of databases with external references is not supported. If a SQL database was migrated to an Azure SQL Database Server or Azure SQL Managed Instance, make sure to clear legacy references, orphaned database users and credentials set up with authentication types not supported by Azure SQL, to avoid BACPAC export errors. To learn more about BACPAC files, see [Microsoft Docs](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/concepts/data-tier-applications/overview?view=sql-server-ver17#bacpac).
 * To store backups, Veeam Data Cloud for Microsoft Azure automatically creates a repository in every Azure region whose resources are protected by the backup policy.
