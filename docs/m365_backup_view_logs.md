@@ -3,7 +3,7 @@ title: "Viewing Backup Logs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_view_logs.html"
-last_updated: "1/6/2026"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
@@ -87,7 +87,7 @@ To view the protection status of objects within Express backup policies, do the 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
 3. Click the name of the Express backup policy you want to view.
-4. In the Policy section, Veeam Data Cloud for Microsoft 365 will display a list of the objects within the backup policy. For each object, you can see the following details:
+4. In the Policy section, you can see a summary of protection within the backup policy. The summary includes the number of total items, completed (protected) items, in progress (for protection) items and the number of items whose protection failed. Veeam Data Cloud for Microsoft 365 also displays a list of the objects within the backup policy. For each object, you can see the following details:
 
 * Display Name.
 
@@ -121,6 +121,8 @@ The available protection statuses are the following:
 * Pending offboarding. A request to offboard the protection unit.
 * Offboarded. The protection unit is successfully offboarded.
 * Canceling offboarding. A request to cancel protection unit offboarding.
+
+You can also select the Show only with errors check box to filter the objects list to identify failed items.
 
 |  |
 | --- |

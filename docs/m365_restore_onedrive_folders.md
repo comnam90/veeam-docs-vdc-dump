@@ -3,7 +3,7 @@ title: "Restoring OneDrive Folders"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_onedrive_folders.html"
-last_updated: "9/19/2025"
+last_updated: "2/10/2026"
 product_version: ""
 ---
 
@@ -35,9 +35,7 @@ If you select this option, do the following:
 
 You can also use the Advanced options toggle to display more options. For details, see the next step of the procedure.
 
-* Local computer. Select this option if you want to download the OneDrive folder to your computer. Use this option for OneDrive folders whose size does not exceed 1 GB. Veeam Data Cloud for Microsoft 365 will save the OneDrive folder to a .ZIP file.
-
-* Download in background. Select this option if you want to download the OneDrive folder to your computer. Use this option for OneDrive folders whose size exceeds 1 GB or if the download process takes more than 3.5 minutes. Veeam Data Cloud for Microsoft 365 will save the OneDrive folder to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
+* Download in background. Select this option if you want to download the OneDrive folder to your computer. Veeam Data Cloud for Microsoft 365 will save the OneDrive folder to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
 
 [![Restoring OneDrive Folder](images/m365_restore_onedrive_folders_original.png)](images/m365_restore_onedrive_folders_original.png "Restoring OneDrive Folder")
 
@@ -61,5 +59,5 @@ You can also use the Advanced options toggle to display more options. For detail
 1. Start the restore process:
 
 * Click Restore if you selected to restore data to the original location or another user account.
-* Click Download if you selected to download data to the local computer or download data in the background.
+* Click Download if you selected to download data in the background.
 

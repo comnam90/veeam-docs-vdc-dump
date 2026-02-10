@@ -3,7 +3,7 @@ title: "Integration with Veeam Products"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_integration.html"
-last_updated: "11/20/2025"
+last_updated: "1/30/2026"
 product_version: ""
 ---
 
@@ -34,9 +34,9 @@ The following table displays what Veeam Data Cloud Vault editions are available 
 | Foundation Non-Core - Azure | ✔ | ✔ | ✔ |
 | Advanced Core - Azure | ✔ | ✔ | ✔ |
 | Advanced Non-Core - Azure | ✔ | ✔ | ✔ |
-| Foundation Core - AWS | ✔ | ✖ | ✖ |
-| Foundation Non-Core - AWS | ✔ | ✖ | ✖ |
-| Advanced Core - AWS | ✔ | ✖ | ✖ |
+| Foundation Core - AWS | ✔ | ✖ | ✔ |
+| Foundation Non-Core - AWS | ✔ | ✖ | ✔ |
+| Advanced Core - AWS | ✔ | ✖ | ✔ |
 
 |  |
 | --- |

@@ -3,7 +3,7 @@ title: "Restoring Files"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_teams_files.html"
-last_updated: "9/19/2025"
+last_updated: "2/10/2026"
 product_version: ""
 ---
 
@@ -21,7 +21,7 @@ To restore all files of a Microsoft Teams channel:
 |  |
 | --- |
 | Note |
-| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty.  * Backup and restore of Microsoft Teams data is available to users of the Flex and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method. * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
+| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty.  * Backup and restore of Microsoft Teams data is available to users of the Foundation and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method. * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
 
 1. Select Restore.
 2. On the Teams tab, expand the team whose channel files you want to restore.
@@ -34,8 +34,7 @@ To restore all files of a Microsoft Teams channel:
 2. In the Restore to section, select where to restore files. You can select one of the following options:
 
 * Original location. Select this option if you want to restore files to the original channel.
-* Local computer. Select this option if you want to download files to your computer. Use this option for files whose total size does not exceed 1 GB.
-* Download in background. Select this option if you want to download the files to your computer. Use this option for files whose total size exceeds 1 GB or if the download process takes more than 3.5 minutes. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
+* Download in background. Select this option if you want to download the files to your computer. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
 
 1. [For restore to the original location] If you want to specify advanced restore options, do the following:
 
@@ -49,7 +48,7 @@ To restore all files of a Microsoft Teams channel:
 1. Start the restore process:
 
 * Click Restore if you selected to restore data to the original location.
-* Click Download if you selected to download data to the local computer or download data in the background.
+* Click Download if you selected to download data in the background.
 
 [![Restoring Teams Files](images/m365_restore_teams_files_original.webp)](images/m365_restore_teams_files_original.webp "Restoring Teams Files")
 
@@ -69,8 +68,7 @@ To restore specific files of a Microsoft Teams channel:
 2. In the Restore to section, select where to restore files. You can select one of the following options:
 
 * Original Location. Select this option if you want to restore files to the original channel.
-* Local computer. Select this option if you want to download files to your computer. Use this option for files whose total size does not exceed 1 GB.
-* Download in background. Select this option if you want to download the files to your computer. Use this option for files whose total size exceeds 1 GB or if the download process takes more than 3.5 minutes.
+* Download in background. Select this option if you want to download the files to your computer.
 
 1. [For restore to the original location] If you want to specify advanced restore options, do the following:
 
@@ -84,7 +82,7 @@ To restore specific files of a Microsoft Teams channel:
 1. Start the restore process:
 
 * Click Restore if you selected to restore data to the original location.
-* Click Download if you selected to download data to the local computer or download data in the background.
+* Click Download if you selected to download data in the background.
 
 [![Restoring Teams Files](images/m365_restore_teams_files_specific_options.webp)](images/m365_restore_teams_files_specific_options.webp "Restoring Teams Files")
 

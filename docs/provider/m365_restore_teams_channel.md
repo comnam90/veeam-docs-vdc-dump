@@ -3,7 +3,7 @@ title: "Restoring Channels"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_teams_channel.html"
-last_updated: "10/24/2025"
+last_updated: "2/10/2026"
 product_version: ""
 ---
 
@@ -17,7 +17,7 @@ To restore a Microsoft Teams channel:
 |  |
 | --- |
 | Note |
-| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty. * Backup and restore of Microsoft Teams data is available to users of the Flex and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method. * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
+| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty. * Backup and restore of Microsoft Teams data is available to users of the Foundation and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method. * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
 
 1. Select Restore.
 2. On the Teams tab, expand the team whose channel you want to restore and select the necessary channel.

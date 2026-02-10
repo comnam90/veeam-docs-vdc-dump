@@ -3,7 +3,7 @@ title: "Restoring Outlook Folders"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_outlook_folder.html"
-last_updated: "9/19/2025"
+last_updated: "2/10/2026"
 product_version: ""
 ---
 
@@ -32,8 +32,7 @@ If you select this option, you can use the Advanced options toggle to display mo
 
 If you select this option, in the Mailbox and Folder fields specify the address of the target mailbox and the target mailbox folder. You can also click Advanced options to display more options. For details, see the next step of the procedure.
 
-* Local computer. Select this option if you want to download the folder content to your computer. Use this option for folders whose size does not exceed 1 GB. Veeam Data Cloud for Microsoft 365 will save the folder content to a .PST file.
-* Download in background. Select this option if you want to download the folder content to your computer. Use this option for folders whose size exceeds 1 GB or if the download process takes more than 3.5 minutes. Veeam Data Cloud for Microsoft 365 will save the folder content to a .PST file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
+* Download in background. Select this option if you want to download the folder content to your computer. Veeam Data Cloud for Microsoft 365 will save the folder content to a .PST file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
 
 [![Restoring Outlook Folder](images/m365_restore_outlook_folder_original.png)](images/m365_restore_outlook_folder_original.png "Restoring Outlook Folder")
 
@@ -52,5 +51,5 @@ If you select this option, in the Mailbox and Folder fields specify the address 
 1. Start the restore process:
 
 * Click Restore if you selected to restore data to the original location or another mailbox.
-* Click Download if you selected to download data to the local computer or download data in the background.
+* Click Download if you selected to download data in the background.
 
