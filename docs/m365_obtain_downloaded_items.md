@@ -3,18 +3,14 @@ title: "Obtaining Downloaded Items"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_obtain_downloaded_items.html"
-last_updated: "9/19/2025"
+last_updated: "2/10/2026"
 product_version: ""
 ---
 
 # Obtaining Downloaded Items
 
 
-When restoring Microsoft Exchange Online, OneDrive for Business, SharePoint Online and Teams data in Veeam Data Cloud for Microsoft 365, you can use the Download in background option. You can select this option in the following scenarios:
-
-* You want to restore items whose total size exceeds 1 GB.
-* The download process takes more than 3.5 minutes.
-* The download process fails.
+When restoring Microsoft Exchange Online, OneDrive for Business, SharePoint Online and Teams data in Veeam Data Cloud for Microsoft 365, you can use the Download in background option if you want to download the data.
 
 Consider that the maximum size for download in background of OneDrive for Business and SharePoint Online data is 200 GB.
 
