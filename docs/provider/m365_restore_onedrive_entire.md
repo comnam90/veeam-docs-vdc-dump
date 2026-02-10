@@ -3,7 +3,7 @@ title: "Restoring Entire OneDrive"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_onedrive_entire.html"
-last_updated: "10/14/2025"
+last_updated: "2/10/2026"
 product_version: ""
 ---
 
@@ -43,9 +43,7 @@ If you select this option, do the following:
 
 You can also use the Advanced options toggle to display more options. For details, see the next step of the procedure.
 
-* Local computer. Select this option if you want to download the OneDrive content to your computer. Use this option for OneDrive whose size does not exceed 1 GB. Veeam Data Cloud will save the OneDrive content to a .ZIP file.
-
-* Download in background. Select this option if you want to download the OneDrive content to your computer. Use this option for OneDrive whose size exceeds 1 GB or if the download process takes more than 3.5 minutes. Veeam Data Cloud will save the OneDrive content to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
+* Download in background. Select this option if you want to download the OneDrive content to your computer. Veeam Data Cloud will save the OneDrive content to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
 
 [![Restoring Entire OneDrive](images/m365_restore_onedrive_entire_original.webp)](images/m365_restore_onedrive_entire_original.webp "Restoring Entire OneDrive")
 
@@ -69,7 +67,7 @@ You can also use the Advanced options toggle to display more options. For detail
 1. Start the restore process:
 
 * Click Restore if you chose to restore data to the original location or another user account.
-* Click Download if you chose to download data to the local computer or download data in the background.
+* Click Download if you chose to download data in the background.
 
 Express Full Restore
 
