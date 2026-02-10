@@ -3,7 +3,7 @@ title: "Step 4. Specify Recipients"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_reports_schedule_recipients.html"
-last_updated: "7/30/2025"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
@@ -12,8 +12,7 @@ product_version: ""
 
 At the Recipients step of the wizard, specify the users who will receive the scheduled report as an email attachment.
 
-1. In the Email field, specify the email addresses of the report recipients, separated by a semicolon (;) or a comma (,). Your own email address is added by default.
-2. Click Next.
+In the Email field, specify the email addresses of the report recipients, separated by a semicolon (;) or a comma (,). Your own email address is added by default.
 
 [![Specify Recipients](images/m365_reports_schedule_recipients.png)](images/m365_reports_schedule_recipients.png "Specify Recipients")
 
