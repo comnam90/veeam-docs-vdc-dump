@@ -3,7 +3,7 @@ title: "Restoring Teams"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_team.html"
-last_updated: "10/3/2025"
+last_updated: "2/10/2026"
 product_version: ""
 ---
 
@@ -17,7 +17,7 @@ To restore a Microsoft Teams team:
 |  |
 | --- |
 | Note |
-| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty. * Backup and restore of Microsoft Teams data is available to users of the Flex and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method. * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
+| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty. * Backup and restore of Microsoft Teams data is available to users of the Foundation and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method. * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
 
 1. Select Restore.
 2. On the Teams tab, select the team you want to restore.
