@@ -3,7 +3,7 @@ title: "Step 1. Launch Export Object Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_object_export_launch.html"
-last_updated: "12/15/2025"
+last_updated: "2/6/2026"
 product_version: ""
 ---
 
@@ -26,5 +26,5 @@ If you switch between tabs, your selection is discarded. You can export only obj
 
 1. To launch the export wizard, click Export JSON.
 
-[![Launching Restore Users Wizard](images/entra_id_object_export_launch.png)](images/entra_id_object_export_launch.png "Launching Restore Users Wizard")
+[![Launching Export Object Wizard](images/entra_id_object_export_launch.png)](images/entra_id_object_export_launch.png "Launching Export Object Wizard")
 
