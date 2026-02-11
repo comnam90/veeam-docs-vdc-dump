@@ -3,7 +3,7 @@ title: "Entra ID Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_data_restore.html"
-last_updated: "12/10/2025"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
@@ -21,4 +21,6 @@ Veeam Data Cloud offers the following types of data restore:
 * [Microsoft Intune policies restore](entra_id_intune_restore.md) — to restore entire Microsoft Intune policies or their properties.
 * [Log restore](entra_id_log_restore.md) — to restore audit and sign-in logs.
 * [Object export](entra_id_object_export.md) — to export entire Entra ID objects to files in JSON format.
+
+With Veeam Data Cloud, you can also compare properties of  [Microsoft Entra ID organization contacts](entra_id_contacts_compare.md).
 
