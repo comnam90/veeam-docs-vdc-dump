@@ -3,7 +3,7 @@ title: "Step 2. Connect to Azure Tenant"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_tenant_add_connect.html"
-last_updated: "10/20/2025"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ At the Connection step of the wizard, log in to your Microsoft account to author
 
 After authorization, Veeam Data Cloud will create a service principal in your Azure tenant. This service principal allows Veeam Data Cloud to back up and restore your Azure resources.
 
-To authorize the access, click Authorize and log in to your Microsoft account. Make sure to log in with the user account that has the Global Administrator role. For more information about this role, see [this Microsoft article](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference).
+To authorize the access, click Authorize and log in to your Microsoft account. Make sure to log in with a user account that has the Application Administrator role. For more information about this role, see [Microsoft documentation](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator).
 
 [![Step 2. Connect to Azure Tenant](images/azure_tenant_add_connect.png)](images/azure_tenant_add_connect.png)
 
