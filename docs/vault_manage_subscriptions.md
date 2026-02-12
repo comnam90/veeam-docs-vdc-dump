@@ -3,7 +3,7 @@ title: "Managing Veeam Data Cloud Vault Subscriptions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html"
-last_updated: "1/12/2026"
+last_updated: "2/2/2026"
 product_version: ""
 ---
 
@@ -11,6 +11,8 @@ product_version: ""
 
 
 To let users manage Veeam Data Cloud Vault subscriptions, Veeam offers a centralized tool, the My Account portal. You must obtain a subscription and create at least one storage vault in this subscription to start using Veeam Data Cloud Vault with Veeam Backup & Replication. You can perform these operations in advance or after you initiate the process of connecting the products as described in [Connecting Veeam Data Cloud Vault with Veeam Backup & Replication](vault_vbr.md).
+
+Keep in mind that storage space is defined within your subscription, not the limits of your storage vaults. Once you reach your subscription limit, you must purchase another subscription.
 
 To obtain a Veeam Data Cloud Vault subscription, do the following:
 
