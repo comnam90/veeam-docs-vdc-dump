@@ -3,7 +3,7 @@ title: "Microsoft Entra ID Protection"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_protection.html"
-last_updated: "12/10/2025"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
@@ -18,5 +18,5 @@ Veeam Data Cloud for Microsoft Entra ID is a backup as a service solution develo
 * Restore properties of users, groups, administrative units, roles, applications, service principals, Conditional Access policies and Microsoft Intune policies from Microsoft Entra ID tenant backups to the Microsoft Entra ID environment.
 * Export audit and sign-in logs from Microsoft Entra ID log backups.
 
-* Export users, groups, administrative units, roles, applications, service principals, Conditional Access policies and Microsoft Intune policies from Microsoft Entra ID tenant backups to files in JSON format.
+* Export users, groups, administrative units, roles, applications, service principals, Conditional Access policies, Microsoft Intune policies and organization contacts from Microsoft Entra ID tenant backups to files in JSON format.
 

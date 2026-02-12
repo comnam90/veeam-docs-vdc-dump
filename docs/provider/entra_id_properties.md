@@ -3,7 +3,7 @@ title: "Supported Entra ID Item Properties"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_properties.html"
-last_updated: "1/14/2026"
+last_updated: "2/11/2026"
 product_version: ""
 ---
 
@@ -220,7 +220,7 @@ Service Principals
 
 Conditional Access Policies
 
-Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID conditional access policies.
+Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID Conditional Access policies.
 
 | Property | Comments |
 | --- | --- |
@@ -268,4 +268,30 @@ Veeam Data Cloud for Microsoft Entra ID protects the following types of Microsof
 | WindowsPhone81CustomConfiguration | For details on supported properties, see [WindowsPhone81CustomConfiguration](entra_id_properties_intune.md#windowsphone81customconfiguration). |
 | WindowsPhone81GeneralConfiguration | For details on supported properties, see [WindowsPhone81GeneralConfiguration](entra_id_properties_intune.md#windowsphone81generalconfiguration). |
 | WindowsUpdateForBusinessConfiguration | For details on supported properties, see [WindowsUpdateForBusinessConfiguration](entra_id_properties_intune.md#windowsupdateforbusinessconfiguration). |
+
+Organization Contacts
+
+Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID organization contacts.
+
+| Property | Comments |
+| --- | --- |
+| Address | Read-only property in Entra ID. |
+| CompanyName | Read-only property in Entra ID. |
+| Department | Read-only property in Entra ID. |
+| DirectReports | Read-only property in Entra ID. |
+| DisplayName | Read-only property in Entra ID. |
+| GivenName | Read-only property in Entra ID. |
+| Id | Read-only property in Entra ID. |
+| JobTitle | Read-only property in Entra ID. |
+| Mail | Read-only property in Entra ID. |
+| MailNickname | Read-only property in Entra ID. |
+| Manager | Read-only property in Entra ID. |
+| MemberOf | Read-only property in Entra ID. |
+| OnPremisesLastSyncDateTime | Read-only property in Entra ID. |
+| OnPremisesProvisioningErrors | Read-only property in Entra ID. |
+| OnPremisesSyncEnabled | Read-only property in Entra ID. |
+| Phones | Read-only property in Entra ID. |
+| ProxyAddresses | Read-only property in Entra ID. |
+| ServiceProvisioningErrors | Read-only property in Entra ID. |
+| Surname | Read-only property in Entra ID. |
 

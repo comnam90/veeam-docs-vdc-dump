@@ -3,7 +3,7 @@ title: "Step 4. Download Exported Files"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_object_export_download.html"
-last_updated: "12/15/2025"
+last_updated: "2/6/2026"
 product_version: ""
 ---
 
@@ -21,5 +21,5 @@ To download the exported files, do the following:
 
 The download link is valid for 7 days. When the link expires, start a new export session.
 
-[![Finishing Work with Wizard](images/entra_id_object_export_download.png)](images/entra_id_object_export_download.png "Finishing Work with Wizard")
+[![Downloading Exported Files](images/entra_id_object_export_download.png)](images/entra_id_object_export_download.png "Downloading Exported Files")
 
