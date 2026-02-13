@@ -3,7 +3,7 @@ title: "Viewing Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_view.html"
-last_updated: "10/15/2025"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
@@ -23,6 +23,8 @@ To narrow down the list of displayed backup policies, you can filter policies by
 
 * In the Search field, specify the name or a part of the name of the policy that you want to display.
 * From the All States drop-down list, select a state of the backup policy. Veeam Data Cloud for Microsoft Azure will display the policies in this state.
+
+To view detailed policy information, select the required policy and click View Info or right-click the policy and select View Info.
 
 [![View Backup Policies](images/azure_backup_view.webp)](images/azure_backup_view.webp "View Backup Policies")
 
