@@ -3,14 +3,14 @@ title: "Step 4. Connect to Express"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_tenant_add_connect_express.html"
-last_updated: "1/5/2026"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
 # Step 4. Connect to Express
 
 
-The Connect to Express step of the wizard is available only if your customer has a subscription to the Express or Premium license plan. Note that subscriptions with the Express or Premium Veeam Data Cloud for Microsoft 365 plan are not available for service providers and their customers at the moment. For more information, see [Plans](m365_licensing.md#plans) and [Requesting Subscriptions](sp_subscriptions_request.md).
+The Connect to Express step of the wizard is available only if your customer has a subscription to the Premium license plan. Note that subscriptions with the Premium Veeam Data Cloud for Microsoft 365 plan are not available for service providers and their customers at the moment. For more information, see [Plans](m365_licensing.md#plans) and [Requesting Subscriptions](sp_subscriptions_request.md).
 
 To connect Microsoft 365 Backup Storage to Veeam Data Cloud for Microsoft 365, do the following:
 
