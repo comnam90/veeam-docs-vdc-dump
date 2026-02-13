@@ -3,7 +3,7 @@ title: "Creating Roles"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_roles_custom.html"
-last_updated: "10/1/2025"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
@@ -63,7 +63,7 @@ Veeam Data Cloud for Microsoft 365 offers the following 3 user role templates wh
 * View Tenants
 * All SharePoint, Teams and OneDrive permissions
 * All Outlook permissions except for Preview Emails
-* Perform M365 Bulk Restore (for users under the Express plan)
+* Perform M365 Bulk Restore (for users under the Premium plan)
 
 Microsoft 365 Role Permissions
 
@@ -103,5 +103,5 @@ The following table lists the available permissions that you can assign to a use
 | Restore To Different Location | Restore Outlook items to a different location. |
 | Download | Download Outlook items to a local machine. |
 | Express Plan | |
-| Perform M365 Bulk Restore | Perform bulk restore (available only under the Express plan). |
+| Perform M365 Bulk Restore | Perform bulk restore (available only under the Premium plan). |
 
