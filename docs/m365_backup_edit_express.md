@@ -3,7 +3,7 @@ title: "Editing Express Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_edit_express.html"
-last_updated: "1/8/2026"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 

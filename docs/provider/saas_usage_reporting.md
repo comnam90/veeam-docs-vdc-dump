@@ -3,7 +3,7 @@ title: "Monthly Usage Reporting"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_usage_reporting.html"
-last_updated: "2/11/2026"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
