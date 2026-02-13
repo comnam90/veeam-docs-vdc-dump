@@ -3,14 +3,14 @@ title: "Performing Bulk Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_bulk.html"
-last_updated: "12/8/2025"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
 # Performing Bulk Restore
 
 
-Veeam Data Cloud for Microsoft 365 offers bulk restore for users under the Express plan. When you perform bulk restore, Veeam Data Cloud for Microsoft 365 replaces the data in the original location with the data from the backup. Bulk restore is a quick way to restore data of multiple users, groups or sites at once in a disaster recovery scenario.
+Veeam Data Cloud for Microsoft 365 offers bulk restore for users under the Premium plan. When you perform bulk restore, Veeam Data Cloud for Microsoft 365 replaces the data in the original location with the data from the backup. Bulk restore is a quick way to restore data of multiple users, groups or sites at once in a disaster recovery scenario.
 
 To bulk restore your items:
 
@@ -21,7 +21,7 @@ To bulk restore your items:
 |  |
 | --- |
 | NOTE |
-| The Bulk Restore tab is only visible to users under the Express plan and with the M365:Express.BulkRestore permission assigned to their role. |
+| The Bulk Restore tab is only visible to users under the Premium plan and with the M365:Express.BulkRestore permission assigned to their role. |
 
 1. Click Select next to Users and choose the users to restore. For each selected user, specify whether to restore their mailbox and OneDrive. Then click Select.
 
