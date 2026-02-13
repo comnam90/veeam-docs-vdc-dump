@@ -3,7 +3,7 @@ title: "Microsoft 365 Restore"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore.html"
-last_updated: "12/5/2025"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ This section provides information on how to restore your data with Veeam Data Cl
 
 Veeam Data Cloud for Microsoft 365 offers two data restore methods depending on the subscription plan:
 
-* Flex Restore. This restore method is available to users of the Flex and Premium plans. The method is intended for flexible restore of the specified data — you can define where and how to restore your data.
+* Flex Restore. This restore method is available to users of the Foundation and Premium plans. The method is intended for flexible restore of the specified data — you can define where and how to restore your data.
 * Express Full Restore. This restore method is available to users of the Express and Premium plans. The method is intended for quick restore of the specified data to its original location — you cannot change the restore settings, and Veeam Data Cloud for Microsoft 365 replaces data in the original location with the data from the backup.
 
 For more information on Veeam Data Cloud for Microsoft 365 plans, see [Plans](m365_licensing.md#plans).
