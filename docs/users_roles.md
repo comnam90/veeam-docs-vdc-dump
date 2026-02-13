@@ -3,7 +3,7 @@ title: "Roles"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_roles.html"
-last_updated: "10/14/2025"
+last_updated: "2/11/2026"
 product_version: ""
 ---
 
@@ -98,9 +98,15 @@ The following table describes the functionality available to users with differen
 
 Veeam Data Cloud Vault Roles
 
-You can assign the Vault:Administrator role to users working with Veeam Data Cloud for Microsoft Entra ID. Users with the Vault:Administrator role assigned can add tenants and perform all configuration actions, backup and restore operations. You can limit access to specific Veeam Data Cloud Vault tenants when assigning this role.
+You can assign the following roles to users working with Veeam Data Cloud Vault:
+
+* Vault:Administrator — can add tenants and perform all configuration actions, backup and restore operations.
 
 To prohibit a user with the Vault:Administrator role to add tenants, limit access to specific Veeam Data Cloud Vault tenants when assigning this role and assign the user the OrganizationViewer role.
+
+* Vault:Viewer — can monitor backup and restore processes without performing any operations.
+
+You can limit access to specific Veeam Data Cloud Vault tenants when assigning roles.
 
 The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with Vault:Administrator role assigned have the described permissions only within the specified scope of tenants.
 
@@ -109,4 +115,5 @@ The following table describes the functionality available to users with differen
 | OrganizationAdmin | Full |
 | OrganizationViewer | View tenants |
 | Vault:Administrator | Full |
+| Vault:Viewer | View tenants |
 
