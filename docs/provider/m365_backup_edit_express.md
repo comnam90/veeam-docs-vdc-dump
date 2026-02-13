@@ -3,14 +3,14 @@ title: "Editing Express Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_edit_express.html"
-last_updated: "1/8/2026"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
 # Editing Express Backup Policies
 
 
-You can add and remove users and objects to and from backup policies created in Veeam Data Cloud for Microsoft 365. To use Express backup policies, your customer organization must have a subscription with the Express or Premium Veeam Data Cloud for Microsoft 365 plan. Note that subscriptions with the Express or Premium Veeam Data Cloud for Microsoft 365 plan are not available for service providers and their customers at the moment.
+You can add and remove users and objects to and from backup policies created in Veeam Data Cloud for Microsoft 365. To use Express backup policies, your customer organization must have a subscription with the Premium Veeam Data Cloud for Microsoft 365 plan. Note that subscriptions with the Premium Veeam Data Cloud for Microsoft 365 plan are not available for service providers and their customers at the moment.
 
 Consider the following:
 
