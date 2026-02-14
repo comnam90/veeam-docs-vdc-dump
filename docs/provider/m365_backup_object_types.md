@@ -3,7 +3,7 @@ title: "Backup Object Types"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_object_types.html"
-last_updated: "1/2/2026"
+last_updated: "2/13/2026"
 product_version: ""
 ---
 
@@ -25,7 +25,7 @@ Under the Foundation plan, the following object types and their child objects ar
 + Teams chats (if backup of team chats is enabled)
 
 * Microsoft 365 Users — consists of users, shared mailboxes, public mailboxes and discovery search mailboxes. The child objects you can process or exclude from the backup are: Mailbox, Archive Mailbox, OneDrive and Personal Site.
-* Groups — consists of Microsoft 365 groups, dynamic Entra ID groups, security groups and distribution groups. The child objects you can process or exclude from the backup are: members with Mailbox, Archive Mailbox, OneDrive and Sites. For Microsoft 365 groups, Group Mailbox and Group Site are also available.
+* Groups — consists of Microsoft 365 groups, dynamic Entra ID groups, security groups (nested security groups are also supported if they are discoverable) and distribution groups. The child objects you can process or exclude from the backup are: members with Mailbox, Archive Mailbox, OneDrive and Sites. For Microsoft 365 groups, Group Mailbox and Group Site are also available.
 * SharePoint Sites — consists of Microsoft SharePoint sites and subsites. You can either select the root site, which automatically selects all its subsites, or any of its subsites.
 * Teams — consists of Microsoft Teams teams. Channels, Posts in channels, Tabs, Files and Membership are always processed. If you have [enabled team chats backup](m365_enable_team_chats_backup.md), you also have the option to process or exclude Teams chats, meaning private and shared channels and public channel messages.
 * Partial Organization — consists of all objects within your Microsoft 365 organization. You can select processing options by service: Mailbox, Archive Mailbox, OneDrive, Sites, Teams and Teams chats (if backup of Teams chats is enabled). You can then exclude the Microsoft 365 Users, Groups, SharePoint Sites and Teams objects and their child objects from the partial organization backup.
