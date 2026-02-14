@@ -3,18 +3,18 @@ title: "Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_settings.html"
-last_updated: "9/25/2025"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
 # Settings
 
 
-The Settings section provides information on your backup infrastructure settings.
+In Settings, you can manage Azure service accounts and Azure SQL Server accounts, as well as view available storage.
 
 In this section
 
-* [Managing Service Accounts](azure_settings_accounts_service.md)
+* [Managing Azure Service Accounts](azure_settings_accounts_service_view.md)
 * [Managing Database Accounts](azure_settings_accounts_database.md)
 * [Viewing Veeam Data Cloud Repositories](azure_settings_storage.md)
 

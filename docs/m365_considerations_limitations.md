@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_considerations_limitations.html"
-last_updated: "1/20/2026"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
@@ -156,7 +156,7 @@ General Considerations
 
 As a workaround, you can download the required OneNote file to your computer and then upload this OneNote file to your OneDrive or SharePoint site.
 
-* Preservation Hold items are not available for restore under the Flex plan.
+* Preservation Hold items are not available for restore under the Foundation and Advanced plans.
 * The maximum size for download in background of OneDrive for Business and SharePoint Online data is 200 GB.
 
 Flex Restore Considerations

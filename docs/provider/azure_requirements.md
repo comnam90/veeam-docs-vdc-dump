@@ -3,14 +3,14 @@ title: "Planning and Preparation"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_requirements.html"
-last_updated: "1/9/2026"
+last_updated: "2/9/2026"
 product_version: ""
 ---
 
 # Planning and Preparation
 
 
-Before you start using Veeam Data Cloud for Microsoft Azure, review considerations and limitations, as well as Azure subscription requirements. If necessary, verify the list of permissions assigned to your [Azure Service Account](azure_settings_accounts_service.md).
+Before you start using Veeam Data Cloud for Microsoft Azure, review considerations and limitations, as well as Azure subscription requirements. If necessary, verify the list of permissions assigned to your [Azure Service Account](azure_settings_accounts_service_view.md).
 
 In This Section
 
