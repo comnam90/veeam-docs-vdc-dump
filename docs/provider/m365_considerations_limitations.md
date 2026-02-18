@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_considerations_limitations.html"
-last_updated: "2/12/2026"
+last_updated: "2/17/2026"
 product_version: ""
 ---
 
@@ -185,6 +185,7 @@ Documents, Libraries and Lists Restore
 * Restoring Generic List and Pages Library may fail with the No content type 'XXX' found in web YYY error.
 * The Created By field of restored documents is updated with the account performing restore.
 * Some values of the Rating Settings of Discussion lists are not restored.
+* When you restore items to a library or list that has been renamed, the items are restored to the renamed library or list. The name of the library or list is not re-created after the restore. For example, you renamed library\_1 to library\_2. You restore a folder from the Veeam Data Cloud backup of library\_1. The folder is restored and is now part of library\_2.
 
 List Items Restore
 
