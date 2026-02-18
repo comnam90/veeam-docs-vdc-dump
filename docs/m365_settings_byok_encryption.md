@@ -3,7 +3,7 @@ title: "BYOK Encryption"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_byok_encryption.html"
-last_updated: "12/4/2025"
+last_updated: "2/17/2026"
 product_version: ""
 ---
 
@@ -28,6 +28,11 @@ To protect Veeam Data Cloud for Microsoft 365 backups with BYOK encryption, foll
 1. [Create a new application registration and client secret in Microsoft Entra ID](#appreg).
 2. [Create and configure a key in your Microsoft Azure Key Vault](#key).
 3. [Contact Veeam Customer Support with the required information](#supp).
+
+|  |
+| --- |
+| NOTE |
+| You must create the new application registration and the new key in the same Microsoft tenant. This tenant can be the Microsoft 365 tenant you connected to Veeam Data Cloud or a different Microsoft tenant. |
 
 Creating New App Registration
 
@@ -150,7 +155,7 @@ After BYOK encryption is configured for your Veeam Data Cloud for Microsoft 365 
 | important |
 | In the event of key loss, you will lose the access to the encrypted data with no way to recover them. |
 
-* You must monitor the client secret expiration date. You must create a new client secret and provide the new client secret Value to Veeam Customer Support before the current one expires. If the client secret expires, Veeam Data Cloud will lose access and operations (backup and restore) in the Veeam Data Cloud for Microsoft 365 workload tenant will fail.
+* You must monitor the client secret expiration date. You must create a new client secret and provide the new client secret Value to Veeam Customer Support before the current one expires. If the client secret expires, Veeam Data Cloud will lose access and operations (backup and restore) in the Veeam Data Cloud for Microsoft 365 workload tenant will fail until you provide a new client secret.
 * If you have a key rotation security policy, you can manage it in Microsoft Azure Key Vault. If you use the latest key version, there is no action needed in Veeam Data Cloud. For information on key rotation, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/key-vault/keys/how-to-configure-key-rotation).
 * If you decide to revoke the access to Veeam Data Cloud, disable the key in Microsoft Azure Key Vault. You will still be able to browse the data in Veeam Data Cloud. Backup and restore operations in the Microsoft 365 workload tenant will fail.
 
