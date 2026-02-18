@@ -3,7 +3,7 @@ title: "License Consumption"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_license_consumption.html"
-last_updated: "2/13/2026"
+last_updated: "2/17/2026"
 product_version: ""
 ---
 
@@ -14,8 +14,9 @@ Veeam Data Cloud is licensed per user or terabyte (TB). Each licensed unit under
 
 Veeam Data Cloud bundles combine multiple products into a subscription package. One product is designated as the primary, and its PPU rate applies to the entire bundle. License consumption from other products is converted to the primary product consumption using predefined ratios.​
 
+License Consumption
+
 | Product | Licensed Unit | PPU |
-| --- | --- | --- |
 | Veeam Data Cloud for Microsoft 365 (Foundation) | User | 2.5 |
 | Veeam Data Cloud for Microsoft Entra ID | User | 0.7 |
 | Veeam Data Cloud for Salesforce | User | 3 |
