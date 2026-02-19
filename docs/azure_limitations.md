@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_limitations.html"
-last_updated: "2/6/2026"
+last_updated: "2/18/2026"
 product_version: ""
 ---
 
@@ -25,14 +25,19 @@ Consider the following about backing up Azure resources:
 
 * Consider the following about backup of Azure resources deployed in virtual networks with restricted access:
 
-* Veeam Data Cloud for Microsoft Azure supports backup of Azure SQL databases deployed with private endpoints.
+* Veeam Data Cloud for Microsoft Azure supports backup of VMs and Azure SQL databases deployed in virtual networks with restricted (private) network access as follows:
 
-|  |
-| --- |
-| Important |
-| If your SQL server [does not allow public access](https://learn.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview?view=azuresql#disable-public-access-to-your-logical-server), the backup policy will send a private endpoint connection request to the server during the first run, which will initially fail. To make future policy runs succeed, you must approve the connection request in your Azure portal. Until this is done, the policy will continue to fail.  To learn more, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/private-endpoint-overview?view=azuresql&tabs=separate-vnets#review-and-approve-a-request-to-create-a-private-endpoint). |
+for VMs
 
-* Veeam Data Cloud for Microsoft Azure currently does not support backup of VMs deployed in virtual networks with restricted (private) network access. Support for this scenario is planned for a future release.
+* If VM disks have restricted network access, Veeam Data Cloud will temporarily modify the networking configuration to allow public SAS link access during the backup, which enables the creation of snapshots with preserved network settings. Once the backup transfer is complete, the network settings are reverted to their original state.
+
+If network access is completely denied, Veeam Data Cloud cannot modify this setting, which will result in backup failure.
+
+for SQL databases
+
+* If public access is disabled on the SQL Server, the backup policy will attempt to create a private endpoint connection during the first run, which will initially fail. You must approve this connection request in the Azure portal for future policy runs to succeed; otherwise, the policy will continue to fail.
+* If public access is enabled, the backup policy will use the public endpoint, which requires port 3342 to be open for inbound connections, regardless of whether a private endpoint is also configured.
+
 * Veeam Data Cloud for Microsoft Azure does not support backup of Azure Files file shares when the associated storage account is configured with network restrictions.
 
 * Veeam Data Cloud for Microsoft Azure does not support backup of Azure VMs whose source disks have the data access authentication mode enabled. For more information on the data access authentication mode, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/download-vhd?tabs=azure-portal#enable-data-access-authentication-mode).

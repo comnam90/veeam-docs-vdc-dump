@@ -3,7 +3,7 @@ title: "Step 3. Connect to Flex"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_connect.html"
-last_updated: "1/6/2026"
+last_updated: "2/17/2026"
 product_version: ""
 ---
 
@@ -36,8 +36,6 @@ If you choose to automatically connect Veeam Data Cloud to your Microsoft 365 te
 
 Make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
 
-1. Click Next.
-
 Manual Connection Steps
 
 If you choose to manually connect Veeam Data Cloud to your Microsoft 365 tenancy, do the following:
@@ -67,8 +65,6 @@ X.509 compatible certificates from a trusted CA (Certificate Authority) and self
 5. [Optional] In the Advanced settings section, select services that you want to back up.
 
 Make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
-
-1. Click Next.
 
 [![Connecting to Microsoft 365 Manual Settings](images/m365_tenant_add_connect_manual_settings.png)](images/m365_tenant_add_connect_manual_settings.png "Connecting to Microsoft 365 Manual Settings")
 
