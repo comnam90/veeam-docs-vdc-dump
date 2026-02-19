@@ -3,7 +3,7 @@ title: "Step 4. Connect to Express"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_tenant_add_connect_express.html"
-last_updated: "2/12/2026"
+last_updated: "2/17/2026"
 product_version: ""
 ---
 
@@ -24,7 +24,6 @@ To connect Microsoft 365 Backup Storage to Veeam Data Cloud for Microsoft 365, d
 3. Select the Microsoft account under which you want to authenticate against Microsoft 365. The account must have the Microsoft 365 Global Admin permissions.
 4. Click Continue and close the window.
 5. Return to Veeam Data Cloud. Once the connection is established, in the Express Plan Connected window, click Ok.
-6. Click Next.
 
 [![Connecting to Express](images/m365_tenant_add_connect_express.webp)](images/m365_tenant_add_connect_express.webp "Connecting to Express")
 
