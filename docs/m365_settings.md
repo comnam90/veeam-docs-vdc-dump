@@ -3,7 +3,7 @@ title: "Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings.html"
-last_updated: "1/8/2026"
+last_updated: "2/19/2026"
 product_version: ""
 ---
 
@@ -16,6 +16,7 @@ In This Section
 
 * [Viewing License Details](m365_settings_view_license_model.md)
 * [Viewing Licensed Users](m365_settings_view_licensed_users.md)
+* [Reauthorizing Veeam Data Cloud for Microsoft 365](m365_settings_reauthorize.md)
 * [Configuring Network Access Restrictions](m365_settings_configure_network.md)
 * [Adding Syslog Server](m365_settings_add_syslog_server.md)
 * [Managing Notifications](m365_settings_notifications.md)
