@@ -3,7 +3,7 @@ title: "Step 5. Configure General Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_archival_policies_create_options.html"
-last_updated: "8/22/2025"
+last_updated: "2/19/2026"
 product_version: ""
 ---
 
@@ -13,7 +13,7 @@ product_version: ""
 At the Options step of the wizard, you can select an archival schedule, specify API request and safety control limits and run the policy in the test mode.
 
 1. In the Schedule section, choose whether you want to launch the policy every day, every week, every month or according to a custom schedule.
-2. In the Test mode section, select the Run in test mode option to to run the archival policy in the test mode without actually deleting any data. Then, either wait for the policy to run according to the selected schedule or run it manually after you finish working with the Add Archival Policy wizard. When the archival session completes, you can check the number of records that will be archived for both the selected object and all its child objects.
+2. In the Test mode section, select the Run in test mode option to run the archival policy in the test mode without actually deleting any data. Then, either wait for the policy to run according to the selected schedule or run it manually after you finish working with the Add Archival Policy wizard. When the archival session completes, you can check the number of records that will be archived for both the selected object and all its child objects.
 3. By default, Veeam Data Cloud archives up to 100,000 records during one archival session to avoid performance issues. In the Safety controls section, you can adjust this limit taking into account the number of records that has been calculated at the previous step.
 
 If the limit that you specify is less than the calculated number of records, the product will archive only the specified number of records while other records will be archived later, during subsequent archival sessions. Note that Veeam Data Cloud can archive data during subsequent archival sessions only after running the related backup policy — this allows the product to preserve data consistency between backup sessions.
