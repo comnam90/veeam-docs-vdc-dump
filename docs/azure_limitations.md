@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_limitations.html"
-last_updated: "2/18/2026"
+last_updated: "2/23/2026"
 product_version: ""
 ---
 
@@ -29,9 +29,9 @@ Consider the following about backing up Azure resources:
 
 for VMs
 
-* If VM disks have restricted network access, Veeam Data Cloud will temporarily modify the networking configuration to allow public SAS link access during the backup, which enables the creation of snapshots with preserved network settings. Once the backup transfer is complete, the network settings are reverted to their original state.
+* If VM disks have restricted network access, Veeam Data Cloud will temporarily modify the networking configuration to allow public SAS link access during the backup, which will enable the creation of snapshots with preserved network settings. Once the backup transfer is complete, the network settings are reverted to their original state.
 
-If network access is completely denied, Veeam Data Cloud cannot modify this setting, which will result in backup failure.
+* If network access is completely denied, Veeam Data Cloud will not be able to modify this setting, which will result in backup failure.
 
 for SQL databases
 
