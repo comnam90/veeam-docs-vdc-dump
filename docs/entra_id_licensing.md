@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_licensing.html"
-last_updated: "1/19/2026"
+last_updated: "2/24/2026"
 product_version: ""
 ---
 
@@ -25,11 +25,12 @@ The bundles include a free allowance for your Entra ID tenant. You can protect u
 
 For more information on available licensing plans, see [Pricing and Plan Options](https://www.veeam.com/products/saas/microsoft-entra-id-backup-service.html?ad=menu-products-portfolio-test-a#pricing).
 
+Licensing Plans
+
 | Licensing Plan | Included Options | License Unit |
-| --- | --- | --- |
+| Veeam Data Cloud for Microsoft 365 Premium | Veeam Data Cloud for Microsoft Entra ID | Microsoft 365 user |
+| Veeam Data Cloud for Microsoft 365 Advanced | Veeam Data Cloud for Microsoft Entra ID Veeam Data Cloud for Microsoft 365 Foundation | Microsoft 365 user |
 | Veeam Data Cloud for Microsoft Entra ID Standalone | Veeam Data Cloud for Microsoft Entra ID | Entra ID user |
-| Veeam Data Cloud for Microsoft 365 Advanced | Veeam Data Cloud for Microsoft Entra ID  Veeam Data Cloud for Microsoft 365 Flex backup | Microsoft 365 user |
-| Veeam Data Cloud for Microsoft 365 Premium | Veeam Data Cloud for Microsoft Entra ID  Veeam Data Cloud for Microsoft 365 Flex backup  Veeam Data Cloud for Microsoft 365 Express backup | Microsoft 365 user |
 
 License Expiration
 
