@@ -3,7 +3,7 @@ title: "Adding Storage Vaults for AWS Edition"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_storage_vaults_add_aws.html"
-last_updated: "1/22/2026"
+last_updated: "2/23/2026"
 product_version: ""
 ---
 
@@ -40,5 +40,5 @@ Copy the access key and storage key and save them for future use. Once you finis
 |  |
 | --- |
 | Note |
-| To use a storage vault of an AWS edition of Veeam Data Cloud Vault as an object storage repository in Veeam Backup & Replication, you must use the Vault ID as the name of the object storage repository. For more information on how to use Veeam Data Cloud Vault with Veeam Backup & Replication, see [Veeam Data Cloud Vault AWS Editions](vault_vbr_integration.md#vault_vbr_integration_aws). |
+| To use a storage vault of an AWS edition of Veeam Data Cloud Vault as an object storage repository in Veeam Backup & Replication, you must use the Vault ID as the bucket name. For more information on how to use Veeam Data Cloud Vault with Veeam Backup & Replication, see [Veeam Data Cloud Vault AWS Editions](vault_vbr_integration.md#vault_vbr_integration_aws). |
 

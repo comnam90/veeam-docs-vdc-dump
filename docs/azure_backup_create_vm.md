@@ -3,7 +3,7 @@ title: "Creating VM Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm.html"
-last_updated: "9/26/2025"
+last_updated: "2/23/2026"
 product_version: ""
 ---
 
@@ -11,6 +11,11 @@ product_version: ""
 
 
 Use the New Azure Virtual Machine Policy wizard to create a backup policy to protect Azure virtual machines.
+
+|  |
+| --- |
+| Important |
+| Consider the following:   * If VM disks have restricted network access, Veeam Data Cloud will temporarily modify the networking configuration to allow public SAS link access during the backup, which will enable the creation of snapshots with preserved network settings. Once the backup transfer is complete, the network settings are reverted to their original state. * If network access is completely denied, Veeam Data Cloud will not be able to modify this setting, which will result in backup failure. |
 
 1. [Launch the New Azure Virtual Machines Policy wizard](azure_backup_create_vm_launch.md).
 2. [Specify the policy name and description](azure_backup_create_vm_name.md).

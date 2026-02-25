@@ -3,7 +3,7 @@ title: "Step 5. Specify Policy Processing Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_sql_process.html"
-last_updated: "12/19/2025"
+last_updated: "2/24/2026"
 product_version: ""
 ---
 
@@ -14,6 +14,11 @@ At the Processing Settings step of the wizard, select the database processing op
 
 * [Process databases using the production server](#production) — if you select this option, Veeam Data Cloud will create a restore point of the database and transfers it directly to the backup repository. In this case, the database is exported as is, which may result in an inconsistent backup. This process can impact the performance of the production database.
 * [Use staging servers](#staging) — if you select this option, Veeam Data Cloud first will copy the database to a staging server, create a restore point, and then transfer it to the backup repository. This process ensures a consistent backup, as the copied database has no active connections and the online database experiences no performance impact during backup. Keep in mind that only one staging server can be used, so if the policy protects databases from multiple servers, all copies will be sent to a single server.
+
+|  |
+| --- |
+| Note |
+| If you select this option, you cannot back up SQL databases located on the Azure SQL Database free tier. |
 
 Protecting Databases Without Staging Server
 
