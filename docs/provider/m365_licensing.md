@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_licensing.html"
-last_updated: "1/6/2026"
+last_updated: "2/20/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ Plans
 
 Veeam Data Cloud for Microsoft 365 provides you with 3 plan options: Foundation, Advanced and Premium. You can utilize multiple plan types within one tenancy of Veeam Data Cloud for Microsoft 365. You can request a new subscription with Veeam Data Cloud for Microsoft 365 plan in VCSP Pulse. For details, see [Requesting Subscriptions](sp_subscriptions_request.md).
 
-This section provides information on plans for Veeam Data Cloud for Microsoft 365. Note that subscriptions with the Premium Veeam Data Cloud for Microsoft 365 plan are not available for service providers and their customers at the moment. For more information on available products, see [License Consumption](saas_license_consumption.md).
+This section provides information on plans for Veeam Data Cloud for Microsoft 365.
 
 Foundation
 
