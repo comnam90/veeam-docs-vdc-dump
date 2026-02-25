@@ -3,7 +3,7 @@ title: "Using Veeam Data Cloud Vault with Veeam Backup & Replication"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr_integration.html"
-last_updated: "1/20/2026"
+last_updated: "2/23/2026"
 product_version: ""
 ---
 
@@ -29,8 +29,16 @@ Veeam Data Cloud Vault AWS Editions
 
 For the AWS editions of Veeam Data Cloud Vault, to add a storage vault as an object storage repository in Veeam Backup & Replication, you must use the Amazon S3 option to launch the New Object Storage Repository wizard, and then follow the steps of the wizard. You do not need to connect Veeam Data Cloud Vault with Veeam Backup & Replication.
 
-* At the Name step of the wizard, specify the Vault ID as a storage name for the object storage repository.
 * At the Account step of the wizard, specify access key and storage key obtained when creating a storage vault.
+* At the Bucket step of the wizard, do the following:
+
+1. From the Data center drop-down list, select the storage region where the bucket is located.
+
+To identify the storage region, view the storage vault details. To learn how to do that, see [Viewing Storage Vault Details](vault_storage_vaults_edit.md#view_vault).
+
+1. In the Bucket field, specify Vault ID as a bucket name.
+2. In the Folder field, select an existing folder or create a new one.
+3. Select the Make backups immutable check box.
 
 For more information, see the following sections:
 
