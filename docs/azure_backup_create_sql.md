@@ -3,7 +3,7 @@ title: "Creating SQL Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_sql.html"
-last_updated: "2/18/2026"
+last_updated: "2/23/2026"
 product_version: ""
 ---
 
@@ -11,6 +11,11 @@ product_version: ""
 
 
 Use the New Azure SQL Policy wizard to create a backup policy to protect SQL databases.
+
+|  |
+| --- |
+| Important |
+| Consider the following:   * If public access is disabled on the SQL Server, the backup policy will attempt to create a private endpoint connection during the first run, which will initially fail. You must approve this connection request in the Azure portal for future policy runs to succeed; otherwise, the policy will continue to fail. * If public access is enabled, the backup policy will use the public endpoint, which requires port 3342 to be open for inbound connections, regardless of whether a private endpoint is also configured. |
 
 1. [Launch the New Azure SQL Policy wizard](azure_backup_create_sql_launch.md).
 2. [Specify the policy details](azure_backup_create_sql_name.md).
