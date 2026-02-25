@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_licensing.html"
-last_updated: "1/6/2026"
+last_updated: "2/20/2026"
 product_version: ""
 ---
 
