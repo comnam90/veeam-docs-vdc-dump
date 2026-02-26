@@ -3,7 +3,7 @@ title: "License Consumption"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_license_consumption.html"
-last_updated: "2/24/2026"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 
@@ -19,6 +19,8 @@ You can move from standalone to bundle licensing plan or from bundle to standalo
 Bundle Licensing Plans
 
 Veeam Data Cloud bundles combine multiple products into a subscription package. Microsoft 365 is designated as the primary product, and its PPU rate applies to the entire bundle. License consumption from other products is converted to the primary product consumption using predefined ratios. You can protect up to three Entra ID member users for every backed-up Microsoft 365 user.
+
+For example, you have the Veeam Data Cloud for Microsoft 365 Advanced Plus bundle (PPU = 4) and protect 1000 Microsoft 365 users and 4000 Microsoft Entra ID users. Using the conversion ratio (3), Entra ID consumption equals ROUNDUP(4000/3) = 1334 Microsoft 365 users. Bundle consumption is MAX(1000, 1334) = 1334 users, and bundle points are 1,334 × 4 = 5336.
 
 The following table lists the available Veeam Data Cloud bundles, the options included in each plan, the licensed unit type, and the corresponding price per unit.​
 
