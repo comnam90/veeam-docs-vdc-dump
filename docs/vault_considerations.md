@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_considerations.html"
-last_updated: "11/21/2025"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 
@@ -61,4 +61,6 @@ Consider the following:
 
 * To enable immutability for the object storage repository, select the Make backups immutable check box at the Bucket step of the New Object Storage Repository wizard and specify the necessary immutability period. For more information, see the [Specify Object Storage Settings](https://helpcenter.veeam.com/docs/vbr/userguide/amazon_storage_details.html?ver=13) section in the Veeam Backup & Replication User Guide.
 * To enable data encryption for the backup job, select the Enable backup file encryption check box at the Storage step of the New Backup Job wizard and specify the data encryption settings. For more information, see the [Storage Settings](https://helpcenter.veeam.com/docs/vbr/userguide/backup_job_advanced_storage_vm.html?ver=13) section in the Veeam Backup & Replication User Guide.
+
+* For the AWS editions of Veeam Data Cloud Vault, you must select Infrequent Access as the Amazon S3 storage class when adding a storage vault as an object storage repository in Veeam Backup & Replication. For details, see the [Specifying Amazon S3 Storage Classes](https://helpcenter.veeam.com/docs/vbr/userguide/amazon_storage_details.html?ver=13#specifying-amazon-s3-storage-classes) section in the Veeam Backup & Replication User Guide.
 
