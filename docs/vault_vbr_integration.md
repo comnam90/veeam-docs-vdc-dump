@@ -3,7 +3,7 @@ title: "Using Veeam Data Cloud Vault with Veeam Backup & Replication"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_vbr_integration.html"
-last_updated: "2/23/2026"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 
@@ -39,6 +39,7 @@ To identify the storage region, view the storage vault details. To learn how to 
 1. In the Bucket field, specify Vault ID as a bucket name.
 2. In the Folder field, select an existing folder or create a new one.
 3. Select the Make backups immutable check box.
+4. Specify the Infrequent Access Amazon S3 storage class.
 
 For more information, see the following sections:
 
