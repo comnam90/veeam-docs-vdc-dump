@@ -3,7 +3,7 @@ title: "Step 5. Specify Policy Processing Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_sql_process.html"
-last_updated: "2/24/2026"
+last_updated: "2/27/2026"
 product_version: ""
 ---
 
@@ -18,7 +18,7 @@ At the Processing Settings step of the wizard, select the database processing op
 |  |
 | --- |
 | Note |
-| If you select this option, you cannot back up SQL databases located on the Azure SQL Database free tier. |
+| Veeam Data Cloud for Microsoft Azure does not support using staging servers to back up [free offer Azure SQL databases](https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer?view=azuresql). |
 
 Protecting Databases Without Staging Server
 
