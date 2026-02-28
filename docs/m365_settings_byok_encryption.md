@@ -3,7 +3,7 @@ title: "BYOK Encryption"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_byok_encryption.html"
-last_updated: "2/17/2026"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 
@@ -88,6 +88,11 @@ To create a key in Microsoft Azure Key Vault, do the following:
 * Key type. Select the RSA key type.
 * RSA key size. Select 2048, 3072 or 4096.
 
+|  |
+| --- |
+| NOTE |
+| The access configuration for the key vault must be set to role based access control. Legacy key vault access policies are not supported. To configure this for the key vault, go to Settings > Access configuration. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/key-vault/general/rbac-guide?tabs=azure-cli#enable-azure-rbac-permissions-on-key-vault). |
+
 Creating Custom Role
 
 To create a custom role for the key, do the following:
@@ -126,6 +131,11 @@ To add role assignment to the key you created, do the following:
 Contacting Veeam Customer Support
 
 After you create a new application registration with a client secret, create a key in Microsoft Azure Key Vault and assign the application registration to the key, contact [Veeam Customer Support](https://my.veeam.com/my-cases) to request BYOK encryption for your Veeam Data Cloud for Microsoft 365 data.
+
+|  |
+| --- |
+| TIP |
+| You can create an encrypted file that contains the required information and attach it to your support case. For information on how to attach files to support cases, see [this Veeam KB article](https://www.veeam.com/kb4162). |
 
 You must provide the following information to Veeam Customer Support:
 
