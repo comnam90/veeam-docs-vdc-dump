@@ -3,14 +3,18 @@ title: "Performing Self-Service Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_self_restore.html"
-last_updated: "2/5/2026"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 
 # Performing Self-Service Restore
 
 
-Veeam Data Cloud for Microsoft 365 allows users under the Foundation plan to perform self-service restore of their Outlook and OneDrive data. Once you enable the feature, users within the same domain as your organization, that have not been given access to any workload tenants, will be able to log in to Veeam Data Cloud and perform self-service restore. You can select whether to allow users to restore their entire mailbox and OneDrive or to only restore Outlook and OneDrive items. If you disable the self-service restore feature, the self-service users will no longer be able to log in to Veeam Data Cloud. Self-service users can only restore Outlook and OneDrive data to the original location.
+Veeam Data Cloud for Microsoft 365 allows users under the Foundation plan to perform self-service restore of their Outlook and OneDrive data. You can select whether to allow users to restore their entire mailbox and OneDrive or to only restore Outlook and OneDrive items. Self-service users can only restore Outlook and OneDrive data to the original location.
+
+Once you enable the feature, users within the same domain as your organization, that have not been given access to any workload tenants, will be able to log in to Veeam Data Cloud and perform self-service restore. The self-service users do not require an invitation to your Veeam Data Cloud organization or role assignments. If you want users who already have access to a workload tenant to be able to perform self-service restore, you must remove them from your Veeam Data Cloud organization. For information on how to remove a user, see [Deleting Users](users_delete.md).
+
+If you disable the self-service restore feature, the self-service users will no longer be able to log in to Veeam Data Cloud.
 
 Enabling Self-Service Restore
 
