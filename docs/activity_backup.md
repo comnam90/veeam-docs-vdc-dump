@@ -3,7 +3,7 @@ title: "Viewing Backup Sessions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_backup.html"
-last_updated: "11/14/2025"
+last_updated: "3/3/2026"
 product_version: ""
 ---
 
@@ -16,10 +16,16 @@ When searching for backup sessions, you can apply quick filters to locate sessio
 
 To open the Activity view with backup sessions, click the activity icon on the left.
 
+|  |
+| --- |
+| Note |
+| The Activity view currently supports the Microsoft 365, Entra ID and Salesforce workloads. |
+
 In the backup session list, Veeam Data Cloud displays the following properties for each backup session:
 
+Viewing Backup Sessions
+
 | Property | Description |
-| --- | --- |
 | Activity Type | Type of the session. |
 | Workload Type | Workload type that the session backs up. |
 | Status | Current state of the session. To view detailed information, click View Details next to the backup session. |
