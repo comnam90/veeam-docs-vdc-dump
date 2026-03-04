@@ -3,14 +3,14 @@ title: "Managing Workloads"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_workloads.html"
-last_updated: "12/16/2025"
+last_updated: "3/3/2026"
 product_version: ""
 ---
 
 # Managing Workloads
 
 
-You can manage workloads registered for use with Veeam Data Cloud Vault within your subscription. In terms of Veeam Data Cloud Vault, a workload is an installation of a Veeam product that can use a storage vault as a backup target. You can perform the following operations with Veeam Data Cloud Vault workloads:s
+You can manage workloads registered for use with Veeam Data Cloud Vault within your subscription. In terms of Veeam Data Cloud Vault, a workload is an installation of a Veeam product that can use a storage vault as a backup target. You can perform the following operations with Veeam Data Cloud Vault workloads:
 
 * [View a list of registered workloads](#view)
 * [Deregister a workload](#deregister)
