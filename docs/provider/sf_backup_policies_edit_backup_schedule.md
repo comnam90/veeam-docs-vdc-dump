@@ -3,7 +3,7 @@ title: "Step 3a. Configure Backup Schedules"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_backup_policies_edit_backup_schedule.html"
-last_updated: "8/6/2025"
+last_updated: "3/3/2026"
 product_version: ""
 ---
 
@@ -15,8 +15,8 @@ In the Backup schedule section of the Backup step of the wizard, you can adjust 
 Veeam Data Cloud has 3 built-in schedules:
 
 * Hourly — this schedule launches a backup policy session at the beginning of every hour.
-* Daily — this schedule launches a backup policy session every day at 00:00 UTC.
-* Weekly — this schedule launches a backup policy session every Sunday at 00:00 UTC.
+* Daily — this schedule launches a backup policy session every day at 00:00 in the timezone of the Microsoft Azure region that you selected to store your backups.
+* Weekly — this schedule launches a backup policy session every Saturday at 09:00 PM in the timezone of the Microsoft Azure region that you selected to store your backups.
 
 |  |
 | --- |
