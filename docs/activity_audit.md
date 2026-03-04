@@ -3,7 +3,7 @@ title: "Viewing Audit Logs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_audit.html"
-last_updated: "11/14/2025"
+last_updated: "3/3/2026"
 product_version: ""
 ---
 
@@ -16,12 +16,18 @@ When searching for events, you can apply quick filters to locate events assigned
 
 The Activity view with audit logs is available to users with the OrganizationAdmin role assigned.
 
-To open the Activity view with audit logs, click the activity icon on the left and then click Audit Logs.
+To open the Activity view with audit logs, click the activity icon on the left and then click Audit Log.
+
+|  |
+| --- |
+| Note |
+| The Activity view currently supports the Microsoft 365, Entra ID and Salesforce workloads. |
 
 In the audit log list, Veeam Data Cloud displays the following properties for each audit log event:
 
+Viewing Audit Logs
+
 | Property | Description |
-| --- | --- |
 | Timestamp | Time when the event occurred. |
 | Actor | User who initiated the action. |
 | Action Group | Group to which the event action is assigned. |
