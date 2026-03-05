@@ -3,7 +3,7 @@ title: "Provider-Managed Onboarding"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_customers_onboard_managed.html"
-last_updated: "1/21/2026"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ You can onboard customers that have the subscription assigned. For details on as
 
 To onboard a customer, add their tenants to Veeam Data Cloud. You can add tenants to the following Veeam Data Cloud workloads:
 
-* Veeam Data Cloud for Microsoft 365 — for details, see [Adding Microsoft 365 Tenants](m365_tenant_add.md).
+* Veeam Data Cloud for Microsoft 365 — for details, see [Adding Microsoft 365 Tenants](sp_m365_tenant_add.md).
 * Veeam Data Cloud for Microsoft Azure — for details, see [Adding Microsoft Azure Tenants](azure_tenant_add.md).
 * Veeam Data Cloud for Microsoft Entra ID — for details, see [Adding Microsoft Entra ID Tenants](entra_id_tenant_add.md).
 * Veeam Data Cloud for Salesforce — for details, see [Adding Salesforce Tenants](sf_tenants_add.md).
