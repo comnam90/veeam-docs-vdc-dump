@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_permissions.html"
-last_updated: "2/17/2026"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
@@ -26,7 +26,7 @@ Veeam Data Cloud [EMEA, AMER, APJ]
 
 When you log in to Veeam Data Cloud for Microsoft 365 with a Microsoft account for the first time, you must accept the following permissions:
 
-[EMEA, AMER, APJ]
+Veeam Data Cloud [EMEA, AMER, APJ]
 
 | Permission | Type | Description |
 | View your basic profile |  |  |
@@ -42,9 +42,9 @@ When users log in to Veeam Data Cloud for Microsoft 365 for the first time, they
 
 Veeam Data Cloud Registration [EMEA, AMER, APJ]
 
-When you [add a Microsoft 365 tenant](m365_tenant_add.md) to Veeam Data Cloud for Microsoft 365, if you choose to automatically connect Veeam Data Cloud for Microsoft 365 to Microsoft 365, you must accept the following permissions upon entering the device code:
+When you [add a Microsoft 365 tenant](m365_tenant_add.md) to Veeam Data Cloud for Microsoft 365, if you choose to automatically connect Veeam Data Cloud for Microsoft 365 to Microsoft 365, you must accept the following permissions upon connecting:
 
-Registration [EMEA, AMER, APJ]
+Veeam Data Cloud Registration [EMEA, AMER, APJ]
 
 | Permission | Type | Description |
 | Application.Readwrite.All | Delegated | Allows the app to create, read and update application registrations required for backup and restore. |
@@ -54,7 +54,7 @@ Registration [EMEA, AMER, APJ]
 
 After you accept the permissions, the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application is created. Veeam Data Cloud for Microsoft 365 uses this Enterprise application to automatically create the Veeam Data Cloud for Microsoft 365 application registration that is used for backup and restore.
 
-Once you have successfully added a Microsoft 365 tenant to Veeam Data Cloud for Microsoft 365, you can delete the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application. When using features such as uploading certificates, Veeam Data Cloud for Microsoft 365 will ask for the permissions and create the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application again.
+Once you have successfully added a Microsoft 365 tenant to Veeam Data Cloud for Microsoft 365, the permissions and consent for the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application are revoked. When using features such as reauthorizing Veeam Data Cloud, Veeam Data Cloud will ask for the permissions for the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application again.
 
 When you [add a Microsoft 365 tenant](m365_tenant_add.md) to Veeam Data Cloud for Microsoft 365, if you choose to manually connect Veeam Data Cloud for Microsoft 365 to Microsoft 365, the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application is not created. You must manually create and grant admin consent to the Veeam Data Cloud for Microsoft 365 application registration. For more information on how to create a new application registration, see [this Microsoft article](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/walkthrough-register-app-azure-active-directory).
 

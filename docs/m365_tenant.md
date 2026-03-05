@@ -3,7 +3,7 @@ title: "Managing Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant.html"
-last_updated: "10/15/2025"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 

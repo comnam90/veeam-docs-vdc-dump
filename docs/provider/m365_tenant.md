@@ -3,7 +3,7 @@ title: "Managing Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_tenant.html"
-last_updated: "10/15/2025"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
@@ -14,6 +14,6 @@ To start protecting your Microsoft 365 data, you must add a Microsoft 365 worklo
 
 In This Section
 
-* [Adding Microsoft 365 Tenants](m365_tenant_add.md)
+* [Adding Microsoft 365 Tenants](sp_m365_tenant_add.md)
 * [Viewing Microsoft 365 Tenants](m365_tenant_view.md)
 

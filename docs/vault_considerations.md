@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_considerations.html"
-last_updated: "2/26/2026"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
@@ -63,4 +63,16 @@ Consider the following:
 * To enable data encryption for the backup job, select the Enable backup file encryption check box at the Storage step of the New Backup Job wizard and specify the data encryption settings. For more information, see the [Storage Settings](https://helpcenter.veeam.com/docs/vbr/userguide/backup_job_advanced_storage_vm.html?ver=13) section in the Veeam Backup & Replication User Guide.
 
 * For the AWS editions of Veeam Data Cloud Vault, you must select Infrequent Access as the Amazon S3 storage class when adding a storage vault as an object storage repository in Veeam Backup & Replication. For details, see the [Specifying Amazon S3 Storage Classes](https://helpcenter.veeam.com/docs/vbr/userguide/amazon_storage_details.html?ver=13#specifying-amazon-s3-storage-classes) section in the Veeam Backup & Replication User Guide.
+
+Integration with Veeam Backup for Microsoft Azure
+
+You cannot connect a storage vault as an external repository in Veeam Backup & Replication to copy backups created by Veeam Backup for Microsoft Azure or to restore data from such backups. To create backup copies of Veeam Backup for Microsoft Azure backups or to restore data from them in Veeam Data Cloud Vault, you must add the storage vault as an Azure-type object storage repository using your Microsoft Azure storage account credentials. To be able to do that, perform the following steps:
+
+1. Configure Veeam Backup for Microsoft Azure to work with Veeam Data Cloud Vault. For more information, see the [Adding Storage Vaults Using Web UI](https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html?ver=8.1https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html?ver=8.1) section in the Veeam Backup for Microsoft Azure User Guide.
+2. Configure Veeam Backup for Microsoft Azure backup jobs with a Veeam Data Cloud storage vault used as the target location.
+3. Contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support) to enable shared keys on the storage vault.
+4. Use shared keys to add the storage vault. For the storage vault to work as an external repository in Veeam Backup & Replication, use a repository of the Azure type.
+5. Configure backup copy or restore jobs.
+
+To learn more about restore limitations for backups in Veeam Data Cloud storage vaults, see the [Considerations and Limitations: Restore](https://helpcenter.veeam.com/docs/vbazure/guide/limitations.html?ver=8.1#restore) section in the Veeam Backup for Microsoft Azure User Guide.
 

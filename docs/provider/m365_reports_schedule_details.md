@@ -3,7 +3,7 @@ title: "Step 2. Specify Report Details"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_reports_schedule_details.html"
-last_updated: "2/9/2026"
+last_updated: "3/3/2026"
 product_version: ""
 ---
 
@@ -17,10 +17,7 @@ At the Details step of the wizard, select the type of report you want to schedul
 * Backup Policy Detail Report
 * Backup Summary Report
 * Mailbox Protection Report
-* OneDrive Protection Report
 * Restore Activity Report
-* SharePoint Protection Report
-* Teams Protection Report
 * User Protection Report
 
 1. In the Report Name field, type a name for the new scheduled report.

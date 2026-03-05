@@ -1,8 +1,8 @@
 ---
 title: "Adding Microsoft 365 Tenants"
 product: "vdc"
-doc_type: "userguide"
-source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
+doc_type: "provider"
+source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_m365_tenant_add.html"
 last_updated: "3/4/2026"
 product_version: ""
 ---
@@ -14,17 +14,20 @@ To start protecting the Microsoft 365 tenant data, you must add the Microsoft 36
 
 Before you start adding the tenant, check [Considerations and Limitations](m365_considerations_limitations.md).
 
-To add a Microsoft 365 tenant, use the Add Microsoft 365 tenant wizard and do the following:
+To add a Microsoft 365 tenant, do the following:
+
+1. Launch the Add Microsoft 365 Tenant wizard:
 
 1. Click Microsoft 365 on the left to open the list of Microsoft 365 tenants.
 2. Click Add Tenant.
+3. On the Add Microsoft 365 Tenant page, from the Subscription drop-down list, select a subscription of the customer for which you want to create a tenant.
 
-[![Launching Add Microsoft 365 Tenant Wizard](images/m365_tenant_add_launch.png)](images/m365_tenant_add_launch.png "Launching Add Microsoft 365 Tenant Wizard")
+If the necessary subscription is not in the list, request a new subscription in VCSP Pulse. For details, see [Requesting Subscriptions](sp_subscriptions_request.md).
 
-|  |
-| --- |
-| Note |
-| If you are a customer of a Veeam Cloud & Service Provider partner, you cannot launch the Add Microsoft 365 tenant wizard. Ask your service provider to add your Microsoft 365 tenant or send you an email with an invitation link that allows you to launch the wizard. |
+1. Select Direct Onboarding.
+2. Click Next. Veeam Data Cloud will launch the Add Microsoft 365 Tenant wizard.
+
+[![Specifying Customer](images/sp_m365_tenant_add_launch.webp)](images/sp_m365_tenant_add_launch.webp "Specifying Customer")
 
 1. Choose how you want to connect Veeam Data Cloud to the Microsoft tenancy:
 
@@ -40,7 +43,7 @@ Automatic Connection Steps
 | note |
 | To perform the steps successfully, you must use a Microsoft 365 Global Admin account. |
 
-If you choose to automatically connect Veeam Data Cloud to your Microsoft 365 tenancy (recommended), do the following:
+If you choose to automatically connect Veeam Data Cloud to the Microsoft 365 tenant of your customer (recommended), do the following:
 
 1. In the Choose the type of Flex connection section, select Auto Connection.
 2. If you also have a subscription to the Premium license plan and want to connect Microsoft Backup Storage to Veeam Data Cloud, select the Include Express Connection check box. To skip the Express connection, do not select the check box.
@@ -75,7 +78,7 @@ Once you set the retention period, you cannot reduce it. For more information, s
 
 Manual Connection Steps
 
-If you choose to manually connect Veeam Data Cloud to the Microsoft 365 tenancy, do the following:
+If you choose to manually connect Veeam Data Cloud to the Microsoft 365 tenant of your customer, do the following:
 
 1. In Microsoft Entra ID, do the following:
 
