@@ -3,7 +3,7 @@ title: "BYOK Encryption"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_byok_encryption.html"
-last_updated: "3/3/2026"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 

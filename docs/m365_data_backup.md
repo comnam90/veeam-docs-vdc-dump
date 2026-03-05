@@ -3,7 +3,7 @@ title: "Data Backup"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_data_backup.html"
-last_updated: "12/30/2025"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
