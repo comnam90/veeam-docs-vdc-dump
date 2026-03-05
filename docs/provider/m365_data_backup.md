@@ -3,7 +3,7 @@ title: "Data Backup"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_data_backup.html"
-last_updated: "12/30/2025"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,7 @@ Backup Applications
 
 To back up Microsoft 365 data, Veeam Data Cloud for Microsoft 365 uses Microsoft Entra ID applications.
 
-The first Microsoft Entra application registration is created when you [add a Microsoft 365 tenant](m365_tenant_add.md) to Veeam Data Cloud for Microsoft 365. You can either select to create the application registration automatically or manually:
+The first Microsoft Entra application registration is created when you [add a Microsoft 365 tenant](sp_m365_tenant_add.md) to Veeam Data Cloud for Microsoft 365. You can either select to create the application registration automatically or manually:
 
 * If you choose to automatically connect Veeam Data Cloud for Microsoft 365 to your Microsoft 365 tenancy, Veeam Data Cloud for Microsoft 365 creates a new application registration and grants the required permissions.
 * If you choose to manually connect Veeam Data Cloud for Microsoft 365 to your Microsoft 365 tenancy, you must manually grant the required permissions for the new or existing application registration. For more information on the required permissions, see [Microsoft Entra Application Permissions](m365_permissions.md).
