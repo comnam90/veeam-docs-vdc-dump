@@ -3,7 +3,7 @@ title: "BYOK Encryption"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_byok_encryption.html"
-last_updated: "3/3/2026"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
@@ -17,7 +17,7 @@ Before You Begin
 Before you can request to use BYOK encryption, you must fulfill the following prerequisites:
 
 * You must have a paid Microsoft Azure subscription.
-* You must have a Microsoft 365 tenancy connected to Veeam Data Cloud. You can encrypt an existing Microsoft 365 workload tenant or add a new one. For details, see [Adding Microsoft 365 Tenants](m365_tenant_add.md).
+* You must have a Microsoft 365 tenancy connected to Veeam Data Cloud. You can encrypt an existing Microsoft 365 workload tenant or add a new one. For details, see [Adding Microsoft 365 Tenants](sp_m365_tenant_add.md).
 * You must have Microsoft Azure Key Vault.
 * The user account performing the process must have permissions to create and manage app registrations and client secrets, create and manage Key Vault keys and assign RBAC roles.
 
