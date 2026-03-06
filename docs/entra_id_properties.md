@@ -3,7 +3,7 @@ title: "Supported Entra ID Item Properties"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_properties.html"
-last_updated: "2/11/2026"
+last_updated: "3/6/2026"
 product_version: ""
 ---
 
@@ -23,8 +23,9 @@ Users
 
 Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID user properties.
 
+Users
+
 | Property | Comments |
-| --- | --- |
 | AccountEnabled | — |
 | AgeGroup | — |
 | AppRoleAssignments | — |
@@ -44,7 +45,7 @@ Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID user pro
 | GivenName | — |
 | Identities | — |
 | JobTitle | — |
-| Mail | — |
+| Mail | Microsoft Entra ID requires this property to be unique. You can only restore it if the value is not already assigned to another item. |
 | MailNickname | — |
 | Manager | — |
 | MemberOf | — |
@@ -53,7 +54,7 @@ Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID user pro
 | OnPremisesDistinguishedName | Read-only property in Entra ID. |
 | OnPremisesDomainName | Read-only property in Entra ID. |
 | OnPremisesExtensionAttributes | — |
-| OnPremisesImmutableId | — |
+| OnPremisesImmutableId | Microsoft Entra ID requires this property to be unique. You can only restore it if the value is not already assigned to another item. |
 | OtherMails | — |
 | OwnedObjects | — |
 | PasswordPolicies | — |
@@ -63,7 +64,7 @@ Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID user pro
 | StreetAddress | — |
 | Surname | — |
 | UsageLocation | — |
-| UserPrincipalName | — |
+| UserPrincipalName | Microsoft Entra ID requires this property to be unique. You can only restore it if the value is not already assigned to another item. |
 | UserType | — |
 
 |  |
@@ -75,8 +76,9 @@ Groups
 
 Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID group properties.
 
+Groups
+
 | Property | Comments |
-| --- | --- |
 | AppRoleAssignments | Not available for restore. |
 | AssignedLabels | — |
 | AssignedLicenses | — |
@@ -88,7 +90,7 @@ Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID group pr
 | IsAssignableToRole | Read-only property in Entra ID. |
 | Mail | Read-only property in Entra ID. |
 | MailEnabled | Read-only property in Entra ID. |
-| MailNickname | — |
+| MailNickname | Microsoft Entra ID requires this property to be unique. You can only restore it if the value is not already assigned to another item. |
 | MemberOf | — |
 | Members | — |
 | MembershipRule | — |
@@ -104,8 +106,9 @@ Administrative Units
 
 Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID administrative unit properties.
 
+Administrative Units
+
 | Property | Comments |
-| --- | --- |
 | Description | — |
 | Visibility | — |
 | DisplayName | — |
@@ -117,8 +120,9 @@ Roles
 
 Veeam Data Cloud for Microsoft Entra ID protects the following Entra ID role properties.
 
+Roles
+
 | Property | Comments |
-| --- | --- |
 | Description | — |
 | DisplayName | — |
 | InheritsPermissionsFrom | — |
@@ -135,8 +139,9 @@ Veeam Data Cloud for Microsoft Entra ID protects the following properties of Ent
 
 Applications
 
+Applications
+
 | Property | Comments |
-| --- | --- |
 | AddIns | — |
 | Api | — |
 | AppId | Read-only property in Entra ID. |
@@ -175,8 +180,9 @@ Applications
 
 Service Principals
 
+Service Principals
+
 | Property | Comments |
-| --- | --- |
 | AccountEnabled | — |
 | AddIns | Read-only property. The property value is inherited from the associated application. |
 | AlternativeNames | — |
@@ -222,8 +228,9 @@ Conditional Access Policies
 
 Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID Conditional Access policies.
 
+Conditional Access Policies
+
 | Property | Comments |
-| --- | --- |
 | Conditions | — |
 | CreatedDateTime | Read-only property in Entra ID. |
 | DisplayName | — |
@@ -237,8 +244,9 @@ Microsoft Intune Policies
 
 Veeam Data Cloud for Microsoft Entra ID protects the following types of Microsoft Intune policies. For more information on supported properties for each policy type, see [Supported Microsoft Intune Policy Properties](entra_id_properties_intune.md).
 
+Microsoft Intune Policies
+
 | Policy Type | Comments |
-| --- | --- |
 | AndroidCompliancePolicy | For details on supported properties, see [AndroidCompliancePolicy](entra_id_properties_intune.md#androidcompliancepolicy). |
 | AndroidCustomConfiguration | For details on supported properties, see [AndroidCustomConfiguration](entra_id_properties_intune.md#androidcustomconfiguration). |
 | AndroidGeneralDeviceConfiguration | For details on supported properties, see [AndroidGeneralDeviceConfiguration](entra_id_properties_intune.md#androidgeneraldeviceconfiguration). |
@@ -273,8 +281,9 @@ Organization Contacts
 
 Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID organization contacts.
 
+Organization Contacts
+
 | Property | Comments |
-| --- | --- |
 | Address | Read-only property in Entra ID. |
 | CompanyName | Read-only property in Entra ID. |
 | Department | Read-only property in Entra ID. |
