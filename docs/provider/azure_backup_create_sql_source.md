@@ -3,7 +3,7 @@ title: "Step 3. Specify Policy Source"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_sql_source.html"
-last_updated: "1/29/2026"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 
@@ -22,8 +22,8 @@ At the Source step of the wizard, specify an Azure account, regions and resource
 
 1. In the Resources section, specify what resources you want to protect with the backup policy:
 
-* Select All if you want to protect all resources available in the selected regions.
-* Select Protect the following resources if you want to protect specific resources in the selected regions.
+* Select All if you want to protect all resources available in the selected region.
+* Select Protect the following resources if you want to protect specific resources in the selected region.
 
 1. [For the Protect the following resources option] Do the following:
 
