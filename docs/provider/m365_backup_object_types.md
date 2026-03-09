@@ -3,7 +3,7 @@ title: "Backup Object Types"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_object_types.html"
-last_updated: "2/13/2026"
+last_updated: "3/6/2026"
 product_version: ""
 ---
 
@@ -76,7 +76,5 @@ Consider the following:
 + SharePoint folder attachments
 + SharePoint site collection recycle bin
 + SharePoint sites created by Microsoft Loop
-
-* To create Microsoft team chats backups, Veeam Data Cloud for Microsoft 365 needs access to [Microsoft Teams Export APIs](https://docs.microsoft.com/en-us/microsoftteams/export-teams-content). You must authorize Veeam Data Cloud for Microsoft 365 to use the required APIs. To learn how to do that, see [Enabling Microsoft Team Chats Backup](m365_enable_team_chats_backup.md).
-* Veeam Data Cloud for Microsoft 365 does not back up the TeamsMessagesData folder.
++ Veeam Data Cloud for Microsoft 365 does not back up the TeamsMessagesData folder.
 
