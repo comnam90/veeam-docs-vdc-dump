@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_licensing.html"
-last_updated: "2/20/2026"
+last_updated: "3/9/2026"
 product_version: ""
 ---
 
@@ -60,7 +60,7 @@ For users under the Foundation plan, a Veeam Data Cloud for Microsoft 365 licens
 |  |
 | --- |
 | NOTE |
-| When you plan the number of Veeam Data Cloud for Microsoft 365 licenses you require, consider the following:   * All users in your Microsoft 365 subscription that are members of a backed-up team or have access to a backed-up team, communication, collaboration and other non-personal SharePoint sites must be licensed.  * If you back up only Microsoft Teams objects or non-personal SharePoint sites, the licenses are not consumed by Veeam Data Cloud for Microsoft 365. You must purchase enough licenses to cover all users who have access to these Microsoft Teams objects or non-personal SharePoint sites. |
+| When you plan the number of Veeam Data Cloud for Microsoft 365 licenses you require, consider the following:  To ensure license consumption and protection coverage, all users in your Microsoft 365 subscription that are members of a backed-up team or have access to a backed-up team, communication, collaboration and other non-personal SharePoint sites must be licensed. For Flex-based backups, you can achieve this with the Foundation, Advanced or Premium plans. For Express-based backups, you can achieve this with the Express or Premium plans. As a best practice, it is recommended to license all Microsoft 365 users in your environment. |
 
 The following objects do not consume a Veeam Data Cloud for Microsoft 365 license:
 
