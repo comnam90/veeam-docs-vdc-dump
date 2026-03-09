@@ -3,7 +3,7 @@ title: "Step 1. Launch Restore Virtual Machines Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_entire_launch.html"
-last_updated: "12/15/2025"
+last_updated: "2/27/2026"
 product_version: ""
 ---
 
@@ -12,7 +12,7 @@ product_version: ""
 
 To launch the Restore Virtual Machines wizard, do the following:
 
-1. In the Restore section of the main menu, select Protected Data.
+1. In the Backups section of the main menu, select Protected Data.
 2. On the Virtual Machines tab, select the Azure VM that you want to restore.
 
 |  |
