@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_security.html"
-last_updated: "12/30/2025"
+last_updated: "3/6/2026"
 product_version: ""
 ---
 
@@ -22,7 +22,7 @@ Data is stored in a dedicated repository in an Azure region whose resources are 
 
 Redundant Storage
 
-By default, Veeam Data Cloud utilizes Zone-redundant Storage (ZRS) whenever available and replicates data across three availability zones within the same Azure region. If ZRS is not supported in a region, Veeam Data Cloud uses Local Redundant Storage (LRS) and stores three copies of data on separate disks within the same Azure region.
+By default, Veeam Data Cloud utilizes Zone-redundant Storage (ZRS) whenever available and replicates data across three availability zones within the same Azure region. If ZRS is not supported in a region, Veeam Data Cloud uses Local Redundant Storage (LRS) and stores three copies of data within the same Azure region.
 
 To learn about backup regions supported by Veeam Data Cloud for Microsoft Azure, see [Backup Storage Regions](azure_regions.md).
 
