@@ -3,7 +3,7 @@ title: "Editing Azure Service Accounts"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_settings_accounts_service_edit.html"
-last_updated: "2/12/2026"
+last_updated: "3/3/2026"
 product_version: ""
 ---
 
@@ -44,9 +44,14 @@ Make sure to use the credentials of a user account that has the Application Admi
 
 1. In the Grant Azure Subscription Permissions window, review the required permissions and click Apply.
 
+|  |
+| --- |
+| Important |
+| If you are adding a new subscription to the Azure account, the Veeam Service Account role in the Assigned Role field is pre-selected. If you are updating permissions for an existing subscription (for example, to enable a new feature of Veeam Backup for Microsoft Azure), in the Assigned Role field, you must select the Veeam Service Account role. |
+
 [![Editing Azure Service Accounts](images/azure_settings_accounts_service_view_edit_apply.webp)](images/azure_settings_accounts_service_view_edit_apply.webp)
 
-1. At the Summary step of the wizard, review the updated status of the tenant's subscriptions, and click Finish.
+1. At the Summary step of the wizard, review the updated status of the tenant's subscriptions, and click Finish to apply the updates.
 
 [![Editing Azure Service Accounts](images/azure_settings_accounts_service_view_edit_summary.webp)](images/azure_settings_accounts_service_view_edit_summary.webp)
 
