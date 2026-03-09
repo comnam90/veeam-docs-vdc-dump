@@ -3,7 +3,7 @@ title: "Step 1. Launch SQL Database Restore Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_sql_launch.html"
-last_updated: "12/15/2025"
+last_updated: "2/27/2026"
 product_version: ""
 ---
 
@@ -12,8 +12,9 @@ product_version: ""
 
 To launch the SQL Database Restore wizard, do the following:
 
-1. In the Restore section of the main menu, open the Protected Data page and select the Azure SQL tab.
-2. Select the Azure SQL database that you want to restore.
+1. In the Backups section of the main menu, select Protected Data.
+2. Navigate to Databases > Azure SQL.
+3. Select the Azure SQL database that you want to restore.
 
 |  |
 | --- |
