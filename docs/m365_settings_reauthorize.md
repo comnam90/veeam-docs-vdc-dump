@@ -3,7 +3,7 @@ title: "Reauthorizing Veeam Data Cloud for Microsoft 365"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_reauthorize.html"
-last_updated: "2/19/2026"
+last_updated: "3/6/2026"
 product_version: ""
 ---
 
@@ -14,6 +14,7 @@ You may need to reauthorize Veeam Data Cloud access to your Microsoft 365 tenant
 
 * If you have accidentally removed authorization for Veeam Data Cloud to access your Microsoft 365 data.
 * If you see the following error message in the backup session logs: The identity of the calling application could not be established.
+* If Veeam Data Cloud displays the You cannot enable Teams Posts due to missing required permissions. Please reauthorize your app registration and try again. notification when you enable team chats backups.
 
 To reauthorize Veeam Data Cloud, do the following:
 
