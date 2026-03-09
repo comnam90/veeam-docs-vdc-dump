@@ -3,7 +3,7 @@ title: "Step 1. Launch Add Azure Tenant Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_tenant_add_launch.html"
-last_updated: "12/10/2025"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 

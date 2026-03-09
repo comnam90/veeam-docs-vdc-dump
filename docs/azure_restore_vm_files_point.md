@@ -3,7 +3,7 @@ title: "Step 2. Select Restore Point"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_files_point.html"
-last_updated: "1/15/2026"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 
