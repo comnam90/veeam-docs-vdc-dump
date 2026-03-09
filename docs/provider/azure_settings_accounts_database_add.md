@@ -1,18 +1,18 @@
 ---
-title: "Adding Database Account"
+title: "Adding SQL Server Account"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_settings_accounts_database_add.html"
-last_updated: "10/15/2025"
+last_updated: "3/4/2026"
 product_version: ""
 ---
 
-# Adding Database Account
+# Adding SQL Server Account
 
 
-To add a new database account, do the following:
+To add a new SQL Server account, do the following:
 
-1. In the Account section of the main menu, select Settings.
+1. In the Management section of the main menu, select Settings.
 2. Select the Azure SQL Server Accounts tab and click Create.
 3. In the Name field, enter a name for the account.
 
