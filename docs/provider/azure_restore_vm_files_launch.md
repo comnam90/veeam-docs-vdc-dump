@@ -3,7 +3,7 @@ title: "Step 1. Launch File-Level Recovery Wizard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_vm_files_launch.html"
-last_updated: "1/15/2026"
+last_updated: "2/27/2026"
 product_version: ""
 ---
 
@@ -12,7 +12,7 @@ product_version: ""
 
 To launch the File-Level Recovery wizard, do the following:
 
-1. In the Restore section of the main menu, open the Protected Data page.
+1. In the Backups section of the main menu, select Protected Data.
 2. On the Virtual Machines tab, select the Azure VM whose files you want to restore.
 
 |  |
