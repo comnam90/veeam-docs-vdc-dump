@@ -3,7 +3,7 @@ title: "Getting Started with Veeam Data Cloud for Microsoft Azure"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_getting_started.html"
-last_updated: "11/28/2025"
+last_updated: "3/9/2026"
 product_version: ""
 ---
 
