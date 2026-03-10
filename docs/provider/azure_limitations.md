@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_limitations.html"
-last_updated: "2/27/2026"
+last_updated: "3/3/2026"
 product_version: ""
 ---
 
@@ -54,6 +54,11 @@ for SQL databases
 * Due to Microsoft Azure limitations, Veeam Data Cloud for Microsoft Azure does not support backup of [NFS Azure file shares](https://learn.microsoft.com/en-us/azure/storage/files/files-nfs-protocol).
 * Due to Microsoft Azure limitations, Veeam Data Cloud for Microsoft Azure does not support retention of locked snapshots. This means that Veeam Data Cloud for Microsoft Azure will not be able to remove an outdated snapshot during a retention session if the snapshot is protected from deletions and modifications using the lock feature. For more information on the lock feature, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json).
 
+* Veeam Data Cloud for Microsoft Azure allows you to protect only Cosmos DB accounts created using the following APIs: NoSQL, MongoDB RU-based, Apache Gremlin, Table and PostgreSQL.
+* Veeam Data Cloud for Microsoft Azure does not support backup of Cosmos DB accounts that have [periodic backup](https://learn.microsoft.com/en-us/azure/cosmos-db/periodic-backup-restore-introduction) or [multi-region writes](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-manage-database-account#configure-multiple-write-regions) enabled.
+
+* Database accounts used to back up Cosmos DB for PostgreSQL accounts must have any role that has administrative permissions assigned; it is recommended that you use an account that has the built-in citus role assigned. For more information on native PostgreSQL roles, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/how-to-configure-authentication?tabs=portal).
+
 Restore
 
 Consider the following about restoring Azure resources:
@@ -63,6 +68,8 @@ Consider the following about restoring Azure resources:
 * When performing restore operations, Veeam Data Cloud for Microsoft Azure assigns Azure tags to the processed resources. If you have any Azure policies that do not allow tag assignment, the restore operations will fail. To learn more about Azure policies, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/governance/policy/overview).
 
 * Veeam Data Cloud for Microsoft Azure does not support restore of locked Azure VMs and Azure virtual disks. For more information on the lock feature, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json).
+
+* Due to Microsoft Azure limitations, Veeam Data Cloud for Microsoft Azure does not support restore of Cosmos DB accounts encrypted using [customer-managed keys](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-setup-customer-managed-keys?tabs=azure-portal).
 
 Azure Disk Encryption
 

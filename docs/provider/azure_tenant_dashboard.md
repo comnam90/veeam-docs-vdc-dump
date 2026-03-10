@@ -3,7 +3,7 @@ title: "Accessing Microsoft Azure Tenant Dashboard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_tenant_dashboard.html"
-last_updated: "12/9/2025"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 

@@ -3,7 +3,7 @@ title: "Step 1. Launch File-Level Recovery Wizard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_files_launch.html"
-last_updated: "12/15/2025"
+last_updated: "2/27/2026"
 product_version: ""
 ---
 
@@ -12,8 +12,9 @@ product_version: ""
 
 To launch the File-Level Recovery wizard, do the following:
 
-1. In the Restore section of the main menu, open the Protected Data page and select the Azure Files tab.
-2. Select the Azure file share whose files you want to restore.
+1. In the Backups section of the main menu, select Protected Data.
+2. Navigate to the Azure Files tab.
+3. Select the Azure file share whose files you want to restore.
 
 |  |
 | --- |

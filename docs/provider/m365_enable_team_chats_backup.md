@@ -3,14 +3,14 @@ title: "Enabling Microsoft Team Chats Backup"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_enable_team_chats_backup.html"
-last_updated: "11/12/2025"
+last_updated: "3/6/2026"
 product_version: ""
 ---
 
 # Enabling Microsoft Team Chats Backup
 
 
-To create team chats backups, Veeam Data Cloud for Microsoft 365 needs access to [Microsoft Teams Export APIs](https://docs.microsoft.com/en-us/microsoftteams/export-teams-content). Microsoft Teams Export APIs allow Veeam Data Cloud for Microsoft 365 to access sensitive data of team chats: private and shared channels and public channel messages. You must authorize Veeam Data Cloud for Microsoft 365 to use the required APIs. Microsoft Teams channels, tabs, files and metadata are protected regardless of whether you enable Microsoft team chats backup or not.
+To create Microsoft Teams backups that include private and shared channels and public channel messages, you must configure the team chats backup settings. Microsoft Teams channels, tabs, files and metadata are protected regardless of whether you enable Microsoft team chats backup or not.
 
 Before You Begin
 
@@ -31,31 +31,31 @@ For more information about chats in Microsoft Teams, see [this Microsoft article
 * The TeamsMessagesData folder of the group mailbox that belongs to the Microsoft 365 group associated with the backed-up team.
 
 * Microsoft Teams service is not supported for organizations in Microsoft Entra China and legacy Microsoft Entra Germany regions. For more information about Microsoft Entra Germany, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/germany/).
-* Backup of team chats using Microsoft Teams Export APIs is not supported for Microsoft 365 organizations in Microsoft Entra China, legacy Germany, US Government DOD and US Government GCC High regions.
+* Team chats backup is not supported for Microsoft 365 organizations in Microsoft Entra China, legacy Germany, US Government DOD and US Government GCC High regions.
 * During backup and restore of an archived team, Veeam Data Cloud for Microsoft 365 does not preserve the Make the SharePoint site read-only for team members property of the team on the Microsoft 365 side.
 
-Authorizing Access to Microsoft Teams Export APIs
+Enabling Team Chats Backup
 
-To allow Veeam Data Cloud for Microsoft 365 to access Microsoft Teams Export APIs, do the following:
+To enable Microsoft team chats backup, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Settings.
 3. Go to the Microsoft 365 tab.
 4. In the Teams Backups section, click Set up Teams Chats.
 
-You must do this with a Microsoft 365 account with Global Admin rights.
+[![Enabling Team Chats Backup](images/m365_enable_team_chats.webp)](images/m365_enable_team_chats.webp "Enabling Team Chats Backup")
 
-[![Enabling Team Chats Backup](images/m365_enable_team_chats_backup.webp)](images/m365_enable_team_chats_backup.webp "Enabling Team Chats Backup")
+1. In the Set up Teams Chats window, select one of the following:
 
-1. At the Connection step, authorize Veeam Data Cloud for Microsoft 365 to access requested APIs. Select a Microsoft 365 Global Admin account for this step.
+* Turn on Teams Chats backups for all existing backup policies. The team chats objects will be automatically included to all existing backup policies.
+* Leave chat backup turned off, we will manually enable where required. You must manually add the team chats objects to existing backup policies. For information on how to edit backup policies, see [Editing Flex Backup Policies](m365_backup_edit_flex.md).
 
-1. Click Copy Code to copy the authorization code.
-2. Follow the <https://microsoft.com/devicelogin> link.
-3. Paste the authorization code in a new tab that opens in your browser.
+1. Click Finish.
 
-1. Click Next.
+[![Enabling Team Chats Backup](images/m365_enable_team_chats_options.webp)](images/m365_enable_team_chats_options.webp "Enabling Team Chats Backup")
 
-[![Enabling Team Chats Backup](images/m365_enable_team_chats_backup_step2.webp)](images/m365_enable_team_chats_backup_step2.webp "Enabling Team Chats Backup")
-
-1. At the Enable step, select whether you want to enable the Microsoft Teams chat backup option automatically or manually.
+|  |
+| --- |
+| NOTE |
+| If you receive the You cannot enable Teams Posts due to missing required permissions. Please reauthorize your app registration and try again. notification, you must reauthorize Veeam Data Cloud for Microsoft 365. For more information, see [Reauthorizing Veeam Data Cloud for Microsoft 365](m365_settings_reauthorize.md). |
 

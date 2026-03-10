@@ -3,7 +3,7 @@ title: "Step 3. Specify Account and Restore Mode"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_sql_mode.html"
-last_updated: "12/15/2025"
+last_updated: "3/2/2026"
 product_version: ""
 ---
 
@@ -17,10 +17,7 @@ At the Restore Mode step of the wizard, specify the following restore settings:
 
 Specifying Azure Account
 
-To select the account whose permissions Veeam Data Cloud for Microsoft Azure will use to perform the restore operation, do the following:
-
-1. Click Select account.
-2. In the Select Azure Account window, select an account that you want to use for the restore procedure.
+Make sure the Default Azure account is selected. This is the Veeam service principal account that was created by Veeam Data Cloud for Microsoft Azure. This account has all the necessary roles and permissions for the restore operation.
 
 Specifying Restore Mode and Destination
 

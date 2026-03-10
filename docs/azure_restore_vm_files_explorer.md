@@ -3,7 +3,7 @@ title: "Step 4. Select Files to Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_files_explorer.html"
-last_updated: "1/20/2026"
+last_updated: "2/26/2026"
 product_version: ""
 ---
 

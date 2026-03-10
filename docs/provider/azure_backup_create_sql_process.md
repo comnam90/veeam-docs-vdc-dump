@@ -3,7 +3,7 @@ title: "Step 5. Specify Policy Processing Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_sql_process.html"
-last_updated: "2/27/2026"
+last_updated: "3/6/2026"
 product_version: ""
 ---
 
@@ -30,7 +30,7 @@ To back up the selected databases without a staging server, do the following:
 1. Select a server and click Edit.
 2. In the Edit SQL Account window, select the necessary account and click Save.
 
-For an account to be displayed in the Account list, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md).
+For an account to be displayed in the Account list, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md). If you have not added the necessary Azure SQL account beforehand, you can do it without closing the New Azure SQL Policy wizard. To do that, click Create and complete the [New SQL server account wizard](azure_settings_accounts_database_add.md).
 
 1. Click Apply.
 
@@ -59,7 +59,7 @@ For a server to be displayed in the Staging server list, it must be added to the
 
 1. From the SQL account drop-down list, select an Azure SQL account whose permissions Veeam Data Cloud will use to authenticate against the staging server.
 
-For an account to be displayed in the SQL Account list, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md).
+For an account to be displayed in the SQL Account list, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md). If you have not added the necessary Azure SQL account beforehand, you can do it without closing the New Azure SQL Policy wizard. To do that, click Create and complete the [New SQL server account wizard](azure_settings_accounts_database_add.md).
 
 |  |
 | --- |
