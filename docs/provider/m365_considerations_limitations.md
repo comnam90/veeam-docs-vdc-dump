@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_considerations_limitations.html"
-last_updated: "2/17/2026"
+last_updated: "3/10/2026"
 product_version: ""
 ---
 
@@ -116,6 +116,7 @@ For more information, see [this Microsoft article](https://support.microsoft.com
 * SharePoint sites created by Microsoft Loop
 * Archived SharePoint sites
 * SharePoint sites with blocked access
+* Sensitivity labels applied to SharePoint sites and lists
 
 * For Express backup policies, Veeam Data Cloud for Microsoft 365 only backs up root SharePoint sites.
 
@@ -186,6 +187,7 @@ Documents, Libraries and Lists Restore
 * The Created By field of restored documents is updated with the account performing restore.
 * Some values of the Rating Settings of Discussion lists are not restored.
 * When you restore items to a library or list that has been renamed, the items are restored to the renamed library or list. The name of the library or list is not re-created after the restore. For example, you renamed library\_1 to library\_2. You restore a folder from the Veeam Data Cloud backup of library\_1. The folder is restored and is now part of library\_2.
+* Restore of sensitivity labels applied to SharePoint lists is not supported.
 
 List Items Restore
 
@@ -246,6 +248,7 @@ Teams
 
 * During backup and restore of an archived team, Veeam Data Cloud for Microsoft 365 does not preserve the Make the SharePoint site read-only for team members property of the team on the Microsoft 365 side.
 * When you restore a deleted team, a renamed General channel and its contents are not restored. A new empty General channel is created during team restoration. To recover the renamed General channel, restore it separately after the team is restored. The data will not be merged into the existing General channel.
+* When restoring or exporting team posts, the post creation or modification timestamp is converted to the locale of the back-end server in your Veeam Data Cloud for Microsoft 365 region.
 
 Express Restore Considerations
 
