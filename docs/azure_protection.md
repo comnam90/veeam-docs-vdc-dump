@@ -3,7 +3,7 @@ title: "Microsoft Azure Protection"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_protection.html"
-last_updated: "10/20/2025"
+last_updated: "3/9/2026"
 product_version: ""
 ---
 
@@ -17,8 +17,10 @@ With Veeam Data Cloud for Microsoft Azure, you can perform the following operati
 * Create image-level backups of Azure VMs.
 * Create backups of virtual disks.
 * Create backups of Azure SQL databases.
+* Create backups of Cosmos DB accounts.
 * Create snapshots of Azure Files.
 * Restore Azure VMs, VM disks and Azure SQL databases to the original location with the same or different settings.
+* Restore entire Cosmos DB accounts or selected items within them.
 * Restore files from Azure file shares to the original or new location.
 
 |  |
