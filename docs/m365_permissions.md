@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_permissions.html"
-last_updated: "3/4/2026"
+last_updated: "3/12/2026"
 product_version: ""
 ---
 
@@ -149,7 +149,6 @@ Premium Permissions for Microsoft Entra Application
 | Group.Read.All | ✔ |  | Reading all groups.  Note: This is needed to resolve logic related to a group or the entire workload backup. Additionally, logic must pull details about items, sites, OneDrives, mailboxes and users it handles. |
 | Sites.Read.All | ✔ |  | Reading items in all site collections. |
 | Directory.Read.All | ✔ |  | Reading directory data. |
-| User.Read | ✔ |  | Signing in and reading user profile. |
 
 Granting Global Reader Role to Microsoft Entra Application
 
