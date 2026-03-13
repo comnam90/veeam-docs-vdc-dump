@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_considerations.html"
-last_updated: "3/4/2026"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 
@@ -40,7 +40,9 @@ Integration with Veeam Backup & Replication
 
 Consider the following:
 
-* To connect Veeam Data Cloud Vault with Veeam Backup & Replication, the Veeam Data Cloud Vault subscription and the Veeam backup server must belong to the same organization on the My Account portal. Consider this in the scenario where the account under which you log in to My Account belongs to multiple organizations.
+* Before you start using Veeam Data Cloud Vault as an object storage repository in Veeam Backup & Replication, get familiar with considerations and limitations. For more information, see the [Veeam Data Cloud Vault Considerations and Limitations](https://helpcenter.veeam.com/docs/vbr/userguide/data_cloud_limitations.html?ver=13) section in the Veeam Backup & Replication User Guide.
+* One Veeam Backup & Replication server can be connected to multiple storage vaults. This may be useful if you want to create backups in different locations.
+* Multiple Veeam Backup & Replication servers can be connected to the same storage vault. In this scenario, you can add the same storage vault as an object storage repository on multiple backup servers. Each backup server will create backups in a separate folder within this object storage.
 
 * You can use a storage vault as an object storage repository or Veeam Cloud Connect repository.
 
@@ -51,11 +53,11 @@ Consider the following:
 | Note |
 | [For Veeam Cloud Connect Backup] You can use Veeam Data Cloud Vault storage as a cloud repository only if the Veeam Data Cloud Vault object storage repository is added on the service provider side in the connection through a gateway server mode. In this scenario, traffic throttling rules are defined per tenant in the properties of the tenant account. To learn more, see the [Network Traffic Throttling](https://helpcenter.veeam.com/docs/vbr/cloud/data_encryption_and_throttling.html?ver=13#network-traffic-throttling) section in the Veeam Cloud Connect Guide. |
 
-* One Veeam Backup & Replication server can be connected to multiple storage vaults. This may be useful if you want to create backups in different locations.
-* Multiple Veeam Backup & Replication servers can be connected to the same storage vault. In this scenario, you can add the same storage vault as an object storage repository on multiple backup servers. Each backup server will create backups in a separate folder within this object storage.
-* Before you start using Veeam Data Cloud Vault as an object storage repository in Veeam Backup & Replication, get familiar with considerations and limitations. For more information, see the [Veeam Data Cloud Vault Considerations and Limitations](https://helpcenter.veeam.com/docs/vbr/userguide/data_cloud_limitations.html?ver=13) section in the Veeam Backup & Replication User Guide.
-
 * Ports 443 and 80 must be opened to ensure proper communication with Veeam Backup & Replication. For more information, see the [Ports](https://helpcenter.veeam.com/docs/vbr/userguide/used_ports.html?ver=13#veeam-data-cloud-vault) section in the Veeam Backup & Replication User Guide.
+
+* For the Azure editions of Veeam Data Cloud Vault, to connect Veeam Data Cloud Vault with Veeam Backup & Replication, the Veeam Data Cloud Vault subscription and the Veeam backup server must belong to the same organization on the My Account portal. Consider this in the scenario where the account under which you log in to My Account belongs to multiple organizations.
+
+This requirement does not apply to Veeam Backup & Replication build 13.0.1.2067 and later. Starting from this product version, Veeam Backup & Replication and Veeam Data Cloud Vault are connected directly, without using the My Account portal.
 
 * To use AWS editions of Veeam Data Cloud Vault with Veeam Backup & Replication, you must enable immutability for the object storage repository and data encryption for the backup job targeted at this repository in Veeam Backup & Replication.
 
