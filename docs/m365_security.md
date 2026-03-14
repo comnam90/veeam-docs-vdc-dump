@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_security.html"
-last_updated: "3/4/2026"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 
@@ -33,7 +33,7 @@ Isolated Environment
 
 Encryption
 
-Utilizes 256-bit encryption for all data in-transit and at-rest.
+Utilizes TLS version 1.2 or higher to encrypt data in transit.
 
 Immutability
 
