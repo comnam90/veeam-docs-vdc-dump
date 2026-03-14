@@ -3,7 +3,7 @@ title: "Integration with Veeam Products"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_integration.html"
-last_updated: "1/30/2026"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ Veeam Data Cloud Vault integrates with the following Veeam products:
 
 * Veeam Backup & Replication
 
-For more information, see [Using Veeam Data Cloud Vault with Veeam Backup & Replication](vault_vbr.md).
+For more information, see [Using Veeam Data Cloud Vault with Veeam Backup & Replication](vault_vbr_integration.md).
 
 * Veeam Backup for Microsoft Azure
 
@@ -28,8 +28,9 @@ Supported Veeam Data Cloud Vault Editions
 
 The following table displays what Veeam Data Cloud Vault editions are available for integration with the supported Veeam products.
 
+Supported Veeam Data Cloud Vault Editions
+
 | Product Edition | Veeam Backup & Replication | Veeam Backup for Microsoft Azure | Veeam Kasten |
-| --- | --- | --- | --- |
 | Foundation Core - Azure | ✔ | ✔ | ✔ |
 | Foundation Non-Core - Azure | ✔ | ✔ | ✔ |
 | Advanced Core - Azure | ✔ | ✔ | ✔ |
