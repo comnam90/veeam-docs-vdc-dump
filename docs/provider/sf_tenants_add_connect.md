@@ -3,7 +3,7 @@ title: "Step 2. Connect to Salesforce Tenant"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_tenants_add_connect.html"
-last_updated: "12/11/2025"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 
