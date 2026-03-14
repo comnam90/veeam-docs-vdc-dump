@@ -3,7 +3,7 @@ title: "Managing Workloads"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_workloads.html"
-last_updated: "3/3/2026"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 

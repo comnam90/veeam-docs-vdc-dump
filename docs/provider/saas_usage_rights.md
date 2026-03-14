@@ -3,7 +3,7 @@ title: "Expanded Usage Rights"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_usage_rights.html"
-last_updated: "3/9/2026"
+last_updated: "3/13/2026"
 product_version: ""
 ---
 

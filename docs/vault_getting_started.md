@@ -3,7 +3,7 @@ title: "Getting Started with Veeam Data Cloud Vault"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_getting_started.html"
-last_updated: "1/12/2026"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 
@@ -27,7 +27,7 @@ Veeam offers several ways for obtaining Veeam Data Cloud Vault. For more informa
 2. Configure the necessary storage vaults. For details, see [Working with Storage Vaults](vault_storage_vaults.md).
 3. Set up the supported Veeam products to work with the Veeam Data Cloud Vault storage. For details, see the following sections:
 
-* For Veeam Backup & Replication, see [Using Veeam Data Cloud Vault with Veeam Backup & Replication](vault_vbr.md).
+* For Veeam Backup & Replication, see [Using Veeam Data Cloud Vault with Veeam Backup & Replication](vault_vbr_integration.md).
 * For Veeam Backup for Microsoft Azure, see the [Veeam Data Cloud Storage Vaults](https://helpcenter.veeam.com/docs/vbazure/guide/vdc_vaults.html?ver=8.1) and [Adding Storage Vaults Using Web UI](https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html?ver=8.1) sections in the Veeam Backup for Microsoft Azure User Guide.
 * For Veeam Kasten, see [Veeam Kasten Docs](https://docs.kasten.io/latest/usage/configuration#vault-integration).
 
