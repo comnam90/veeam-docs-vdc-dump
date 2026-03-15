@@ -3,18 +3,18 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_limitations.html"
-last_updated: "1/12/2026"
+last_updated: "2/24/2026"
 product_version: ""
 ---
 
 # Considerations and Limitations
 
 
-When you plan to protect your Salesforce data with Veeam Data Cloud, keep in mind the following limitations and considerations.
+When you plan to protect your Salesforce data with Veeam Data Cloud, review the following limitations and considerations.
 
 Supported Salesforce Offerings
 
-* Salesforce provides multiple offerings that are built on one Salesforce Platform — Sales Cloud, Service Cloud, Financial Cloud, Health Cloud and Education. Veeam Data Cloud supports backup of all data and objects available on the Salesforce Platform if these resources can be retrieved using the Salesforce API version 63.0 and earlier. This means that if an object or data cannot be obtained using standard Salesforce API requests, backup of these objects is not supported.
+* Salesforce provides multiple offerings that are built on one Salesforce Platform — Sales Cloud, Service Cloud, Financial Cloud, Health Cloud and Education. Veeam Data Cloud supports backup of all data and objects available on the Salesforce Platform if these resources can be retrieved using the Salesforce API version 65.0 and earlier. This means that if an object or data cannot be obtained using standard Salesforce API requests, backup of these objects is not supported.
 
 Salesforce Marketing Cloud is built on another platform and is not protected by the product.
 
@@ -54,6 +54,7 @@ Backup and Restore
 * Restore of embedded images deleted from ContentNote types of objects is not supported.
 * Restore of FeedAttachment types of objects can be performed only when restoring the related FeedItem object hierarchy and only if the related FeedItem object is deleted from Salesforce.
 * Restore of ContentVersion types of objects can be performed only if they were added as attachments (not embedded images) to the related FeedItem object.
+* Restore and archive of files larger than 2 GB is not supported at the moment due to the Salesforce API limitation.
 * Backup of Salesforce objects listed in [Unsupported Salesforce Objects](sf_unsupported_objects.md) is not supported.
 * Backup of certain metadata types is not supported due to Salesforce limitations. For more information, see [Salesforce Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_unsupported_types.htm).
 
