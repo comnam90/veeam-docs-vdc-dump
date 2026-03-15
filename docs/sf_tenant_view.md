@@ -3,7 +3,7 @@ title: "Viewing Salesforce Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenant_view.html"
-last_updated: "1/27/2026"
+last_updated: "3/13/2026"
 product_version: ""
 ---
 
@@ -19,14 +19,15 @@ In the upper section, Veeam Data Cloud displays the following information:
 * The Licensed users field shows how many licenses are available in your subscription.
 * The Expiration Date field shows when your subscription will expire. For details on Veeam Data Cloud for Salesforce licensing, see [Licensing](sf_licensing.md).
 * The Status field shows the current status of the Veeam Data Cloud infrastructure. To view the status of regions where your Salesforce tenants are deployed, click See more next to the Status field.
-* The Upcoming Maintenance field provides information on the next planned maintenance date. To view all upcoming maintenance that can affect your Salesforce tenants, click See more next to the Upcoming Maintenance field.
+* The Upcoming Maintenance field provides information on the next planned maintenance date. To view all upcoming maintenance that can affect your Salesforce tenants, click See more next to the Upcoming Maintenance field. For details on Veeam Data Cloud planned maintenance, see [Veeam Data Cloud Maintenance](maintenance.md).
 
 Tenant Properties
 
 In the tenant list, Veeam Data Cloud displays the following properties for each tenant:
 
+Tenant Properties
+
 | Property | Description |
-| --- | --- |
 | Tenant Name | Name that you specified when adding the tenant and the type of the tenant (Production, Salesforce Trial, Sandbox, Developer). |
 | Salesforce User | Salesforce user that Veeam Data Cloud uses to connect to your Salesforce tenant. |
 | Salesforce ID | ID of your Salesforce tenant. |
@@ -44,8 +45,9 @@ Backup Statuses
 
 Each Salesforce tenant can have one of the following backup statuses:
 
+Backup Statuses
+
 | Status | Description |
-| --- | --- |
 | Provisioning | Veeam Data Cloud is provisioning a new tenant after you finished the Add Salesforce tenant wizard. After the infrastructure for your tenant is ready, Veeam Data Cloud creates the initial backup of your Salesforce tenant. |
 | In Progress | The infrastructure for your tenant is ready, the initial backup of your Salesforce tenant is in progress and you can manage your tenant. |
 | Success | The backup policy is enabled. Status of the last backup session is Success or Warning. |
@@ -57,10 +59,11 @@ Tenant Statuses
 
 Each Salesforce tenant can have one of the following statuses:
 
+Tenant Statuses
+
 | Status | Description |
-| --- | --- |
 | Provisioning | Veeam Data Cloud is provisioning a new tenant after you finished the Add Salesforce tenant wizard. After the infrastructure for your tenant is ready, Veeam Data Cloud creates the initial backup of your Salesforce tenant. |
-| Provisioned | The infrastructure for your tenant is ready, and you can manage your tenant. With this status, tenant management may be temporarily unavailable due to the following reasons:   * The initial backup of your Salesforce tenant is in progress. You will receive an email notification once the initial backup is completed. * Planned maintenance is in progress. For details on Veeam Data Cloud planned maintenance, see [Veeam Data Cloud Maintenance](#vdcmaintenance). * You do not have permission to manage the tenant. To get the permission, an administrator of your Veeam Data Cloud organization must assign you the Salesforce:Administrator, Salesforce:BackupOperator, Salesforce:RestoreOperator, or Salesforce:Viewer role and add this tenant to the role scope. For details, see [Editing Users](users_edit.md). |
+| Provisioned | The infrastructure for your tenant is ready, and you can manage your tenant. With this status, tenant management may be temporarily unavailable due to the following reasons:   * The initial backup of your Salesforce tenant is in progress. You will receive an email notification once the initial backup is completed. * Planned maintenance is in progress. For details on Veeam Data Cloud planned maintenance, see [Veeam Data Cloud Maintenance](maintenance.md). * You do not have permission to manage the tenant. To get the permission, an administrator of your Veeam Data Cloud organization must assign you the Salesforce:Administrator, Salesforce:BackupOperator, Salesforce:RestoreOperator, or Salesforce:Viewer role and add this tenant to the role scope. For details, see [Editing Users](users_edit.md). |
 | Provisioning Failed | The infrastructure deployment or initialization of the backup policy was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 | Deprovisioning | Your subscription has expired and Veeam Data Cloud is suspending the backup policy in your tenant. After the backup policy is suspended, the tenant status changes to In Retention. |
 | Deprovision Failed | Veeam Data Cloud was unable to suspend your backup policy. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
@@ -71,10 +74,4 @@ Each Salesforce tenant can have one of the following statuses:
 | Delete Failed | Deletion of your tenant was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 
 [![Launching Add Salesforce Tenant Wizard](images/sf_tenants_view.png)](images/sf_tenants_view.png "Launching Add Salesforce Tenant Wizard")
-
-Veeam Data Cloud Maintenance
-
-Maintenance in Veeam Data Cloud involves various tasks that are designed to keep the services secure, updated and running smoothly. During the maintenance time, operations (backups, restores, adding tenants, policy changes and so on) within the affected regions may be suspended. Depending on the type of maintenance task, a short downtime may be expected. To keep track of scheduled maintenance, a plan of upcoming maintenance is available.
-
-To view upcoming maintenance for your Salesforce tenants, select Salesforce on the left. The Upcoming Maintenance field provides information on the next planned maintenance date. To view all upcoming maintenance that can affect your Salesforce tenants, click See more.
 

@@ -3,7 +3,7 @@ title: "Restoring OneDrive Data"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_self_restore_onedrive_data.html"
-last_updated: "12/5/2025"
+last_updated: "3/9/2026"
 product_version: ""
 ---
 
@@ -48,4 +48,9 @@ You will also be able to view the progress of the restore process by clicking No
 [![Restoring OneDrive Data](images/m365_self_restore_notifications.png)](images/m365_self_restore_notifications.png "Restoring OneDrive Data")
 
 1. Once the restore process is completed, you will be able to navigate back to your OneDrive and see that the OneDrive data has been restored.
+
+|  |
+| --- |
+| TIP |
+| The administrator of the organization can specify whether the self-service users can restore and overwrite their entire OneDrive or only restore specific OneDrive items. For more information, see [Enabling Self-Service Restore](m365_self_restore.md#enable). |
 
