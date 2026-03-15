@@ -3,7 +3,7 @@ title: "Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_permissions.html"
-last_updated: "12/11/2025"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 
@@ -18,8 +18,9 @@ Veeam Data Cloud requires a Standard User with the Salesforce license type to co
 
 Veeam Data Cloud can automatically assign specific permissions when you add a tenant or edit the backup policy. You must manually assign permissions that are not automatically assigned. For details on automatic assignment of permissions, see [Configure Backup Policy](sf_tenants_add_backup.md) and [Configure API Limits and Verify Permissions](sf_backup_policies_edit_connection.md).
 
+Salesforce User
+
 | Permission type | Permission details | Automatically Assigned |
-| --- | --- | --- |
 | System Administrator profile | Assigning System Administrator profile to a Salesforce user grants broad permissions immediately, but not all the required ones. | No |
 | General permissions | [Query All Files](https://help.salesforce.com/s/articleView?id=000381258&type=1) permission to back up and archive all files. If you do not provide the permission, file backup will be disabled in the backup policy. | Yes |
 | [View Encrypted Data](https://help.salesforce.com/s/articleView?id=sf.fields_about_encrypted_fields.htm&type=5) permission to back up object records with encrypted fields (Salesforce Classic encryption). | Yes |
@@ -59,8 +60,9 @@ AWS Key Management Service
 
 The IAM and key policies that Veeam Data Cloud uses when encrypting data with AWS KMS keys must provide permissions to perform the following operations. For more information on the IAM and key policies, see [AWS Documentation](https://docs.aws.amazon.com/kms/latest/developerguide/control-access.html).
 
+AWS Key Management Service
+
 | Operation | Details |
-| --- | --- |
 | ListKeys | Allows Veeam Data Cloud to get the list of available keys. |
 | Encrypt | Allows Veeam Data Cloud to encrypt data with AWS KMS keys. |
 | Decrypt | Allows Veeam Data Cloud to decrypt data with AWS KMS keys. |
