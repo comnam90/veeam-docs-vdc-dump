@@ -3,7 +3,7 @@ title: "Step 4. Choose Data to Restore"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_restore_records_data.html"
-last_updated: "10/2/2025"
+last_updated: "2/20/2026"
 product_version: ""
 ---
 
@@ -50,7 +50,7 @@ You can also choose the version of each record that will be restored. To do that
 |  |
 | --- |
 | Note |
-| * You can use the Search on this page field to search the records on the currently displayed page. To search across all available records, use the filter functionality. * To help you choose a version, Veeam Data Cloud displays both the content of the selected backed-up record and the content of the record currently stored in Salesforce. If you want to view only those record fields that have changed since the backup was created, set the Compare changes toggle to On. * If the selected records contain encrypted fields, only users assigned the OrganizationAdmin, Salesforce:Administrator and Salesforce:BackupOperator roles will be able to view and compare values of these fields. |
+| * You can use the Search on this page field to search the records on the currently displayed page. To search across all available records, use the filter functionality. * To help you choose a version, Veeam Data Cloud displays both the content of the selected backed-up record and the content of the record currently stored in Salesforce. If you want to view only those record fields that have changed since the backup was created, set the Compare changes toggle to On. * If the selected records contain encrypted fields, only users assigned the OrganizationAdmin, Salesforce:Administrator and Salesforce:BackupOperator roles will be able to view and compare values of these fields. * If you want to export the records to a CSV file, click Export to CSV and select whether you want to export all versions of all records in the search, the latest version of all records in the search, or selected records only.   The download of the exported data starts immediately if you select to export up to 10,000 records. For 10,001 and more records, after Veeam Data Cloud exports the data, you will receive an email with a download link that is valid for 18 hours. |
 
 1. [Applies only when restoring to a non-production tenant] If you want to apply a masking template to the restored data, click the link in the Data masking template field. For a template to be displayed in the list of available templates, it must be created by an Administrator as described in section [Managing Data Masking Templates](sf_settings_templates.md).
 
