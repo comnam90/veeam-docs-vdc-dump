@@ -3,7 +3,7 @@ title: "Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings.html"
-last_updated: "2/19/2026"
+last_updated: "3/12/2026"
 product_version: ""
 ---
 
@@ -16,6 +16,7 @@ In This Section
 
 * [Viewing License Details](m365_settings_view_license_model.md)
 * [Viewing Licensed Users](m365_settings_view_licensed_users.md)
+* [Enabling Express Backup](m365_settings_enable_express_backup.md)
 * [Reauthorizing Veeam Data Cloud for Microsoft 365](m365_settings_reauthorize.md)
 * [Configuring Network Access Restrictions](m365_settings_configure_network.md)
 * [Adding Syslog Server](m365_settings_add_syslog_server.md)

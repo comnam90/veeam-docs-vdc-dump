@@ -3,7 +3,7 @@ title: "Managing Storage Vaults"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html"
-last_updated: "12/16/2025"
+last_updated: "3/11/2026"
 product_version: ""
 ---
 

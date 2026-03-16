@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_licensing.html"
-last_updated: "3/9/2026"
+last_updated: "3/12/2026"
 product_version: ""
 ---
 
@@ -55,8 +55,6 @@ Veeam Data Cloud for Microsoft 365 licenses are consumed by the following object
 
 * Microsoft SharePoint Online personal sites — a personal SharePoint site of a licensed user consumes one Veeam Data Cloud for Microsoft 365 license unit.
 
-For users under the Foundation plan, a Veeam Data Cloud for Microsoft 365 license unit covers a user mailbox, OneDrive for Business account and SharePoint personal site for which at least one restore point has been created within the last 31 days. For example, if the mailbox and personal site of the same user were backed up in the last 31 days, one Veeam Data Cloud for Microsoft 365 license will be consumed. If an object was not backed up for 31 days, its license is automatically revoked and will not count towards total license count.
-
 |  |
 | --- |
 | NOTE |
@@ -69,6 +67,11 @@ The following objects do not consume a Veeam Data Cloud for Microsoft 365 licens
 * Shared mailboxes, resource mailboxes, group mailboxes and public folder mailboxes — these mailboxes do not consume Veeam Data Cloud for Microsoft 365 licenses if such mailboxes do not have a Microsoft 365 license assigned. If such mailboxes do have a Microsoft 365 license assigned, then they will consume a Veeam Data Cloud for Microsoft 365 license. If a shared mailbox is licensed over the 50 GB threshold or licensed under a multi-geo mailbox, then it will consume a Veeam Data Cloud for Microsoft 365 license. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes?view=o365-worldwide).
 * External SharePoint users — an external SharePoint user is a user from outside your Microsoft 365 subscription who has access to one or more sites, files or folders. External authenticated users are limited to basic collaboration tasks, and external anonymous users can edit or view specific documents if they have specific permissions.
 * Guest Microsoft Teams users — a guest Teams user is a user from outside your Microsoft 365 subscription who has access to a backed-up team.
+
+|  |
+| --- |
+| tip |
+| License consumption differs between subscriptions. For more information see [the Veeam Licensing Policy](https://www.veeam.com/legal/licensing-policy.html). |
 
 License Expiration
 
