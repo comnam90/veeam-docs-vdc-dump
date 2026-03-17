@@ -3,7 +3,7 @@ title: "Viewing Dashboard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_dashboard.html"
-last_updated: "10/14/2025"
+last_updated: "3/16/2026"
 product_version: ""
 ---
 
@@ -21,6 +21,12 @@ The Dashboard page displays the following widgets.
 
 * The Protection Status widget displays information on state of your Entra ID backups.
 * The Objects Protected widget displays information on the number of protected Entra ID objects.
+
+|  |
+| --- |
+| note |
+| The number of protected Entra ID users includes all existing users in your Microsoft Entra ID tenant, regardless of their type or status. This number may differ from the number of consumed licenses because only enabled Entra ID member users are counted towards the license. For details, see [Licensing](entra_id_licensing.md). |
+
 * On the Recent Restore Sessions widget, you can review the log of recent restore sessions. Click View All Activity to display a complete log of activities. For details, see [Viewing Backup and Restore Sessions](entra_id_activity.md).
 
 [![Viewing Dashboard](images/entra_id_dashboard.webp)](images/entra_id_dashboard.webp "Viewing Dashboard")
