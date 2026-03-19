@@ -3,7 +3,7 @@ title: "Advanced Search Criteria"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_search_criteria.html"
-last_updated: "8/19/2025"
+last_updated: "3/17/2026"
 product_version: ""
 ---
 
@@ -42,8 +42,9 @@ Outlook
 
 The following table contains parameters that you can set in advanced search for Outlook backups.
 
+Outlook
+
 | Category | Field | Value |
-| --- | --- | --- |
 | Common Fields | Size | number and size unit (for example, 1KB, 1MB, 1GB) |
 | Subject | text |
 | Body | text |
@@ -128,8 +129,9 @@ OneDrive and SharePoint
 
 The following table contains parameters that you can set in advanced search for OneDrive and SharePoint backups.
 
+OneDrive and SharePoint
+
 | Category | Field | Value |
-| --- | --- | --- |
 | Contact | Full Name | text |
 | Anniversary | Choose date from calendar (dd/mm/yyyy) |
 | Assistant Number | text |
@@ -231,8 +233,9 @@ Teams
 
 The following table contains parameters that you can set in advanced search for Teams backups.
 
+Teams
+
 | Category | Field | Value |
-| --- | --- | --- |
 | File Fields | Created | Choose date from calendar (dd/mm/yyyy) |
 | Created By | text |
 | File Extension | text |

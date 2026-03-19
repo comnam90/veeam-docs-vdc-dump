@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_m365_tenant_add.html"
-last_updated: "3/4/2026"
+last_updated: "3/17/2026"
 product_version: ""
 ---
 
@@ -71,6 +71,11 @@ In the Retention Period section, set the number of Years or Days for the retenti
 Once you set the retention period, you cannot reduce it. For more information, see [Backup Retention](m365_data_backup.md#retention).
 
 * Manually create policies. This option allows you to manually configure your backup policies after onboarding.
+
+|  |
+| --- |
+| Note |
+| Before you select whether Veeam Data Cloud automatically configures backup policies or you manually create the policies after onboarding, make sure you have secured the following:   * The customer is familiar with the Veeam Data Cloud services licensing model. * You have discussed with your customer which tenant users and services, for example, Teams or SharePoint, should be protected with Veeam Data Cloud, and you have reached an agreement on the resources to be included in the backup.   You can adjust your backup policy later, but be aware that the change will be reflected in your usage report with a delay due to the following reasons:   * Veeam Data Cloud applies 31 day usage retention for users removed from backup policy. For details, see [Licensing](m365_licensing.md#consumption). * The reported monthly usage is based on the highest level of daily consumption of licensed units recorded during the current month. For details, see [Viewing Subscriptions](sp_subscriptions_view.md). |
 
 1. Click Create Tenant.
 
