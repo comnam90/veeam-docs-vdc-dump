@@ -3,7 +3,7 @@ title: "Step 9. Complete Policy Configuration"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_complete.html"
-last_updated: "1/16/2026"
+last_updated: "3/17/2026"
 product_version: ""
 ---
 
