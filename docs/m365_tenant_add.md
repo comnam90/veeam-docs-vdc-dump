@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
-last_updated: "3/4/2026"
+last_updated: "3/17/2026"
 product_version: ""
 ---
 
@@ -44,7 +44,10 @@ If you choose to automatically connect Veeam Data Cloud to your Microsoft 365 te
 
 1. In the Choose the type of Flex connection section, select Auto Connection.
 2. If you also have a subscription to the Premium license plan and want to connect Microsoft Backup Storage to Veeam Data Cloud, select the Include Express Connection check box. To skip the Express connection, do not select the check box.
-3. Click Sign in with Microsoft.
+
+After you add the tenant, you must also enable the Express backup service in order to create Express backup policies. For more information, see [Enabling Express Backup](m365_settings_enable_express_backup.md).
+
+1. Click Sign in with Microsoft.
 
 [![Adding Microsoft 365 Tenant](images/m365_tenant_add_signin.webp)](images/m365_tenant_add_signin.webp "Adding Microsoft 365 Tenant")
 
@@ -130,7 +133,10 @@ You can click Skip to skip this step if you do not want to connect the tenant to
 1. In the Microsoft authentication window, select the Microsoft account under which you want to authenticate against Microsoft 365. The account must have the Microsoft 365 Global Admin permissions.
 2. Accept the required permissions.
 3. Return to Veeam Data Cloud. If the connection is successful, Veeam Data Cloud displays the following message: The authorization process has been completed successfully.
-4. Click Ok.
+
+After you add the tenant, you must also enable the Express backup service in order to create Express backup policies. For more information, see [Enabling Express Backup](m365_settings_enable_express_backup.md).
+
+1. Click Ok.
 
 |  |
 | --- |
