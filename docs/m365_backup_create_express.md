@@ -3,14 +3,14 @@ title: "Creating Express Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_express.html"
-last_updated: "2/20/2026"
+last_updated: "3/17/2026"
 product_version: ""
 ---
 
 # Creating Express Backup Policies
 
 
-To create Express backup policies, your organization must have an active Premium Veeam Data Cloud for Microsoft 365 plan.
+To create Express backup policies, your organization must have an active Premium Veeam Data Cloud for Microsoft 365 plan and you must [activate and enable the Express backup service](m365_settings_enable_express_backup.md).
 
 Consider the following:
 
@@ -23,6 +23,7 @@ Consider the following:
 * You can create multiple Selected Items backup policies for each application (Outlook, OneDrive or SharePoint). Each specific object can only be protected with a single backup policy.
 * Before you start creating backup policies, check [Considerations and Limitations](m365_considerations_limitations.md#backup).
 * The schedule for Express backup policies depends on the protected Microsoft 365 service. For more information, see [Retention Period](m365_security.md#rpo).
+* For Outlook backup policies, you can back up user mailboxes and shared mailboxes. Discovery search mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported. Veeam Data Cloud will display the following warning when you add an unsupported mailbox to a backup policy: Mailbox cannot be added to policy since the recipient type is not supported.
 
 To create new backup policies, do the following:
 
