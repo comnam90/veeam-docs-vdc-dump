@@ -3,7 +3,7 @@ title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication Using 
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_vbr_web.html"
-last_updated: "3/12/2026"
+last_updated: "3/20/2026"
 product_version: ""
 ---
 
@@ -42,7 +42,7 @@ To connect Veeam Data Cloud Vault with Veeam Backup & Replication using web UI, 
 |  |
 | --- |
 | Note |
-| To connect Veeam Backup & Replication to Veeam Data Cloud Vault, you must obtain a Veeam Data Cloud Vault subscription and create at least one storage vault in this subscription.  If you do not have a subscription, you can obtain it on the Veeam website. For more information, see [Obtaining Subscription](vault_manage_subscriptions.md#create_subscription).  If you have not created a storage vault, create it in Veeam Data Cloud. For more information, see [Adding Storage Vaults](vault_storage_vaults_add.md). |
+| To connect Veeam Backup & Replication to Veeam Data Cloud Vault, you must obtain a Veeam Data Cloud Vault subscription and create at least one storage vault in this subscription.  If you do not have a subscription, you can obtain it on the Veeam website. For more information, see [Obtaining Veeam Data Cloud Vault](vault_obtain_product.md).  If you have not created a storage vault, create it in Veeam Data Cloud. For more information, see [Adding Storage Vaults](vault_storage_vaults_add.md). |
 
 [![Using with Veeam Backup and Replication](images/vault_vbr_web_register.webp)](images/vault_vbr_web_register.webp "Using with Veeam Backup and Replication")
 
