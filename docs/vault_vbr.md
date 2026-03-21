@@ -3,7 +3,7 @@ title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication Using 
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_vbr.html"
-last_updated: "3/12/2026"
+last_updated: "3/20/2026"
 product_version: ""
 ---
 
@@ -35,13 +35,13 @@ To connect Veeam Data Cloud Vault with Veeam Backup & Replication using the back
 
 1. In the Sign in to Veeam Customer Portal window, enter credentials of the user account under which you access Veeam Data Cloud and click Log In.
 
-* In Veeam Backup & Replication earlier than build 13.0.1.2067, the account you use must have access to the My Account portal and Veeam Data Cloud. Veeam will register the backup server in My Account and in Veeam Data Cloud.
-* In Veeam Backup & Replication build 13.0.1.2067 and later, the account you use does not need access to the My Account portal. Starting from this product version, Veeam Backup & Replication and Veeam Data Cloud Vault are connected directly, without using My Account. Veeam will register the backup server in Veeam Data Cloud.
+* In Veeam Backup & Replication earlier than build 13.0.1.2067, the account you use must have access to the Veeam My Account portal and Veeam Data Cloud. Veeam will register the backup server in Veeam My Account and in Veeam Data Cloud.
+* In Veeam Backup & Replication build 13.0.1.2067 and later, the account you use does not need access to the Veeam My Account portal. Starting from this product version, Veeam Backup & Replication and Veeam Data Cloud Vault are connected directly, without using Veeam My Account. Veeam will register the backup server in Veeam Data Cloud.
 
 |  |
 | --- |
 | Note |
-| To connect Veeam Backup & Replication to Veeam Data Cloud Vault, you must obtain a Veeam Data Cloud Vault subscription and create at least one storage vault in this subscription.  If you do not have a subscription, you can obtain it on the Veeam website. For more information, see [Obtaining Subscription](vault_manage_subscriptions.md#create_subscription).  If you have not created a storage vault, create it in Veeam Data Cloud. For more information, see [Adding Storage Vaults](vault_storage_vaults_add.md). |
+| To connect Veeam Backup & Replication to Veeam Data Cloud Vault, you must obtain a Veeam Data Cloud Vault subscription and create at least one storage vault in this subscription.  If you do not have a subscription, you can obtain it on the Veeam website. For more information, see [Obtaining Veeam Data Cloud Vault](vault_obtain_product.md).  If you have not created a storage vault, create it in Veeam Data Cloud. For more information, see [Adding Storage Vaults](vault_storage_vaults_add.md). |
 
 1. If you have only one storage vault that has not been assigned to any Veeam Backup & Replication server, Veeam Data Cloud Vault will automatically assign this storage vault to your backup server. At the Account step of the New Object Storage Repository wizard, the storage vault will be automatically selected in the Vault drop-down list.
 

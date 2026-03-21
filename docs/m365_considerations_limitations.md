@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_considerations_limitations.html"
-last_updated: "3/11/2026"
+last_updated: "3/17/2026"
 product_version: ""
 ---
 
@@ -282,7 +282,7 @@ Exchange Online
 * Items moved to the Deleted Items folder will not be restored. Mailbox users can recover these items themselves by moving them back to the Inbox from the Deleted Items folder.
 * If the parent folder of an item has been deleted, the item will be restored to a newly created folder named Recovered Items YYYY-MM-DD, HH:MM.
 * The Outlook mailbox folder structure is not backed up. This means that while you perform a mailbox restore with multiple hierarchical folders, the folder structure is not reconstructed when restored. The restored mailbox items are located in a different folder, created by Microsoft.
-* Discovery search mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported.
+* Discovery search mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported. Veeam Data Cloud will display the following warning when you add an unsupported mailbox to a backup policy: Mailbox cannot be added to policy since the recipient type is not supported.
 
 OneDrive for Business and SharePoint Online
 

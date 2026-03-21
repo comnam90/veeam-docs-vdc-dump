@@ -3,7 +3,7 @@ title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication Using 
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr.html"
-last_updated: "3/12/2026"
+last_updated: "3/20/2026"
 product_version: ""
 ---
 
@@ -44,8 +44,8 @@ To connect Veeam Data Cloud Vault with Veeam Backup & Replication using the back
 
 1. In the Sign in to Veeam Customer Portal window, enter credentials of the user account under which you access Veeam Data Cloud and click Log In.
 
-* In Veeam Backup & Replication earlier than build 13.0.1.2067, the account you use must have access to the My Account portal and Veeam Data Cloud. Veeam will register the backup server in My Account and in Veeam Data Cloud.
-* In Veeam Backup & Replication build 13.0.1.2067 and later, the account you use does not need access to the My Account portal. Starting from this product version, Veeam Backup & Replication and Veeam Data Cloud Vault are connected directly, without using My Account. Veeam will register the backup server in Veeam Data Cloud.
+* In Veeam Backup & Replication earlier than build 13.0.1.2067, the account you use must have access to the Veeam My Account portal and Veeam Data Cloud. Veeam will register the backup server in Veeam My Account and in Veeam Data Cloud.
+* In Veeam Backup & Replication build 13.0.1.2067 and later, the account you use does not need access to the Veeam My Account portal. Starting from this product version, Veeam Backup & Replication and Veeam Data Cloud Vault are connected directly, without using Veeam My Account. Veeam will register the backup server in Veeam Data Cloud.
 
 |  |
 | --- |
