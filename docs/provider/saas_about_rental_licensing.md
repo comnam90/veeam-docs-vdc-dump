@@ -3,7 +3,7 @@ title: "About Rental Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_about_rental_licensing.html"
-last_updated: "3/20/2026"
+last_updated: "3/23/2026"
 product_version: ""
 ---
 
@@ -17,7 +17,7 @@ The SaaS rental license is available exclusively to service providers that are m
 * Automatic license update capabilities to maintain license distribution, purchase license extensions and increase license size at scale.
 * Purpose-built products and partner portals designed to quickly onboard customers and facilitate monthly usage reporting.
 
-For more information about SaaS licensing policy, see [Licensing Legal Agreements](https://www.veeam.com/legal/eula.html).
+For more information about SaaS licensing policy, see [Licensing Legal Agreements](https://www.veeam.com/legal/eula.html). For more information about the right of VCSP partners to use Veeam Data Cloud and Veeam Data Cloud Vault under the VCSP Partner Program, see [the VCSP Click-Through Agreement](https://propartner.veeam.com/partner-agreement/read/vcsp/).
 
 In This Section
 
