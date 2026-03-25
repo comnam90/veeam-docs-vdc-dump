@@ -3,7 +3,7 @@ title: "Restoring Microsoft Teams Data"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_teams.html"
-last_updated: "6/6/2025"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -17,6 +17,6 @@ In This Section
 * [Restoring Teams](m365_restore_teams_team.md)
 * [Restoring Channels](m365_restore_teams_channel.md)
 * [Restoring Posts](m365_restore_teams_posts.md)
-* [Restoring Files](m365_restore_teams_files.md)
+* [Restoring Shared Items](m365_restore_teams_files.md)
 * [Restoring Tabs](m365_restore_teams_tabs.md)
 
