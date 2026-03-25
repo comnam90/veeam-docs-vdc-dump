@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_sites.html"
-last_updated: "10/21/2025"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
