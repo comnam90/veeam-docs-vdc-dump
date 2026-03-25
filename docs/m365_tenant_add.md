@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
-last_updated: "3/17/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -13,6 +13,8 @@ product_version: ""
 To start protecting the Microsoft 365 tenant data, you must add the Microsoft 365 tenant to Veeam Data Cloud.
 
 Before you start adding the tenant, check [Considerations and Limitations](m365_considerations_limitations.md).
+
+For information on how to add a multi-geo tenant to Veeam Data Cloud, see [Adding Multi-Geo Microsoft 365 Tenants](m365_tenant_add_multigeo.md).
 
 To add a Microsoft 365 tenant, use the Add Microsoft 365 tenant wizard and do the following:
 
@@ -94,10 +96,10 @@ X.509 compatible certificates from a trusted CA (Certificate Authority) and self
 1. In Veeam Data Cloud for Microsoft 365, in the Choose the type of Flex connection section, select Manual Connection.
 2. Specify the following:
 
-1. In the Admin Email field, type the email address of a Microsoft 365 user account that belongs to your Microsoft 365 tenant.
-2. In the App Registration id field, type the Application (client) ID value that you copied during the application registration in Microsoft Entra ID.
-3. In the Certificate field, click Browse and select the PFX certificate file that you exported from Microsoft Entra ID.
-4. In the Password field, only type the password if you have exported the certificate with password protection enabled.
+1. In the User Account Email field, type the email address of a Microsoft 365 user account that belongs to your Microsoft 365 tenant.
+2. In the App Registration ID field, type the Application (client) ID value that you copied during the application registration in Microsoft Entra ID.
+3. In the App Certificate field, click Browse and select the PFX certificate file that you exported from Microsoft Entra ID.
+4. In the Certificate Password field, only type the password if you have exported the certificate with password protection enabled.
 
 [![Manually Adding Microsoft 365 Tenant](images/m365_tenant_add_connect_manually.webp)](images/m365_tenant_add_connect_manually.webp "Manually Adding Microsoft 365 Tenant")
 
