@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_sites.html"
-last_updated: "10/21/2025"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -34,6 +34,8 @@ To restore an entire SharePoint site from the backup:
 * The following site alias. Select this option if you want to restore the site content to another site within the same SharePoint instance.
 
 If you select this option, type the site alias. Veeam Data Cloud for Microsoft 365 will display the resulting URL of the target site.
+
+For multi-geo tenants, the target site must belong to the same protected regions as the current tenant.
 
 |  |
 | --- |
