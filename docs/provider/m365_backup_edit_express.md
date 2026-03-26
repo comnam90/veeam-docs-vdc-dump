@@ -3,7 +3,7 @@ title: "Editing Express Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_edit_express.html"
-last_updated: "2/20/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -43,6 +43,8 @@ To add objects to an express backup policy, take the following steps:
 1. In the Setting items to back up section, do the following:
 
 1. [For Outlook and OneDrive express backup policies] Click Select next to Microsoft 365 Users or Groups and choose objects to be backed up.
+
+You can also click Upload file to upload a CSV or text file with one email address per line.
 
 [![Editing Express Backup Policy](images/m365_backup_edit_express.webp)](images/m365_backup_edit_express.webp "Editing Express Backup Policy")
 
