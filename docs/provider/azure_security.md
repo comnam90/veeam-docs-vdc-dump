@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_security.html"
-last_updated: "3/6/2026"
+last_updated: "3/23/2026"
 product_version: ""
 ---
 
@@ -38,7 +38,7 @@ Utilizes 256-bit encryption for all data in-transit and at-rest.
 
 Immutability
 
-Veeam Data Cloud for Microsoft Azure offers service-level immutability capabilities on backups of Azure resources. Once the data is backed up, it cannot be altered, tampered with, or deleted by users, including administrators or attackers.
+Veeam Data Cloud for Microsoft Azure offers immutability capabilities on backups of Azure resources. Once the data is backed up, it cannot be altered, tampered with, or deleted by users, including administrators or attackers.
 
 Multi-Factor Authentication (MFA)
 
