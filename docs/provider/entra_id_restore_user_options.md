@@ -3,7 +3,7 @@ title: "Step 3. Specify Restore Options"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_restore_user_options.html"
-last_updated: "10/9/2025"
+last_updated: "3/25/2026"
 product_version: ""
 ---
 
@@ -27,7 +27,7 @@ At the Options step of the wizard, configure the restore options, such as how to
 |  |
 | --- |
 | Tip |
-| Consider the following:   * You can set the default password and also specify temporary passwords for individual users. Users for whom you do not specify a temporary password will have the default password. * At the [Summary](entra_id_restore_user_summary.md) step, you will be able to export passwords specified in the Set temporary passwords window. |
+| Consider the following:   * You can set the default password and also specify temporary passwords for individual users. Users for whom you do not specify a temporary password will have the default password. * At the [Summary](entra_id_restore_user_summary.md) step, you will be able to export passwords specified in the Set unique temporary passwords window. |
 
 1. In the Advanced options section, configure the following:
 
