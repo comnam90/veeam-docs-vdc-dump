@@ -3,7 +3,7 @@ title: "Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings.html"
-last_updated: "3/12/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
