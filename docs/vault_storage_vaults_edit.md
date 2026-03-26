@@ -3,20 +3,20 @@ title: "Managing Storage Vaults"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html"
-last_updated: "3/11/2026"
+last_updated: "3/26/2026"
 product_version: ""
 ---
 
 # Managing Storage Vaults
 
 
-Veeam Data Cloud Vault provides detailed information about your storage vaults and allows you to edit vault names, configure sccess to storage vaults and assign storage vaults to workloads.
+Veeam Data Cloud Vault provides detailed information about your storage vaults and allows you to edit vault names, configure access to storage vaults and assign storage vaults to workloads.
 
 Viewing Storage Vault Details
 
 To view the storage vault details, do the following:
 
-1. On the Vault page, find the necessary tenant in the list of tenants and click the tenant name. Alternatively, click the button with three dots at the end of the row and click Manage.
+1. On the Vault page, find the necessary tenant in the list of tenants and click the tenant name. Alternatively, click the menu icon at the end of the row and click Manage.
 2. In the left menu, click Storage Vaults.
 3. On the Storage Vaults page, view storage vault details.
 
@@ -75,6 +75,10 @@ To specify the IP address range in a valid format, use the slash / punctuation m
 | --- |
 | Note |
 | Settings that allow access only from specific IP addresses do not apply to connections that originate from Azure services in the same region as the storage vault region. For more information, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security-limitations#restrictions-for-ip-network-rules). |
+
+* [For Azure editions] In the Enable Private Endpoint field, create private endpoint.
+
+To learn more, see [Creating Private Endpoints](vault_private_endpoints_creation.md).
 
 1. Click Done.
 

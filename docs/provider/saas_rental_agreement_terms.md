@@ -3,7 +3,7 @@ title: "Rental Agreements and Licensing Terms"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_rental_agreement_terms.html"
-last_updated: "3/23/2026"
+last_updated: "3/26/2026"
 product_version: ""
 ---
 

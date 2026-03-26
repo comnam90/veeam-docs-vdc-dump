@@ -3,7 +3,7 @@ title: "Viewing Vault Assignments"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_assignments.html"
-last_updated: "12/16/2025"
+last_updated: "3/18/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ Veeam Data Cloud Vault allows you to view information about Veeam Backup & Repli
 
 To view a list of integrations, do the following:
 
-1. On the Vault page, find the necessary tenant in the list of tenants. Click the button with three dots at the end of the row, then click Manage.
+1. On the Vault page, find the necessary tenant in the list of tenants. Click the menu icon at the end of the row, then click Manage.
 2. In the left menu, click Vault Assignments.
 3. On the Vault Assignments page, view the list of integrations.
 

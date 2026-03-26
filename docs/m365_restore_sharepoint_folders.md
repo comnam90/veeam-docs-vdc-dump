@@ -3,7 +3,7 @@ title: "Restoring SharePoint Folders"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_folders.html"
-last_updated: "2/10/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -34,6 +34,8 @@ To restore a SharePoint folder from the backup:
 
 1. Restore items to the original list. If you select this option, the folder will be restored to the Documents list of the site you specified.
 2. Restore items to the following list. If you select this option, type the name of the list. The folder will be restored to the site and list you specified. If the target list does not exist, the restore process will fail.
+
+For multi-geo tenants, the target site must belong to the same protected regions as the current tenant.
 
 You can click Advanced options to display more options. For details, see the next step of the procedure.
 

@@ -3,7 +3,7 @@ title: "Adding AWS Edition Storage Vaults in Veeam Backup & Replication"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr_aws.html"
-last_updated: "3/12/2026"
+last_updated: "3/26/2026"
 product_version: ""
 ---
 
@@ -48,6 +48,11 @@ To obtain the storage vault ID, copy the value in the Vault ID field in Veeam Da
 ![Adding AWS Edition Storage Vaults in Veeam Backup & Replication](images/vault_vbr_aws_bucket.webp)
 
 1. Complete the steps of the New Object Storage Repository wizard to add the storage vault as an object storage repository in Veeam Backup & Replication.
+
+|  |
+| --- |
+| Note |
+| Keep in mind that at the Mount Server step of the wizard, you cannot configure the helper appliance for a storage vault added as an Amazon S3 object storage repository. |
 
 For more information, see the [Adding Amazon S3 Storage](https://helpcenter.veeam.com/docs/vbr/userguide/osr_amazon_adding.html?ver=13) section in the Veeam Backup & Replication User Guide.
 

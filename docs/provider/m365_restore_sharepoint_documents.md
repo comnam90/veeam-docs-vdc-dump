@@ -3,7 +3,7 @@ title: "Restoring SharePoint Documents"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_documents.html"
-last_updated: "2/24/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 

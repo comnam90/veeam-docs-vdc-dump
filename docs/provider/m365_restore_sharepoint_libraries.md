@@ -3,7 +3,7 @@ title: "Restoring SharePoint Libraries"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_libraries.html"
-last_updated: "2/10/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 

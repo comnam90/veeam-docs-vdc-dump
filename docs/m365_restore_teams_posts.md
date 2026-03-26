@@ -3,7 +3,7 @@ title: "Restoring Posts"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_posts.html"
-last_updated: "2/10/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -24,7 +24,7 @@ To restore all posts of a Microsoft Teams channel:
 |  |
 | --- |
 | Note |
-| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty.  * Backup and restore of Microsoft Teams data is available to users of the Foundation and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method.  * To be able to restore team posts, make sure that Microsoft team chats backup is enabled. For details, see [Enabling Microsoft Team Chats Backup](m365_enable_team_chats_backup.md).   If team chats backup is not enabled for the organization, the backup does not contain team posts, and no posts are available for restore when you select the Posts node on the Teams Restore tab.   * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
+| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty.  * Backup and restore of Microsoft Teams data is available to users of the Foundation and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method.  * To be able to restore team posts, make sure that Microsoft team posts backup is enabled. For details, see [Enabling Microsoft Team Posts Backup](m365_enable_team_chats_backup.md).   If team chats backup is not enabled for the organization, the backup does not contain team posts, and no posts are available for restore when you select the Posts node on the Teams Restore tab.   * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
 
 1. Select Restore.
 2. On the Teams tab, expand the team whose channel posts you want to restore.

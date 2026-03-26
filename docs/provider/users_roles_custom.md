@@ -3,7 +3,7 @@ title: "Creating Roles"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/users_roles_custom.html"
-last_updated: "2/12/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -69,13 +69,15 @@ Microsoft 365 Role Permissions
 
 The following table lists the available permissions that you can assign to a user role for the Microsoft 365 workload:
 
+Microsoft 365 Role Permissions
+
 | Permission | Description |
-| --- | --- |
 | General | |
 | List Tenants | View the list of all existing workload tenants in Microsoft 365. |
 | View Tenants | Enter the tenant view. |
 | Manage Tenants | Manage system settings within the Microsoft 365 tenant. |
 | Onboard Tenants | Create new workload tenants. |
+| Manage Multi-Geo Mapping | Manage Multi-Geo settings within the Microsoft 365 tenant. |
 | View Activity Logs | View Microsoft 365 tenant activity logs. |
 | View Licensing Dashboard | View the dashboard widgets that contain Microsoft 365 licensing information. |
 | Manage Reports | Manage, execute and view reports within the tenant. |

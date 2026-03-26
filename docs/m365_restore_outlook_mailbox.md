@@ -3,7 +3,7 @@ title: "Restoring Outlook Mailboxes"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_outlook_mailbox.html"
-last_updated: "2/10/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -39,7 +39,11 @@ If you select this option, you can use the Advanced options toggle to display mo
 
 * Other users mailbox. Select this option if you want to restore the mailbox to another mailbox.
 
-If you select this option, in the Mailbox and Folder fields specify the address of the target mailbox and the target mailbox folder. You can also click Advanced options to display more options. For details, see the next step of the procedure.
+If you select this option, in the Mailbox and Folder fields specify the address of the target mailbox and the target mailbox folder.
+
+For multi-geo tenants, the target mailbox must belong to the same protected regions as the current tenant.
+
+You can also click Advanced options to display more options. For details, see the next step of the procedure.
 
 * Download in background. Select this option if you want to download the mailbox content to your computer. Veeam Data Cloud for Microsoft 365 will save the mailbox content to a .PST file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
 

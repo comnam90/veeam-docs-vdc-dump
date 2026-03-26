@@ -3,7 +3,7 @@ title: "Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings.html"
-last_updated: "3/12/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -21,5 +21,6 @@ In This Section
 * [Configuring Network Access Restrictions](m365_settings_configure_network.md)
 * [Adding Syslog Server](m365_settings_add_syslog_server.md)
 * [Managing Notifications](m365_settings_notifications.md)
+* [Mapping Multi-Geo Regions](m365_settings_map_multigeo_regions.md)
 * [BYOK Encryption](m365_settings_byok_encryption.md)
 

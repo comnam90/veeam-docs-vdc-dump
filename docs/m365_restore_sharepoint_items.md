@@ -3,7 +3,7 @@ title: "Restoring SharePoint List Items"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_items.html"
-last_updated: "2/24/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -33,6 +33,8 @@ To restore a SharePoint list item from the backup:
 [![Restoring SharePoint Items](images/m365_restore_sharepoint_items_original.webp)](images/m365_restore_sharepoint_items_original.webp "Restoring SharePoint Items")
 
 * The following site alias. Select this option if you want to restore the item to another site within the same SharePoint instance. Type the site alias. Veeam Data Cloud for Microsoft 365 will display the resulting URL of the target site. If the target site does not exist, the restore process will fail.
+
+For multi-geo tenants, the target site must belong to the same protected regions as the current tenant.
 
 1. Restore items to the original list. If you select this option, the item will be restored to the original list of the site you specified.
 2. Restore items to the following list. If you select this option, type the name of the list. The item will be restored to the site and list you specified. If the target list does not exist, the restore process will fail.
