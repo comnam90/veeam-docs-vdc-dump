@@ -3,7 +3,7 @@ title: "Viewing Dashboard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_dashboard.html"
-last_updated: "12/16/2025"
+last_updated: "3/18/2026"
 product_version: ""
 ---
 
@@ -18,7 +18,7 @@ Storage amount is specified in TB (TB is considered as 2^40 bytes).
 
 To view the Veeam Data Cloud Vault dashboard do the following:
 
-1. On the Vault page, find the necessary tenant in the list of tenants. Click the button with three dots at the end of the row, then click Manage.
+1. On the Vault page, find the necessary tenant in the list of tenants. Click the menu icon at the end of the row, then click Manage.
 2. On the Dashboard page, view the following widgets:
 
 * The Storage Status widget provides information about the storage usage within the subscription. The widget contains the following elements:
