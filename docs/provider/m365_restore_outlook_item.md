@@ -3,7 +3,7 @@ title: "Restoring Outlook Items"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_outlook_item.html"
-last_updated: "2/10/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -32,7 +32,9 @@ If you select this option, you can use the Advanced options toggle to display mo
 
 * Other users mailbox. Select this option if you want to restore the item to another mailbox.
 
-If you select this option, in the Mailbox and Folder fields specify the address of the target mailbox and the target mailbox folder. You can also click Advanced options to display more options. For details, see the next step of the procedure.
+If you select this option, in the Mailbox and Folder fields specify the address of the target mailbox and the target mailbox folder.
+
+You can also click Advanced options to display more options. For details, see the next step of the procedure.
 
 * Download in background. Select this option if you want to download the item to your computer. Veeam Data Cloud for Microsoft 365 will save the item to an .MSG file. If you selected multiple items, Veeam Data Cloud for Microsoft 365 will save them to a .PST file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
 
