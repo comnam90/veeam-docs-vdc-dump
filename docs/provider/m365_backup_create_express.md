@@ -3,7 +3,7 @@ title: "Creating Express Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_create_express.html"
-last_updated: "3/17/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -53,6 +53,8 @@ If the existing backup policy is disabled when you try to create a new one, Veea
 If you back up the entire organization, when the backup policy runs, it checks the entire content of the organization and the list of items to back up is automatically updated. For example, if some users were added or deleted from the organization between backup policy runs, the backup policy reflects those changes.
 
 1. [For selected items backup policies] For Outlook and OneDrive, click Select next to Microsoft 365 Users or Groups and choose specific objects to back up. For SharePoint, click Select next to SharePoint Sites and choose specific objects to back up.
+
+For Microsoft 365 Users, you can also click Upload file to upload a CSV or text file with one email address per line.
 
 For SharePoint, you can also click Upload file to upload a CSV file with one SharePoint site URL per line.
 
