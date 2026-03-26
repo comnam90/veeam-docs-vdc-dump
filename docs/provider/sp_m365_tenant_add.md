@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_m365_tenant_add.html"
-last_updated: "3/17/2026"
+last_updated: "3/20/2026"
 product_version: ""
 ---
 
@@ -47,7 +47,10 @@ If you choose to automatically connect Veeam Data Cloud to the Microsoft 365 ten
 
 1. In the Choose the type of Flex connection section, select Auto Connection.
 2. If you also have a subscription to the Premium license plan and want to connect Microsoft Backup Storage to Veeam Data Cloud, select the Include Express Connection check box. To skip the Express connection, do not select the check box.
-3. Click Sign in with Microsoft.
+
+After you add the tenant, you must also enable the Express backup service in order to create Express backup policies. For more information, see [Enabling Express Backup](m365_settings_enable_express_backup.md).
+
+1. Click Sign in with Microsoft.
 
 [![Adding Microsoft 365 Tenant](images/m365_tenant_add_signin.webp)](images/m365_tenant_add_signin.webp "Adding Microsoft 365 Tenant")
 
@@ -75,7 +78,7 @@ Once you set the retention period, you cannot reduce it. For more information, s
 |  |
 | --- |
 | Note |
-| Before you select whether Veeam Data Cloud automatically configures backup policies or you manually create the policies after onboarding, make sure you have secured the following:   * The customer is familiar with the Veeam Data Cloud services licensing model. * You have discussed with your customer which tenant users and services, for example, Teams or SharePoint, should be protected with Veeam Data Cloud, and you have reached an agreement on the resources to be included in the backup.   You can adjust your backup policy later, but be aware that the change will be reflected in your usage report with a delay due to the following reasons:   * Veeam Data Cloud applies 31 day usage retention for users removed from backup policy. For details, see [Licensing](m365_licensing.md#consumption). * The reported monthly usage is based on the highest level of daily consumption of licensed units recorded during the current month. For details, see [Viewing Subscriptions](sp_subscriptions_view.md). |
+| Before you select whether Veeam Data Cloud automatically configures backup policies or you manually create the policies after onboarding, make sure you have secured the following:   1. The customer is familiar with the Veeam Data Cloud services licensing model. 2. You have discussed with your customer which tenant users and services, for example, Teams or SharePoint, should be protected with Veeam Data Cloud, and you have reached an agreement on the resources to be included in the backup.   You can adjust your backup policy later, but be aware that the change will be reflected in your usage report with a delay due to the following reasons:   * Veeam Data Cloud applies 31 day usage retention for users removed from backup policy. For details, see [Licensing](m365_licensing.md#consumption). * The reported monthly usage is based on the highest level of daily consumption of licensed units recorded during the current month. For details, see [Viewing Subscriptions](sp_subscriptions_view.md). |
 
 1. Click Create Tenant.
 
@@ -99,10 +102,10 @@ X.509 compatible certificates from a trusted CA (Certificate Authority) and self
 1. In Veeam Data Cloud for Microsoft 365, in the Choose the type of Flex connection section, select Manual Connection.
 2. Specify the following:
 
-1. In the Admin Email field, type the email address of a Microsoft 365 user account that belongs to your Microsoft 365 tenant.
-2. In the App Registration id field, type the Application (client) ID value that you copied during the application registration in Microsoft Entra ID.
-3. In the Certificate field, click Browse and select the PFX certificate file that you exported from Microsoft Entra ID.
-4. In the Password field, only type the password if you have exported the certificate with password protection enabled.
+1. In the User Account Email field, type the email address of a Microsoft 365 user account that belongs to your Microsoft 365 tenant.
+2. In the App Registration ID field, type the Application (client) ID value that you copied during the application registration in Microsoft Entra ID.
+3. In the App Certificate field, click Browse and select the PFX certificate file that you exported from Microsoft Entra ID.
+4. In the Certificate Password field, only type the password if you have exported the certificate with password protection enabled.
 
 [![Manually Adding Microsoft 365 Tenant](images/m365_tenant_add_connect_manually.webp)](images/m365_tenant_add_connect_manually.webp "Manually Adding Microsoft 365 Tenant")
 
@@ -138,7 +141,10 @@ You can click Skip to skip this step if you do not want to connect the tenant to
 1. In the Microsoft authentication window, select the Microsoft account under which you want to authenticate against Microsoft 365. The account must have the Microsoft 365 Global Admin permissions.
 2. Accept the required permissions.
 3. Return to Veeam Data Cloud. If the connection is successful, Veeam Data Cloud displays the following message: The authorization process has been completed successfully.
-4. Click Ok.
+
+After you add the tenant, you must also enable the Express backup service in order to create Express backup policies. For more information, see [Enabling Express Backup](m365_settings_enable_express_backup.md).
+
+1. Click Ok.
 
 |  |
 | --- |
