@@ -3,7 +3,7 @@ title: "Performing Bulk Restore"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_bulk.html"
-last_updated: "2/12/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -68,7 +68,7 @@ For SharePoint, Veeam Data Cloud restores the data to a newly created site with 
 
 [![Performing Bulk Restore](images/m365_restore_bulk_next.webp)](images/m365_restore_bulk_next.webp "Performing Bulk Restore")
 
-1. Review the list of the items you selected to restore and their restore points. Click Confirm to start the bulk restore process.
+1. Review the list of the items you selected to restore. Click Confirm to start the bulk restore process.
 
 [![Performing Bulk Restore](images/m365_restore_bulk_confirm.webp)](images/m365_restore_bulk_confirm.webp "Performing Bulk Restore")
 
