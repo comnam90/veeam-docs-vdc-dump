@@ -3,7 +3,7 @@ title: "Restoring OneDrive Folders"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_onedrive_folders.html"
-last_updated: "2/10/2026"
+last_updated: "3/24/2026"
 product_version: ""
 ---
 
@@ -33,6 +33,8 @@ If you select this option, do the following:
 1. In the Microsoft 365 Account field, click Select User and select the necessary user account in the User selection window.
 2. In the Restore to field, type the name of the folder where to restore the OneDrive folder. Veeam Data Cloud for Microsoft 365 will display the resulting path to the restore destination.
 
+For multi-geo tenants, the target OneDrive must belong to the same protected regions as the current tenant.
+
 You can also use the Advanced options toggle to display more options. For details, see the next step of the procedure.
 
 * Download in background. Select this option if you want to download the OneDrive folder to your computer. Veeam Data Cloud for Microsoft 365 will save the OneDrive folder to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
@@ -50,7 +52,7 @@ You can also use the Advanced options toggle to display more options. For detail
 1. In the History restore options section, select the Restore only the latest version check box if you want to restore only the latest version of items. If you select this check box, you can select one of the following options:
 
 * Overwrite. Select this option to overwrite items in the production environment with the latest version of items in the backup.
-* Merge. Select this option to merge the latest version of items in the backup into items in the production environment.
+* Merge. Select this option to merge the latest version of items in the backup into items in the production environment. Only the latest file versions from the backup are restored and they are added (merged) to the existing file version history (if any).
 
 1. In the Additional options section, select the Restore Shared Access check box if you want to restore shared access permissions of the restored OneDrive content.
 
