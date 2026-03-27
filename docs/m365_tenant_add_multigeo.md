@@ -3,7 +3,7 @@ title: "Adding Multi-Geo Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_multigeo.html"
-last_updated: "3/25/2026"
+last_updated: "3/26/2026"
 product_version: ""
 ---
 
@@ -15,7 +15,7 @@ To start protecting multi-geo Microsoft 365 tenant data, you must add the multi-
 Consider the following:
 
 * Before you start adding the multi-geo tenant, check [Considerations and Limitations](m365_considerations_limitations.md).
-* Veeam Data Cloud supports multi-geo tenants for customers under the Foundation or Advanced plans.
+* Veeam Data Cloud supports multi-geo tenants for Flex backup policies.
 
 To add a multi-geo Microsoft 365 tenant, use the Add Microsoft 365 tenant wizard and do the following:
 
