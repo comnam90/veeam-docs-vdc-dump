@@ -3,7 +3,7 @@ title: "Viewing Dashboard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_dashboard.html"
-last_updated: "3/18/2026"
+last_updated: "3/27/2026"
 product_version: ""
 ---
 
@@ -27,8 +27,13 @@ To view the Veeam Data Cloud Vault dashboard do the following:
 * The Storage counter shows the total amount of storage obtained by each tenant.
 * A graph that represents the amount of used and free storage capacity.
 
-* The Vault Usage widget.
-* The Storage Used widget provides information about the total amount of storage used by each storage vault for the last 6 months. To view storage usage details for a specific month for a specific storage vault, move the cursor to a specific location on the graph.
+* The storage usage and storage egress widget. The widget contains the following counters:
+
+* The Storage Usage counter shows the total storage capacity used by each storage vault over the past 6 months.
+* The Storage Egress counter shows the total amount of data transferred out from each storage vault over the past 6 months.
+
+* The Storage Used widget provides information about the total storage capacity used by each storage vault over the past 6 months. To view storage usage details for a specific month for a specific storage vault, move the cursor to a specific location on the graph.
+* The Storage Egress widget provides information about the total amount of data transferred out from each storage vault over the past 6 months. To view storage usage details for a specific month for a specific storage vault, move the cursor to a specific location on the graph.
 
 |  |
 | --- |
