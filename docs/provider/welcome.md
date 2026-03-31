@@ -3,7 +3,7 @@ title: "Welcome to Veeam Data Cloud"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/welcome.html"
-last_updated: "12/9/2025"
+last_updated: "3/25/2026"
 product_version: ""
 ---
 
