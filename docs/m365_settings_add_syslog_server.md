@@ -3,12 +3,17 @@ title: "Adding Syslog Server"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_add_syslog_server.html"
-last_updated: "9/19/2025"
+last_updated: "3/31/2026"
 product_version: ""
 ---
 
 # Adding Syslog Server
 
+
+|  |
+| --- |
+| IMPORTANT |
+| The Syslog Server feature has been deprecated. Any existing users can continue to use it until further notice. |
 
 Veeam Data Cloud for Microsoft 365 allows you to define a syslog server where you can receive Veeam Data Cloud for Microsoft 365 user activity logs.
 
