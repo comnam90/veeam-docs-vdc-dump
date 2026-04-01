@@ -3,7 +3,7 @@ title: "Step 3. Configure Backup Data"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_create_flex_config_data.html"
-last_updated: "3/24/2026"
+last_updated: "3/31/2026"
 product_version: ""
 ---
 
@@ -44,5 +44,5 @@ For SharePoint Sites, you can also click Upload file to upload a CSV file with o
 |  |
 | --- |
 | NOTE |
-| By default, backup policies run every 24 hours and generate restore points. For more information, see [Retention Period](m365_security.md#rpo). |
+| * For SharePoint Online, OneDrive for Business and Teams items, Veeam Data Cloud backs up the latest version of the item by default. To back up all versions, go to Settings > Backup Options and select All versions. * By default, backup policies run every 24 hours and generate restore points. For more information, see [Retention Period](m365_security.md#rpo). |
 
