@@ -3,7 +3,7 @@ title: "Step 4. Specify Backup Policy Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_tenant_add_backup.html"
-last_updated: "2/19/2026"
+last_updated: "3/30/2026"
 product_version: ""
 ---
 
@@ -18,6 +18,7 @@ At the Backup step of the wizard, specify the following:
 * To allow Veeam Data Cloud to back up Conditional Access policies, select Conditional Access Policies.
 * To allow Veeam Data Cloud to back up Microsoft Intune policies, select Intune Policies.
 * To allow Veeam Data Cloud to back up Entra ID organization contacts, select Organizations Contacts.
+* To allow Veeam Data Cloud to back up Entra ID devices, select Devices.
 
 You can also enable these options later. For details, see [Settings](entra_id_settings.md#enabligcap).
 
