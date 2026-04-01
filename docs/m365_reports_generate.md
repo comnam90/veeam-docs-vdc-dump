@@ -3,7 +3,7 @@ title: "Generating Reports"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_reports_generate.html"
-last_updated: "3/4/2026"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -20,16 +20,19 @@ You can generate reports on Veeam Data Cloud for Microsoft 365 usage. To do this
 * Backup Summary Report. This report lists policy names, last status, last restore point, number of successful runs, failures, warnings, objects processed, data transferred (GiB) and a total row with object counts.
 
 * Mailbox Protection Report. This report lists mailboxes with their protection status, last backup date, owner email and organization.
+* OneDrive Protection Report. This reports lists OneDrives with their protection status, last backup date, URL and organization.
 
 * Restore Activity Report. This report lists session types, initiating user email, action, object, date and items processed in the restore session.
+* SharePoint Protection Report. This report lists sites with their protection status, last backup date, URL and organization.
+* Teams Protection Report. This report lists teams with their protection status, last backup date and organization.
 
 * User Protection Report. This report lists usernames with their protection status, last backup date, emails and organization.
 
-[![Generating Reports](images/m365_reports_generate2.webp)](images/m365_reports_generate2.webp "Generating Reports")
+[![Generating Reports](images/m365_reports_generate.webp)](images/m365_reports_generate.webp "Generating Reports")
 
 [For Backup Summary Report, Restore Activity Report and Backup Policy Detail Report] Select the month for which you want the report to be generated.
 
-[![Generating Reports](images/m365_reports_generate_month2.webp)](images/m365_reports_generate_month2.webp "Generating Reports")
+[![Generating Reports](images/m365_reports_generate_month.webp)](images/m365_reports_generate_month.webp "Generating Reports")
 
 1. Click Generate Report. Veeam Data Cloud for Microsoft 365 will generate the report in the .CSV format.
 
@@ -101,6 +104,22 @@ For example:
 | --- |
 | Mailbox,Email,Organization,Protection Status,Last Backup Date  Retail,Retail@example.onmicrosoft.com,example.onmicrosoft.com,Protected,8/4/2025  Megan Bowen,MeganB@example.onmicrosoft.com,example.onmicrosoft.com,Protected,8/4/2025  Alex Wilber,AlexW@example.onmicrosoft.com,example.onmicrosoft.com,Protected,8/4/2025 |
 
+OneDrive Protection Report
+
+The OneDrive Protection Report includes the following fields:
+
+* The Name field shows the username of the OneDrive owner.
+* The URL field shows the URL of the OneDrive.
+* The Organization field shows the name of the company or organization in Veeam Data Cloud for Microsoft 365.
+* The Protection Status field shows whether the OneDrive is with the Protected or Unprotected status.
+* The Last Backup Date field shows the date when the latest backup file was created by the user.
+
+For example:
+
+|  |
+| --- |
+| Name,URL,Organization,Protection Status,Last Backup Date  Megan Bowen,https://example-my.sharepoint.com/personal/meganbowen,example.onmicrosoft.com,Protected,8/4/2025  Alex Wilber,https://example-my.sharepoint.com/personal/alexwilber,example.onmicrosoft.com,Protected,8/4/2025 |
+
 Restore Activity Report
 
 The Restore Activity Report includes the following fields:
@@ -117,6 +136,40 @@ For example:
 |  |
 | --- |
 | Session Type,Initiated By,Action,Object,Date,Items  Teams,JOHN.DOE@EXAMPLE.COM,CreateRestoreSession,Teams,24/07/2025 10:09:26 AM,"{""SessionType"":""vet"",""DateTime"":""2025-07-23T14:40:23.425Z""}"  Outlook,JOHN.DOE@EXAMPLE.COM,CreateRestoreSession,Exchange,24/07/2025 10:02:19 AM,"{""SessionType"":""vex"",""DateTime"":""2025-07-23T14:40:14.277Z""}"  Teams,JOHN.DOE@EXAMPLE.COM,CreateRestoreSession,Teams,24/07/2025 09:59:33 AM,"{""SessionType"":""vet"",""DateTime"":""2025-07-23T14:40:23.425Z""}"  SharePoint,JOHN.DOE@EXAMPLE.COM,CreateRestoreSession,SharePoint,24/07/2025 09:57:27 AM,"{""SessionType"":""vesp"",""DateTime"":""2025-07-23T14:40:23.425Z""}" |
+
+SharePoint Protection Report
+
+The SharePoint Protection Report includes the following fields:
+
+* The Title field shows the name of the SharePoint site.
+* The Organization field shows the name of the company or organization in Veeam Data Cloud for Microsoft 365.
+* The URL field shows the URL of the SharePoint site.
+* The Protection Status field shows whether the SharePoint site is with the Protected or Unprotected status.
+
+* The Last Backup Date field shows the date when the latest backup file was created by the user.
+
+For example:
+
+|  |
+| --- |
+| Title,Organization,URL,Protection Status,Last Backup Date  Communication Site,https://example.sharepoint.com/sites/communicationsite,example.onmicrosoft.com,Protected,8/4/2025  Test,https://example.sharepoint.com/sites/test,example.onmicrosoft.com,Protected,8/4/2025 |
+
+Teams Protection Report
+
+The Teams Protection Report includes the following fields:
+
+* The Name field shows the name of the team.
+
+* The Organization field shows the name of the company or organization in Veeam Data Cloud for Microsoft 365.
+* The Protection Status field shows whether the team is with the Protected or Unprotected status.
+
+* The Last Backup Date field shows the date when the latest backup file was created by the user.
+
+For example:
+
+|  |
+| --- |
+| Name,Organization,Protection Status,Last Backup Date  Team HQ,example.onmicrosoft.com,Protected,8/4/2025  HR team,example.onmicrosoft.com,Protected,8/4/2025 |
 
 User Protection Report
 
