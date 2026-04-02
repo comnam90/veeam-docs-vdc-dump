@@ -3,7 +3,7 @@ title: "License Consumption"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_license_consumption.html"
-last_updated: "3/27/2026"
+last_updated: "4/2/2026"
 product_version: ""
 ---
 
@@ -20,9 +20,12 @@ Bundle Licensing Plans
 
 Veeam Data Cloud bundles combine multiple products into a subscription package. Microsoft 365 serves as the primary product, and its PPU rate applies to the entire bundle. License consumption from other included products is converted to the primary product consumption using predefined conversion ratios.
 
-The conversion ratios are 3 for Microsoft Entra ID and 1 for Salesforce. This means that you can protect up to three Entra ID member users and one Salesforce user at no additional cost for each Microsoft 365 user you back up (if Salesforce protection is also included in your bundle).
+The conversion ratios are 3 for Microsoft Entra ID and 1 for Salesforce. This means that you can protect up to three Entra ID member users and one Salesforce user at no additional cost for each Microsoft 365 user you back up (if Salesforce protection is also included in your bundle). If the consumption of a product in a bundle exceeds that of the primary product, it is covered by the consumption of the bundle.
 
-For example, you have the Veeam Data Cloud for Microsoft 365 Advanced Plus bundle (PPU = 4) and protect 1000 Microsoft 365 users and 4000 Microsoft Entra ID users. Using the conversion ratio (3), Entra ID consumption equals ROUNDUP(4000/3) = 1334 Microsoft 365 users. Bundle consumption is MAX(1000, 1334) = 1334 users, and bundle points are 1334 × 4 = 5336.
+Consider the following examples:
+
+* You have the Veeam Data Cloud for Microsoft 365 Advanced bundle (PPU = 3) and protect 1000 Microsoft 365 users and 4000 Microsoft Entra ID users. Using the conversion ratio (3), Entra ID consumption equals ROUNDUP(4000/3) = 1334 Microsoft 365 users. Bundle consumption is MAX(1000, 1334) = 1334 users, and bundle points are 1334 × 3 = 4002.
+* You have the Veeam Data Cloud for Microsoft 365 Advanced Plus bundle (PPU = 4) and protect 1000 Microsoft 365 users and 2000 Salesforce users. Using the conversion ratio (1), Salesforce consumption equals 2000 Microsoft 365 users. Bundle consumption is MAX(1000, 2000) = 2000 users, and bundle points are 2000 × 4 = 8000.
 
 If you enable protection only for some of the products in your bundle, Veeam Data Cloud will still calculate consumed points based on the PPU of the entire bundle. To take advantage of the bundle, create backup policies for all products included in the bundle as soon as possible. Start creating backup policies for Microsoft 365 first, as they may take the longest to prepare.
 
