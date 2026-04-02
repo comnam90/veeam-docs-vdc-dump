@@ -3,7 +3,7 @@ title: "Welcome to Veeam Data Cloud"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/welcome.html"
-last_updated: "12/9/2025"
+last_updated: "3/25/2026"
 product_version: ""
 ---
 
@@ -15,6 +15,7 @@ Veeam Data Cloud is a SaaS platform that allows you to protect data of multiple 
 Veeam Data Cloud provides data protection for the following workloads:
 
 * [Microsoft 365](m365_protection.md)
+* [Amazon Web Services](aws_protection.md)
 * [Microsoft Azure](azure_protection.md)
 * [Microsoft Entra ID](entra_id_protection.md)
 * [Salesforce](salesforce_protection.md)
