@@ -3,7 +3,7 @@ title: "Permissions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_permissions.html"
-last_updated: "3/17/2026"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -35,7 +35,6 @@ Salesforce User
 | [Manage Authentication Providers](https://help.salesforce.com/s/articleView?id=xcloud.sso_provider_sfdc.htm&type=5) permission to allow Veeam Data Cloud to create and edit Authentication Providers. | Yes |
 | [Prompt Template Manager](https://help.salesforce.com/s/articleView?id=ai.prompt_builder_enable.htm&type=5) permission to allow Veeam Data Cloud to restore prompt templates. | The permission is automatically assigned if the Prompt Builder feature is enabled in your Salesforce tenant. |
 | [Modify Metadata Through Metadata API Functions](https://help.salesforce.com/s/articleView?id=platform.meta_modify_metadata_perm.htm&type=5) permission to allow Veeam Data Cloud to create permission set with missing permissions (automatically assigned permissions). If the user whose credentials are used to authorize the connection is not assigned this permission, Veeam Data Cloud will display the Failed to assign required permissions because user doesn't have permission "Modify Metadata Through Metadata API Functions" message in the backup session log. | No |
-| Connected app permission | [Approve Uninstalled Connected Apps](https://help.salesforce.com/s/articleView?id=005132365&type=1) permission to allow Veeam Data Cloud to register the VDC Salesforce Backup connected app in the target Salesforce tenant. This permission is required only when you add a Salesforce tenant for the first time to Veeam Data Cloud. After you add the Salesforce tenant successfully, it can be revoked. For details, see [Connect to Salesforce Tenant](sf_tenants_add_connect.md). | No |
 | Permission set licenses | For any managed application license that is required for accessing the data. For example, HVS and CPQ. | No |
 | Feature-based user licenses | Marketing User | Yes |
 | Service Cloud User | No |
