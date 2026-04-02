@@ -3,7 +3,7 @@ title: "Managing Scheduled Reports"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_reports_schedule_manage.html"
-last_updated: "9/15/2025"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -24,7 +24,7 @@ To manage a scheduled report, select the report you want to manage and do the fo
 
 * Click Run Now to run the scheduled report.
 * Click Refresh to refresh the overview.
-* Under File Name, click the link of an executed report to download the report.
+* In the File Name column, click the link of an executed report to download the report.
 
 The history overview also displays the following information:
 
