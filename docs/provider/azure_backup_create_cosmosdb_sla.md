@@ -3,7 +3,7 @@ title: "Step 4. Specify Policy Protection Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_cosmosdb_sla.html"
-last_updated: "3/5/2026"
+last_updated: "3/30/2026"
 product_version: ""
 ---
 

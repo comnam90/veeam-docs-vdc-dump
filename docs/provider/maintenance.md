@@ -3,7 +3,7 @@ title: "Veeam Data Cloud Maintenance"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/maintenance.html"
-last_updated: "3/13/2026"
+last_updated: "3/17/2026"
 product_version: ""
 ---
 
