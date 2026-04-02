@@ -3,7 +3,7 @@ title: "Editing Flex Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_edit_flex.html"
-last_updated: "1/22/2026"
+last_updated: "3/31/2026"
 product_version: ""
 ---
 
@@ -68,6 +68,10 @@ For SharePoint Sites, you can also click Upload file to upload a CSV file with o
 2. Click Delete to complete the operation.
 
 [![Editing Backup Policy](images/m365_backup_edit_flex_items_exclude.webp)](images/m365_backup_edit_flex_items_exclude.webp "Editing Backup Policy")
+
+1. Go to the Policy Information tab to view information about the backup policy. You can see the name, region and retention period of the backup policy. You can also see whether the backup policy protects the latest version of SharePoint, OneDrive and Teams items or all the item versions. To change the level of protection, go to Settings > Backup Options.
+
+[![Editing Backup Policy](images/m365_backup_edit_flex_info.webp)](images/m365_backup_edit_flex_info.webp "Editing Backup Policy")
 
 Fixed License Model
 
