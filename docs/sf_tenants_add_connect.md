@@ -3,14 +3,22 @@ title: "Step 2. Connect to Salesforce Tenant"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_add_connect.html"
-last_updated: "3/11/2026"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
 # Step 2. Connect to Salesforce Tenant
 
 
-At the Connection step of the wizard, log in to the Salesforce tenant that you want to add and install a new connected app:
+At the Connection step of the wizard, install the Veeam Data Cloud External Client App managed package and log in to the Salesforce tenant that you want to add:
+
+1. Install the Veeam Data Cloud External Client App managed package:
+
+1. Click Salesforce AppExchange to open the [Veeam Data Cloud External Client App page](https://redirect.veeam.com/helpvdcsftopicid%3D021).
+2. Log in to the Salesforce AppExchange portal using credentials of a Salesforce Administrator account.
+3. Click Get It Now.
+4. On the Install Veeam Data Cloud External Client App page, select Install for Admins Only.
+5. Select the I acknowledge check box and click Install.
 
 1. From the Login Type drop-down list, select the type of tenant you want to add:
 
@@ -29,16 +37,5 @@ You can change the Salesforce user later. You can also verify whether the user h
 
 You may need to add another IP address when Veeam Data Cloud starts to provision your new tenant. If it is necessary to add another IP address, Veeam Data Cloud will assign the Action Required status to the tenant. For details, see [Viewing Salesforce Tenants](sf_tenant_view.md#tenantstatuses).
 
-1. If the Salesforce tenant requires you to install the new connected app, Veeam Data Cloud will request you to do the following:
-
-1. Open a new browser tab, sign in to the Salesforce tenant and install the new VDC Salesforce Backup connected app that Veeam Data Cloud created automatically. For details, see [Salesforce Documentation](https://help.salesforce.com/s/articleView?id=005132365&type=1).
-2. Return to the Add Salesforce Tenant wizard and click Sign in with Salesforce. You will be redirected to the Salesforce authentication webpage.
-3. On the Salesforce authentication webpage, enter the credentials of the Salesforce user again and click Log in. After that, you will be redirected back.
-
-|  |
-| --- |
-| Note |
-| * If the user you use to connect the Salesforce tenant does not have the Approve Uninstalled Connected Apps permission assigned, the Salesforce portal displays the OAuth error and prevents you from installing the connected app. To install the app, assign the user the Approve Uninstalled Connected Apps permission first. * For sandbox tenants, the Salesforce portal can also prevent you from installing the app if Salesforce licenses are mismatched. In this case, use the Match Production Licenses to Sandbox without a Refresh tool to resolve this issue. For details, see [Salesforce Documentation](https://help.salesforce.com/s/articleView?id=005132365&type=1#:~:text=Match%20Production%20Licenses). |
-
-[![Connecting to Salesforce Tenant](images/sf_tenants_add_connect.png)](images/sf_tenants_add_connect.png "Connecting to Salesforce Tenant")
+[![Connecting to Salesforce Tenant](images/sf_tenants_add_connect_eca.webp)](images/sf_tenants_add_connect_eca.webp "Connecting to Salesforce Tenant")
 
