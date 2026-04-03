@@ -3,7 +3,7 @@ title: "Getting Started with Veeam Data Cloud"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/getting_started.html"
-last_updated: "11/28/2025"
+last_updated: "3/25/2026"
 product_version: ""
 ---
 
@@ -19,6 +19,7 @@ To quickly get started with Veeam Data Cloud, keep to the following sequence of 
 For more information, follow the instructions in the quick start guide for your specific workload:
 
 * [Getting Started with Veeam Data Cloud for Microsoft 365](m365_getting_started.md)
+* [Getting Started with Veeam Data Cloud for AWS](aws_getting_started.md)
 * [Getting Started with Veeam Data Cloud for Microsoft Azure](azure_getting_started.md)
 * [Getting Started with Veeam Data Cloud for Microsoft Entra ID](entra_id_getting_started.md)
 * [Getting Started with Veeam Data Cloud for Salesforce](sf_getting_started.md)
