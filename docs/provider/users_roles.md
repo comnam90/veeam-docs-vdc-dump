@@ -3,7 +3,7 @@ title: "Roles"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/users_roles.html"
-last_updated: "2/11/2026"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -21,49 +21,6 @@ You can assign the following roles to users to allow them to work with your Veea
 * OrganizationAdmin — can manage users and perform all configuration actions, backup and restore operations. This role gives a user access to all workloads and tenants. The first user invited to your Veeam Data Cloud organization becomes OrganizationAdmin.
 * OrganizationViewer — can view the lists of Veeam Data Cloud users and tenants. This role is granted for all Veeam Data Cloud users.
 
-Entra ID Roles
-
-You can assign the following roles to users working with Veeam Data Cloud for Microsoft Entra ID:
-
-* EntraID:Administrator — can add tenants and perform all configuration actions, backup and restore operations. You can limit access to specific Entra ID tenants when assigning this role.
-
-To prohibit a user with the EntraID:Administrator role to add tenants, limit access to specific Entra ID tenants when assigning this role and assign the user the OrganizationViewer role.
-
-* EntraID:SettingsAdministrator — can manage tenant settings. You can limit access to specific Entra ID tenants when assigning this role.
-* EntraID:RestoreAdministrator — can only perform restore operations. You can limit access to specific Entra ID tenants when assigning this role.
-* EntraID:Viewer — can monitor backup and restore processes without performing any operations. You can limit access to specific Entra ID tenants when assigning this role.
-
-The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with EntraID:Administrator, EntraID:SettingsAdministrator, EntraID:RestoreAdministrator and EntraID:Viewer roles assigned will have the described permissions only within the specified scope of tenants.
-
-| Role | Entra ID Tenant Management | Entra ID Restore | Entra ID Tenant Settings |
-| --- | --- | --- | --- |
-| OrganizationAdmin | Full | Full | Full |
-| OrganizationViewer | View tenants | — | — |
-| EntraID:Administrator | Full | Full | Full |
-| EntraID:SettingsAdministrator | View tenants | — | Full |
-| EntraID:RestoreAdministrator | View tenants | Full | — |
-| EntraID:Viewer | View tenants | View restore sessions, backed-up objects and logs | — |
-
-Salesforce Roles
-
-You can assign the following roles to users working with Veeam Data Cloud for Salesforce:
-
-* Salesforce:Administrator — can add, rename and delete tenants and perform all configuration actions, backup and restore operations. You can limit access to specific Salesforce tenants when assigning this role.
-* Salesforce:BackupOperator — can add tenants, manage backup policies, manage protected data and perform all restore and archival operations. You can limit access to specific Salesforce tenants when assigning this role.
-* Salesforce:RestoreOperator — can only perform restore operations. You can limit access to specific Salesforce tenants when assigning this role.
-* Salesforce:Viewer — can monitor backup and restore processes without performing any operations. You can limit access to specific Salesforce tenants when assigning this role.
-
-The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with Salesforce:Administrator, Salesforce:BackupOperator, Salesforce:RestoreOperator and Salesforce:Viewer roles assigned will have the described permissions only within the specified scope of tenants.
-
-| Role | Salesforce Tenant Management | Salesforce Backup | Salesforce Restore | Salesforce Tenant Settings |
-| --- | --- | --- | --- | --- |
-| OrganizationAdmin | Full | Full | Full | Full |
-| OrganizationViewer | View tenants | — | — | — |
-| Salesforce:Administrator | Full | Full | Full | Full |
-| Salesforce:BackupOperator | View and add tenants | Full | Full | — |
-| Salesforce:RestoreOperator | View tenants | View backup policies and sessions | Full | — |
-| Salesforce:Viewer | View tenants | View backup policies and sessions | View restore sessions | — |
-
 Microsoft 365 Roles
 
 You can assign the following roles to users working with Veeam Data Cloud for Microsoft 365:
@@ -76,8 +33,9 @@ Veeam Data Cloud for Microsoft 365 also offers the option to create custom user 
 
 The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with the M365:Administrator, M365:BackupOperator and M365:RestoreOperator roles assigned have the described permissions only within the specified scope of tenants.
 
+Microsoft 365 Roles
+
 | Role | Microsoft 365 Tenant Management | Microsoft 365 Backup | Microsoft 365 Restore | Microsoft 365 Tenant Settings |
-| --- | --- | --- | --- | --- |
 | OrganizationAdmin | Full | Full | Full | Full |
 | OrganizationViewer | View tenants | — | — | — |
 | M365:Administrator | Full | Full | Full | Full |
@@ -90,11 +48,59 @@ You can assign the Azure:Administrator role to users working with Veeam Data Clo
 
 The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with Azure:Administrator role assigned have the described permissions only within the specified scope of tenants.
 
+Microsoft Azure Roles
+
 | Role | Microsoft Azure Tenant Management | Microsoft Azure Backup | Microsoft Azure Restore | Microsoft Azure Tenant Settings |
-| --- | --- | --- | --- | --- |
 | OrganizationAdmin | Full | Full | Full | Full |
 | OrganizationViewer | View tenants | — | — | — |
 | Azure:Administrator | View tenants | Full | Full | Full |
+
+Entra ID Roles
+
+You can assign the following roles to users working with Veeam Data Cloud for Microsoft Entra ID:
+
+* EntraID:Administrator — can add tenants and perform all configuration actions, backup and restore operations. You can limit access to specific Entra ID tenants when assigning this role.
+
+To prohibit a user with the EntraID:Administrator role to add tenants, limit access to specific Entra ID tenants when assigning this role and assign the user the OrganizationViewer role.
+
+* EntraID:SettingsAdministrator — can manage tenant settings. You can limit access to specific Entra ID tenants when assigning this role.
+* EntraID:BackupAdministrator — can start backup policies and enable backup of additional Entra ID objects. You can limit access to specific Entra ID tenants when assigning this role.
+* EntraID:RestoreAdministrator — can only perform restore operations. You can limit access to specific Entra ID tenants when assigning this role.
+* EntraID:Viewer — can monitor backup and restore processes without performing any operations. You can limit access to specific Entra ID tenants when assigning this role.
+
+The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with EntraID:Administrator, EntraID:SettingsAdministrator, EntraID:BackupAdministrator, EntraID:RestoreAdministrator and EntraID:Viewer roles assigned will have the described permissions only within the specified scope of tenants.
+
+Entra ID Roles
+
+| Role | Entra ID Tenant Management | Entra ID Backup | Entra ID Restore | Entra ID Tenant Settings |
+| OrganizationAdmin | Full | Start backup policies | Full | Full |
+| OrganizationViewer | View tenants | — | — | — |
+| EntraID:Administrator | Full | Start backup policies | Full | Full |
+| EntraID:SettingsAdministrator | View tenants | — | — | Full |
+| EntraID:BackupAdministrator | View tenants | Start backup policies | — | Enable backup of additional objects |
+| EntraID:RestoreAdministrator | View tenants | — | Full | — |
+| EntraID:Viewer | View tenants | View backup policies and sessions | View restore sessions, backed-up objects and logs | — |
+
+Salesforce Roles
+
+You can assign the following roles to users working with Veeam Data Cloud for Salesforce:
+
+* Salesforce:Administrator — can add, rename and delete tenants and perform all configuration actions, backup and restore operations. You can limit access to specific Salesforce tenants when assigning this role.
+* Salesforce:BackupOperator — can add tenants, manage backup policies, manage protected data and perform all restore and archival operations. You can limit access to specific Salesforce tenants when assigning this role.
+* Salesforce:RestoreOperator — can only perform restore operations. You can limit access to specific Salesforce tenants when assigning this role.
+* Salesforce:Viewer — can monitor backup and restore processes without performing any operations. You can limit access to specific Salesforce tenants when assigning this role.
+
+The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with Salesforce:Administrator, Salesforce:BackupOperator, Salesforce:RestoreOperator and Salesforce:Viewer roles assigned will have the described permissions only within the specified scope of tenants.
+
+Salesforce Roles
+
+| Role | Salesforce Tenant Management | Salesforce Backup | Salesforce Restore | Salesforce Tenant Settings |
+| OrganizationAdmin | Full | Full | Full | Full |
+| OrganizationViewer | View tenants | — | — | — |
+| Salesforce:Administrator | Full | Full | Full | Full |
+| Salesforce:BackupOperator | View and add tenants | Full | Full | — |
+| Salesforce:RestoreOperator | View tenants | View backup policies and sessions | Full | — |
+| Salesforce:Viewer | View tenants | View backup policies and sessions | View restore sessions | — |
 
 Veeam Data Cloud Vault Roles
 
@@ -110,8 +116,9 @@ You can limit access to specific Veeam Data Cloud Vault tenants when assigning r
 
 The following table describes the functionality available to users with different roles in Veeam Data Cloud. Note that users with Vault:Administrator role assigned have the described permissions only within the specified scope of tenants.
 
+Veeam Data Cloud Vault Roles
+
 | Role | Veeam Data Cloud Vault Tenant Management |
-| --- | --- |
 | OrganizationAdmin | Full |
 | OrganizationViewer | View tenants |
 | Vault:Administrator | Full |
