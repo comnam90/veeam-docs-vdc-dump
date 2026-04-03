@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_considerations_limitations.html"
-last_updated: "3/17/2026"
+last_updated: "4/2/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,6 @@ This section lists considerations and known limitations in Veeam Data Cloud for 
 
 General
 
-* Adding Microsoft 365 organizations using modern authentication method with legacy protocols allowed is not supported.
 * Backup of a Microsoft 365 tenant organization is not supported if the initial domain of the organization was changed.
 * Backup of dynamic distribution groups is not supported. Members of dynamic distribution groups cannot be resolved. Dynamic Entra ID groups can be used instead. For more information, see [Dynamic Entra ID Groups](#entragroups).
 * Microsoft Entra Privileged Identity Management is not supported.
@@ -235,6 +234,7 @@ Sites Restore
 * Before restoring team sites, make sure that the user account used for authorization has access to the root SharePoint site of the tenant organization.
 * When restoring team sites, Veeam Data Cloud for Microsoft 365 does not restore team site owners or Microsoft 365 group members.
 * If you plan to restore SharePoint site pages, consider that Veeam Data Cloud for Microsoft 365 does not support the restore of items that are not stored in the SharePoint content database (in particular, pages, page references and items based on default templates). Such items cannot be restored, except for data from Wiki Content (text and images), which is stored in the database. Thus, site pages that contain only text and images can be restored and displayed properly.
+* The SharePoint web part customized template cannot be preserved upon a restore. All web parts will be restored with the default template.
 
 Teams
 
