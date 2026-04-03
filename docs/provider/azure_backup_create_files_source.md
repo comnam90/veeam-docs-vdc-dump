@@ -3,7 +3,7 @@ title: "Step 3. Specify Policy Source"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_files_source.html"
-last_updated: "1/29/2026"
+last_updated: "3/30/2026"
 product_version: ""
 ---
 
@@ -33,10 +33,7 @@ At the Source step of the wizard, specify an Azure account, region and resources
 | tip |
 | Resources are synchronized every 24 hours. If you do not see recently added resources in the list, click Rescan to force synchronization. |
 
-After you define the backup scope, you can select a resource and perform the following actions:
-
-* Click View to display detailed resource information.
-* Click Remove to remove the resource from the backup policy.
+If you need to remove a resource from the backup scope, select the resource and click Remove.
 
 [![Specify Policy Source](images/azure_backup_create_files_source.webp)](images/azure_backup_create_files_source.webp "Specify Policy Source")
 
