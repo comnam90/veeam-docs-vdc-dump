@@ -3,7 +3,7 @@ title: "Step 2. Specify Backup Policy Name"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_cosmosdb_name.html"
-last_updated: "2/26/2026"
+last_updated: "3/30/2026"
 product_version: ""
 ---
 
