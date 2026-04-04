@@ -3,7 +3,7 @@ title: "Viewing Salesforce Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenant_view.html"
-last_updated: "3/13/2026"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -18,6 +18,7 @@ In the upper section, Veeam Data Cloud displays the following information:
 
 * The Licensed users field shows how many licenses are available in your subscription.
 * The Expiration Date field shows when your subscription will expire. For details on Veeam Data Cloud for Salesforce licensing, see [Licensing](sf_licensing.md).
+* The Needs Attention field is displayed only if one or more tenants have the Needs Attention status and require your action. For details, see [Tenant Statuses](#tenantstatuses).
 * The Status field shows the current status of the Veeam Data Cloud infrastructure. To view the status of regions where your Salesforce tenants are deployed, click See more next to the Status field.
 * The Upcoming Maintenance field provides information on the next planned maintenance date. To view all upcoming maintenance that can affect your Salesforce tenants, click See more next to the Upcoming Maintenance field. For details on Veeam Data Cloud planned maintenance, see [Veeam Data Cloud Maintenance](maintenance.md).
 
@@ -32,7 +33,6 @@ Tenant Properties
 | Salesforce User | Salesforce user that Veeam Data Cloud uses to connect to your Salesforce tenant. |
 | Salesforce ID | ID of your Salesforce tenant. |
 | Salesforce URL | Salesforce URL that you specified when adding the tenant. |
-| Backup Status | Current state of the Salesforce tenant backup. For details, see [Backup Statuses](#backupstatuses). |
 | Recent Activity | Date and time when Veeam Data Cloud started the last backup of the tenant. |
 | Status | Current state of the Salesforce tenant. For details, see [Tenant Statuses](#tenantstatuses). |
 | Users | Number of users with Salesforce license that are in your Salesforce tenant. |
@@ -40,20 +40,6 @@ Tenant Properties
 | Create Date | Time and date when the tenant was added to Veeam Data Cloud. |
 | Created By | Veeam Data Cloud user who added this tenant. |
 | Region | Region where Veeam Data Cloud stores your backed-up data. For information on supported Microsoft Azure regions, see [Backup Storage Regions](sf_regions.md). |
-
-Backup Statuses
-
-Each Salesforce tenant can have one of the following backup statuses:
-
-Backup Statuses
-
-| Status | Description |
-| Provisioning | Veeam Data Cloud is provisioning a new tenant after you finished the Add Salesforce tenant wizard. After the infrastructure for your tenant is ready, Veeam Data Cloud creates the initial backup of your Salesforce tenant. |
-| In Progress | The infrastructure for your tenant is ready, the initial backup of your Salesforce tenant is in progress and you can manage your tenant. |
-| Success | The backup policy is enabled. Status of the last backup session is Success or Warning. |
-| Failed | The backup policy is enabled. Status of the last backup session is Failed. To find the reason why the backup failed, check the backup session logs. For details, see [Viewing Backup Sessions](sf_activity_backup.md). If you cannot resolve the issue by adjusting the backup policy, [submit a support case](https://my.veeam.com/my-cases). |
-| Disabled | The backup policy is disabled. You can manage your Salesforce tenant and run restore and archival jobs. You can re-enable the backup policy. For details, see [Enabling and Disabling Backup Policies](sf_backup_policies_disable_enable.md). |
-| Action Required | Veeam Data Cloud cannot connect to your Salesforce tenant due to one of the following reasons:   * The Salesforce connection token has expired and Veeam Data Cloud cannot provision your new Salesforce tenant or backup your existing Salesforce tenant. * The Salesforce session settings are not correct. For details on Salesforce session settings, see [Considerations and Limitations](sf_limitations.md#session).   To resolve the issue, click the status link and take the steps described in the Action Required window. |
 
 Tenant Statuses
 
@@ -63,15 +49,20 @@ Tenant Statuses
 
 | Status | Description |
 | Provisioning | Veeam Data Cloud is provisioning a new tenant after you finished the Add Salesforce tenant wizard. After the infrastructure for your tenant is ready, Veeam Data Cloud creates the initial backup of your Salesforce tenant. |
-| Provisioned | The infrastructure for your tenant is ready, and you can manage your tenant. With this status, tenant management may be temporarily unavailable due to the following reasons:   * The initial backup of your Salesforce tenant is in progress. You will receive an email notification once the initial backup is completed. * Planned maintenance is in progress. For details on Veeam Data Cloud planned maintenance, see [Veeam Data Cloud Maintenance](maintenance.md). * You do not have permission to manage the tenant. To get the permission, an administrator of your Veeam Data Cloud organization must assign you the Salesforce:Administrator, Salesforce:BackupOperator, Salesforce:RestoreOperator, or Salesforce:Viewer role and add this tenant to the role scope. For details, see [Editing Users](users_edit.md). |
+| In Progress | The infrastructure for your tenant is ready, the initial backup of your Salesforce tenant is in progress and you can manage your tenant. You will receive an email notification once the initial backup is completed. |
+| Success | The infrastructure for your tenant is ready, and you can manage your tenant. The backup policy is enabled and the status of the last backup session is Success or Warning.  With this status, tenant management may be temporarily unavailable due to the following reasons:   * Planned maintenance is in progress. For details on Veeam Data Cloud planned maintenance, see [Veeam Data Cloud Maintenance](maintenance.md). * You do not have permission to manage the tenant. To get the permission, an administrator of your Veeam Data Cloud organization must assign you the Salesforce:Administrator, Salesforce:BackupOperator, Salesforce:RestoreOperator, or Salesforce:Viewer role and add this tenant to the role scope. For details, see [Editing Users](users_edit.md). |
+| Failed | The backup policy is enabled. Status of the last backup session is Failed. To find the reason why the backup failed, check the backup session logs. For details, see [Viewing Backup Sessions](sf_activity_backup.md). If you cannot resolve the issue by adjusting the backup policy, submit a support case. |
+| Disabled | The backup policy is disabled. You can manage your Salesforce tenant and run restore and archival jobs. You can re-enable the backup policy. For details, see [Enabling and Disabling Backup Policies](sf_backup_policies_disable_enable.md). |
+| Needs Attention | Veeam Data Cloud cannot connect to your Salesforce tenant due to one of the following reasons:   * The Salesforce connection token has expired and Veeam Data Cloud cannot provision your new Salesforce tenant or backup your existing Salesforce tenant. * The Salesforce session settings are not correct. For details on Salesforce session settings, see [Considerations and Limitations](sf_limitations.md). * The Veeam Data Cloud External Client App is not installed. For details on installing the app, see [Connect to Salesforce Tenant](sf_tenants_add_connect.md).   To resolve the issue, click View and take the steps described in the Action Required window. |
 | Provisioning Failed | The infrastructure deployment or initialization of the backup policy was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 | Deprovisioning | Your subscription has expired and Veeam Data Cloud is suspending the backup policy in your tenant. After the backup policy is suspended, the tenant status changes to In Retention. |
 | Deprovision Failed | Veeam Data Cloud was unable to suspend your backup policy. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 | In Retention | Your subscription has expired and Veeam Data Cloud suspended your backup policy. If you do not renew the subscription, Veeam Data Cloud will handle your tenants and backed-up data according to the Veeam Data Cloud service agreement. For more information, see [this Veeam article](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html). |
-| Reactivating | Veeam Data Cloud is activating the backup policy after you renewed your expired subscription within the retention period. After the backup policy is activated, the tenant status changes to Provisioned. |
+| Reactivating | Veeam Data Cloud is activating the backup policy after you renewed your expired subscription within the retention period. After the backup policy is activated, the tenant status changes to Success. |
 | Reactivate Failed | Reactivation of the backup policy in your tenant was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 | Deleting | The retention period has expired, and Veeam Data Cloud is removing your tenant and all related data. |
 | Delete Failed | Deletion of your tenant was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
+| Invited | If you are a customer of a Veeam Cloud & Service Provider partner, the Add New Tenant wizard is not available for direct use. Your service provider invited you to add a Salesforce tenant and sent you an email with an invitation link that allows you to launch the wizard. |
 
 [![Launching Add Salesforce Tenant Wizard](images/sf_tenants_view.png)](images/sf_tenants_view.png "Launching Add Salesforce Tenant Wizard")
 
