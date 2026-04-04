@@ -3,7 +3,7 @@ title: "Supported Entra ID Item Properties"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_properties.html"
-last_updated: "3/6/2026"
+last_updated: "3/19/2026"
 product_version: ""
 ---
 
@@ -303,4 +303,46 @@ Organization Contacts
 | ProxyAddresses | Read-only property in Entra ID. |
 | ServiceProvisioningErrors | Read-only property in Entra ID. |
 | Surname | Read-only property in Entra ID. |
+
+Devices
+
+Veeam Data Cloud for Microsoft Entra ID protects the following properties of Entra ID devices.
+
+Devices
+
+| Property | Comments |
+| AccountEnabled | Read-only property in Entra ID. |
+| AlternativeSecurityIds | Read-only property in Entra ID. |
+| ComplianceExpirationDateTime | Read-only property in Entra ID. |
+| DeviceCategory | Read-only property in Entra ID. |
+| DeviceId | Read-only property in Entra ID. |
+| DeviceMetadata | Read-only property in Entra ID. |
+| DeviceOwnership | Read-only property in Entra ID. |
+| DeviceVersion | Read-only property in Entra ID. |
+| DisplayName | Read-only property in Entra ID. |
+| EnrollmentProfileName | Read-only property in Entra ID. |
+| EnrollmentType | Read-only property in Entra ID. |
+| Extensions | Read-only property in Entra ID. |
+| IsCompliant | Read-only property in Entra ID. |
+| IsManaged | Read-only property in Entra ID. |
+| IsManagementRestricted | Read-only property in Entra ID. |
+| IsRooted | Read-only property in Entra ID. |
+| ManagementType | Read-only property in Entra ID. |
+| Manufacturer | Read-only property in Entra ID. |
+| MdmAppId | Read-only property in Entra ID. |
+| MemberOf | Read-only property in Entra ID. |
+| Model | Read-only property in Entra ID. |
+| OnPremisesSecurityIdentifier | Read-only property in Entra ID. |
+| OnPremisesSyncEnabled | Read-only property in Entra ID. |
+| OperatingSystem | Read-only property in Entra ID. |
+| OperatingSystemVersion | Read-only property in Entra ID. |
+| PhysicalIds | Read-only property in Entra ID. |
+| ProfileType | Read-only property in Entra ID. |
+| RegisteredOwners | Read-only property in Entra ID. |
+| RegisteredUsers | Read-only property in Entra ID. |
+| RegistrationDateTime | Read-only property in Entra ID. |
+| SystemLabels | Read-only property in Entra ID. |
+| TrustType | Read-only property in Entra ID. |
+| BitlockerRecoveryKeys | Read-only property in Entra ID. |
+| Id | Read-only property in Entra ID. |
 
