@@ -3,7 +3,7 @@ title: "Entra ID Restore"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_data_restore.html"
-last_updated: "2/9/2026"
+last_updated: "3/20/2026"
 product_version: ""
 ---
 
@@ -22,5 +22,10 @@ Veeam Data Cloud offers the following types of data restore:
 * [Log restore](entra_id_log_restore.md) — to restore audit and sign-in logs.
 * [Object export](entra_id_object_export.md) — to export entire Entra ID objects to files in JSON format.
 
-With Veeam Data Cloud, you can also compare properties of  [Microsoft Entra ID organization contacts](entra_id_contacts_compare.md).
+With Veeam Data Cloud, you can also compare properties of the following objects:
+
+* [Microsoft Entra ID organization contacts](entra_id_contacts_compare.md)
+* [Entra ID devices](entra_id_devices_compare.md)
+
+Veeam Data Cloud allows you to view and copy BitLocker recovery keys. For details, see [Viewing BitLocker Recovery Keys](entra_id_devices_view_bitlocker.md).
 
