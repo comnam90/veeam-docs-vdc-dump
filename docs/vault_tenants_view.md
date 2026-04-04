@@ -3,7 +3,7 @@ title: "Viewing Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants_view.html"
-last_updated: "1/27/2026"
+last_updated: "3/20/2026"
 product_version: ""
 ---
 
@@ -23,6 +23,8 @@ The tenant widget displays the following details for each tenant:
 * The Tenant Name column displays the name you assigned to the tenant.
 
 The subscription edition that is used for the tenant is listed below the tenant name. To learn more, see [Veeam Data Cloud Vault Product Editions](vault_editions.md).
+
+If you want to edit the tenant name, contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support).
 
 * The Storage Consumed column displays the amount of storage used by the tenant.
 * The Vaults column displays vault storages available to the tenant.
