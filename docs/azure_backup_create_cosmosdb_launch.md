@@ -3,7 +3,7 @@ title: "Step 1. New Cosmos DB Policy Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_cosmosdb_launch.html"
-last_updated: "3/5/2026"
+last_updated: "3/30/2026"
 product_version: ""
 ---
 
