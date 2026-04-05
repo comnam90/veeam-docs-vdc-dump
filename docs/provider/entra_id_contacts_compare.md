@@ -3,7 +3,7 @@ title: "Comparing Entra ID Organization Contact Properties"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_contacts_compare.html"
-last_updated: "2/11/2026"
+last_updated: "3/19/2026"
 product_version: ""
 ---
 
@@ -22,7 +22,7 @@ To compare property values of an Entra ID organization contact, do the following
 1. On the Entra ID page, click the name of the tenant you want to manage.
 2. Select Objects.
 3. Make sure that the Organization Contacts tab is selected.
-4. Select a contact whose properties you want to restore.
+4. Select a contact whose properties you want to compare.
 
 |  |
 | --- |
