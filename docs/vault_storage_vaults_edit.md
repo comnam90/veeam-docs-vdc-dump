@@ -3,7 +3,7 @@ title: "Managing Storage Vaults"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html"
-last_updated: "3/26/2026"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -26,7 +26,7 @@ For each storage vault, Veeam Data Cloud displays the following information:
 
 You can change the storage vault name. For more information, see [Editing Storage Vault Details](#name).
 
-* The status of the storage vault. To learn more about storage vault statuses, see [Deleting Storage Vaults](vault_storage_vaults_delete.md).
+* The status of the storage vault. To learn more about storage vault statuses, see [Deleting Storage Vaults](vault_storage_vaults_delete_nonempty.md).
 * The storage region that you selected when you added the storage vault.
 * The ID of the storage vault.
 
@@ -40,7 +40,10 @@ To copy the access key, click the copy icon next to the value in the Access Key 
 To regenerate the secret key, click Regenerate Key and follow the steps . For more information, see [Regenerating Secret Key](#regenerate).
 
 * The Total Storage Used counter that provides information about the total amount of storage used. Storage amount is specified in TB (TB is considered as 2^40 bytes).
-* The graph that provides information about the total amount of storage used by the storage vault for the past 6 months. To view details for a specific month, move the cursor to a specific location on the graph.
+* The graph that provides information about the amount of storage used by the storage vault. To view details for a specific month, move the cursor to a specific location on the graph. The following graphs are available:
+
+* The Storage Used graph provides information about  the total storage capacity used by each storage vault over the past 6 months.
+* The Storage Egress graph provides information about the total amount of data transferred out from each storage vault over the past 6 months.
 
 [![Viewing Storage Vaults Details](images/vault_storage_vaults.png)](images/vault_storage_vaults.png "Viewing Storage Vaults Details")
 

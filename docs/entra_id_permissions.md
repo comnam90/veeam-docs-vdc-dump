@@ -3,7 +3,7 @@ title: "Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_permissions.html"
-last_updated: "11/19/2025"
+last_updated: "3/19/2026"
 product_version: ""
 ---
 
@@ -25,8 +25,9 @@ Veeam Data Cloud requires a Microsoft Entra service principal to add Microsoft E
 
 Veeam Data Cloud creates the Microsoft Entra service principal with the following set of permissions:
 
+Microsoft Entra Roles and Permissions
+
 | API | Permission | Permission display name | Permission type |
-| --- | --- | --- | --- |
 | Microsoft Graph | AdministrativeUnit.ReadWrite.All | Read and write all administrative units | Application |
 | Application.ReadWrite.All | Read and write all applications | Application |
 | AppRoleAssignment.ReadWrite.All | Manage app permission grants and app role assignments | Application |
@@ -41,13 +42,15 @@ Veeam Data Cloud creates the Microsoft Entra service principal with the followin
 | Policy.Read.All  (required for Conditional Access policies backup) | Read your organization's policies | Application |
 | Policy.ReadWrite.ConditionalAccess  (required for Conditional Access policies backup) | Read and write your organization's Conditional Access policies | Application |
 | Agreement.Read.All  (required for Conditional Access policies backup) | Read all terms of use agreements | Application |
-| DeviceManagementConfiguration.ReadWrite.All  (required for Microsoft Intune policies policies backup) | Read and write Microsoft Intune device configuration and policies | Application |
+| DeviceManagementConfiguration.ReadWrite.All  (required for Microsoft Intune policies backup) | Read and write Microsoft Intune device configuration and policies | Application |
+| BitlockerKey.Read.All  (required for Entra ID devices backup) | Read all BitLocker keys | Application |
 | Azure Resource Manager | user\_impersonation | Access Azure Resource Manager as organization users | Delegated |
 
 Veeam Data Cloud assigns the Microsoft Entra service principal the following roles:
 
+Microsoft Entra Roles and Permissions
+
 | Property | Description |
-| --- | --- |
 | Privileged Authentication Administrator | This role allows Veeam Data Cloud to restore objects that are assigned privileged permissions. |
 | User Administrator | This role allows Veeam Data Cloud to restore objects that are assigned privileged permissions. |
 
