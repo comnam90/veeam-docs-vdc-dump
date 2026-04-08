@@ -3,14 +3,14 @@ title: "Restoring VM Files"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_vm_files.html"
-last_updated: "2/26/2026"
+last_updated: "4/2/2026"
 product_version: ""
 ---
 
 # Restoring VM Files
 
 
-You can recover corrupted or missing files of an Azure VM from a cloud-native snapshot or image-level backup. Veeam Data Cloud for Microsoft Azure allows you to restore the files and folders of the source Azure VM to the original location using the File-Level Recovery Explorer.
+You can recover corrupted or missing files of an Azure VM from a cloud-native snapshot or image-level backup. Veeam Data Cloud for Microsoft Azure allows you to restore files and folders from the source Azure VM to the original location or to a new location using the File-Level Recovery Explorer.
 
 |  |
 | --- |

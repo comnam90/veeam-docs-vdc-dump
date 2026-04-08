@@ -3,14 +3,16 @@ title: "Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_licensing.html"
-last_updated: "2/24/2026"
+last_updated: "4/7/2026"
 product_version: ""
 ---
 
 # Licensing
 
 
-Licensing for Veeam Data Cloud for Microsoft Entra ID is based on the user accounts you back up. Each enabled Entra ID member user is counted towards your purchased license or free allowance. Groups, roles and other Microsoft Entra ID objects do not consume the license or allowance, but Veeam Data Cloud protects them too.
+Licensing for Veeam Data Cloud for Microsoft Entra ID is based on the user accounts you back up. Each enabled Entra ID member user is counted towards your purchased license or free allowance. Groups, roles and other Microsoft Entra ID objects do not consume the license or allowance, but Veeam Data Cloud protects them too. Any additional users beyond the contract quantity are subject to overage charges.
+
+If you reduce the number of enabled Entra ID member users in your Microsoft Entra ID tenant, Veeam Data Cloud will revoke their license usage after the next backup is complete.
 
 |  |
 | --- |
