@@ -3,7 +3,7 @@ title: "Adding Microsoft Azure Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_tenant_add.html"
-last_updated: "12/10/2025"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 
