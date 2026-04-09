@@ -3,7 +3,7 @@ title: "Step 1. Launch Add Azure Tenant Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_tenant_add_launch.html"
-last_updated: "2/26/2026"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 
@@ -12,10 +12,7 @@ product_version: ""
 
 To launch the Add Azure Tenant wizard, on the Azure Management page, click Add Tenant.
 
-|  |
-| --- |
-| Note |
-| If you are a customer of a Veeam Cloud & Service Provider partner, you cannot launch the Add Azure Tenant wizard. Ask your service provider to add your Azure tenant or send you an email with an invitation link that allows you to launch the wizard. |
+Alternatively, if your service provider has invited you to add a new tenant, on the Azure Management page, click the menu icon in the Actions column of your invitation and select Activate Invitation.
 
 [![Step 1. Launch Add Azure Tenant Wizard](images/azure_tenant_add_launch_new.png)](images/azure_tenant_add_launch_new.png)
 
