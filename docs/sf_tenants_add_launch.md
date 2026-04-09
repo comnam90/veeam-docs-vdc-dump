@@ -3,7 +3,7 @@ title: "Step 1. Launch Add Salesforce Tenant Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_add_launch.html"
-last_updated: "2/24/2026"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 
@@ -15,10 +15,7 @@ To launch the Add Salesforce Tenant wizard, do the following:
 1. To open the list of Salesforce tenants, click Salesforce on the left.
 2. Click Add Tenant.
 
-|  |
-| --- |
-| Note |
-| If you are a customer of a Veeam Cloud & Service Provider partner, you cannot launch the Add Salesforce tenant wizard. Ask your service provider to add your Salesforce tenant or send you an email with an invitation link that allows you to launch the wizard. |
+Alternatively, if your service provider has invited you to add a new tenant, click the menu icon in the Actions column of your invitation and select Activate Invitation.
 
 |  |
 | --- |

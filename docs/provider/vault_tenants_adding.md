@@ -3,7 +3,7 @@ title: "Adding Veeam Data Cloud Vault Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_tenants_adding.html"
-last_updated: "1/21/2026"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 

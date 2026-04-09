@@ -3,7 +3,7 @@ title: "Adding Veeam Data Cloud Vault Tenants with AWS Edition Subscriptions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_tenants_adding_aws.html"
-last_updated: "1/22/2026"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 
@@ -14,10 +14,7 @@ To add a Veeam Data Cloud Vault tenant with an AWS edition subscription, do the 
 
 1. On the Vault page, click Add Tenant.
 
-|  |
-| --- |
-| Note |
-| If you are a customer of a Veeam Cloud & Service Provider partner, the Add New Tenant wizard is not available for direct use. Ask your service provider to add your Veeam Data Cloud Vault tenant or send you an email with an invitation link that allows you to launch the wizard. |
+Alternatively, if your service provider has invited you to add a new tenant, click the menu icon in the Actions column of your invitation and select Activate Invitation.
 
 [![Viewing Tenants](images/vault_dashboard_add_tenant_aws.webp)](images/vault_dashboard_add_tenant_aws.webp "Viewing Tenants")
 

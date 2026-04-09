@@ -3,14 +3,14 @@ title: "Adding Salesforce Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_tenants_add.html"
-last_updated: "12/4/2025"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 
 # Adding Salesforce Tenants
 
 
-To start protecting your Salesforce data, you must add a Salesforce tenant. Before you start adding the tenant, check [Considerations and Limitations](sf_limitations.md).
+To start protecting the customer Salesforce data, you must add the Salesforce tenant of your customer. Before you start adding the tenant, check [Considerations and Limitations](sf_limitations.md).
 
 To add a new Salesforce tenant, use the Add Salesforce Tenant wizard:
 

@@ -3,7 +3,7 @@ title: "Adding Microsoft Entra ID Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_tenant_add.html"
-last_updated: "9/17/2025"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 
