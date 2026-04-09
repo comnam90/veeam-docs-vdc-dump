@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
-last_updated: "3/24/2026"
+last_updated: "4/9/2026"
 product_version: ""
 ---
 
@@ -16,17 +16,19 @@ Before you start adding the tenant, check [Considerations and Limitations](m365_
 
 For information on how to add a multi-geo tenant to Veeam Data Cloud, see [Adding Multi-Geo Microsoft 365 Tenants](m365_tenant_add_multigeo.md).
 
+|  |
+| --- |
+| Note |
+| If you are a customer of a Veeam Cloud & Service Provider partner, the Add Microsoft 365 tenant wizard is not available for direct use. Ask your service provider to add your Microsoft 365 tenant or send you an email with an invitation link that allows you to log in to Veeam Data Cloud and launch the wizard. |
+
 To add a Microsoft 365 tenant, use the Add Microsoft 365 tenant wizard and do the following:
 
 1. Click Microsoft 365 on the left to open the list of Microsoft 365 tenants.
 2. Click Add Tenant.
 
-[![Launching Add Microsoft 365 Tenant Wizard](images/m365_tenant_add_launch.png)](images/m365_tenant_add_launch.png "Launching Add Microsoft 365 Tenant Wizard")
+Alternatively, if your service provider has invited you to add a new tenant, click the menu icon in the Actions column of your invitation and select Activate Invitation.
 
-|  |
-| --- |
-| Note |
-| If you are a customer of a Veeam Cloud & Service Provider partner, you cannot launch the Add Microsoft 365 tenant wizard. Ask your service provider to add your Microsoft 365 tenant or send you an email with an invitation link that allows you to launch the wizard. |
+[![Launching Add Microsoft 365 Tenant Wizard](images/m365_tenant_add_launch.png)](images/m365_tenant_add_launch.png "Launching Add Microsoft 365 Tenant Wizard")
 
 1. Choose how you want to connect Veeam Data Cloud to the Microsoft tenancy:
 
