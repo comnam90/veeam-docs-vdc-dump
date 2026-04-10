@@ -3,7 +3,7 @@ title: "Reauthorizing Veeam Data Cloud for Microsoft 365"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_reauthorize.html"
-last_updated: "3/6/2026"
+last_updated: "4/10/2026"
 product_version: ""
 ---
 
