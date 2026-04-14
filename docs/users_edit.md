@@ -3,7 +3,7 @@ title: "Editing Users"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_edit.html"
-last_updated: "10/1/2025"
+last_updated: "2/12/2026"
 product_version: ""
 ---
 
@@ -15,7 +15,7 @@ You may need to edit a user to adjust assigned roles and role scopes. Note that 
 |  |
 | --- |
 | Note |
-| Each Veeam Data Cloud user must have at least one of the organization-level roles assigned: OrganizationAdmin or OrganizationViewer. For details, see [Roles](users_roles.md). |
+| * Each Veeam Data Cloud user must have at least one of the organization-level roles assigned: OrganizationAdmin or OrganizationViewer. For details, see [Roles](users_roles.md). * You can also use groups to assign roles to users that use Microsoft Entra ID single sign-on (SSO) to log in to Veeam Data Cloud. If you do so, Veeam Data Cloud merges the permissions from the roles assigned individually and by group membership and grants them to the user. For details, see [Groups](users_groups.md). |
 
 To edit a user, do the following:
 
