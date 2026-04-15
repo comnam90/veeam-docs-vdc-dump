@@ -3,7 +3,7 @@ title: "Viewing Licensed Users"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_view_licensed_users.html"
-last_updated: "9/19/2025"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ You can check which accounts are currently using the Veeam Data Cloud for Micros
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Settings.
-3. Select the Licensed Users tab.
+3. Go to the Licensed Users tab.
 
 [![Viewing Licensed Users](images/m365_settings_view_licensed_users.png)](images/m365_settings_view_licensed_users.png "Viewing Licensed Users")
 
