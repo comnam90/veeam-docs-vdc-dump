@@ -3,7 +3,7 @@ title: "Obtaining Downloaded Items"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_obtain_downloaded_items.html"
-last_updated: "2/10/2026"
+last_updated: "3/18/2026"
 product_version: ""
 ---
 
@@ -25,11 +25,11 @@ To obtain the downloaded items, do the following:
 1. Select Notifications.
 2. In the list of notifications, find the restore session and click the link in the Name column.
 
-[![Obtaining Downloaded Items](images/m365_obtain_downloaded_items_notifications.webp)](images/m365_obtain_downloaded_items_notifications.webp "Obtaining Downloaded Items")
+[![Obtaining Downloaded Items](images/m365_obtain_downloaded_items_link.webp)](images/m365_obtain_downloaded_items_link.webp "Obtaining Downloaded Items")
 
 1. In the window with the details of the operation, click Download File.
 
-[![Obtaining Downloaded Items](images/m365_obtain_downloaded_items_download.webp)](images/m365_obtain_downloaded_items_download.webp "Obtaining Downloaded Items")
+[![Obtaining Downloaded Items](images/m365_obtain_downloaded_items_download_file.webp)](images/m365_obtain_downloaded_items_download_file.webp "Obtaining Downloaded Items")
 
 1. The items are saved to your browser download location.
 
