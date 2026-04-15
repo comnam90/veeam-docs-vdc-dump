@@ -3,7 +3,7 @@ title: "Generating Reports"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_reports_generate.html"
-last_updated: "4/1/2026"
+last_updated: "4/15/2026"
 product_version: ""
 ---
 
@@ -14,27 +14,28 @@ You can generate reports on Veeam Data Cloud for Microsoft 365 usage. To do this
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Reports.
-3. In the Generate tab, select the report you want to generate from the following options:
+3. Click Generate a Report Now.
+
+[![Generating Reports](images/m365_reports_generate_now.webp)](images/m365_reports_generate_now.webp "Generating Reports")
+
+1. From the Report type drop-down list, select the report you want to generate. The available reports are the following:
 
 * Backup Policy Detail Report. This report lists policy names, start and end times, policy type, status, processed objects and summary.
 * Backup Summary Report. This report lists policy names, last status, last restore point, number of successful runs, failures, warnings, objects processed, data transferred (GiB) and a total row with object counts.
-
 * Mailbox Protection Report. This report lists mailboxes with their protection status, last backup date, owner email and organization.
 * OneDrive Protection Report. This reports lists OneDrives with their protection status, last backup date, URL and organization.
-
 * Restore Activity Report. This report lists session types, initiating user email, action, object, date and items processed in the restore session.
 * SharePoint Protection Report. This report lists sites with their protection status, last backup date, URL and organization.
 * Teams Protection Report. This report lists teams with their protection status, last backup date and organization.
-
 * User Protection Report. This report lists usernames with their protection status, last backup date, emails and organization.
 
-[![Generating Reports](images/m365_reports_generate.webp)](images/m365_reports_generate.webp "Generating Reports")
+[![Generating Reports](images/m365_reports_generate_select.webp)](images/m365_reports_generate_select.webp "Generating Reports")
 
-[For Backup Summary Report, Restore Activity Report and Backup Policy Detail Report] Select the month for which you want the report to be generated.
+1. [For Backup Policy Detail Report, Backup Summary Report and Restore Activity Report] Select the month and year for which you want the report to be generated.
 
-[![Generating Reports](images/m365_reports_generate_month.webp)](images/m365_reports_generate_month.webp "Generating Reports")
+[![Generating Reports](images/m365_reports_generate_date.webp)](images/m365_reports_generate_date.webp "Generating Reports")
 
-1. Click Generate Report. Veeam Data Cloud for Microsoft 365 will generate the report in the .CSV format.
+1. Click Generate. Veeam Data Cloud for Microsoft 365 will generate the report in the .CSV format.
 
 * For Mailbox Protection Report and User Protection Report, Veeam Data Cloud for Microsoft 365 will display the The report is being generated and you will be notified once it is complete message.
 
@@ -42,7 +43,7 @@ Click Notifications to view the status of the report. In the list of notificatio
 
 In the window with the details of the operation, click Download File.
 
-[![Generating Reports](images/m365_reports_generate_download.webp)](images/m365_reports_generate_download.webp "Generating Reports")
+[![Generating Reports](images/m365_reports_generate_notification.webp)](images/m365_reports_generate_notification.webp "Generating Reports")
 
 * The report is saved to your browser download location.
 
