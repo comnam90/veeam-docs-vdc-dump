@@ -3,7 +3,7 @@ title: "Users and Roles"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_manage.html"
-last_updated: "10/15/2025"
+last_updated: "1/26/2026"
 product_version: ""
 ---
 
@@ -14,13 +14,14 @@ Veeam Data Cloud allows you to create, edit and delete users in your Veeam Data 
 
 You can assign a role with access to your entire Veeam Data Cloud organization or a specific workload, such as Microsoft Entra ID, Salesforce or Microsoft 365. Role scopes define which tenants the user can access. This can be helpful in larger organizations with multiple tenants where users are assigned to manage specific tenants.
 
+To simplify user management, you can use Veeam Data Cloud groups. Groups allows Veeam Data Cloud to automatically grant access and assign roles to users that use Microsoft Entra ID single sign-on (SSO) to log in to Veeam Data Cloud. With this functionality, you do not need to invite users and add a user account for each Veeam Data Cloud user manually.
+
 User management is available only to users with the OrganizationAdmin role assigned.
 
 In This Section
 
 * [Roles](users_roles.md)
-* [Adding Users](users_add.md)
-* [Editing Users](users_edit.md)
-* [Deleting Users](users_delete.md)
+* [Users](users.md)
+* [Groups](users_groups.md)
 * [Configuring Partner Access](sp_partner_access.md)
 
