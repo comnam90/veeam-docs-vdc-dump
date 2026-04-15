@@ -3,7 +3,7 @@ title: "Viewing Notifications"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_notifications.html"
-last_updated: "10/24/2025"
+last_updated: "3/18/2026"
 product_version: ""
 ---
 
@@ -18,9 +18,9 @@ To view the details of a notification, do the following:
 2. Select Notifications.
 3. In the list of notifications, click the link in the Name column of the notification you want to display. Veeam Data Cloud will display a session log with detailed information.
 
-[![Viewing Notifications](images/m365_viewing_notifications_logs.webp)](images/m365_viewing_notifications_logs.webp "Viewing Notifications")
+[![Viewing Notifications](images/m365_view_notifications_details.webp)](images/m365_view_notifications_details.webp "Viewing Notifications")
 
-New notifications are displayed in bold. To mark all unread notifications as read, click Mark All as Read.
+New notifications are displayed in bold. To mark all unread notifications as read, click Mark all as Read.
 
-[![Viewing Notifications](images/m365_viewing_notifications.webp)](images/m365_viewing_notifications.webp "Viewing Notifications")
+[![Viewing Notifications](images/m365_view_notifications_read.webp)](images/m365_view_notifications_read.webp "Viewing Notifications")
 
