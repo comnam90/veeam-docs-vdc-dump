@@ -3,7 +3,7 @@ title: "Adding Users"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_add.html"
-last_updated: "10/14/2025"
+last_updated: "4/2/2026"
 product_version: ""
 ---
 
@@ -17,7 +17,7 @@ User roles define the operations that the user can perform, including backup, re
 |  |
 | --- |
 | Note |
-| If you have users with scoped roles, manually update the role scopes after adding a new tenant to ensure the necessary users can access the new tenant. |
+| * If you have users with scoped roles, manually update the role scopes after adding a new tenant to ensure the necessary users can access the new tenant. * You can also use groups to allow Veeam Data Cloud to automatically grant access and assign roles to users that use Microsoft Entra ID single sign-on (SSO) to log in to Veeam Data Cloud. For details, see [Groups](users_groups.md). |
 
 To add a user, follow these steps:
 
