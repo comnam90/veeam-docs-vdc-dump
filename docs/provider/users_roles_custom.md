@@ -3,7 +3,7 @@ title: "Creating Roles"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/users_roles_custom.html"
-last_updated: "3/24/2026"
+last_updated: "4/2/2026"
 product_version: ""
 ---
 
@@ -106,4 +106,7 @@ Microsoft 365 Role Permissions
 | Download | Download Outlook items to a local machine. |
 | Express Plan | |
 | Perform M365 Bulk Restore | Perform bulk restore (available only under the Premium plan). |
+| Security | |
+| View Threats | View the Threats page and threat details in the Microsoft 365 tenant. |
+| Manage Threats | Manage threats in the Microsoft 365 tenant. |
 
