@@ -3,7 +3,7 @@ title: "Threats"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_threats.html"
-last_updated: "3/31/2026"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 
@@ -54,7 +54,7 @@ To work with detected malware threats, do the following:
 * View Details. Click View Details to view further details about the detected threat.
 * Resolve Threat. After you mitigate the detected threat in the customer environment, click Resolve Threat to change the status of the threat to Resolved.
 
-[![Viewing Malware Threats](images/m365_threats_malware.webp)](images/m365_threats_malware.webp "Viewing Malware Threats")
+[![Viewing Malware Threats](images/m365_threats_malware_threats.webp)](images/m365_threats_malware_threats.webp "Viewing Malware Threats")
 
 1. Click the name in the Entity Name column or click View Details in the Actions column to view further details about the detected threat.
 2. In the Malware Threat Details window, Veeam Data Cloud displays a summary of the details of the threat. You can also view the following information for each infected file:
@@ -64,16 +64,16 @@ To work with detected malware threats, do the following:
 * File Created Date. The date and time the file was created.
 * File Updated At. The date and time the file was last modified.
 
-[![Viewing Malware Threats](images/m365_threats_malware_details.webp)](images/m365_threats_malware_details.webp "Viewing Malware Threats")
+[![Viewing Malware Threats](images/m365_threats_malware_threat_details.webp)](images/m365_threats_malware_threat_details.webp "Viewing Malware Threats")
 
-1. After taking actions in your environment to resolve the detected threat, in Veeam Data Cloud, click Resolve to change the status of that threat to Resolved.
+1. After taking actions in your environment to resolve the detected threat, in Veeam Data Cloud, click Resolve Threat to change the status of that threat to Resolved.
 
-[![Viewing Malware Threats](images/m365_threats_malware_resolved.webp)](images/m365_threats_malware_resolved.webp "Viewing Malware Threats")
+[![Viewing Malware Threats](images/m365_threats_malware_threat_resolved.webp)](images/m365_threats_malware_threat_resolved.webp "Viewing Malware Threats")
 
 |  |
 | --- |
 | tip |
-| You can click the calendar to filter the list of detected threats to a specific time period. You can also click Refresh to refresh the view with the latest information. |
+| You can click Filter by date to filter the list of detected threats to a specific time period. You can also click Refresh to refresh the view with the latest information. |
 
 Working with Ransomware Threats
 
@@ -101,7 +101,7 @@ To work with detected ransomware threats, do the following:
 * View Details. Click View Details to view further details about the detected threat.
 * Resolve Threat. After you mitigate the detected threat in the customer environment, click Resolve Threat to change the status of the threat to Resolved.
 
-[![Viewing Ransomware Threats](images/m365_threats_ransomware.webp)](images/m365_threats_ransomware.webp "Viewing Ransomware Threats")
+[![Viewing Ransomware Threats](images/m365_threats_ransomware_threats.webp)](images/m365_threats_ransomware_threats.webp "Viewing Ransomware Threats")
 
 1. Click the name in the Entity Name column or click View Details in the Actions column to view further details about the detected threat.
 2. In the Ransomware Threat Details window, Veeam Data Cloud displays a summary of the details of the threat. You can also view the name, location and date of creation for a sample of the infected files:
@@ -111,14 +111,14 @@ To work with detected ransomware threats, do the following:
 * File Created Date. The date and time the file was created.
 * File Updated At. The date and time the file was last modified.
 
-[![Viewing Ransomware Threats](images/m365_threats_ransomware_details.webp)](images/m365_threats_ransomware_details.webp "Viewing Ransomware Threats")
+[![Viewing Ransomware Threats](images/m365_threats_ransomware_threat_details.webp)](images/m365_threats_ransomware_threat_details.webp "Viewing Ransomware Threats")
 
-1. After taking actions in your environment to resolve the detected threat, in Veeam Data Cloud, click Resolve to change the status of that threat to Resolved.
+1. After taking actions in your environment to resolve the detected threat, in Veeam Data Cloud, click Resolve Threat to change the status of that threat to Resolved.
 
-[![Viewing Ransomware Threats](images/m365_threats_ransomware_resolved.webp)](images/m365_threats_ransomware_resolved.webp "Viewing Ransomware Threats")
+[![Viewing Ransomware Threats](images/m365_threats_ransomware_threat_resolved.webp)](images/m365_threats_ransomware_threat_resolved.webp "Viewing Ransomware Threats")
 
 |  |
 | --- |
 | tip |
-| You can click the calendar to filter the list of detected threats to a specific time period. You can also click Refresh to refresh the view with the latest information. |
+| You can click Filter by date to filter the list of detected threats to a specific time period. You can also click Refresh to refresh the view with the latest information. |
 
