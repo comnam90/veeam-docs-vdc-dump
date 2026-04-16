@@ -3,7 +3,7 @@ title: "Searching for Objects in Backup"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_search.html"
-last_updated: "9/19/2025"
+last_updated: "4/15/2026"
 product_version: ""
 ---
 
@@ -12,7 +12,7 @@ product_version: ""
 
 You can use Veeam Data Cloud for Microsoft 365 to search for objects in your Flex backups. The product offers 2 search mechanisms:
 
-* Search. This is basic search, available for Microsoft Exchange Online, SharePoint Online documents, OneDrive for Business documents and Teams posts backups. You can select a restore point, specify a search word and get results fast.
+* Search. This is basic search, available for Microsoft Exchange Online, SharePoint Online folders, OneDrive for Business documents and Teams posts backups. You can select a restore point, specify a search word and get results fast.
 * Advanced Search. This is advanced search, available for Microsoft Exchange Online, OneDrive for Business, SharePoint Online and Teams backups. You can select a restore point and specify multiple search criteria. It may take a long time to display results.
 
 |  |
@@ -38,7 +38,7 @@ To search for required items, do the following:
 1. In the Keyword field, specify a keyword for the search.
 
 1. For Outlook, the keyword matches the email subject.
-2. For SharePoint, the keyword matches the site name or the documents within the site.
+2. For SharePoint, the keyword matches the site name or the folders within the site.
 3. For OneDrive, the keyword matches the file name.
 4. For Teams, the keyword matches the post subject.
 
