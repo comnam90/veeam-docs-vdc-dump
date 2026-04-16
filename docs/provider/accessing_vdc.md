@@ -3,7 +3,7 @@ title: "Accessing Veeam Data Cloud"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/accessing_vdc.html"
-last_updated: "1/16/2026"
+last_updated: "4/14/2026"
 product_version: ""
 ---
 
