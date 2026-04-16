@@ -3,7 +3,7 @@ title: "Restoring Entire OneDrive"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_onedrive_entire.html"
-last_updated: "3/24/2026"
+last_updated: "4/15/2026"
 product_version: ""
 ---
 
@@ -41,15 +41,21 @@ If you select this option, do the following:
 1. In the Microsoft 365 Account field, click Select User and select the necessary user account in the User selection window.
 2. In the Restore to field, type the name of the folder where to restore OneDrive. Veeam Data Cloud for Microsoft 365 will display the resulting path to the restore destination.
 
-You can also use the Advanced options toggle to display more options. For details, see the next step of the procedure.
-
 * Download in background. Select this option if you want to download the OneDrive content to your computer. Veeam Data Cloud will save the OneDrive content to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
 
 [![Restoring Entire OneDrive](images/m365_restore_onedrive_entire_original.webp)](images/m365_restore_onedrive_entire_original.webp "Restoring Entire OneDrive")
 
+1. [For restore to the original location] If you want to specify advanced restore options, do the following:
+
+1. Click Advance Options.
+2. In the Restore options section, select one of the following options:
+
+* Overwrite. Select this option to overwrite items in the production environment with the latest version of items in the backup.
+* Keep. Select this option if you want to preserve the existing data in the production environment and restore missing items from the backup. Any overlapping items are also recovered with the RESTORED prefix in the file name.
+
 1. [For restore to OneDrive of another user account] If you want to specify advanced restore options, do the following:
 
-1. Click Advanced options.
+1. Click Advance Options.
 2. In the Restore the following items section, do the following:
 
 1. Select the Changed items check box if you want to restore items that have been modified in the production environment.
