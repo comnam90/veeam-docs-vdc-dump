@@ -3,7 +3,7 @@ title: "Switching Between Standalone and Bundle Licensing Plans"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas__switching_plans.html"
-last_updated: "4/10/2026"
+last_updated: "4/17/2026"
 product_version: ""
 ---
 
