@@ -3,7 +3,7 @@ title: "Restoring Channels"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_teams_channel.html"
-last_updated: "2/10/2026"
+last_updated: "4/15/2026"
 product_version: ""
 ---
 
@@ -32,7 +32,7 @@ To restore a Microsoft Teams channel:
 1. Select the Changed items check box if you want to restore items that have changed since the time when the backup was created. When you select this option, Veeam Data Cloud for Microsoft 365 overwrites existing items in the original team.
 2. Select the Missing items check box if you want to restore items that are missing in the original team. For example, some items were removed, and you want to restore them from the backup.
 
-1. [Only available for private channels] In the Additional options section, select the Restore channel members and their permissions if you want to include the private channel members and member permissions when restoring the private channel.
+1. [Only available for shared and private channels] In the Additional options section, select the Restore channel members and their permissions if you want to include the channel members and member permissions when restoring the shared or private channel.
 2. Click Restore to restore the channel according to the specified restore options.
 
 [![Restoring Teams Channels](images/m365_restore_teams_channel_original.webp)](images/m365_restore_teams_channel_original.webp "Restoring Teams Channels")
