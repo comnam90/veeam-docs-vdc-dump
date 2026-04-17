@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_sites.html"
-last_updated: "3/30/2026"
+last_updated: "4/15/2026"
 product_version: ""
 ---
 
@@ -53,7 +53,7 @@ If you select this option, type the Root Site URL and the Site URL. Veeam Data C
 1. In the History restore options section, select the Restore only the latest version check box if you want to restore only the latest version of items. If you select this check box, you can select one of the following options:
 
 * Overwrite. Select this option to overwrite items in the production environment with the latest version of items in the backup.
-* Merge. Select this option to merge the latest version of items in the backup into items in the production environment.
+* Merge. Select this option to merge the latest version of items in the backup into items in the production environment. Only the latest file versions from the backup are restored and they are added (merged) to the existing file version history (if any).
 
 1. In the Additional options section, do the following:
 
