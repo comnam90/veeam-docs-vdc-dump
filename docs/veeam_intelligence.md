@@ -3,7 +3,7 @@ title: "Veeam Intelligence"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/veeam_intelligence.html"
-last_updated: "8/21/2025"
+last_updated: "4/17/2026"
 product_version: ""
 ---
 
@@ -16,6 +16,7 @@ Before You Begin
 
 Before you use Veeam Intelligence, consider the following:
 
+* Verify your AI consent settings. For details, see [Configuring AI Consent](ai_consent.md).
 * There is a limit of up to 200 questions per 24 hours for each license. If this limit is reached, Veeam Intelligence will stop processing further requests. You can continue using it after the 24-hour timeout expires.
 * If the Veeam Intelligence service is overloaded, your request may be canceled.
 * Screenshots and other images are not supported in chatbot prompts.
