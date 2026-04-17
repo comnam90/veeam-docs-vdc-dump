@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_m365_tenant_add.html"
-last_updated: "3/20/2026"
+last_updated: "4/16/2026"
 product_version: ""
 ---
 
@@ -46,7 +46,7 @@ Automatic Connection Steps
 If you choose to automatically connect Veeam Data Cloud to the Microsoft 365 tenant of your customer (recommended), do the following:
 
 1. In the Choose the type of Flex connection section, select Auto Connection.
-2. If you also have a subscription to the Premium license plan and want to connect Microsoft Backup Storage to Veeam Data Cloud, select the Include Express Connection check box. To skip the Express connection, do not select the check box.
+2. If your customer has a subscription with the Express, Premium, or Premium Plus plan and wants to connect Microsoft Backup Storage to Veeam Data Cloud, select the Include Express Connection check box. To skip the Express connection, do not select the check box.
 
 After you add the tenant, you must also enable the Express backup service in order to create Express backup policies. For more information, see [Enabling Express Backup](m365_settings_enable_express_backup.md).
 
@@ -132,7 +132,7 @@ Once you set the retention period, you cannot reduce it. For more information, s
 
 [![Adding Microsoft 365 Tenant](images/m365_tenant_add_create.webp)](images/m365_tenant_add_create.webp "Adding Microsoft 365 Tenant")
 
-1. Once the new tenant is provisioned, if you also have a subscription to the Premium license plan, you can connect Microsoft Backup Storage to Veeam Data Cloud. Click Sign in with Microsoft.
+1. Once the new tenant is provisioned, if your customer has a subscription with Express, Premium, or Premium Plus plan, you can connect Microsoft Backup Storage to Veeam Data Cloud. Click Sign in with Microsoft.
 
 You can click Skip to skip this step if you do not want to connect the tenant to Express backups.
 
