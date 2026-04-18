@@ -3,7 +3,7 @@ title: "Supported Microsoft Intune Policy Properties"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_properties_intune.html"
-last_updated: "1/14/2026"
+last_updated: "4/13/2026"
 product_version: ""
 ---
 
@@ -14,8 +14,9 @@ This article lists all supported properties for each Microsoft Intune policy typ
 
 AndroidCompliancePolicy
 
+AndroidCompliancePolicy
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -47,13 +48,13 @@ AndroidCompliancePolicy
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | ScheduledActionsForRule | — |
 
 AndroidCustomConfiguration
 
+AndroidCustomConfiguration
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -64,12 +65,12 @@ AndroidCustomConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+AndroidGeneralDeviceConfiguration
 
 AndroidGeneralDeviceConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -128,12 +129,12 @@ AndroidGeneralDeviceConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+AndroidWorkProfileCompliancePolicy
 
 AndroidWorkProfileCompliancePolicy
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -165,13 +166,13 @@ AndroidWorkProfileCompliancePolicy
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | ScheduledActionsForRule | — |
 
 AndroidWorkProfileGeneralDeviceConfiguration
 
+AndroidWorkProfileGeneralDeviceConfiguration
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -216,12 +217,12 @@ AndroidWorkProfileGeneralDeviceConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+IosCompliancePolicy
 
 IosCompliancePolicy
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -243,7 +244,6 @@ IosCompliancePolicy
 | PasscodeRequiredType | — |
 | SecurityBlockJailbrokenDevices | — |
 | Assignments | — |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
@@ -251,8 +251,9 @@ IosCompliancePolicy
 
 IosCustomConfiguration
 
+IosCustomConfiguration
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -266,12 +267,12 @@ IosCustomConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+IosDeviceFeaturesConfiguration
 
 IosDeviceFeaturesConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -287,12 +288,12 @@ IosDeviceFeaturesConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+IosGeneralDeviceConfiguration
 
 IosGeneralDeviceConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -434,12 +435,12 @@ IosGeneralDeviceConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+IosUpdateConfiguration
 
 IosUpdateConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -454,12 +455,12 @@ IosUpdateConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+MacOSCompliancePolicy
 
 MacOSCompliancePolicy
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -487,13 +488,13 @@ MacOSCompliancePolicy
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | ScheduledActionsForRule | — |
 
 MacOSCustomConfiguration
 
+MacOSCustomConfiguration
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -507,12 +508,12 @@ MacOSCustomConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+MacOSDeviceFeaturesConfiguration
 
 MacOSDeviceFeaturesConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -523,12 +524,12 @@ MacOSDeviceFeaturesConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+MacOSGeneralDeviceConfiguration
 
 MacOSGeneralDeviceConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -551,12 +552,12 @@ MacOSGeneralDeviceConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+SharedPCConfiguration
 
 SharedPCConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -576,15 +577,15 @@ SharedPCConfiguration
 | KioskAppUserModelId | — |
 | MaintenanceStartTime | — |
 | Assignments | — |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
 
 Windows10CompliancePolicy
 
+Windows10CompliancePolicy
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -614,13 +615,13 @@ Windows10CompliancePolicy
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | ScheduledActionsForRule | — |
 
 Windows10CustomConfiguration
 
+Windows10CustomConfiguration
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -631,12 +632,12 @@ Windows10CustomConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+Windows10EndpointProtectionConfiguration
 
 Windows10EndpointProtectionConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -683,12 +684,12 @@ Windows10EndpointProtectionConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+Windows10EnterpriseModernAppManagementConfiguration
 
 Windows10EnterpriseModernAppManagementConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -700,12 +701,12 @@ Windows10EnterpriseModernAppManagementConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+Windows10GeneralConfiguration
 
 Windows10GeneralConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -917,12 +918,12 @@ Windows10GeneralConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+Windows10MobileCompliancePolicy
 
 Windows10MobileCompliancePolicy
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -949,13 +950,13 @@ Windows10MobileCompliancePolicy
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | ScheduledActionsForRule | — |
 
 Windows10SecureAssessmentConfiguration
 
+Windows10SecureAssessmentConfiguration
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -971,12 +972,12 @@ Windows10SecureAssessmentConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+Windows10TeamGeneralConfiguration
 
 Windows10TeamGeneralConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -1007,12 +1008,12 @@ Windows10TeamGeneralConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+Windows81CompliancePolicy
 
 Windows81CompliancePolicy
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -1034,13 +1035,13 @@ Windows81CompliancePolicy
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 | ScheduledActionsForRule | — |
 
 Windows81GeneralConfiguration
 
+Windows81GeneralConfiguration
+
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -1084,12 +1085,12 @@ Windows81GeneralConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+WindowsDefenderAdvancedThreatProtectionConfiguration
 
 WindowsDefenderAdvancedThreatProtectionConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -1102,12 +1103,12 @@ WindowsDefenderAdvancedThreatProtectionConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+WindowsPhone81CustomConfiguration
 
 WindowsPhone81CustomConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -1118,12 +1119,12 @@ WindowsPhone81CustomConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+WindowsPhone81GeneralConfiguration
 
 WindowsPhone81GeneralConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -1163,12 +1164,12 @@ WindowsPhone81GeneralConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
+
+WindowsUpdateForBusinessConfiguration
 
 WindowsUpdateForBusinessConfiguration
 
 | Property | Comments |
-| --- | --- |
 | id | Read-only property in Entra ID. |
 | LastModifiedDateTime | Read-only property in Entra ID. |
 | CreatedDateTime | Read-only property in Entra ID. |
@@ -1215,5 +1216,4 @@ WindowsUpdateForBusinessConfiguration
 | UserStatuses | Read-only property in Entra ID. |
 | DeviceStatusOverview | Read-only property in Entra ID. |
 | UserStatusOverview | Read-only property in Entra ID. |
-| DeviceSettingStateSummaries | Read-only property in Entra ID. |
 

@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_licensing.html"
-last_updated: "3/12/2026"
+last_updated: "4/16/2026"
 product_version: ""
 ---
 
@@ -12,21 +12,33 @@ product_version: ""
 
 Plans
 
-Veeam Data Cloud for Microsoft 365 provides you with 3 plan options: Foundation, Advanced and Premium. You can utilize multiple plan types within one tenancy of Veeam Data Cloud for Microsoft 365. You can request a new subscription with Veeam Data Cloud for Microsoft 365 plan in VCSP Pulse. For details, see [Requesting Subscriptions](sp_subscriptions_request.md).
+Veeam Data Cloud for Microsoft 365 provides you with 6 plan options: Foundation, Express, Advanced, Advanced Plus, Premium and Premium Plus. You can utilize multiple plan types within one tenancy of Veeam Data Cloud for Microsoft 365. You can request a new subscription with Veeam Data Cloud for Microsoft 365 plan in VCSP Pulse. For details, see [Requesting Subscriptions](sp_subscriptions_request.md).
 
-This section provides information on plans for Veeam Data Cloud for Microsoft 365.
+This section provides information on plans for Veeam Data Cloud for Microsoft 365. For more information on available products, see [License Consumption](saas_license_consumption.md).
 
 Foundation
 
 Flex backup policies can be implemented under Foundation. This prioritizes control and flexibility. Supports Microsoft Exchange Online, Microsoft SharePoint Online, Microsoft OneDrive for Business and Microsoft Teams. Offers comprehensive control and customization of backups and retention periods. Granular and bulk data recovery options. Data is stored separately from your Microsoft 365 tenant in the Azure location of your choice. Offers advanced security capabilities including granular Role Based Access Control.
 
+Express
+
+Express backup policies can be implemented under the Express plan. Prioritizes speed and scale. Powered by Veeam integration with Microsoft 365 Backup Storage. Fast backup of initial Microsoft 365 tenant and other large datasets. Offers bulk restores at scale.
+
 Advanced
 
 Combines the features available in Foundation with the addition of Entra ID protection. This includes data resilience for Entra ID users, groups, policies, logs and granular restore of Entra ID tenant data.
 
+Advanced Plus
+
+Combines the features available in Advanced with the addition of Salesforce protection.
+
 Premium
 
-All features included in Advanced with addition of Express backup policies. Prioritizes speed and scale. Powered by Veeam’s integration with Microsoft 365 Backup Storage. Fast backup of initial Microsoft 365 tenant and other large datasets. Offers bulk restores at scale. Provides the strictest adherence to the 3–2–1 rule with multiple backup and restore options.
+All features included in Advanced with addition of Express backup policies. Prioritizes speed and scale. Powered by Veeam integration with Microsoft 365 Backup Storage. Fast backup of initial Microsoft 365 tenant and other large datasets. Offers bulk restores at scale. Provides the strictest adherence to the 3–2–1 rule with multiple backup and restore options.
+
+Premium Plus
+
+Combines the features available in Premium with the addition of Salesforce protection.
 
 Mix and Match
 
@@ -58,7 +70,7 @@ Veeam Data Cloud for Microsoft 365 licenses are consumed by the following object
 |  |
 | --- |
 | NOTE |
-| When you plan the number of Veeam Data Cloud for Microsoft 365 licenses you require, consider the following:  To ensure license consumption and protection coverage, all users in your Microsoft 365 subscription that are members of a backed-up team or have access to a backed-up team, communication, collaboration and other non-personal SharePoint sites must be licensed. For Flex-based backups, you can achieve this with the Foundation, Advanced or Premium plans. For Express-based backups, you can achieve this with the Express or Premium plans. As a best practice, it is recommended to license all Microsoft 365 users in your environment. |
+| When you plan the number of Veeam Data Cloud for Microsoft 365 licenses you require, consider the following:  To ensure license consumption and protection coverage, all users in your Microsoft 365 subscription that are members of a backed-up team or have access to a backed-up team, communication, collaboration and other non-personal SharePoint sites must be licensed. For Flex-based backups, you can achieve this with the Foundation, Advanced, Advanced Plus, Premium and Premium Plus plans. For Express-based backups, you can achieve this with the Express, Premium and Premium Plus plans. As a best practice, it is recommended to license all Microsoft 365 users in your environment. |
 
 The following objects do not consume a Veeam Data Cloud for Microsoft 365 license:
 

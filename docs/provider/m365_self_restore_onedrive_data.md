@@ -3,7 +3,7 @@ title: "Restoring OneDrive Data"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_self_restore_onedrive_data.html"
-last_updated: "3/9/2026"
+last_updated: "3/18/2026"
 product_version: ""
 ---
 
@@ -44,8 +44,6 @@ The data will be restored to the same location in the original OneDrive as it wa
 1. Veeam Data Cloud for Microsoft 365 will display a notification that the restore process has started.
 
 You will also be able to view the progress of the restore process by clicking Notifications.
-
-[![Restoring OneDrive Data](images/m365_self_restore_notifications.webp)](images/m365_self_restore_notifications.webp "Restoring OneDrive Data")
 
 1. Once the restore process is completed, you will be able to navigate back to your OneDrive and see that the OneDrive data has been restored.
 

@@ -3,7 +3,7 @@ title: "Viewing License Details"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_view_license_model.html"
-last_updated: "9/19/2025"
+last_updated: "4/1/2026"
 product_version: ""
 ---
 

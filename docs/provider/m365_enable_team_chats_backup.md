@@ -3,7 +3,7 @@ title: "Enabling Microsoft Team Posts Backup"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_enable_team_chats_backup.html"
-last_updated: "3/25/2026"
+last_updated: "4/15/2026"
 product_version: ""
 ---
 
@@ -47,7 +47,7 @@ To enable Microsoft team posts backup, do the following:
 
 1. In the Set up Teams Posts window, select one of the following:
 
-* Turn on Teams Posts backups for all existing backup policies. The team posts objects will be automatically included to all existing backup policies.
+* Turn on Teams Posts backup for all existing backup policies. The team posts objects will be automatically included to all existing backup policies.
 * Manually add Teams Posts to backup policies. You must manually add the team posts objects to existing backup policies. For information on how to edit backup policies, see [Editing Flex Backup Policies](m365_backup_edit_flex.md).
 
 1. Click Finish.

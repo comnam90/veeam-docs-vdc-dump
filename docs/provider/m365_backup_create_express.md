@@ -3,14 +3,14 @@ title: "Creating Express Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_create_express.html"
-last_updated: "3/24/2026"
+last_updated: "4/16/2026"
 product_version: ""
 ---
 
 # Creating Express Backup Policies
 
 
-To create Express backup policies, your customer organization must have a subscription with the Premium Veeam Data Cloud for Microsoft 365 plan and you must [activate and enable the Express backup service](m365_settings_enable_express_backup.md).
+To create Express backup policies, your customer organization must have a subscription with the Express, Premium, or Premium Plus plan and you must [activate and enable the Express backup service](m365_settings_enable_express_backup.md).
 
 Consider the following:
 

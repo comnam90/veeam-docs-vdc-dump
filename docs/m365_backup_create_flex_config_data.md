@@ -3,7 +3,7 @@ title: "Step 3. Configure Backup Data"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_flex_config_data.html"
-last_updated: "3/31/2026"
+last_updated: "4/15/2026"
 product_version: ""
 ---
 
@@ -31,7 +31,7 @@ Use dynamic Entra ID groups if you want the groups to be automatically updated b
 
 * Click Select next to SharePoint Sites and choose sites to back up. If you select the root SharePoint site, the list of sites to back up will be automatically updated when the backup policy runs. For example, if some subsites were added or deleted between backup policy runs, the backup policy will reflect those changes.
 * Click Select next to Teams and choose teams to back up. You can select whether to back up team posts if you have [enabled team posts backup](m365_enable_team_chats_backup.md).
-* Click Select next to Partial Organization and choose from the following processing options: Mailbox, Archive Mailbox, One Drive, Sites, Teams, Teams Posts (if [enabled](m365_enable_team_chats_backup.md)). When a partial organization backup policy runs, it will check the entire content of the partial organization and the list of items to back up will be automatically updated. For example, if some mailboxes were added or deleted from the partial organization between backup policy runs, the backup policy will reflect those changes.
+* Click Select next to Partial Organization and choose from the following processing options: Mailbox, Archive Mailbox, OneDrive, Sites, Teams, Teams Posts (if [enabled](m365_enable_team_chats_backup.md)). When a partial organization backup policy runs, it will check the entire content of the partial organization and the list of items to back up will be automatically updated. For example, if some mailboxes were added or deleted from the partial organization between backup policy runs, the backup policy will reflect those changes.
 
 If you want to exclude specific objects from the backup policy, select the Exclude some items from the backup check box. Then click Select next to Users, Groups, SharePoint Sites or Teams and choose specific objects to exclude.
 
