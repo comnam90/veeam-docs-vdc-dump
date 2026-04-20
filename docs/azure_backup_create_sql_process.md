@@ -3,7 +3,7 @@ title: "Step 5. Specify Policy Processing Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_sql_process.html"
-last_updated: "3/30/2026"
+last_updated: "4/17/2026"
 product_version: ""
 ---
 
@@ -25,9 +25,16 @@ Protecting Databases Without Staging Server
 To back up the selected databases without a staging server, do the following:
 
 1. Select the Process databases using the production server option and click Configure Credentials.
-2. In the Choose credentials window, for each SQL Server added to the policy, specify an Azure SQL account whose permissions Veeam Data Cloud will use to authenticate against the server. To do that, select a server and click Edit. In the Choose the authentication method window, select the necessary account and click Apply.
+2. In the Choose credentials window, for each SQL Server added to the policy, specify an Azure SQL account or Entra ID application that Veeam Data Cloud will use to authenticate against the server. To do that, select a server and click Edit.
+3. In the Choose the authentication method window, select one of the following options:
+
+* Username and Password — to use an Azuse SQL account. Select the necessary account and click Apply.
 
 For an account to be displayed in the Account list, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md). If you have not added the necessary Azure SQL account beforehand, you can do it without closing the New Azure SQL Policy wizard. To add an account, click Add and complete the [New SQL server account wizard](azure_settings_accounts_database_add.md).
+
+* Entra ID Application — to use an Entra ID application.
+
+To enable Microsoft Entra ID authentication, the Azure SQL Server must have your [Azure Service Account](azure_settings_accounts_service_view.md) application ID configured as its Entra ID administrator. You can set the Entra ID administrator in the settings of the Azure SQL Server in the Azure portal. To learn more, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql&tabs=azure-portal).
 
 1. Click Apply.
 
@@ -54,14 +61,20 @@ For a server to be displayed in the Staging server list, it must be added to the
 | Important |
 | If you use custom Transparent Data Encryption (TDE) to protect SQL Server data, consider that the same Azure Key Vault cryptographic key must be used to encrypt the source and the staging SQL Servers to allow Veeam Data Cloud to perform backup using the Use staging servers option. |
 
-1. Select an Azure SQL account whose permissions Veeam Data Cloud will use to authenticate against the staging server.
+1. In the Authentication method section, select one of the following options:
 
-For an account to be displayed in the SQL Account section, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md). If you have not added the necessary Azure SQL account beforehand, you can do it without closing the New Azure SQL Policy wizard. To add an account, click Add and complete the [New SQL server account wizard](azure_settings_accounts_database_add.md).
+* Username and Password — to use an Azuse SQL account. Select the necessary account and click Apply.
+
+For an account to be displayed in the Account list, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md). If you have not added the necessary Azure SQL account beforehand, you can do it without closing the New Azure SQL Policy wizard. To add an account, click Add and complete the [New SQL server account wizard](azure_settings_accounts_database_add.md).
 
 |  |
 | --- |
 | Important |
 | If the Azure SQL account you use to authenticate against the staging server does not have the sysadmin [server-level role](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver16) assigned, you can only use the source SQL Server as a staging server — otherwise, the backup operation will fail. |
+
+* Entra ID Application — to use an Entra ID application.
+
+To enable Microsoft Entra ID authentication, the Azure SQL Server must have your [Azure Service Account](azure_settings_accounts_service_view.md) application ID configured as its Entra ID administrator. You can set the Entra ID administrator in the settings of the Azure SQL Server in the Azure portal. To learn more, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql&tabs=azure-portal).
 
 1. Click Apply.
 
