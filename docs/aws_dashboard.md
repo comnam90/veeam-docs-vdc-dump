@@ -3,14 +3,14 @@ title: "Viewing Dashboards"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/aws_dashboard.html"
-last_updated: "3/27/2026"
+last_updated: "4/7/2026"
 product_version: ""
 ---
 
 # Viewing Dashboards
 
 
-Veeam Data Cloud for AWS comes with 2 dashboards that allow you to monitor the Veeam Data Cloud for AWS environment for all tenants added to the product, as well as track data protection activity and backup performance for a specific tenant.
+Veeam Data Cloud for AWS comes with 2 dashboards that allow you to monitor the Veeam Data Cloud for AWS environment for all tenants created in the product, as well as track data protection activity and backup performance for a specific tenant.
 
 Home Page Dashboard
 
@@ -20,7 +20,7 @@ The dashboard on the AWS page provides an overview of your Veeam Data Cloud for 
 * Consumption — displays the number of AWS resources currently protected with Veeam Data Cloud for AWS.
 * Infrastructure — displays the health state of the Veeam Data Cloud for AWS infrastructure, as well as the planned date for installing available updates (if any).
 
-To view all upcoming maintenance that may affect backup performance, click See more next to the Upcoming maintenance field. For more information, see [Veeam Data Cloud Maintenance](maintenance.md).
+To view all upcoming maintenance that may affect backup performance, click See more next to the Upcoming maintenance field. For details, see [Veeam Data Cloud Maintenance](maintenance.md).
 
 For each tenant that is added to Veeam Data Cloud for AWS, the AWS page also displays a set of properties, such as:
 
@@ -43,13 +43,13 @@ The dashboard on the tenant administration page provides at-a-glance real-time o
 
 To get more information on the sessions, click either View Session Logs or any of the widget rows. In the latter case, the Session Logs page will show only those sessions that have the same status as that clicked in the widget.
 
-For more information on the Session Logs page, see [Viewing Logs](aws_logs.md#session_logs).
+For details on the Session Logs page, see [Viewing Logs](aws_logs.md#session_logs).
 
 * Successful Policy Tasks — displays the number of snapshots and backups successfully created by backup policies during a specific time period (the past 24 hours by default).
 
 To specify the time period, click the link next to the Schedule icon. To get more information on the created snapshots or backups, click any of the widget rows. In the latter case, the Session Logs page will show only those sessions during which Veeam Data Cloud for AWS created the same items as that clicked in the widget.
 
-For more information on the Session Logs page, see [Viewing Logs](aws_logs.md#session_logs).
+For details on the Session Logs page, see [Viewing Logs](aws_logs.md#session_logs).
 
 * Protected Workloads — displays the number of AWS resources protected by Veeam Data Cloud for AWS during a specific time period (the past 24 hours by default).
 
