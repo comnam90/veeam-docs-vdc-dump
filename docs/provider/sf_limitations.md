@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_limitations.html"
-last_updated: "2/24/2026"
+last_updated: "4/20/2026"
 product_version: ""
 ---
 
@@ -57,6 +57,9 @@ Backup and Restore
 * Restore and archive of files larger than 2 GB is not supported at the moment due to the Salesforce API limitation.
 * Backup of Salesforce objects listed in [Unsupported Salesforce Objects](sf_unsupported_objects.md) is not supported.
 * Backup of certain metadata types is not supported due to Salesforce limitations. For more information, see [Salesforce Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_unsupported_types.htm).
+
+* Backup of custom objects created by 3rd party managed packages, including their metadata, is not supported due to Salesforce limitations.
+* Backup of custom data, such as fields, list views and page layouts, added by a Salesforce Administrator for a custom object that was created by a 3rd party managed package is not supported.
 
 |  |
 | --- |
