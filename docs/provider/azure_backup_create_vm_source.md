@@ -3,7 +3,7 @@ title: "Step 3. Specify Policy Source"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_vm_source.html"
-last_updated: "3/30/2026"
+last_updated: "4/14/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,13 @@ At the Source step of the wizard, specify an Azure account, region and resources
 
 1. In the Source section, specify an Azure account that has access to Azure resources that you want to protect with the backup policy.
 2. In the Regions section, select regions whose resources you want to protect with the backup policy.
-3. In the Resources section, specify virtual machines that you want to protect with the backup policy:
+
+|  |
+| --- |
+| Note |
+| To store backups, Veeam Data Cloud for Microsoft Azure automatically creates a repository in every Azure region whose resources are protected by the backup policy. |
+
+1. In the Resources section, specify virtual machines that you want to protect with the backup policy:
 
 * Select All if you want to protect all virtual machines in the selected region.
 * Select Protect the following resources if you want to protect specific virtual machines in the selected region.
