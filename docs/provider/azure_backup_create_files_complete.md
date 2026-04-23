@@ -1,13 +1,13 @@
 ---
-title: "Step 5. Complete Policy Configuration"
+title: "Step 7. Complete Policy Configuration"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_files_complete.html"
-last_updated: "10/15/2025"
+last_updated: "4/14/2026"
 product_version: ""
 ---
 
-# Step 5. Complete Policy Configuration
+# Step 7. Complete Policy Configuration
 
 
 At the Summary step of the wizard, review the backup policy settings and click Finish.
