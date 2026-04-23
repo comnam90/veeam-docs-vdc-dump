@@ -3,7 +3,7 @@ title: "Groups"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/users_groups.html"
-last_updated: "4/2/2026"
+last_updated: "4/22/2026"
 product_version: ""
 ---
 
@@ -24,6 +24,8 @@ Before You Begin
 
 Before you start working with groups in Veeam Data Cloud, consider the following:
 
+* Veeam Data Cloud verifies group membership only for users who use Microsoft Entra ID for single sign-on (SSO) with Veeam Data Cloud. Veeam Data Cloud cannot verify group membership for users who use the Veeam My Account credentials to log in to Veeam Data Cloud.
+* You cannot use group management in your Veeam Data Cloud organization to manage groups in the organizations of your customers.
 * You can use Entra ID security groups and Microsoft 365 groups to manage group membership.
 * Veeam Data Cloud does not support Entra ID group nesting. Users must be direct members of the groups.
 * When you remove a user from an Entra ID group, Veeam Data Cloud preserves the user account. If you no longer need the user account, delete it manually. For details, see [Deleting Users](users_delete.md).
