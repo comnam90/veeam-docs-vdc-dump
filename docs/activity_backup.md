@@ -3,23 +3,23 @@ title: "Viewing Backup Sessions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_backup.html"
-last_updated: "3/3/2026"
+last_updated: "4/23/2026"
 product_version: ""
 ---
 
 # Viewing Backup Sessions
 
 
-For each data protection operation, Veeam Data Cloud starts a new backup session according to created backup policies. In the Activity view, you can review all running and completed backup sessions across all workloads within your Veeam Data Cloud organization. This helps you shorten your response time to issues and simplifies prevention and troubleshooting of potential problems.
-
-When searching for backup sessions, you can apply quick filters to locate sessions with errors or warnings, or use advanced filtering options to view sessions for a specific workload, tenant, or actor.
-
-To open the Activity view with backup sessions, click the activity icon on the left.
+For each data protection operation, Veeam Data Cloud starts a new backup session according to created backup policies. On the Activity page, you can review all running and completed backup sessions across all workloads within your Veeam Data Cloud organization. This helps you quickly identify failed or warning sessions and take corrective action.
 
 |  |
 | --- |
 | Note |
-| The Activity view currently supports the Microsoft 365, Entra ID and Salesforce workloads. |
+| The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads. |
+
+To open the Activity page with backup sessions, click the activity icon on the left.
+
+When you search for backup sessions, you can apply quick filters to locate sessions with errors or warnings or use advanced filtering options to view sessions for a specific workload, tenant or actor.
 
 In the backup session list, Veeam Data Cloud displays the following properties for each backup session:
 
@@ -28,7 +28,7 @@ Viewing Backup Sessions
 | Property | Description |
 | Activity Type | Type of the session. |
 | Workload Type | Workload type that the session backs up. |
-| Status | Current state of the session. To view detailed information, click View Details next to the backup session. |
+| Status | Current status of the session. |
 | Organization | Organization for which the session was started. By default, the Organization column is not displayed in the list. To display it, click Column visibility and select Organization. |
 | Tenant | Tenant for which the session was started. |
 | Start | Time when the session was started. |
@@ -41,14 +41,14 @@ To view the detailed information, click View Details next to the backup session.
 
 Filtering Data
 
-To quickly find certain backup sessions, you can apply a quick filter by sessions status or combine filters by the Organization, Workload Type, Tenant, Status and Actor criteria.
+To quickly find certain backup sessions, you can apply a quick filter by session status or combine filters by the Organization, Workload Type, Tenant, Status and Actor criteria.
 
 * To apply the quick filter, click All Statuses and select one or more statuses.
 * To apply the advanced filters, do the following:
 
 1. Click Filters.
-2. In the Filters window, select one or more values for required criteria.
-3. Click Apply to view the list of backup sessions which match the specified filters.
+2. In the Filters window, select one or more values for the desired criteria.
+3. Click Apply to view the list of backup sessions that match the specified filters.
 
 To remove the filters and view all sessions, click Clear Filters.
 
