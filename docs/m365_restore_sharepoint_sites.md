@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_sites.html"
-last_updated: "4/15/2026"
+last_updated: "4/17/2026"
 product_version: ""
 ---
 
@@ -59,9 +59,12 @@ For multi-geo tenants, the target site must belong to the same protected regions
 
 1. In the Additional options section, do the following:
 
-1. [For restore to original location] Select the Restore permissions check box if you want to restore permissions of the document libraries and lists within the restored site. If you do not select this option, permissions for document libraries and lists that exist in the target location will be preserved. Permissions for document libraries and lists that do not exist in the target location will be inherited from their parent objects.
-2. Select the Restore List Views check box if you want to restore list views of the restored site.
-3. Select the Restore Subsites check box if you want to restore subsites of the restored site.
+1. Select the Restore permissions check box (selected by default) if you want to restore permissions of the document libraries and lists within the restored site. If the target location exists, the permissions are restored from the backup and they are merged into the permissions in the production environment. If the target location does not exist, permissions are restored from the backup.
+
+If you do not select this option, permissions for document libraries and lists that exist in the target location will be preserved. Permissions for document libraries and lists that do not exist in the target location will be inherited from their parent objects.
+
+1. Select the Restore List Views check box if you want to restore list views of the restored site.
+2. Select the Restore Subsites check box if you want to restore subsites of the restored site.
 
 [![Restoring SharePoint Sites](images/m365_restore_sharepoint_sites_options.png)](images/m365_restore_sharepoint_sites_options.png "Restoring SharePoint Sites")
 

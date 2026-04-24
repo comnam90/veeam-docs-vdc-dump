@@ -3,7 +3,7 @@ title: "Creating SQL Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_sql.html"
-last_updated: "2/23/2026"
+last_updated: "4/14/2026"
 product_version: ""
 ---
 
@@ -21,6 +21,8 @@ Use the New Azure SQL Policy wizard to create a backup policy to protect SQL dat
 2. [Specify the policy details](azure_backup_create_sql_name.md).
 3. [Specify the policy source](azure_backup_create_sql_source.md).
 4. [Specify the policy protection settings](azure_backup_create_sql_sla.md).
-5. [Specify database processing settings](azure_backup_create_sql_process.md).
-6. [Complete the backup policy configuration](azure_backup_create_sql_complete.md).
+5. [Specify the database processing settings](azure_backup_create_sql_process.md).
+6. [Review the default policy settings](azure_backup_create_sql_review.md).
+7. [Specify the notification settings](azure_backup_create_sql_notifications.md).
+8. [Complete the backup policy configuration](azure_backup_create_sql_complete.md).
 

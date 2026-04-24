@@ -3,7 +3,7 @@ title: "Step 3. Specify Account and Restore Mode"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_sql_mode.html"
-last_updated: "3/2/2026"
+last_updated: "4/17/2026"
 product_version: ""
 ---
 
@@ -23,8 +23,8 @@ Specifying Restore Mode and Destination
 
 In the Restore mode section, select one of the following options:
 
-* Restore to the original location — select this option to restore an Azure SQL database with the original name and settings. If you choose this option, you must also specify an Azure SQL account that will be used to access the restored database. To do this, in the SQL Account section, click Select account and choose the necessary SQL account.
-* Restore to original location with different settings — select this option to restore an Azure SQL database with a different name or settings. If you choose this option, the SQL Database Restore wizard will display an additional step - [Settings](azure_restore_sql_settings.md). At this step, you can specify new settings for the restored VM.
+* Restore to the original location — select this option to restore an Azure SQL database with the original name and settings.
+* Restore to original location with different settings — select this option to restore an Azure SQL database with a different name or settings.
 
 [![Step 3. Specify Account and Restore Mode](images/azure_restore_sql_mode.webp)](images/azure_restore_sql_mode.webp)
 

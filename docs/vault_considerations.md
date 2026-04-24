@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_considerations.html"
-last_updated: "3/26/2026"
+last_updated: "4/21/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,9 @@ General
 
 Consider the following:
 
-* Veeam Data Cloud Vault is available in several editions and backup storage regions. For more information, see [Veeam Data Cloud Vault Editions Comparison](https://www.veeam.com/veeam_data_cloud_vault_comparison_ds.pdf).
+* Veeam Data Cloud Vault is available in several editions and backup storage regions. For detailed information on product editions, see [Veeam Data Cloud Vault Editions Comparison](https://www.veeam.com/veeam_data_cloud_vault_comparison_ds.pdf).
+
+For more information on backup storage regions, see [Backup Storage Regions](vault_regions.md).
 
 |  |
 | --- |
