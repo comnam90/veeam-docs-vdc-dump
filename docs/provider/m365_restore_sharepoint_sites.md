@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_sites.html"
-last_updated: "4/17/2026"
+last_updated: "4/24/2026"
 product_version: ""
 ---
 
@@ -57,9 +57,9 @@ If you select this option, type the Root Site URL and the Site URL. Veeam Data C
 
 1. In the Additional options section, do the following:
 
-1. Select the Restore permissions check box (selected by default) if you want to restore permissions of the document libraries and lists within the restored site. If the target location exists, the permissions are restored from the backup and they are merged into the permissions in the production environment. If the target location does not exist, permissions are restored from the backup.
+1. Select the Restore permissions check box (selected by default) if you want to restore permissions for the restored site and its content. If target objects already exist, permissions are restored based on the backup. If target objects are created during restore, permissions are restored from the backup.
 
-If you do not select this option, permissions for document libraries and lists that exist in the target location will be preserved. Permissions for document libraries and lists that do not exist in the target location will be inherited from their parent objects.
+If you do not select to restore permissions, existing permissions are kept and newly created objects inherit permissions from their parent objects.
 
 1. Select the Restore List Views check box if you want to restore list views of the restored site.
 2. Select the Restore Subsites check box if you want to restore subsites of the restored site.
