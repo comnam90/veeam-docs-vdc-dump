@@ -3,14 +3,14 @@ title: "Managing Azure Service Accounts"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_settings_accounts.html"
-last_updated: "2/12/2026"
+last_updated: "4/13/2026"
 product_version: ""
 ---
 
 # Managing Azure Service Accounts
 
 
-In Veeam Data Cloud for Microsoft Azure, you can view information about Azure service accounts, as well as add new subscriptions in your Azure tenant to the scope of Veeam Data Cloud protection.
+In Veeam Data Cloud for Microsoft Azure, you can view information about Azure service accounts, as well as add new subscriptions in your Azure tenant to the protection scope of Veeam Data Cloud.
 
 In This Section
 
