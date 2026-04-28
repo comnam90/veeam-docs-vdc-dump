@@ -3,7 +3,7 @@ title: "Changed Block Tracking"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/cbt.html"
-last_updated: "2/13/2026"
+last_updated: "4/27/2026"
 product_version: ""
 ---
 
@@ -24,5 +24,5 @@ Limitations for Changed Block Tracking
 
 Veeam Data Cloud for AWS cannot use CBT for EC2 instances that reside in AWS Regions where EBS Direct APIs are not available.
 
-If CBT cannot be used, Veeam Data Cloud for AWS reads the whole content of processed EBS volumes and compares it with backed-up data that already exists in the backup repository. In this case, the completion time of incremental backups may occur to grow.
+If CBT cannot be used, Veeam Data Cloud for AWS reads the whole content of processed EBS volumes and compares it with backed-up data that already exists in the backup repository. In this case, it may take Veeam Data Cloud for AWS more time to create incremental backups.
 
