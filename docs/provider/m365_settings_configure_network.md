@@ -1,13 +1,13 @@
 ---
-title: "Configuring Network Access Restrictions"
+title: "Network Access Restrictions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_configure_network.html"
-last_updated: "9/19/2025"
+last_updated: "4/28/2026"
 product_version: ""
 ---
 
-# Configuring Network Access Restrictions
+# Network Access Restrictions
 
 
 To increase security and control over your data, you can restrict access to Veeam Data Cloud for Microsoft 365 within specific IP address ranges. This approach lets you ensure that only authorized users or devices with IP addresses falling in the defined ranges can access Veeam Data Cloud for Microsoft 365. This can be particularly valuable in scenarios where you want to limit access to specific locations, such as corporate offices.
@@ -18,10 +18,10 @@ To configure network restrictions, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Settings.
-3. Select the Access tab.
+3. Go to the Access tab.
 4. In the Networking section, click Add IP Range.
 
-[![Configuring Network Access](images/m365_settings_configure_network.webp)](images/m365_settings_configure_network.webp "Configuring Network Access")
+[![Configuring Network Access](images/m365_settings_networking.webp)](images/m365_settings_networking.webp "Configuring Network Access")
 
 1. In the Add IP Range window, do the following:
 
@@ -33,15 +33,11 @@ Only enter IPv4 addresses. IPv6 addresses are not supported.
 
 Repeat this step if you want to restrict multiple IP address ranges.
 
-[![Configuring Network Access](images/m365_settings_configure_network_ips.webp)](images/m365_settings_configure_network_ips.webp "Configuring Network Access")
+[![Configuring Network Access](images/m365_settings_networking_ips.webp)](images/m365_settings_networking_ips.webp "Configuring Network Access")
 
 1. Click the Restrict Veeam Data Cloud access to specific IP ranges toggle to apply the specified settings.
 
-[![Configuring Network Access](images/m365_settings_configure_network_toggle.webp)](images/m365_settings_configure_network_toggle.webp "Configuring Network Access")
-
-1. Click Save.
-
-[![Configuring Network Access](images/m365_settings_configure_network_save.webp)](images/m365_settings_configure_network_save.webp "Configuring Network Access")
+[![Configuring Network Access](images/m365_settings_networking_toggle.webp)](images/m365_settings_networking_toggle.webp "Configuring Network Access")
 
 |  |
 | --- |
