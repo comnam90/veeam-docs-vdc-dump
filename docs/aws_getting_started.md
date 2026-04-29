@@ -3,7 +3,7 @@ title: "Getting Started with Veeam Data Cloud for AWS"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/aws_getting_started.html"
-last_updated: "4/20/2026"
+last_updated: "4/27/2026"
 product_version: ""
 ---
 
@@ -25,5 +25,5 @@ If you have other workloads in Veeam Data Cloud, you can use the Organization Da
 
 1. Track statistics of all running and completed operations, and view user activity in Veeam Data Cloud for AWS. For details, see [Viewing Logs](aws_logs.md).
 
-If you have other workloads in Veeam Data Cloud, you can use the Activity View that allows you to monitor statistics and user activity across your entire Veeam Data Cloud organization. For details, see [Organization Activity](activity.md).
+If you have other workloads in Veeam Data Cloud, you can use the Activity page that allows you to monitor statistics and user activity across your entire Veeam Data Cloud organization. For details, see [Organization Activity](activity.md).
 
