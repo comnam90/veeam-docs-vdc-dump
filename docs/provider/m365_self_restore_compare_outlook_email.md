@@ -3,7 +3,7 @@ title: "Comparing Outlook Email with Production"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_self_restore_compare_outlook_email.html"
-last_updated: "3/24/2026"
+last_updated: "4/27/2026"
 product_version: ""
 ---
 
@@ -35,5 +35,5 @@ To compare an email with the production environment:
 |  |
 | --- |
 | TIP |
-| The administrator of the organization can specify whether the self-service users can compare their backed-up emails with the production versions. For more information, see [Enabling Self-Service Restore](m365_self_restore.md#enable). |
+| The administrator of the organization can specify whether the self-service users can compare their backed-up emails with the production versions. For more information, see [Enabling Self-Service Restore](m365_settings_enable_self_service.md#selfenable). |
 
