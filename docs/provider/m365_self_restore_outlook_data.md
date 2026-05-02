@@ -3,7 +3,7 @@ title: "Restoring Outlook Data"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_self_restore_outlook_data.html"
-last_updated: "3/18/2026"
+last_updated: "4/27/2026"
 product_version: ""
 ---
 
@@ -50,5 +50,5 @@ You will also be able to view the progress of the restore process by clicking No
 |  |
 | --- |
 | TIP |
-| The administrator of the organization can specify whether the self-service users can restore and overwrite their entire mailbox or only restore specific mailbox items. For more information, see [Enabling Self-Service Restore](m365_self_restore.md#enable). |
+| The administrator of the organization can specify whether the self-service users can restore and overwrite their entire mailbox or only restore specific mailbox items. For more information, see [Enabling Self-Service Restore](m365_settings_enable_self_service.md#selfenable). |
 
