@@ -3,7 +3,7 @@ title: "Previewing Outlook Emails"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_self_restore_preview_outlook_emails.html"
-last_updated: "3/24/2026"
+last_updated: "4/27/2026"
 product_version: ""
 ---
 
@@ -36,5 +36,5 @@ To preview your Outlook emails:
 |  |
 | --- |
 | TIP |
-| The administrator of the organization can specify whether the self-service users can preview their backed-up Outlook emails. For more information, see [Enabling Self-Service Restore](m365_self_restore.md#enable). |
+| The administrator of the organization can specify whether the self-service users can preview their backed-up Outlook emails. For more information, see [Enabling Self-Service Restore](m365_settings_enable_self_service.md#selfenable). |
 
