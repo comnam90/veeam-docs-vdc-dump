@@ -3,7 +3,7 @@ title: "Organization Dashboard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/dashboard.html"
-last_updated: "1/19/2026"
+last_updated: "4/30/2026"
 product_version: ""
 ---
 
@@ -43,6 +43,8 @@ The data is grouped by item status:
 * Error — The object was not backed up, or the session failed.
 
 Click Objects to display the data protection history for objects. Click Sessions to display the data protection history for backup sessions.
+
+To view backup activity for a specific date and status, hover over a data point in the chart and click View Activity next to the desired status. Veeam Data Cloud will open the Activity page with results filtered to that date and status.
 
 * The Recent Activity section displays the list of the recent backup sessions. To view the complete list, click View all activity. For details, see [Viewing Backup Sessions](activity_backup.md).
 
