@@ -3,7 +3,7 @@ title: "Viewing Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_view.html"
-last_updated: "3/4/2026"
+last_updated: "4/28/2026"
 product_version: ""
 ---
 
@@ -21,8 +21,9 @@ In the upper section, Veeam Data Cloud displays the following information:
 * The Consumed Express Licenses field shows how many Express licenses you are currently using.
 * The Consumed Premium Licenses field shows how many Premium licenses you are currently using.
 * The Expiration Date field shows when the subscription will expire.
+* The Needs Attention field is displayed only if one or more tenants have the Needs Attention status and require your action. For more information, see [Tenant Statuses](#tstatus).
 
-For details on Veeam Data Cloud for Microsoft 365 licenses, see [Licensing](m365_licensing.md).
+For information on Veeam Data Cloud for Microsoft 365 licenses, see [Licensing](m365_licensing.md).
 
 Tenant Properties
 
@@ -48,7 +49,8 @@ Tenant Statuses
 | Status | Description |
 | Provisioning | Veeam Data Cloud is provisioning a new tenant after you finished the Add Microsoft 365 tenant wizard. |
 | Provisioned | The infrastructure for the tenant is ready and you can manage the tenant. Tenant management may be temporarily unavailable due to the following reasons:   * Planned maintenance is in progress. * You do not have permission to manage the tenant. To get permission, an administrator of your Veeam Data Cloud organization must assign the M365:Administrator or M365:BackupOperator role to you and add this tenant to the role scope. For details, see [Editing Users](users_edit.md). |
-| Provision failed | The infrastructure deployment was not successful. Click Actions and select Retry to correct any issues (insufficient [permissions](m365_permissions.md), network stability and so on) and retry adding the tenant. If the issue persists, [submit a support case](https://my.veeam.com/my-cases). |
+| Needs Attention | Veeam Data Cloud cannot connect to your Microsoft tenant due to one of the following reasons:   * The connection to your Microsoft tenant has failed due to missing required permissions. * The connection to your Microsoft tenant has failed due to missing required roles. * The connection to your Microsoft tenant has failed due to incorrect principal name. * The connection to the Express Backup service has failed.   To resolve the issue, click View and take the steps described in the Action Required window. |
+| Provision failed | The infrastructure deployment was not successful. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 | Deprovisioning | The subscription has expired and Veeam Data Cloud is suspending the backup policies in the tenant. After the backup policies are suspended, the tenant status changes to In retention. |
 | Deprovisioning failed | Veeam Data Cloud was unable to suspend the backup policies. To resolve the issue, [submit a support case](https://my.veeam.com/my-cases). |
 | In retention | The subscription has expired and Veeam Data Cloud will handle the backed-up data according to the [Veeam Data Cloud Service Agreement](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html). |
