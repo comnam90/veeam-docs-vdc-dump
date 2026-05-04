@@ -3,7 +3,7 @@ title: "Data Backup"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_data_backup.html"
-last_updated: "3/4/2026"
+last_updated: "5/4/2026"
 product_version: ""
 ---
 
@@ -34,7 +34,7 @@ Snapshot-based retention works in the following way:
 
 Veeam Data Cloud for Microsoft 365 will repeat this operation for all subsequent restore points that contain newer states of the item until the retention period expires for the last restore point, and the last restore point is removed as well.
 
-Retention is set to 1 year by default, and can be customized to offer an unlimited time period. To do this, contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support).
+You can set the retention period (1 year by default) while [adding your Microsoft 365 tenant to Veeam Data Cloud](m365_tenant_add.md). To increase the retention period, contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support).
 
 Once the data is backed up, you cannot delete it.
 
