@@ -3,7 +3,7 @@ title: "Adding AWS Edition Storage Vaults in Veeam Backup & Replication"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr_aws.html"
-last_updated: "3/26/2026"
+last_updated: "4/29/2026"
 product_version: ""
 ---
 
@@ -40,6 +40,11 @@ To identify the storage region, view the value in the Region field in Veeam Data
 1. In the Bucket field, specify the storage vault ID as a bucket name.
 
 To obtain the storage vault ID, copy the value in the Vault ID field in Veeam Data Cloud Vault. For more information, see [Viewing Storage Vault Details](vault_storage_vaults_edit.md#view_vault).
+
+|  |
+| --- |
+| Note |
+| You cannot browse for buckets when adding a storage vault as an Amazon S3 object storage repository. |
 
 1. In the Folder field, select an existing folder or create a new one.
 2. Select the Make backups immutable check box.
