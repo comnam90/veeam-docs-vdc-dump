@@ -1,16 +1,16 @@
 ---
-title: "Settings"
+title: "Managing Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_settings.html"
-last_updated: "3/4/2026"
+last_updated: "4/13/2026"
 product_version: ""
 ---
 
-# Settings
+# Managing Settings
 
 
-In Settings, you can manage Azure service accounts and Azure SQL Server accounts, as well as view available storage.
+You can manage Azure service accounts and Azure SQL Server accounts, as well as view available storage.
 
 In this section
 
