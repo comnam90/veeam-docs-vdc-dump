@@ -3,14 +3,14 @@ title: "Backup Chain"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/aws_backup_chain_ec2.html"
-last_updated: "2/13/2026"
+last_updated: "5/4/2026"
 product_version: ""
 ---
 
 # Backup Chain
 
 
-When producing image-level backups for an EC2 backup policy, Veeam Data Cloud for AWS creates a new backup in a backup repository during every backup session according to the backup policy schedule. A sequence of backups created during a set of backup sessions makes up a backup chain.
+When producing image-level backups for an EC2 backup policy, Veeam Data Cloud for AWS creates a new backup in a Veeam Data Cloud backup repository during every backup session according to the backup policy schedule. A sequence of backups created during a set of backup sessions makes up a backup chain.
 
 The backup chain includes backups of the following types:
 
