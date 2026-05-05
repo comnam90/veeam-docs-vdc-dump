@@ -3,7 +3,7 @@ title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication Using 
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr_web.html"
-last_updated: "3/20/2026"
+last_updated: "4/29/2026"
 product_version: ""
 ---
 
@@ -46,7 +46,7 @@ To connect Veeam Data Cloud Vault with Veeam Backup & Replication using web UI, 
 [![Using with Veeam Backup and Replication](images/vault_vbr_web_copy_code.webp)](images/vault_vbr_web_copy_code.webp "Using with Veeam Backup and Replication")
 
 1. In the Backup Server Registration Code window, click the Veeam Data Cloud Portal link.
-2. In Veeam Data Cloud, in the Register New Product window, paste the registration code in the Registration Token field and click Register.
+2. In Veeam Data Cloud, in the Register New Product window, paste the registration code in the Registration Code field and click Register.
 
 |  |
 | --- |
