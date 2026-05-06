@@ -3,7 +3,7 @@ title: "Backup Chain"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/aws_backup_chain_fsx.html"
-last_updated: "3/30/2026"
+last_updated: "5/5/2026"
 product_version: ""
 ---
 
@@ -14,7 +14,7 @@ During every backup session, Veeam Data Cloud for AWS creates a cloud-native bac
 
 A sequence of cloud-native backups created during a set of backup sessions makes up a backup chain. Veeam Data Cloud for AWS creates the backup chain in the following way:
 
-1. During the first backup session, Veeam Data Cloud for AWS creates a backup that contains all FSx file system data and saves it in the selected backup vault of the AWS Region where the processed file system resides. This backup becomes a starting point in the backup chain.
+1. During the first backup session, Veeam Data Cloud for AWS creates a backup that contains all FSx file system data and saves it to the selected backup vault within the same AWS account to which the processed file system belongs, in the same AWS Region where the file system resides. This backup becomes a starting point in the backup chain.
 
 The creation of the first backup may take significant time to complete since Veeam Data Cloud for AWS copies the whole image of the FSx file system.
 

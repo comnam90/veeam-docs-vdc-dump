@@ -3,14 +3,14 @@ title: "How Backup Works"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/aws_backup_hiw_redshift_serverless.html"
-last_updated: "3/30/2026"
+last_updated: "5/5/2026"
 product_version: ""
 ---
 
 # How Backup Works
 
 
-Veeam Data Cloud for AWS uses the [Amazon Redshift Serverless service](https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-snapshots-recovery-points.html) to create a cloud-native backup of a Redshift Serverless namespace, and saves this backup in the same AWS Region in which the source namespace resides. The backup is assigned AWS tags upon creation. Keys and values of AWS tags contain encrypted metadata that helps Veeam Data Cloud for AWS identify the related namespace backup.
+Veeam Data Cloud for AWS uses the [Amazon Redshift Serverless service](https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-snapshots-recovery-points.html) to create a cloud-native backup of a Redshift Serverless namespace and saves this backup within the AWS account to which the processed namespace belongs, in the AWS Region where the namespace resides. The backup is assigned AWS tags upon creation. Keys and values of AWS tags contain encrypted metadata that helps Veeam Data Cloud for AWS identify the related namespace backup.
 
 Supported Redshift Serverless Properties
 
