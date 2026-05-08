@@ -3,7 +3,7 @@ title: "Backup Storage Regions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_regions.html"
-last_updated: "4/22/2026"
+last_updated: "5/7/2026"
 product_version: ""
 ---
 
@@ -41,7 +41,7 @@ Backup Storage Regions for Foundation Core Editions
 | Japan | Japan East | — |
 | Japan West | — |
 | Singapore | Southeast Asia | — |
-| Malaysia | Malasysia West | — |
+| Malaysia | Malaysia West | — |
 | Indonesia | Indonesia Central | — |
 | Korea | Korea Central | — |
 | New Zealand | New Zealand North | — |
@@ -106,7 +106,7 @@ Backup Storage Regions for Foundation Non-Core Editions
 | Indonesia | — | AP Southeast 3 |
 | Japan | — | AP Northeast 1 |
 | — | AP Northeast 3 |
-| Malaysia | — | AP Northeast 5 |
+| Malaysia | — | AP Southeast 5 |
 | Thailand | — | AP Southeast 7 |
 | Taiwan | — | Taipei |
 
