@@ -3,7 +3,7 @@ title: "Restoring Outlook Mailboxes"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_outlook_mailbox.html"
-last_updated: "3/24/2026"
+last_updated: "5/5/2026"
 product_version: ""
 ---
 
@@ -61,7 +61,8 @@ You can also click Advanced options to display more options. For details, see th
 2. Select the Missing items check box if you want to restore items that are missing in your target location. For example, some of the items were removed and you want to restore them from the backup.
 
 1. In the Flag restored items section, select the Mark restored as unread check box if you want to mark each restored item as unread.
-2. In the Exclude the following mailbox folders section, select check boxes next to the folders that you do not want to restore from the backup: Drafts, Deleted Items, In-Place Hold Items or Litigation Hold Items.
+2. [For restore of multiple mailboxes to the original location] In the Mass mailbox restore section, select the Finish the restore of recent items before restoring the remaining items check box. In the Restore items from the last <N> days first field, specify a number of days for the data you want to prioritize. The default value is 7 days.
+3. In the Exclude the following mailbox folders section, select check boxes next to the folders that you do not want to restore from the backup: Drafts, Deleted Items, In-Place Hold Items or Litigation Hold Items.
 
 [![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_options.webp)](images/m365_restore_outlook_mailbox_options.webp "Restoring Outlook Mailbox")
 
