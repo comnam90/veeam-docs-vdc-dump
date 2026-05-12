@@ -3,7 +3,7 @@ title: "Performing Bulk Restore"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_bulk.html"
-last_updated: "4/16/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
