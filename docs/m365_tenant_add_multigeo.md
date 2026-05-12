@@ -3,31 +3,31 @@ title: "Adding Multi-Geo Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_multigeo.html"
-last_updated: "3/26/2026"
+last_updated: "5/11/2026"
 product_version: ""
 ---
 
 # Adding Multi-Geo Microsoft 365 Tenants
 
 
-To start protecting multi-geo Microsoft 365 tenant data, you must add the multi-geo Microsoft 365 tenant to Veeam Data Cloud.
+To start protecting Microsoft 365 multi-geo tenant data, you must add the Microsoft 365 multi-geo tenant to Veeam Data Cloud.
 
 Consider the following:
 
 * Before you start adding the multi-geo tenant, check [Considerations and Limitations](m365_considerations_limitations.md).
 * Veeam Data Cloud supports multi-geo tenants for Flex backup policies.
 
-To add a multi-geo Microsoft 365 tenant, use the Add Microsoft 365 tenant wizard and do the following:
+To add a Microsoft 365 multi-geo tenant, use the Add Microsoft 365 tenant wizard and do the following:
 
 1. Click Microsoft 365 on the left to open the list of Microsoft 365 tenants.
 2. Click Add Tenant.
 
 [![Launching Add Microsoft 365 Tenant Wizard](images/m365_tenant_add_launch.png)](images/m365_tenant_add_launch.png "Launching Add Microsoft 365 Tenant Wizard")
 
-1. Choose how you want to connect Veeam Data Cloud to the multi-geo Microsoft tenancy:
+1. Choose how you want to connect Veeam Data Cloud to the Microsoft multi-geo tenancy:
 
-* Auto Connection. Select this option if you want to automatically connect Veeam Data Cloud to the multi-geo Microsoft tenancy. This option is recommended and selected by default. Follow the [Automatic Connection Steps](#automatic) instructions to proceed.
-* Manual Connection. Select this option if you want to manually connect  Veeam Data Cloud to the multi-geo Microsoft tenancy. Follow the [Manual Connection Steps](#manually) instructions to proceed.
+* Auto Connection. Select this option if you want to automatically connect Veeam Data Cloud to the Microsoft multi-geo tenancy. This option is recommended and selected by default. Follow the [Automatic Connection Steps](#automatic) instructions to proceed.
+* Manual Connection. Select this option if you want to manually connect  Veeam Data Cloud to the Microsoft multi-geo tenancy. Follow the [Manual Connection Steps](#manually) instructions to proceed.
 
 [![Adding Multi-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_connection.webp)](images/m365_tenant_add_multigeo_connection.webp "Adding Multi-Geo Microsoft 365 Tenant")
 
@@ -38,7 +38,7 @@ Automatic Connection Steps
 | note |
 | To perform the steps successfully, you must use a Microsoft 365 Global Admin account. |
 
-If you choose to automatically connect Veeam Data Cloud to your multi-geo Microsoft 365 tenancy (recommended), do the following:
+If you choose to automatically connect Veeam Data Cloud to your Microsoft 365 multi-geo tenancy (recommended), do the following:
 
 1. In the Choose the type of Flex connection section, select Auto Connection.
 2. Click Sign in with Microsoft.
@@ -60,17 +60,20 @@ Once you set the retention period, you cannot reduce it. For more information, s
 
 1. In the Select the service you want to protect section, make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
 
+Veeam Data Cloud sets the first tenant you add as the default storage region where objects that do not have assigned regions will be backed up.
+
 [![Adding Mutli-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_settings.webp)](images/m365_tenant_add_multigeo_settings.webp "Adding Mutli-Geo Microsoft 365 Tenant")
 
 1. To add more tenants, repeat step 5 and click Add for each new tenant.
 
 To remove any of the added tenants, click the delete icon next to the tenant.
 
-1. Once you add all the tenants you want to add, click Next.
+1. To change the default storage region to a different tenant, click Set as Default on that tenant.
+2. Once you add all the tenants you want to add, click Next.
 
 [![Adding Mutli-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_next.webp)](images/m365_tenant_add_multigeo_next.webp "Adding Mutli-Geo Microsoft 365 Tenant")
 
-1. In the Mapping section, map your location data to storage regions for each tenant.
+1. In the Mapping section, map your location data to storage regions for each tenant. You can also change the default storage region from the Default Storage Region drop-down list.
 
 [![Adding Mutli-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_mapping.webp)](images/m365_tenant_add_multigeo_mapping.webp "Adding Mutli-Geo Microsoft 365 Tenant")
 
@@ -116,14 +119,17 @@ Once you set the retention period, you cannot reduce it. For more information, s
 
 1. In the Select the service you want to protect section, make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
 
+Veeam Data Cloud sets the first tenant you add as the default storage region where objects that do not have assigned regions will be backed up.
+
 [![Adding Mutli-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_settings.webp)](images/m365_tenant_add_multigeo_settings.webp "Adding Mutli-Geo Microsoft 365 Tenant")
 
 1. To add more tenants, repeat step 5 and click Add for each new tenant.
-2. Once you add all the tenants you want to add, click Next.
+2. To change the default storage region to a different tenant, click Set as Default on that tenant.
+3. Once you add all the tenants you want to add, click Next.
 
 [![Adding Mutli-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_next.webp)](images/m365_tenant_add_multigeo_next.webp "Adding Mutli-Geo Microsoft 365 Tenant")
 
-1. In the Mapping section, map your location data to storage regions for each tenant.
+1. In the Mapping section, map your location data to storage regions for each tenant. You can also change the default storage region from the Default Storage Region drop-down list.
 
 [![Adding Mutli-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_mapping.webp)](images/m365_tenant_add_multigeo_mapping.webp "Adding Mutli-Geo Microsoft 365 Tenant")
 
