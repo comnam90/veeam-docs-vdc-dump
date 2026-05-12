@@ -3,7 +3,7 @@ title: "Microsoft 365 Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore.html"
-last_updated: "4/16/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
@@ -28,4 +28,5 @@ In This Section
 * [Performing Bulk Restore](m365_restore_bulk.md)
 * [Obtaining Downloaded Items](m365_obtain_downloaded_items.md)
 * [Performing Self-Service Restore](m365_self_restore.md)
+* [Offboarding Protection Units](m365_restore_offboarding.md)
 
