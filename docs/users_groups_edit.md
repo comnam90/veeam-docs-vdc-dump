@@ -3,7 +3,7 @@ title: "Editing Groups"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_groups_edit.html"
-last_updated: "2/19/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
@@ -11,6 +11,8 @@ product_version: ""
 
 
 You may need to edit a group to adjust assigned roles and role scopes or to rename the group to match the name of the group in Microsoft Entra ID. To add or remove group members, use the Microsoft Entra ID portal.
+
+The group management is available only if you are signed in to Veeam Data Cloud using a Microsoft Entra ID account and you have the OrganizationAdmin role assigned. If you are signed in with Veeam My Account credentials, the group management options are not available.
 
 To edit a group, follow these steps:
 
