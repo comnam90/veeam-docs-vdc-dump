@@ -3,7 +3,7 @@ title: "Restoring Outlook Mailboxes"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_outlook_mailbox.html"
-last_updated: "3/24/2026"
+last_updated: "5/5/2026"
 product_version: ""
 ---
 
@@ -21,7 +21,7 @@ Flex Restore
 To restore an entire Microsoft Outlook mailbox from the backup:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Restore.
+2. Select Flex Restore.
 3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, in the Explore Outlook Backup as at field, click the calendar icon and select the date and time when the necessary restore point was created.
 4. Select the mailbox you want to restore.
 
@@ -61,7 +61,8 @@ You can also click Advanced options to display more options. For details, see th
 2. Select the Missing items check box if you want to restore items that are missing in your target location. For example, some of the items were removed and you want to restore them from the backup.
 
 1. In the Flag restored items section, select the Mark restored as unread check box if you want to mark each restored item as unread.
-2. In the Exclude the following mailbox folders section, select check boxes next to the folders that you do not want to restore from the backup: Drafts, Deleted Items, In-Place Hold Items or Litigation Hold Items.
+2. [For restore of multiple mailboxes to the original location] In the Mass mailbox restore section, select the Finish the restore of recent items before restoring the remaining items check box. In the Restore items from the last <N> days first field, specify a number of days for the data you want to prioritize. The default value is 7 days.
+3. In the Exclude the following mailbox folders section, select check boxes next to the folders that you do not want to restore from the backup: Drafts, Deleted Items, In-Place Hold Items or Litigation Hold Items.
 
 [![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_options.webp)](images/m365_restore_outlook_mailbox_options.webp "Restoring Outlook Mailbox")
 
@@ -79,21 +80,20 @@ Express Full Restore
 To restore an entire Microsoft Outlook mailbox from the backup:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Restore.
-3. In the Outlook tab, select the mailbox you want to restore.
+2. Select Express Restore.
+3. In the Outlook tab, select the check box of the mailbox you want to restore.
 
-To restore multiple mailboxes, click on your organization and then select the check boxes next to the mailboxes you want to restore. You can restore multiple mailboxes only to the original location.
+To restore multiple mailboxes, select the check boxes next to the mailboxes you want to restore. You can restore multiple mailboxes only to the original location.
 
-1. Click Restore Selected Mailbox.
+1. Click Restore.
 
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_express.webp)](images/m365_restore_outlook_mailbox_express.webp "Restoring Outlook Mailbox")
+[![Restoring Outlook Mailbox](images/m365_restore_express_outlook_mailbox.webp)](images/m365_restore_express_outlook_mailbox.webp "Restoring Outlook Mailbox")
 
-1. In the Restore Mailbox window, in the Choose restore method section, select Express Full Restore.
-2. In the Choose restore option section, select the restore point from which you want to restore the mailbox. You can select one of the following options:
+1. In the Restore mailbox window, in the Choose restore option section, select the restore point from which you want to restore the mailbox. You can select one of the following options:
 
 * Use the latest available restore point. If you select this option, Veeam Data Cloud for Microsoft 365 will restore data from the latest restore point of the backup.
 
-* Use the restore point from. If you select this option, you can select the date and time when the necessary restore point was created. Veeam Data Cloud for Microsoft 365 will restore data from the nearest available restore point before the selected date.
+* Use the restore before date-time. If you select this option, you can select the date and time when the necessary restore point was created. Veeam Data Cloud for Microsoft 365 will restore data from the nearest available restore point before the selected date.
 
 1. Use Advanced filters if you want to search for and restore specific items within the mailbox and not the entire mailbox. For more information, see [Express Granular Restore](#gran).
 2. In the Choose restore location section, select where you want to restore the data. You can select one of the following options:
@@ -101,44 +101,41 @@ To restore multiple mailboxes, click on your organization and then select the ch
 * Original location. Select this option if you want to restore the mailbox to its original location.
 * New folder. Select this option if you want to restore the mailbox to a new location. Veeam Data Cloud restores the data to a newly created folder, called Recovered Items YYYY-MM-DD, HH:MM.
 
-1. Click Express Restore to start the restore process.
+1. Click Restore to start the restore process.
 
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_express_options.webp)](images/m365_restore_outlook_mailbox_express_options.webp "Restoring Outlook Mailbox")
+[![Restoring Outlook Mailbox](images/m365_restore_express_outlook_mailbox_options.webp)](images/m365_restore_express_outlook_mailbox_options.webp "Restoring Outlook Mailbox")
 
 Express Granular Restore
 
 To restore specific items from an Express Outlook backup without restoring the entire mailbox, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Restore.
+2. Select Express Restore.
 3. In the Outlook tab, select the mailbox that contains the items you want to restore.
-4. Click Restore Selected Mailbox.
+4. Click Restore.
 
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_express.webp)](images/m365_restore_outlook_mailbox_express.webp "Restoring Outlook Mailbox")
+[![Restoring Outlook Mailbox](images/m365_restore_express_outlook_mailbox.webp)](images/m365_restore_express_outlook_mailbox.webp "Restoring Outlook Mailbox")
 
-1. In the Restore Mailbox window, in the Choose restore method section, select Express Full Restore.
-2. In the Choose restore option section, select the restore point from which you want to restore the mailbox. You can select one of the following options:
+1. In the Restore mailbox window, in the Choose restore option section, select the restore point from which you want to restore the mailbox. You can select one of the following options:
 
 * Use the latest available restore point. If you select this option, Veeam Data Cloud for Microsoft 365 will restore data from the latest restore point of the backup.
 
-* Use the restore point from. If you select this option, you can select the date and time when the necessary restore point was created. Veeam Data Cloud for Microsoft 365 will restore data from the nearest available restore point before the selected date.
+* Use the restore before date-time. If you select this option, you can select the date and time when the necessary restore point was created. Veeam Data Cloud for Microsoft 365 will restore data from the nearest available restore point before the selected date.
 
 1. Click the Advanced filters toggle and provide the search criteria for the items you want to restore:
 
 * Sender. Type the email address of the sender of the items you want to restore.
-* Subject. Type any keywords included in subject of the items you want to restore.
+* Subject. Type any keywords included in the subject of the items you want to restore.
 * Participants. Type the email addresses of participants (senders, recipients) of the items you want to restore.
-* Attachments. Mark the check box if you want to search only for items that contain attachments.
+* Attachments. Select the check box if you want to search only for items that contain attachments.
 
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_express_filters.webp)](images/m365_restore_outlook_mailbox_express_filters.webp "Restoring Outlook Mailbox")
+[![Restoring Outlook Mailbox](images/m365_restore_express_outlook_mailbox_filters.webp)](images/m365_restore_express_outlook_mailbox_filters.webp "Restoring Outlook Mailbox")
 
-1. Click Search. If there are matches found, Veeam Data Cloud displays the restore point and the number of matching items. If there are no matches found, Veeam Data Cloud displays the No matching items found. Adjust your search to include more items. message.
+1. Veeam Data Cloud searches automatically using the search criteria you provided. If there are matches found, Veeam Data Cloud displays the restore point and the number of matching items. If there are no matches found, Veeam Data Cloud displays the No items match your search. Please adjust the search criteria or select a different restore point and try again. message.
 2. In the Choose restore location section, select where you want to restore the data. You can select one of the following options:
 
 * Original location. Select this option if you want to restore the mailbox to its original location.
 * New folder. Select this option if you want to restore the mailbox to a new location. Veeam Data Cloud restores the data to a newly created folder, called Recovered Items YYYY-MM-DD, HH:MM.
 
-1. Click Express Restore to start the restore process.
-
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_express_filters_results.webp)](images/m365_restore_outlook_mailbox_express_filters_results.webp "Restoring Outlook Mailbox")
+1. Click Restore to start the restore process.
 
