@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_permissions.html"
-last_updated: "3/12/2026"
+last_updated: "5/11/2026"
 product_version: ""
 ---
 
