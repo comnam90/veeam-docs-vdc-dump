@@ -3,14 +3,14 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_sites.html"
-last_updated: "4/24/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
 # Restoring SharePoint Sites
 
 
-Veeam Data Cloud for Microsoft 365 offers 2 restore methods for restore of SharePoint sites: Flex Restore and Express Full Restore.
+Veeam Data Cloud for Microsoft 365 offers 2 restore methods for restore of SharePoint sites: Flex Restore and Express Restore.
 
 The restore method options available to you depend on what backup policy type covers the Microsoft 365 user whose data you restore. The backup policy type defines the plan of the backed-up user. To learn more about plans in Veeam Data Cloud for Microsoft 365, see [Plans](m365_licensing.md#plans).
 
@@ -21,7 +21,7 @@ Flex Restore
 To restore an entire SharePoint site from the backup:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Restore and go to the SharePoint tab.
+2. Select Flex Restore and go to the SharePoint tab.
 3. By default, Veeam Data Cloud for Microsoft 365 uses the latest available restore point for data restore. If you want to select another restore point, in the Explore SharePoint Backup as at field, click the calendar icon and select the date and time when the necessary restore point was created.
 4. Select the site that you want to restore.
 5. Click Restore Selected Site.
@@ -70,37 +70,36 @@ If you do not select to restore permissions, existing permissions are kept and n
 
 1. Click Restore to start the restore process.
 
-Express Full Restore
+Express Restore
 
 Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#exrestore).
 
 To restore an entire SharePoint site from the backup:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Restore.
-3. On the SharePoint tab, select the site that you want to restore.
+2. Select Express Restore.
+3. On the SharePoint tab, select the check box of the site that you want to restore.
 
-To restore multiple SharePoint sites, click on your organization and then select the check boxes next to the SharePoint sites you want to restore. You can restore multiple SharePoint sites only to the original location.
+To restore multiple SharePoint sites, select the check boxes next to the SharePoint sites you want to restore. You can restore multiple SharePoint sites only to the original location.
 
-1. Click Restore Selected Site.
+1. Click Restore.
 
-[![Restoring SharePoint Sites](images/m365_restore_sharepoint_sites_express.png)](images/m365_restore_sharepoint_sites_express.png "Restoring SharePoint Sites")
+[![Restoring SharePoint Sites](images/m365_restore_express_sharepoint.webp)](images/m365_restore_express_sharepoint.webp "Restoring SharePoint Sites")
 
-1. In the Restore SharePoint Site window, in the Choose restore method section, select Express Full Restore.
-2. In the Choose restore option section, select the restore point from which you want to restore the site. You can select one of the following options:
+1. In the Restore site window, in the Choose restore option section, select the restore point from which you want to restore the site. You can select one of the following options:
 
 * Use the latest available restore point. If you select this option, Veeam Data Cloud for Microsoft 365 will restore data from the latest restore point of the backup.
 
-* Use the restore point from. If you select this option, you can select the date and time when the necessary restore point was created. Veeam Data Cloud for Microsoft 365 will restore data from this restore point.
+* Use the restore before date-time. If you select this option, you can select the date and time when the necessary restore point was created. Veeam Data Cloud for Microsoft 365 will restore data from this restore point.
 
-Select the Use fast restore points check box if you want to select from the fastest available restore points created by Express backup policies.
+Select the Fast restore check box if you want to select from the fastest available restore points created by Express backup policies.
 
 1. In the Choose restore location option, select where you want to restore the data. You can select one of the following options:
 
 * Overwrite the existing site. Select this option to replace data in the original location with the data from the backup.
 * Create a site with a new URL. Select this option to restore the data to a new location. Veeam Data Cloud restores the data to a newly created site with an R and a number added to the end of the URL. For example, https://contoso.sharepoint.com/sites/originalSiteR0.
 
-1. Click Express Full Restore to start the restore process.
+1. Click Restore to start the restore process.
 
-[![Restoring SharePoint Sites](images/m365_restore_sharepoint_sites_express_options.png)](images/m365_restore_sharepoint_sites_express_options.png "Restoring SharePoint Sites")
+[![Restoring SharePoint Sites](images/m365_restore_express_sharepoint_options.webp)](images/m365_restore_express_sharepoint_options.webp "Restoring SharePoint Sites")
 
