@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_considerations_limitations.html"
-last_updated: "4/2/2026"
+last_updated: "5/11/2026"
 product_version: ""
 ---
 
@@ -18,9 +18,6 @@ General
 * Backup of dynamic distribution groups is not supported. Members of dynamic distribution groups cannot be resolved. Dynamic Entra ID groups can be used instead. For more information, see [Dynamic Entra ID Groups](#entragroups).
 * Microsoft Entra Privileged Identity Management is not supported.
 * Backup is not supported for Microsoft organizations in US Government GCC High regions.
-* You cannot delete mailboxes, OneDrives and SharePoint sites protected (or were protected in the past 365 days) under an Express backup policy. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/troubleshoot/sharepoint/sites/cannot-delete-sites-protected-by-microsoft365-backup).
-
-If you want to request the deletion of a specific mailbox, OneDrive or SharePoint site, contact Veeam Customer Support.
 
 Supported Microsoft Organizations
 
@@ -188,6 +185,7 @@ Documents, Libraries and Lists Restore
 * When you restore items to a library or list that has been renamed, the items are restored to the renamed library or list. The name of the library or list is not re-created after the restore. For example, you renamed library\_1 to library\_2. You restore a folder from the Veeam Data Cloud backup of library\_1. The folder is restored and is now part of library\_2.
 * Restore of sensitivity labels applied to SharePoint lists is not supported.
 * If your SharePoint file history maintains both major and minor versions, restoring a specific major file version creates two files: one preserving the backup version and another incremented to a minor version. The preserved version has the Modified and Modified By properties different from the backup, while the incremented version retains the backup property values. This behavior is expected and results from Microsoft API specifics.
+* Hidden and unsupported Microsoft SharePoint lists are not available for restore. For more information, see [Unsupported SharePoint Lists](m365_considerations_unsupported_sharepoint_lists.md).
 
 List Items Restore
 
