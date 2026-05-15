@@ -3,7 +3,7 @@ title: "Viewing Dashboard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_dashboard.html"
-last_updated: "4/15/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
@@ -16,6 +16,8 @@ To view the Veeam Data Cloud for Microsoft 365 dashboard, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. The dashboard is the landing page when you open a tenant. To return to the dashboard from a different page, click Dashboard.
+
+The content on the Dashboard page is only visible to users with the OrganizationAdmin or M365:Administrator roles or a custom role with the View Activity Logs, View Licensing Dashboard and View Backups permissions. For more information about roles, see [Roles](users_roles.md).
 
 The Dashboard page displays the following sections:
 
