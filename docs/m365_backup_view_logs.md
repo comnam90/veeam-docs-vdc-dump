@@ -3,7 +3,7 @@ title: "Viewing Backup Logs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_view_logs.html"
-last_updated: "2/9/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
@@ -87,7 +87,7 @@ To view the protection status of objects within Express backup policies, do the 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
 3. Click the name of the Express backup policy you want to view.
-4. In the Policy section, you can see a summary of protection within the backup policy. The summary includes the number of total items, completed (protected) items, in progress (for protection) items and the number of items whose protection failed. Veeam Data Cloud for Microsoft 365 also displays a list of the objects within the backup policy. For each object, you can see the following details:
+4. In the Policy section, you can see a summary of protection within the backup policy. The summary includes the number of total items, protected items, in progress (for protection) items, retrying items, unsupported items and the number of items whose protection failed. Veeam Data Cloud for Microsoft 365 also displays a list of the objects within the backup policy. For each object, you can see the following details:
 
 * Display Name.
 
@@ -99,7 +99,7 @@ To view the protection status of objects within Express backup policies, do the 
 * State. The protection status of the object within this backup policy run. For details, see [Express Policy Protection Status](#prostatus).
 * Details. Details about the protection status of the object.
 
-[![Viewing Backup Logs](images/m365_backup_view_logs_express.png)](images/m365_backup_view_logs_express.png "Viewing Backup Logs")
+[![Viewing Backup Logs](images/m365_backup_view_express_logs.webp)](images/m365_backup_view_express_logs.webp "Viewing Backup Logs")
 
 |  |
 | --- |
@@ -108,21 +108,16 @@ To view the protection status of objects within Express backup policies, do the 
 
 Express Policy Protection Status
 
-In the Policy section, from the All Statuses drop-down list, you can filter the objects list of an Express backup policy by status.
+In the Policy section, from the All drop-down list, you can filter the objects list of an Express backup policy by status.
 
 The available protection statuses are the following:
 
 * Selected for protection. The item you requested for protection does not have a protection unit yet created on the Microsoft side.
-* Unprotected. The protection unit is successfully disabled.
-* Disabling protection. Disabling protection of the unit was requested.
+* Retrying. The item is not eligible for protection yet.
+* Unsupported. The item cannot be protected.
+* Failed. Protection failed. See the displayed error message for details.
+* In Progress. A protection change is currently being processed.
 * Protected. The protection unit is successfully enabled.
-* Pending protection. Protection of the unit was requested.
-* Pending removal. A request to remove the protected unit from the policy was made.
-* Pending offboarding. A request to offboard the protection unit.
-* Offboarded. The protection unit is successfully offboarded.
-* Canceling offboarding. A request to cancel protection unit offboarding.
-
-You can also select the Show only with errors check box to filter the objects list to identify failed items.
 
 |  |
 | --- |
