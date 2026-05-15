@@ -3,7 +3,7 @@ title: "Managing Notifications"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_notifications.html"
-last_updated: "4/27/2026"
+last_updated: "5/5/2026"
 product_version: ""
 ---
 
@@ -44,11 +44,6 @@ To configure email recipients for system notifications, do the following:
 
 [![Managing Notifications](images/m365_settings_notifications_email.webp)](images/m365_settings_notifications_email.webp "Managing Notifications")
 
-|  |
-| --- |
-| NOTE |
-| If a user configures email notifications from their My Preferences section and they are also one of the email recipients in the Notifications settings page, they will receive the system notifications twice. For more information on My Preferences settings, see [My Preferences](#mypref). |
-
 Teams Channel Notifications
 
 To configure Microsoft Teams channel notifications, do the following:
@@ -70,16 +65,4 @@ To configure Microsoft Teams channel notifications, do the following:
 1. Click Save.
 
 [![Managing Notifications](images/m365_settings_notifications_teams.webp)](images/m365_settings_notifications_teams.webp "Managing Notifications")
-
-My Preferences
-
-In the My Preferences section, you can manage personal notifications settings. To do that, select the check box for the email notifications you want to receive from Veeam Data Cloud for Microsoft 365:
-
-* Email me when a backup completes. Receive an email notification when the backup process completes.
-* Email me when a backup fails. Receive an email notification when the backup process fails.
-* Email me when there are license changes. Receive an email notification when there are changes in the number of licensed users. Veeam Data Cloud for Microsoft 365 checks for license changes every Monday, Wednesday and Friday at 9:00 PM of your configured time zone.
-
-If you select any of the check boxes, you will receive email notifications even if your email address is not added as an email recipient for system notifications. If your email address is also added as an email recipient for system notifications, you will receive the email notifications twice. For more information about email recipients for system notifications, see [Email Recipients](#recip).
-
-[![Managing Notifications](images/m365_settings_notifications_mypreferences.webp)](images/m365_settings_notifications_mypreferences.webp "Managing Notifications")
 
