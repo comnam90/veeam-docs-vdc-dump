@@ -3,12 +3,14 @@ title: "Creating Groups"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/users_groups_create.html"
-last_updated: "2/20/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
 # Creating Groups
 
+
+You can create groups to allow Veeam Data Cloud to automatically grant access and assign roles to users that use Microsoft Entra ID single sign-on (SSO) to log in to Veeam Data Cloud.
 
 To create a group, follow these steps:
 
