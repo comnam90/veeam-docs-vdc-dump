@@ -3,7 +3,7 @@ title: "Deleting Groups"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_groups_delete.html"
-last_updated: "2/20/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
@@ -11,6 +11,8 @@ product_version: ""
 
 
 You can delete a group if you no longer need it. After you delete the group, Veeam Data Cloud can no longer use this group to authenticate the group members that log in to Veeam Data Cloud for the first time and to assign them roles.
+
+The group management is available only if you are signed in to Veeam Data Cloud using a Microsoft Entra ID account and you have the OrganizationAdmin role assigned. If you are signed in with Veeam My Account credentials, the group management options are not available.
 
 To delete a group, do the following:
 

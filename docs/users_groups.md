@@ -3,7 +3,7 @@ title: "Groups"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_groups.html"
-last_updated: "4/22/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
@@ -23,6 +23,8 @@ You can assign additional roles to the user individually after the user logs in 
 Before You Begin
 
 Before you start working with groups in Veeam Data Cloud, consider the following:
+
+* You can create and manage groups only if you are signed in to Veeam Data Cloud using a Microsoft Entra ID account and you have the OrganizationAdmin role assigned. If you are signed in with Veeam My Account credentials, the group management options are not available.
 
 * Veeam Data Cloud verifies group membership only for users who use Microsoft Entra ID for single sign-on (SSO) with Veeam Data Cloud. Veeam Data Cloud cannot verify group membership for users who use the Veeam My Account credentials to log in to Veeam Data Cloud.
 * You can use Entra ID security groups and Microsoft 365 groups to manage group membership.
