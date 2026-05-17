@@ -3,7 +3,7 @@ title: "Browsing Backups"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_backup_browse.html"
-last_updated: "3/12/2026"
+last_updated: "5/15/2026"
 product_version: ""
 ---
 
