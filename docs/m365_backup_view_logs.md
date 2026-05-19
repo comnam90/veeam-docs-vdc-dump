@@ -3,7 +3,7 @@ title: "Viewing Backup Logs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_view_logs.html"
-last_updated: "5/12/2026"
+last_updated: "5/19/2026"
 product_version: ""
 ---
 
@@ -27,7 +27,7 @@ Veeam Data Cloud for Microsoft 365 will display the list of backup sessions in t
 |  |
 | --- |
 | Tip |
-| You can also download session logs to your computer. To do this, select the backup session and click Download in CSV. Veeam Data Cloud for Microsoft 365 will export the logs to a .CSV file.  A downloaded .CSV file contains 10,000 log records. If the backup session contains a large number of log records, Veeam Data Cloud for Microsoft 365 will split the data into multiple .CSV files, with each file containing 10,000 log records. In the .CSV file, you can filter the Status column to only view specific logs. For example, filter to the Warning status to only view log records with warning messages. |
+| You can also download session logs to your computer. To do this, select the backup session and click Download in CSV. Veeam Data Cloud for Microsoft 365 will export the logs to a .CSV file.  In the .CSV file, you can filter the Status column to only view specific logs. For example, filter to the Warning status to only view log records with warning messages. |
 
 1. In Session Log, you can select which statuses you want to see by clicking on the Overall status drop-down menu. You can select to see Running, Success, Warning, or Error messages only.
 
