@@ -3,7 +3,7 @@ title: "Planning and Preparation"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_requirements.html"
-last_updated: "2/9/2026"
+last_updated: "5/19/2026"
 product_version: ""
 ---
 
@@ -18,4 +18,5 @@ In This Section
 
 * [Azure Resource Providers](azure_resource_providers.md)
 * [Considerations and Limitations](azure_limitations.md)
+* [Ports](azure_ports.md)
 
