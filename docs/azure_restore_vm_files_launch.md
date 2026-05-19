@@ -3,7 +3,7 @@ title: "Step 1. Launch File-Level Recovery Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_files_launch.html"
-last_updated: "2/27/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
