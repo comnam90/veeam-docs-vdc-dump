@@ -3,7 +3,7 @@ title: "Step 3. Specify Account"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_cosmos_pit_account.html"
-last_updated: "3/2/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
