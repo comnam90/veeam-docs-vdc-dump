@@ -3,7 +3,7 @@ title: "Browsing Backups"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_browse.html"
-last_updated: "5/15/2026"
+last_updated: "5/20/2026"
 product_version: ""
 ---
 
@@ -39,6 +39,8 @@ If you want to restore the records or record fields, select the check boxes next
 Exporting Records
 
 If you want to export the records to a CSV file, click Export to CSV and select whether you want to export all versions of all records in the search, the latest version of all records in the search, or selected records only. You can also export records that cannot be restored, such as the records of History objects.
+
+Alternatively, you can export records directly from the Data Filters and Display Fields window. Click the filter icon, configure filters and display fields, then click Export to CSV.
 
 The download of the exported data starts immediately if you select to export up to 1,000 records (browse results limit). If you select to export all records of an object with 1,001 and more records, after Veeam Data Cloud exports the data, you will receive an email with a download link that is valid for 18 hours.
 
