@@ -3,7 +3,7 @@ title: "Threats"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_threats.html"
-last_updated: "4/29/2026"
+last_updated: "5/20/2026"
 product_version: ""
 ---
 
@@ -18,14 +18,7 @@ Consider the following:
 
 * The advanced threat detection service is available for customers of the Advanced and Premium plans.
 * The advanced threat detection service is not active by default due to customer consent requirements for AI-powered features. To enable the service, you must configure AI consent settings for the tenant. For more information, see [Configuring AI Consent](ai_consent.md).
-* The advanced threat detection service is available for Microsoft 365 tenants provisioned in the following regions:
-
-* Australia East
-* East US
-* Germany West Central
-* UK South
-* West Europe
-* West US 3
+* The advanced threat detection service is available for Microsoft 365 tenants provisioned in all the Veeam Data Cloud [backup storage regions](m365_region_availability.md) except for Indonesia Central.
 
 * The machine-learning model (Random Cut Forest) requires approximately 45 days of backup history per workload to establish a reliable behavioral baseline before ransomware threat detection becomes fully effective. During this period, detection may be limited. New workloads or newly protected tenants will automatically build their baselines during this window.
 
