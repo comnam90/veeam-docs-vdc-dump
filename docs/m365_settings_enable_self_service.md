@@ -3,14 +3,14 @@ title: "Enabling Self-Service Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_enable_self_service.html"
-last_updated: "4/27/2026"
+last_updated: "5/21/2026"
 product_version: ""
 ---
 
 # Enabling Self-Service Restore
 
 
-Veeam Data Cloud for Microsoft 365 allows users under the Foundation plan to perform self-service restore of their Outlook and OneDrive data. You can select whether to allow users to restore their entire mailbox and OneDrive or to only restore specific items within their Outlook mailbox and OneDrive from the backup. You can also select whether to allow users to preview their backed-up emails and compare them with the production versions. Self-service users can only restore Outlook and OneDrive data to the original location.
+Veeam Data Cloud for Microsoft 365 allows users to perform self-service restore of their Outlook and OneDrive data that are backed up within Flex backup policies. You can select whether to allow users to restore their entire mailbox and OneDrive or to only restore specific items within their Outlook mailbox and OneDrive from the backup. You can also select whether to allow users to preview their backed-up emails and compare them with the production versions. Self-service users can only restore Outlook and OneDrive data to the original location.
 
 Once you enable the feature, users within the same domain as your organization, that have not been given access to any workload tenants, will be able to log in to Veeam Data Cloud and perform self-service restore. The self-service users do not require an invitation to your Veeam Data Cloud organization or role assignments. If you want users who already have access to a workload tenant to be able to perform self-service restore, you must remove them from your Veeam Data Cloud organization. For information on how to remove a user, see [Deleting Users](users_delete.md).
 
