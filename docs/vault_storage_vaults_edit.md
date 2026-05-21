@@ -3,7 +3,7 @@ title: "Managing Storage Vaults"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html"
-last_updated: "4/1/2026"
+last_updated: "5/19/2026"
 product_version: ""
 ---
 
@@ -40,10 +40,8 @@ To copy the access key, click the copy icon next to the value in the Access Key 
 To regenerate the secret key, click Regenerate Key and follow the steps . For more information, see [Regenerating Secret Key](#regenerate).
 
 * The Total Storage Used counter that provides information about the total amount of storage used. Storage amount is specified in TB (TB is considered as 2^40 bytes).
-* The graph that provides information about the amount of storage used by the storage vault. To view details for a specific month, move the cursor to a specific location on the graph. The following graphs are available:
 
-* The Storage Used graph provides information about  the total storage capacity used by each storage vault over the past 6 months.
-* The Storage Egress graph provides information about the total amount of data transferred out from each storage vault over the past 6 months.
+* The Storage Used graph provides information about  the total storage capacity used by each storage vault over the past 6 months. To view details for a specific month, move the cursor to a specific location on the graph.
 
 [![Viewing Storage Vaults Details](images/vault_storage_vaults.png)](images/vault_storage_vaults.png "Viewing Storage Vaults Details")
 
@@ -64,11 +62,11 @@ To edit the storage vault details, do the following:
 
 If you select this option, do either of the following:
 
-* In the Specific IP Address field, specify the necessary IP address.
+1. In the Specific IP Address field, specify the necessary IP address.
 
 To add another field for more IP addresses, click the plus icon next and enter the IP address in the displayed field. Create a new field for each additional IP address.
 
-* In the IP Address Range field, specify the first and the last IP address of the range.
+1. In the IP Address Range field, specify the first and the last IP address of the range.
 
 To specify more than one IP address range, click the plus icon next and enter the IP addresses in the displayed field. Create a new field for each additional IP address range.
 

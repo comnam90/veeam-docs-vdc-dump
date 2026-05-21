@@ -3,14 +3,14 @@ title: "Performing Self-Service Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_self_restore.html"
-last_updated: "4/27/2026"
+last_updated: "5/21/2026"
 product_version: ""
 ---
 
 # Performing Self-Service Restore
 
 
-Veeam Data Cloud for Microsoft 365 allows users under the Foundation plan to perform self-service restore of their Outlook and OneDrive data.
+Veeam Data Cloud for Microsoft 365 allows users to perform self-service restore of their Outlook and OneDrive data that are backed up within Flex backup policies.
 
 The administrator of the organization can specify whether the self-service users can restore and overwrite their entire Outlook and OneDrive or only restore specific Outlook and OneDrive items. For more information, see [Enabling Self-Service Restore](m365_settings_enable_self_service.md#selfenable).
 

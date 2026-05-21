@@ -3,14 +3,14 @@ title: "Entra ID Log Restore"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_log_restore.html"
-last_updated: "10/14/2025"
+last_updated: "5/21/2026"
 product_version: ""
 ---
 
 # Entra ID Log Restore
 
 
-Entra ID log restore allows exporting Microsoft Entra ID audit and sign-in logs. After the restore session is finished, Veeam Data Cloud will create a shared access signature (SAS) URL that you can use in Microsoft Azure Storage Explorer to download the exported log files. For more information on Microsoft Azure Storage Explorer, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/storage/storage-explorer/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows).
+Entra ID log restore allows exporting Microsoft Entra ID audit and sign-in logs. After the restore session is finished, you can download the exported log files directly from Veeam Data Cloud or copy a shared access signature (SAS) link that you can use in Microsoft Azure Storage Explorer to download the exported log files. For more information on Microsoft Azure Storage Explorer, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/storage/storage-explorer/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows).
 
 To export audit and sign-in log files, do the following:
 
@@ -24,18 +24,25 @@ To export audit and sign-in log files, do the following:
 
 [![Restoring Logs](images/entra_id_restore_log.webp)](images/entra_id_restore_log.webp "Restoring Logs")
 
-1. To copy the SAS link:
+1. Download the exported files:
 
 1. Select Activity.
 2. Select the Restore Sessions tab.
 3. In the list of sessions, click See details here in the Details column of the logs restore session.
-4. In the Session Details window, click Copy the Link.
+4. In the Session Details window, click Download.
+
+The files are available for download for 2 hours. When the time expires, start a new restore session.
+
+[![Restoring Logs](images/entra_id_restore_log_download.webp)](images/entra_id_restore_log_download.webp "Restoring Logs")
+
+1. [Optional] Download the exported log files using the created SAS link in Microsoft Azure Storage Explorer:
+
+1. Select Activity.
+2. Select the Restore Sessions tab.
+3. In the list of sessions, click See details here in the Details column of the logs restore session.
+4. In the Session Details window, click Copy Access Link.
 
 The SAS link is valid for 2 hours. When the link expires, start a new restore session.
-
-[![Restoring Logs](images/entra_id_restore_log_link.webp)](images/entra_id_restore_log_link.webp "Restoring Logs")
-
-1. To download the exported log files, use the copied SAS link in Microsoft Azure Storage Explorer:
 
 1. Download and install Microsoft Azure Storage Explorer. To get the download link, see the [Azure Storage Explorer product page](https://azure.microsoft.com/en-us/products/storage/storage-explorer/#Download-4).
 2. In the Microsoft Azure Storage Explorer application, click Open Connect Dialog on the left to launch the Connect to Azure Storage wizard:
