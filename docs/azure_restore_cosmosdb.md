@@ -3,7 +3,7 @@ title: "Restoring Cosmos DB"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_cosmosdb.html"
-last_updated: "2/26/2026"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 

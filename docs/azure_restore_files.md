@@ -3,7 +3,7 @@ title: "Restoring Azure Files"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_files.html"
-last_updated: "12/15/2025"
+last_updated: "5/12/2026"
 product_version: ""
 ---
 
@@ -14,9 +14,9 @@ You can recover corrupted or missing files of an Azure file share from a cloud-n
 
 To restore files and folders of a protected Azure file share, do the following:
 
-1. [Launch the File-Level Recovery wizard](azure_restore_files_launch.md).
-2. [Select a restore point](azure_restore_files_point.md).
+1. [Launch the Azure Files File-Level Recovery wizard](azure_restore_files_launch.md).
+2. [Select the restore point](azure_restore_files_point.md).
 3. [Start the restore session](azure_restore_files_start_session.md).
-4. [Select files to restore](azure_restore_files_select.md).
-5. [Stop the restore session](azure_restore_files_complete.md).
+4. [Select the files to restore](azure_restore_files_select.md).
+5. [Review and stop the restore session](azure_restore_files_complete.md).
 
