@@ -3,14 +3,14 @@ title: "Restoring Outlook Data"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_self_restore_outlook_data.html"
-last_updated: "4/27/2026"
+last_updated: "5/21/2026"
 product_version: ""
 ---
 
 # Restoring Outlook Data
 
 
-Veeam Data Cloud for Microsoft 365 allows self-service users to restore their Microsoft Outlook data.
+Veeam Data Cloud for Microsoft 365 allows self-service users to restore their Microsoft Outlook data that are backed up within Flex backup policies.
 
 To restore Outlook data:
 
