@@ -3,7 +3,7 @@ title: "Supported Entra ID Item Properties"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_properties.html"
-last_updated: "3/19/2026"
+last_updated: "5/22/2026"
 product_version: ""
 ---
 
@@ -15,7 +15,7 @@ Veeam Data Cloud for Microsoft Entra ID protects the following items:
 * Entra ID objects with their properties
 * Microsoft Intune policies with their properties
 * Entra ID audit logs
-* Entra ID sign-in logs
+* Entra ID interactive sign-in logs
 
 This article lists all supported properties for the items that Veeam Data Cloud for Microsoft Entra ID protects.
 
