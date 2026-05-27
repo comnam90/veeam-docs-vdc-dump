@@ -3,7 +3,7 @@ title: "Deleting Empty Storage Vaults"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_delete_empty.html"
-last_updated: "4/1/2026"
+last_updated: "5/25/2026"
 product_version: ""
 ---
 
@@ -11,6 +11,8 @@ product_version: ""
 
 
 You can permanently delete an empty storage vault from the backup infrastructure.
+
+Before you begin, make sure that the storage vault you want to delete allows access from all networks. You cannot delete storage vaults with limited access. For details on how to adjust the access settings of a storage vault, see [Editing Storage Vault Details](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html#editing-storage-vault-details).
 
 To delete the empty storage vault, do the following:
 
