@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_permissions.html"
-last_updated: "5/11/2026"
+last_updated: "5/26/2026"
 product_version: ""
 ---
 
@@ -103,6 +103,11 @@ Permissions for Backup
 | ChannelMember.Read.All |  |  | ✔ | Accessing Microsoft Teams private and shared channels. |
 | Sites.Read.All |  | ✔ | ✔ | Retrieving the list of sites when creating a backup policy, during backup and restore and for objects caching. |
 | Reports.Read.All | ✔ | ✔ | ✔ | Building the Veeam Data Cloud dashboard. |
+| User.Read.All | ✔ |  |  | Getting mailbox id. |
+| User.ReadBasic.All | ✔ |  |  | Translating folder and item ids. |
+| MailboxItem.ImportExport.All | ✔ |  |  | Downloading items data. |
+| MailboxFolder.Read.All | ✔ |  |  | Creating folders, getting folder data. |
+| MailboxItem.Read.All | ✔ |  |  | Getting changes in mailbox items. |
 | Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Reading mailboxes content. |
 | Exchange.ManageAsApp | ✔ |  |  | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox.   Note: This permission is required to back up public folders and discovery search mailboxes. This permission works along with the Global Reader role granted to the Microsoft Entra application. For more information, see [Granting Global Reader Role to Microsoft Entra Application](#globalreader). |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading SharePoint sites and OneDrive accounts content. |
@@ -123,6 +128,12 @@ Permissions for Restore
 | Directory.ReadWrite.All |  | ✔ | ✔ | When creating or accessing a M365 group for a Multi-Geo tenant in case of teams or sites restore:   * Setting the preferred data location. * Creating sites that have Microsoft Teams template. |
 | Files.ReadWrite.All |  |  | ✔ | Reading the current state and restoring files of Microsoft Teams shared channels. |
 | ChannelMember.ReadWrite.All |  |  | ✔ | Reading the current state and restoring Microsoft Teams private and shared channels. |
+| User.Read.All | ✔ |  |  | Getting mailbox id. |
+| User.ReadBasic.All | ✔ |  |  | Translating folder and item ids. |
+| MailboxItem.ImportExport.All | ✔ |  |  | Downloading items data. |
+| MailboxFolder.Read.All | ✔ |  |  | Creating folders, getting folder data. |
+| MailboxItem.Read.All | ✔ |  |  | Getting changes in mailbox items. |
+| MailboxFolder.ReadWrite.All | ✔ |  |  | Creating folders. |
 | Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Restoring mailboxes content. |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading and restoring SharePoint sites and OneDrive accounts content. |
 | User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive for Business permission to add a Microsoft 365 organization successfully. |
