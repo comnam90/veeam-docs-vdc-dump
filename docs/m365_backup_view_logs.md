@@ -3,7 +3,7 @@ title: "Viewing Backup Logs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_view_logs.html"
-last_updated: "5/19/2026"
+last_updated: "5/27/2026"
 product_version: ""
 ---
 
@@ -18,26 +18,32 @@ To view backup logs of Flex backup policies, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
-3. If you have more than one Flex backup policy, click the name of the policy under the Name field on the table.
+3. In the list of backup policies, in the Name column, click the name of the policy.
 
-Veeam Data Cloud for Microsoft 365 will display the list of backup sessions in the Backup sessions section of the Backup Policies page. Backup sessions will be listed in descending order from the most recent to the oldest.
+[![Viewing Backup Logs](images/m365_backup_view_flex_name.webp)](images/m365_backup_view_flex_name.webp "Viewing Backup Logs")
 
-1. Select the backup session whose logs you want to view and click Detail.
+1. In the backup policy window, you can view information about the status and date of the last backup, the backup type and policy type and the date and time of the next scheduled backup.
+
+You can also manage the backup policy. For more information, see [Managing Backup Policies](m365_backup_manage.md).
+
+1. In the Backup Sessions section, Veeam Data Cloud displays a list of backup sessions for the backup policy, in descending order from the most recent to the oldest.
 
 |  |
 | --- |
-| Tip |
-| You can also download session logs to your computer. To do this, select the backup session and click Download in CSV. Veeam Data Cloud for Microsoft 365 will export the logs to a .CSV file.  In the .CSV file, you can filter the Status column to only view specific logs. For example, filter to the Warning status to only view log records with warning messages. |
+| tip |
+| * You can select which backup policy statuses you want to see by clicking the Filter by status drop-down menu. * You can specify a date range for the backup policies you want to see by clicking Filter by date. * You can download session logs to your computer. To do this, click Download in CSV in the Actions column of the backup session. Veeam Data Cloud for Microsoft 365 will export the logs to a .CSV file.   In the .CSV file, you can filter the Status column to only view specific logs. For example, filter to the Warning status to only view log records with warning messages. |
 
-1. In Session Log, you can select which statuses you want to see by clicking on the Overall status drop-down menu. You can select to see Running, Success, Warning, or Error messages only.
+1. Click on the date and time in the Session Start column to view the details of the backup session.
+
+[![Viewing Backup Logs](images/m365_backup_view_flex_policy.webp)](images/m365_backup_view_flex_policy.webp "Viewing Backup Logs")
+
+1. In the Backup Session Log window, you can select which statuses you want to see by clicking the Filter by status drop-down menu. You can select to see All Statuses, Success, Warning, or Error logs only.
 
 You can also filter session log records based on the text of a session log message. To do this, in the search field, enter the text you want to find in the session log.
 
-If the backup session contains more than 200 log records, click Load More Logs to view the next 200 log records.
+[![Viewing Backup Logs](images/m365_backup_view_flex_logs.webp)](images/m365_backup_view_flex_logs.webp "Viewing Backup Logs")
 
 1. If you want to create a local copy of the logs, you can export the logs to a .CSV file. To do this, click Download in CSV.
-
-[![Viewing Backup Logs](images/m365_backup_view_logs.png)](images/m365_backup_view_logs.png "Viewing Backup Logs")
 
 Flex Backup Session Status
 
@@ -46,7 +52,7 @@ In the Backup sessions section, you can filter the backup sessions list of a Fle
 The available backup session statuses are the following:
 
 * Success. The backup session was completed successfully.
-* Partial Success / Warning. The backup session was completed successfully, but with warning messages.
+* Partial Success. The backup session was completed successfully, but with warning messages.
 
 * Some of the warning messages are there to provide information and can be safely ignored.
 
@@ -76,7 +82,7 @@ You can view the errors in the backup session logs.
 * Not Configured. The backup session was not configured or set up properly (undefined backup targets, missing resources and so on).
 * Queued. The backup session is currently queued.
 * Retry. The backup session was completed with warnings or errors and is running again.
-* Error. The backup session run into errors.
+* Error. The backup session ran into errors.
 
 You can view the errors in the backup session logs.
 
@@ -86,29 +92,38 @@ To view the protection status of objects within Express backup policies, do the 
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
-3. Click the name of the Express backup policy you want to view.
-4. In the Policy section, you can see a summary of protection within the backup policy. The summary includes the number of total items, protected items, in progress (for protection) items, retrying items, unsupported items and the number of items whose protection failed. Veeam Data Cloud for Microsoft 365 also displays a list of the objects within the backup policy. For each object, you can see the following details:
+3. In the list of backup policies, in the Name column, click the name of the policy.
 
-* Display Name.
+[![Viewing Backup Logs](images/m365_backup_view_express_name.webp)](images/m365_backup_view_express_name.webp "Viewing Backup Logs")
+
+1. In the backup policy window, you can view information about the status and date of the last backup, the backup type and policy type and the date and time of the next scheduled backup.
+
+You can also manage the backup policy. For more information, see [Managing Backup Policies](m365_backup_manage.md).
+
+Veeam Data Cloud also displays a summary of protection within the backup policy. The summary includes the number of total items, protected items, in progress (for protection) items, retrying items, unsupported items and the number of items whose protection failed. For more information, see [Express Policy Protection Status](#prostatus).
+
+1. In the Policy section, Veeam Data Cloud for Microsoft 365 displays a list of the objects within the backup policy. For each object, you can see the following details:
+
+* Display Name / Title.
 
 * For Outlook, the name of the Microsoft 365 account.
-* For OneDrive, the name of the OneDrive for Business account.
+* For OneDrive, the name of the OneDrive account.
 * For SharePoint, the title of the SharePoint site.
 
 * [For SharePoint policies] Url. The Url of the SharePoint site.
 * State. The protection status of the object within this backup policy run. For details, see [Express Policy Protection Status](#prostatus).
 * Details. Details about the protection status of the object.
 
-[![Viewing Backup Logs](images/m365_backup_view_express_logs.webp)](images/m365_backup_view_express_logs.webp "Viewing Backup Logs")
+[![Viewing Backup Logs](images/m365_backup_view_express_policy.webp)](images/m365_backup_view_express_policy.webp "Viewing Backup Logs")
 
 |  |
 | --- |
 | tip |
-| You can search for objects within the policy to view their protection status. To do this, in the search field, enter a keyword that matches the Display Name of the object you want to find. |
+| * You can search for objects within the policy to view their protection status. To do this, in the search field, enter a keyword that matches the Display Name or Title of the object you want to find. * You can select which backup policy statuses you want to see by clicking the All Statuses drop-down list. |
 
 Express Policy Protection Status
 
-In the Policy section, from the All drop-down list, you can filter the objects list of an Express backup policy by status.
+In the Policy section, from the All Statuses drop-down list, you can filter the objects list of an Express backup policy by status.
 
 The available protection statuses are the following:
 
