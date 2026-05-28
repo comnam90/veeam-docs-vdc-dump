@@ -3,7 +3,7 @@ title: "Accessing Veeam Data Cloud"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/accessing_vdc.html"
-last_updated: "4/14/2026"
+last_updated: "5/28/2026"
 product_version: ""
 ---
 
@@ -37,7 +37,7 @@ To log in to the Veeam Data Cloud portal, use your Veeam My Account credentials 
 |  |
 | --- |
 | Note |
-| * Veeam Data Cloud supports the latest stable versions of Google Chrome, Microsoft Edge (Chromium only) and Mozilla Firefox browsers. * Veeam Data Cloud automatically logs you out after 30 minutes of inactivity and displays a notification two minutes before the session ends. |
+| * Veeam Data Cloud supports the latest stable versions of Google Chrome, Microsoft Edge (Chromium only) and Mozilla Firefox browsers. * Veeam Data Cloud supports multi-factor authentication (MFA) through its identity providers. For more information on how to enable MFA for your Veeam My Account, see [this Veeam KB article](https://www.veeam.com/kb4716). For more information on how to enable MFA for sign-in with a Microsoft 365 account, see [Microsoft documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-enable-azure-mfa). * Veeam Data Cloud automatically logs you out after 30 minutes of inactivity and displays a notification two minutes before the session ends. |
 
 Logging In with Invitation Link
 
