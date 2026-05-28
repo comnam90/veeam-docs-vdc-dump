@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_permissions.html"
-last_updated: "5/26/2026"
+last_updated: "5/27/2026"
 product_version: ""
 ---
 
@@ -20,7 +20,7 @@ For Veeam Data Cloud for Microsoft 365, Microsoft Entra ID automatically creates
 
 * Veeam Data Cloud for Microsoft 365
 
-* Multi-tenant Registration for MBS Billing
+* Veeam Data Cloud for MS 365
 
 Veeam Data Cloud [EMEA, AMER, APJ]
 
@@ -62,9 +62,9 @@ Veeam Data Cloud for Microsoft 365
 
 When you run your first backup session, the Veeam Data Cloud for Microsoft 365 Enterprise application is created. Veeam Data Cloud for Microsoft 365 uses this Enterprise application for backup and restore purposes.
 
-Multi-tenant Registration for MBS Billing
+Veeam Data Cloud for MS 365
 
-For Premium, you must (create, if manual connection, and) grant admin consent to a fourth Enterprise application, called Multi-tenant Registration for MBS Billing. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
+For Express backup policies, you must (create, if manual connection, and) grant admin consent to a fourth Enterprise application, called Veeam Data Cloud for MS 365. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
 
 Required User Account Roles for Microsoft Entra Application
 
@@ -145,11 +145,11 @@ Permissions for Restore
 | Note |
 | To restore data using Microsoft Entra application, make sure that you configure the Microsoft Entra application settings. For more information, see [Configuring Microsoft Entra Application Settings](m365_configuring_ms_entra_app_settings.md). |
 
-Premium Permissions for Microsoft Entra Application
+Express or Premium Permissions for Microsoft Entra Application
 
-If you are under the Premium plan, the following additional permissions are required for the Microsoft Entra application:
+For Express backup policies under the Express or Premium plan, the following additional permissions are required for the Microsoft Entra application:
 
-Premium Permissions for Microsoft Entra Application
+Express or Premium Permissions for Microsoft Entra Application
 
 | API | Permission name | Application type | Delegated type | Description |
 | Microsoft Graph | BackupRestore-Control.ReadWrite.All | ✔ | ✔ | Updating or reading the status of the Microsoft 365 backup service.  Note: This is needed to back up and restore data through Microsoft Backup Storage and to manage the backup and restore service from the Microsoft side. |
