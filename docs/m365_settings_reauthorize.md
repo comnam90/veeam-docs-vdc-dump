@@ -3,7 +3,7 @@ title: "Reauthorizing Veeam Data Cloud for Microsoft 365"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_reauthorize.html"
-last_updated: "5/11/2026"
+last_updated: "5/26/2026"
 product_version: ""
 ---
 
@@ -15,6 +15,7 @@ You may need to reauthorize Veeam Data Cloud access to your Microsoft 365 tenant
 * If you have accidentally removed authorization for Veeam Data Cloud to access your Microsoft 365 data.
 * If you see the following error message in the backup session logs: The identity of the calling application could not be established.
 * If Veeam Data Cloud displays the You cannot enable Teams Posts due to missing required permissions. Please reauthorize your app registration and try again. notification when you enable team posts backups.
+* If Veeam Data Cloud displays the following notification in the dashboard: Veeam Data Cloud for Microsoft 365 now uses Microsoft Graph APIs for Outlook data protection. EWS (Exchange Web Services), previously used for this purpose, is being deprecated by Microsoft. To continue protecting your Outlook data, before July 1, 2026 reauthorize your Veeam Data Cloud app registration: go to Settings → Microsoft 365 and select Reauthorize Veeam Data Cloud.
 
 To reauthorize Veeam Data Cloud, do the following:
 

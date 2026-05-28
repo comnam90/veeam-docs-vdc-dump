@@ -3,7 +3,7 @@ title: "Editing Azure Service Accounts"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_settings_accounts_service_edit.html"
-last_updated: "3/27/2026"
+last_updated: "5/26/2026"
 product_version: ""
 ---
 
@@ -30,7 +30,7 @@ Make sure to use the credentials of the user account that has the Application Ad
 |  |
 | --- |
 | Important |
-| To add a subscription to the Veeam Data Cloud protection scope, the account you use for authorization also must have the following permissions at the subscription level:   * Microsoft.Authorization/roleDefinitions/write * Microsoft.Authorization/roleAssignments/write * Microsoft.Resources/subscriptions/resourceGroups/read   For more information about permissions in Azure, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations). |
+| To add a subscription to the Veeam Data Cloud protection scope, the account you use for authorization also must have the following permissions at the subscription level:   * Microsoft.Authorization/roleDefinitions/read * Microsoft.Authorization/roleDefinitions/write * Microsoft.Authorization/roleAssignments/read * Microsoft.Authorization/roleAssignments/write * Microsoft.Resources/subscriptions/resourceGroups/read   For more information about permissions in Azure, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations). |
 
 [![Editing Azure Service Accounts](images/azure_settings_accounts_service_view_edit_auth.webp)](images/azure_settings_accounts_service_view_edit_auth.webp)
 
