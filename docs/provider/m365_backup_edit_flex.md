@@ -3,7 +3,7 @@ title: "Editing Flex Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_edit_flex.html"
-last_updated: "3/31/2026"
+last_updated: "5/28/2026"
 product_version: ""
 ---
 
@@ -20,58 +20,49 @@ To edit a Flex backup policy, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
-3. On the Backup Policies page, in the list of your backup policies, select the policy you want to edit and click Edit.
+3. On the Backup Policies page, in the Actions column of the policy you want to edit, click Edit.
 
-[![Editing Backup Policy](images/m365_backup_edit_flex.webp)](images/m365_backup_edit_flex.webp "Editing Backup Policy")
+[![Editing Backup Policy](images/m365_backup_flex_edit.webp)](images/m365_backup_flex_edit.webp "Editing Backup Policy")
 
-1. To rename the backup policy, do the following:
+1. In the Policy name field, you can modify the name of the backup policy.
+2. In the Description field, you can modify or provide a description for future reference.
+3. [For specific items backup policies] In the Included in backup section, click View/Remove to view or modify the objects currently included in the backup policy. You can do the following actions:
 
-1. Click the pen icon and edit the name of the backup policy.
+* If you want to remove any of the objects, select the check boxes next to them and click Delete.
 
-1. Click Ok to complete the operation.
+[![Editing Backup Policy](images/m365_backup_flex_edit_included.webp)](images/m365_backup_flex_edit_included.webp "Editing Backup Policy")
 
-1. [For Selected items backup policies] In the Edit current backup items tab, specify what objects you want to include in the backup policy.
+* If you want to modify the processing options for an object, click the pencil icon in the Actions column. In the Specify processing options window, select the check boxes for the objects you want to include in the backup policy and click Ok.
 
-* To add objects to the backup policy, do the following:
+[![Editing Backup Policy](images/m365_backup_flex_edit_objects.webp)](images/m365_backup_flex_edit_objects.webp "Editing Backup Policy")
 
-1. In the Add more items section, click Select next to Users, Groups, SharePoint Sites, Teams or Partial Organization and choose specific objects to back up.
+1. [For specific items backup policies] In the Add additional items section, to add more items to the backup policy do the following:
 
-For Users, you can also click Upload file to upload a CSV or text file with one email address per line.
+* Click Select next to Users and choose users to to add to the backup policy. For each selected user, you can select check boxes to include their Mailbox, Archive Mailbox, OneDrive and Personal Site in the backup.
 
-For SharePoint Sites, you can also click Upload file to upload a CSV file with one SharePoint URL per line.
+You can also click Upload a CSV file to upload a .CSV or text file with one email address per line.
 
-1. Click Save to complete the operation.
+* Click Select next to Groups and choose groups to add to the backup policy. For each group member, you can select check boxes to include their Mailbox, Archive Mailbox, OneDrive and Personal Site in the backup. For each group mailbox, you can select check boxes to include the group Mailbox and Site in the backup.
 
-* To remove objects from the backup policy, do the following:
+Use dynamic Entra ID groups if you want the groups to be automatically updated between backup policy runs. Otherwise, you must manually add and delete users from the groups.
 
-1. In the Backup Items section, Veeam Data Cloud for Microsoft 365 lists items that are part of the backup policy. Select check boxes next to names of objects that you want to remove from the backup.
+* Click Select next to SharePoint Sites and choose sites to back up. If you select the root SharePoint site, the list of sites to back up will be automatically updated when the backup policy runs. For example, if some subsites were added or deleted between backup policy runs, the backup policy will reflect those changes.
 
-1. Click Delete to complete the operation.
+You can also click Upload a CSV file to upload a .CSV file with one SharePoint site URL per line.
 
-[![Editing Backup Policy](images/m365_backup_edit_flex_items.webp)](images/m365_backup_edit_flex_items.webp "Editing Backup Policy")
+* Click Select next to Teams and choose teams to back up. You can select whether to back up team posts if you [enabled team posts backup](m365_enable_team_chats_backup.md).
 
-1. In the Edit current excluded backup items tab, select objects to be excluded from the backup policy.
-
-* To exclude objects from the backup policy, do the following:
+[![Editing Backup Policy](images/m365_backup_flex_edit_add.webp)](images/m365_backup_flex_edit_add.webp "Editing Backup Policy")
 
 1. In the Exclude more items section, click Select next to Users, Groups, SharePoint Sites or Teams and choose specific objects to exclude.
 
-For Users, you can also click Upload file to upload a CSV or text file with one email address per line.
+For Users, you can also click Upload a CSV file to upload a .CSV or text file with one email address per line.
 
-For SharePoint Sites, you can also click Upload file to upload a CSV file with one SharePoint URL per line.
+For SharePoint Sites, you can also click Upload a CSV file to upload a .CSV file with one SharePoint site URL per line.
 
-1. Click Save to complete the operation.
+[![Editing Backup Policy](images/m365_backup_flex_edit_excluded.webp)](images/m365_backup_flex_edit_excluded.webp "Editing Backup Policy")
 
-* To remove objects from exclusion from the backup policy, do the following:
-
-1. In the Excluded items section, Veeam Data Cloud for Microsoft 365 lists items that are excluded from the backup policy. Select check boxes next to names of objects that you want to remove from exclusion.
-2. Click Delete to complete the operation.
-
-[![Editing Backup Policy](images/m365_backup_edit_flex_items_exclude.webp)](images/m365_backup_edit_flex_items_exclude.webp "Editing Backup Policy")
-
-1. Go to the Policy Information tab to view information about the backup policy. You can see the name, region and retention period of the backup policy. You can also see whether the backup policy protects the latest version of SharePoint, OneDrive and Teams items or all the item versions. To change the level of protection, go to Settings > Backup Options.
-
-[![Editing Backup Policy](images/m365_backup_edit_flex_info.webp)](images/m365_backup_edit_flex_info.webp "Editing Backup Policy")
+1. Click Update Policy to complete the operation.
 
 Fixed License Model
 
@@ -88,7 +79,7 @@ To edit a Flex backup policy, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
-3. On the Backup Policies page, in the list of your backup policies, select the policy you want to edit and click Edit.
+3. On the Backup Policies page, in the Actions column of the policy you want to edit, click Edit.
 
 1. Follow instructions to add or remove objects within your backup policies:
 
