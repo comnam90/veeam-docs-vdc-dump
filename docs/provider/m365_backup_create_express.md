@@ -3,7 +3,7 @@ title: "Creating Express Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_create_express.html"
-last_updated: "4/16/2026"
+last_updated: "5/27/2026"
 product_version: ""
 ---
 
@@ -16,49 +16,52 @@ Consider the following:
 
 * Veeam Data Cloud for Microsoft 365 supports the following types of Express backup policies:
 
-* Selected Items backup policy
-* Entire Organization backup policy
+* Specific items backup policy
+* Entire organization backup policy
 
-* You can only create one Entire Organization backup policy for each application (Outlook, OneDrive or SharePoint).
-* You can create multiple Selected Items backup policies for each application (Outlook, OneDrive or SharePoint). Each specific object can only be protected with a single backup policy.
+* You can only create one entire organization backup policy for each application (Outlook, OneDrive or SharePoint).
+* You can create multiple specific items backup policies for each application (Outlook, OneDrive or SharePoint). Each specific object can only be protected with a single backup policy.
 * Before you start creating backup policies, check [Considerations and Limitations](m365_considerations_limitations.md#backup).
 * The schedule for Express backup policies depends on the protected Microsoft 365 service. For more information, see [Retention Period](m365_security.md#rpo).
 * For Outlook backup policies, you can back up user mailboxes and shared mailboxes. Discovery search mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported. Veeam Data Cloud will display the following warning when you add an unsupported mailbox to a backup policy: Mailbox cannot be added to policy since the recipient type is not supported.
 
-To create new backup policies, do the following:
+To create new Express backup policies, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
 3. On the Backup Policies page, click Add New Backup Policy.
 
-[![Creating Express Backup Policy](images/m365_backup_create_express_launch.webp)](images/m365_backup_create_express_launch.webp "Creating Express Backup Policy")
+[![Creating Express Backup Policies](images/m365_backup_create_express.webp)](images/m365_backup_create_express.webp "Creating Express Backup Policies")
 
-1. Select New Express Policy and click Next.
+1. Select New Express Policy and click Continue.
 
-[![Creating Express Backup Policy](images/m365_backup_create_express_select_policy.webp)](images/m365_backup_create_express_select_policy.webp "Creating Express Backup Policy")
+[![Creating Express Backup Policies](images/m365_backup_create_express_new.webp)](images/m365_backup_create_express_new.webp "Creating Express Backup Policies")
 
 1. Select the application whose items you want to back up: Outlook, OneDrive or SharePoint.
 
-Keep in mind that there can only be one Express Entire Organization backup policy for each application type. If the backup policy already exists when you try to create a new one, Veeam Data Cloud for Microsoft 365 will offer you to edit the existing backup policy. Veeam Data Cloud for Microsoft 365 will display the following message: You already have a policy for Exchange/OneDrive/SharePoint. Click Next below to edit it. You can then proceed with editing the existing backup policy.
+Keep in mind that there can only be one Express entire organization backup policy for each application type. If the backup policy already exists when you try to create a new one, Veeam Data Cloud for Microsoft 365 will offer you to edit the existing backup policy. Veeam Data Cloud will display the following message: You already have a policy for Exchange/OneDrive/SharePoint. Click Next below to edit it. You can then proceed with editing the existing backup policy.
 
-If the existing backup policy is disabled when you try to create a new one, Veeam Data Cloud for Microsoft 365 will instruct you to enable the existing backup policy. Veeam Data Cloud for Microsoft 365 will display the following message: Your Exchange/OneDrive/SharePoint backup policy is currently disabled. You will need to enable it before you can edit it. Once you enable the backup policy, you can proceed with editing it. To learn more, see [Editing Express Backup Policies](m365_backup_edit_express.md).
+If the existing backup policy is disabled when you try to create a new one, Veeam Data Cloud for Microsoft 365 will instruct you to enable the existing backup policy. Veeam Data Cloud will display the following message: Your Exchange/OneDrive/SharePoint backup policy is currently disabled. You will need to enable it before you can edit it. Once you enable the backup policy, you can proceed with editing it. To learn more, see [Editing Express Backup Policies](m365_backup_edit_express.md).
 
-[![Creating Express Backup Policy](images/m365_backup_create_express_select_app.webp)](images/m365_backup_create_express_select_app.webp "Creating Express Backup Policy")
-
-1. Click Next.
-2. In the Details section, in the Name field, specify a name for the new backup policy.
-3. [Optional] In the Description field, provide a description for future reference.
-4. In the Setting items to back up section, choose Entire Organization or Selected Items.
+1. In the Policy name field, specify a name for the new backup policy.
+2. [Optional] In the Description field, provide a description for future reference.
+3. If you want to back up your entire tenancy, choose Backup entire organization and click Add Policy.
 
 If you back up the entire organization, when the backup policy runs, it checks the entire content of the organization and the list of items to back up is automatically updated. For example, if some users were added or deleted from the organization between backup policy runs, the backup policy reflects those changes.
 
-1. [For selected items backup policies] For Outlook and OneDrive, click Select next to Microsoft 365 Users or Groups and choose specific objects to back up. For SharePoint, click Select next to SharePoint Sites and choose specific objects to back up.
+[![Creating Express Backup Policies](images/m365_backup_create_express_entire.webp)](images/m365_backup_create_express_entire.webp "Creating Express Backup Policies")
 
-For Microsoft 365 Users, you can also click Upload file to upload a CSV or text file with one email address per line.
+1. If you want to select which items to add to the backup, choose Backup specific items and do the following:
 
-For SharePoint, you can also click Upload file to upload a CSV file with one SharePoint site URL per line.
+* For Outlook and OneDrive, click Select next to Users or Groups and choose specific objects to back up.
 
-[![Creating Express Backup Policy](images/m365_backup_create_express_sharepoint.webp)](images/m365_backup_create_express_sharepoint.webp "Creating Express Backup Policy")
+For Users, you can also click Upload a CSV file to upload a .CSV or text file with one email address per line.
 
-1. Click Save to create the new Express backup policy.
+* For SharePoint, click Select next to SharePoint Sites and choose specific objects to back up.
+
+You can also click Upload a CSV file to upload a .CSV file with one SharePoint site URL per line.
+
+* Click Add Policy.
+
+[![Creating Express Backup Policies](images/m365_backup_create_express_specific.webp)](images/m365_backup_create_express_specific.webp "Creating Express Backup Policies")
 
