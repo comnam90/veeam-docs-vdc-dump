@@ -3,7 +3,7 @@ title: "Backup Object Types"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_object_types.html"
-last_updated: "3/24/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -48,8 +48,8 @@ The objects that are backed up are Mail, Contacts, Calendar and Task items. Draf
 
 * For an Express OneDrive backup policy:
 
-* Entire Organization — consists of all Microsoft 365 users and groups with OneDrive for Business accounts within your organization.
-* Microsoft 365 Users — consists of Microsoft 365 users with OneDrive for Business accounts within your organization.
+* Entire Organization — consists of all Microsoft 365 users and groups with OneDrive accounts within your organization.
+* Microsoft 365 Users — consists of Microsoft 365 users with OneDrive accounts within your organization.
 * Groups — consists of Microsoft 365 groups, dynamic Entra ID groups, security groups and distribution groups.
 
 The objects that are backed up are Files, Folders and Metadata.
@@ -66,7 +66,7 @@ Considerations
 Consider the following:
 
 * To back up user mailboxes, make sure that a mailbox has a valid Microsoft 365 license.
-* To back up SharePoint Online and OneDrive for Business objects, make sure that a user account has a valid Microsoft 365 license with a SharePoint Online plan enabled.
+* To back up SharePoint Online and OneDrive objects, make sure that a user account has a valid Microsoft 365 license with a SharePoint Online plan enabled.
 * To back up public folder mailboxes, first check the considerations listed in [Backup and Restore of Public Folders](m365_data_backup.md#public).
 * Veeam Data Cloud for Microsoft 365 does not back up permissions for sharing mailbox folders and Calendar.
 * Veeam Data Cloud for Microsoft 365 does not support backup of dynamic distribution groups. Members of dynamic distribution groups cannot be resolved.
@@ -76,5 +76,6 @@ Consider the following:
 + SharePoint folder attachments
 + SharePoint site collection recycle bin
 + SharePoint sites created by Microsoft Loop
-+ Veeam Data Cloud for Microsoft 365 does not back up the TeamsMessagesData folder.
+
+* Veeam Data Cloud for Microsoft 365 does not back up the TeamsMessagesData folder.
 
