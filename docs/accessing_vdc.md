@@ -3,7 +3,7 @@ title: "Accessing Veeam Data Cloud"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/accessing_vdc.html"
-last_updated: "4/14/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -24,9 +24,13 @@ The license administrator will become the first user of your Veeam Data Cloud or
 
 Once your subscription is activated, you will receive an email with an invitation link to your Veeam Data Cloud organization.
 
-1. Accept the invitation and log in to Veeam Data Cloud. For the first login to Veeam Data Cloud, use the Veeam My Account credentials of the license administrator. For details, see [Logging in to Veeam Data Cloud](accessing_vdc.md).
+1. Accept the invitation and log in to Veeam Data Cloud. For the first login to Veeam Data Cloud, use the Veeam My Account credentials of the license administrator. For details, see [Logging in to Veeam Data Cloud](accessing_vdc.md#logginginlink).
 
 As the first user of your Veeam Data Cloud organization, accept Veeam Data Cloud terms and conditions to start working with Veeam Data Cloud. The first user of your Veeam Data Cloud organization is automatically assigned the OrganizationAdmin role, which allows them to manage users and perform all configuration actions.
+
+Enabling Multi-Factor Authentication
+
+Veeam Data Cloud supports multi-factor authentication (MFA) through its identity providers. For more information on how to enable MFA for your Veeam My Account, see [this Veeam KB article](https://www.veeam.com/kb4716). For more information on how to enable MFA for sign-in with a Microsoft 365 account, see [Microsoft documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-enable-azure-mfa).
 
 Logging In to Veeam Data Cloud
 
