@@ -3,7 +3,7 @@ title: "Managing Backup Repositories"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_backup_repos.html"
-last_updated: "5/19/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -28,12 +28,12 @@ To create a new backup repository, do the following:
 1. In the Create new backup repository window, do the following:
 
 1. Select the Custom name check box if you want to specify a name for the backup repository. Otherwise, Veeam Data Cloud generates the name automatically based on the name of your organization.
-2. In the Retention period type drop-down list, select the type of the retention period:
+2. From the Retention period type drop-down list, select the type of the retention period:
 
-* Yearly. If selected, you must also select a value in the Retention period drop-down list, to specify the duration of the retention period.
-* Daily. If selected, you must also specify a value in the Number of days field, to specify the duration of the retention period.
+* Yearly. If you select this option, from the Retention period drop-down list, select the number of years for the retention period.
+* Daily. If you select this option, in the Number of days field, specify the number of days for the retention period.
 
-1. In the Region drop-down list, select the region where you want to store your data.
+1. From the Region drop-down list, select the region where you want to store your data.
 2. Click Save.
 
 [![Managing Backup Repositories](images/m365_settings_backup_repos_add_options.webp)](images/m365_settings_backup_repos_add_options.webp "Managing Backup Repositories")
@@ -41,7 +41,7 @@ To create a new backup repository, do the following:
 |  |
 | --- |
 | note |
-| When you create a new backup repository and want to include an object from the old backup repository, Veeam Data Cloud performs a full backup of that object which takes time.  For example, you have the old backup repository where you are backing up a mailbox, with retention set to 1 year. Then you add a new backup repository with retention set to 3 years. In the new repository, you create a backup policy that includes the mailbox and you remove this mailbox from the backup policy in the old repository. In this case, Veeam Data Cloud performs a full backup for the mailbox in the new backup repository, which takes time. The mailbox will remain in the old backup repository until the 1 year retention ends. |
+| When you create a new backup repository and want to include an object from an existing backup repository, Veeam Data Cloud performs a full backup of that object, which takes time.  For example, you have the existing backup repository where you are backing up a mailbox, with retention set to 1 year. Then you add a new backup repository with retention set to 3 years. You create a backup policy, that stores the backup data in the new repository, that includes the mailbox and you remove this mailbox from the backup policy in the existing repository. In this case, Veeam Data Cloud performs a full backup for the mailbox in the new backup repository, which takes time. The mailbox will remain in the existing backup repository until the 1-year retention ends. |
 
 Editing Backup Repositories
 
@@ -55,13 +55,13 @@ To edit a backup repository, do the following:
 
 [![Managing Backup Repositories](images/m365_settings_backup_repos_name.webp)](images/m365_settings_backup_repos_name.webp "Managing Backup Repositories")
 
-1. Click Edit retention to modify the retention settings of the backup repository. In the Edit repository retention window, in the Retention period type drop-down list, select Yearly or Daily. Depending on the selection, you must then specify the duration of the retention period in years or number of days.
+1. Click Edit retention to modify the retention settings of the backup repository. In the Edit repository retention window, from the Retention period type drop-down list, select Yearly or Daily. Then specify the number of years or days for the retention period.
 
 [![Managing Backup Repositories](images/m365_settings_backup_repos_retention.webp)](images/m365_settings_backup_repos_retention.webp "Managing Backup Repositories")
 
-1. Click Set your own password to add encryption to the backup repository. In the Add Password window, provide a password, verify that password and click Save.
+1. Click Set your own password to enable encryption for the backup repository. In the Add Password window, provide a password, verify that password and click Save.
 
-If you want to update your password, click Change encryption password. In the Update Password window, provide the existing password, add a new password and verify it and click Save.
+If you want to update your password, click Change encryption password. In the Update Password window, provide the existing password, specify a new password, verify it and click Save.
 
 [![Managing Backup Repositories](images/m365_settings_backup_repos_password.webp)](images/m365_settings_backup_repos_password.webp "Managing Backup Repositories")
 
