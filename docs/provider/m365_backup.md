@@ -3,7 +3,7 @@ title: "Microsoft 365 Backup"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup.html"
-last_updated: "4/27/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -16,8 +16,8 @@ In This Section
 
 * [Creating Flex Backup Policies](m365_backup_create_flex.md)
 * [Creating Express Backup Policies](m365_backup_create_express.md)
+* [Managing Backup Policies](m365_backup_manage.md)
 * [Editing Flex Backup Policies](m365_backup_edit_flex.md)
 * [Editing Express Backup Policies](m365_backup_edit_express.md)
-* [Managing Backup Policies](m365_backup_manage.md)
 * [Viewing Backup Logs](m365_backup_view_logs.md)
 
