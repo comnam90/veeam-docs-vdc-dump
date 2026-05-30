@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_licensing.html"
-last_updated: "4/22/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -18,7 +18,7 @@ This section provides information on plans for Veeam Data Cloud for Microsoft 36
 
 Foundation
 
-Flex backup policies can be implemented under Foundation. This prioritizes control and flexibility. Supports Microsoft Exchange Online, Microsoft SharePoint Online, Microsoft OneDrive for Business and Microsoft Teams. Offers comprehensive control and customization of backups and retention periods. Granular and bulk data recovery options. Data is stored separately from your Microsoft 365 tenant in the Azure location of your choice. Offers advanced security capabilities including granular Role Based Access Control.
+Flex backup policies can be implemented under Foundation. This prioritizes control and flexibility. Supports Microsoft Exchange Online, Microsoft SharePoint Online, Microsoft OneDrive and Microsoft Teams. Offers comprehensive control and customization of backups and retention periods. Granular and bulk data recovery options. Data is stored separately from your Microsoft 365 tenant in the Azure location of your choice. Offers advanced security capabilities including granular Role Based Access Control.
 
 Express
 
@@ -63,11 +63,11 @@ Veeam Data Cloud for Microsoft 365 licenses are consumed by the following object
 
 * Microsoft Exchange Online mailboxes — each Microsoft Exchange Online mailbox requires one Veeam Data Cloud for Microsoft 365 license unit.
 
-* Microsoft OneDrive for Business account — each OneDrive for Business account consumes one Veeam Data Cloud for Microsoft 365 license unit.
+* Microsoft OneDrive account — each OneDrive account consumes one Veeam Data Cloud for Microsoft 365 license unit.
 
 * Microsoft SharePoint Online personal sites — a personal SharePoint site of a licensed user consumes one Veeam Data Cloud for Microsoft 365 license unit.
 
-A Veeam Data Cloud for Microsoft 365 license unit covers a user mailbox, OneDrive for Business account and SharePoint personal site for which at least one restore point has been created within the last 31 days. For example, if the mailbox and personal site of the same user were backed up in the last 31 days, one Veeam Data Cloud for Microsoft 365 license will be consumed. If an object was not backed up for 31 days, its license is automatically revoked and will not count towards total license count.
+A Veeam Data Cloud for Microsoft 365 license unit covers a user mailbox, OneDrive account and SharePoint personal site for which at least one restore point has been created within the last 31 days. For example, if the mailbox and personal site of the same user were backed up in the last 31 days, one Veeam Data Cloud for Microsoft 365 license will be consumed. If an object was not backed up for 31 days, its license is automatically revoked and will not count towards total license count.
 
 |  |
 | --- |
