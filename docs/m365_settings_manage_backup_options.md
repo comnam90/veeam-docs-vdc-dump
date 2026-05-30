@@ -3,14 +3,14 @@ title: "Managing Backup Options"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_manage_backup_options.html"
-last_updated: "4/27/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
 # Managing Backup Options
 
 
-For SharePoint Online, OneDrive for Business and Teams items, Veeam Data Cloud for Microsoft 365 backs up the latest version of the item by default. More protected versions may increase backup time and affect performance.
+For SharePoint Online, OneDrive and Teams items, Veeam Data Cloud for Microsoft 365 backs up the latest version of the item by default. More protected versions may increase backup time and affect performance.
 
 To manage backup options for a workload tenant, do the following:
 
