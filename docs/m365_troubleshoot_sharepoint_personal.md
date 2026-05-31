@@ -3,7 +3,7 @@ title: "SharePoint: Personal Site Was Not Found"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_troubleshoot_sharepoint_personal.html"
-last_updated: "9/19/2025"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -24,7 +24,7 @@ When checking the Veeam Data Cloud for Microsoft 365 backup session logs, you ma
 
 Cause
 
-Veeam attempts to process Exchange Online, OneDrive for Business, SharePoint Online and Teams for each user. This particular warning lets you know that the end-user Microsoft license does not include a SharePoint site.
+Veeam attempts to process Exchange Online, OneDrive, SharePoint Online and Teams for each user. This particular warning lets you know that the end-user Microsoft license does not include a SharePoint site.
 
 Resolution
 
