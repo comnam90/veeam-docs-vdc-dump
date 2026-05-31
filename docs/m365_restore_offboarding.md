@@ -3,7 +3,7 @@ title: "Offboarding Protection Units"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_offboarding.html"
-last_updated: "5/12/2026"
+last_updated: "5/27/2026"
 product_version: ""
 ---
 
@@ -20,12 +20,14 @@ Offboarding Process
 
 To offboard protection units, do the following:
 
-1. On the Microsoft 365 page, click the tenant you want to manage.
+1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
-3. On the Backup Policies page, select the Express backup policy that includes the items you want to offboard and click Edit.
+3. On the Backup Policies page, in the Actions column of the Express backup policy that includes the items you want to offboard, click Edit.
 
-1. In the Setting items to back up section, select check boxes next to objects to specify what to remove from the backup.
-2. Click Delete to complete the operation.
+1. In the Included in backup section, click View/Remove.
+2. In the Selected Objects window, select check boxes next to objects to specify what to remove from the backup.
+3. Click Delete to remove the selected objects from the backup policy.
+4. Click Update Policy to complete the operation.
 
 If the object you want to offboard is included in the backup policy as part of a group, you must either remove the user from the group in Microsoft Entra ID or remove the user from Microsoft Entra ID, as backing up groups with Express backup policies is dynamic. For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-manage-groups#remove-members-or-owners-of-a-group).
 
