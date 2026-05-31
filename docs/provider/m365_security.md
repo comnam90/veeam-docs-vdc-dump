@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_security.html"
-last_updated: "3/11/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -49,7 +49,7 @@ Retention Period
 * Veeam Data Cloud for Microsoft 365 Express retention is fixed at 52 weeks. Restore points are generated based on the protected Microsoft 365 service.
 
 * For Microsoft Exchange Online, the restore points are created every 10 minutes. The retention period for these restore points is 52 weeks.
-* For Microsoft OneDrive for Business and Microsoft SharePoint Online, the restore points are created every 10 minutes. The retention period for these restore points is 2 weeks. In addition, weekly restore points are created once a week. The retention period for these restore points is 50 weeks.
+* For Microsoft OneDrive and Microsoft SharePoint Online, the restore points are created every 10 minutes. The retention period for these restore points is 2 weeks. In addition, weekly restore points are created once a week. The retention period for these restore points is 50 weeks.
 
 Pen-Tested
 
