@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_considerations_limitations.html"
-last_updated: "5/11/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -48,12 +48,12 @@ As a best practice, in most cases, it is recommended to create 2 backup policies
 For example, you can create a backup policy for Exchange Online and another backup policy for the rest of your data:
 
 * Backup Policy 1: Mailboxes and Archive mailboxes
-* Backup Policy 2: OneDrive for Business, SharePoint Online and Teams
+* Backup Policy 2: OneDrive, SharePoint Online and Teams
 
 In the case where you have more complex backup rules and do not back up your entire organization, it is recommended to split your backups into 3 backup policies:
 
 * Backup Policy 1: Mailboxes and Archive mailboxes
-* Backup Policy 2: OneDrive for Business
+* Backup Policy 2: OneDrive
 * Backup Policy 3: SharePoint Online and Teams
 
 Recommended Maximums
@@ -149,12 +149,12 @@ General Considerations
 * Backup and restore of Microsoft Teams data is available to users of the Flex and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method.
 * Smaller restores may be quicker with Flex; benefits of Express are best realized with large restores.
 * Veeam Data Cloud for Microsoft 365 supports a maximum of 2 restore operations in parallel. To raise this limit in urgent cases, contact Veeam Customer Support.
-* Restore of OneNote notebooks from backups of Microsoft SharePoint Online, Microsoft OneDrive for Business and Microsoft Teams data is not supported.
+* Restore of OneNote notebooks from backups of Microsoft SharePoint Online, Microsoft OneDrive and Microsoft Teams data is not supported.
 
 As a workaround, you can download the required OneNote file to your computer and then upload this OneNote file to your OneDrive or SharePoint site.
 
 * Preservation Hold items are not available for restore under the Foundation and Advanced plans.
-* The maximum size for download in background of OneDrive for Business and SharePoint Online data is 200 GB.
+* The maximum size for download in background of OneDrive and SharePoint Online data is 200 GB.
 
 Flex Restore Considerations
 
@@ -164,9 +164,9 @@ Exchange Online
 
 * Veeam Data Cloud for Microsoft 365 only restores public folders located under the IPM\_SUBTREE folder.
 
-OneDrive for Business
+OneDrive
 
-Restore of OneNote notebooks from backups of Microsoft OneDrive for Business data is not supported.
+Restore of OneNote notebooks from backups of Microsoft OneDrive data is not supported.
 
 SharePoint Online
 
@@ -254,10 +254,10 @@ Express Restore Considerations
 General
 
 * Veeam Data Cloud for Microsoft 365 replaces data in the original location with the data from the backup. For example, if a user is making edits on a SharePoint site and you restore it to a previous state, the user will lose their edits.
-* When you create a backup policy for an Exchange Online mailbox, OneDrive for Business account or SharePoint Online site, Veeam Data Cloud for Microsoft 365 starts generating restore points.
+* When you create a backup policy for an Exchange Online mailbox, OneDrive account or SharePoint Online site, Veeam Data Cloud for Microsoft 365 starts generating restore points.
 
 * For Exchange Online, the restore points are created every 10 minutes. The retention period for these restore points is 52 weeks.
-* For OneDrive for Business and SharePoint Online, the restore points are created every 10 minutes. The retention period for these restore points is 2 weeks. In addition, weekly restore points are created once a week. The retention period for these restore points is 50 weeks.
+* For OneDrive and SharePoint Online, the restore points are created every 10 minutes. The retention period for these restore points is 2 weeks. In addition, weekly restore points are created once a week. The retention period for these restore points is 50 weeks.
 
 For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data?view=o365-worldwide&tabs=exchange#considerations-when-using-restore).
 
@@ -266,11 +266,11 @@ For more information, see [this Microsoft article](https://learn.microsoft.com/e
 | NOTE |
 | The 52 and 50 weeks of retention are not applicable once a tenant is no longer under Express backup protection. When a tenant is offboarded, the protected data will be preserved for 90 days after the date of offboarding, and then the data will be deleted. |
 
-* To restore an Exchange Online mailbox or OneDrive for Business account for a user who is deleted from Microsoft Entra ID, do the following:
+* To restore an Exchange Online mailbox or OneDrive account for a user who is deleted from Microsoft Entra ID, do the following:
 
 * If the user has been deleted within the past 30 days, restore the user based on the instructions in [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/restore-user).
 * For Exchange Online, if the user account is permanently deleted, Microsoft retains the inactive mailbox for a set time. To restore the inactive mailbox, you must convert it to a new, active mailbox that is linked to a new user. For details, see [this Microsoft article](https://learn.microsoft.com/en-us/purview/recover-an-inactive-mailbox). Once you convert the inactive mailbox to an active one, remove the deleted user from the backup policy. Then, add the new user with the linked active mailbox to the backup policy.
-* For OneDrive for Business, you can restore the OneDrive to the original location. Once restored, the OneDrive is in an "orphaned" state. For details on how to connect the OneDrive to a user, see [this Microsoft article](https://learn.microsoft.com/en-us/sharepoint/troubleshoot/sharing-and-permissions/fix-site-user-id-mismatch).
+* For OneDrive, you can restore the OneDrive to the original location. Once restored, the OneDrive is in an "orphaned" state. For details on how to connect the OneDrive to a user, see [this Microsoft article](https://learn.microsoft.com/en-us/sharepoint/troubleshoot/sharing-and-permissions/fix-site-user-id-mismatch).
 
 Exchange Online
 
@@ -282,14 +282,14 @@ Exchange Online
 * The Outlook mailbox folder structure is not backed up. This means that while you perform a mailbox restore with multiple hierarchical folders, the folder structure is not reconstructed when restored. The restored mailbox items are located in a different folder, created by Microsoft.
 * Discovery search mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported. Veeam Data Cloud will display the following warning when you add an unsupported mailbox to a backup policy: Mailbox cannot be added to policy since the recipient type is not supported.
 
-OneDrive for Business and SharePoint Online
+OneDrive and SharePoint Online
 
 * Restore is only available for cloud root SharePoint sites, as Veeam Data Cloud for Microsoft 365 only backs up cloud root SharePoint sites.
 
 * Subsites are restored at the root SharePoint site level and are not available in the SharePoint restore tab. To restore a subsite, you must restore the root SharePoint site.
-* Personal sites are included in the OneDrive for Business restore and are not available in the SharePoint restore tab.
+* Personal sites are included in the OneDrive restore and are not available in the SharePoint restore tab.
 
-* If there is old "My Site" data before the transition to OneDrive for Business, the data will also be protected by the OneDrive for Business backup policy.
+* If there is old "My Site" data before the transition to OneDrive, the data will also be protected by the OneDrive backup policy.
 
 * The following SharePoint site templates are not supported:
 
@@ -305,7 +305,7 @@ OneDrive for Business and SharePoint Online
 For more information, see [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/backup/backup-faq?view=o365-worldwide#can-i-backup-every-type-of-sharepoint-site).
 
 * Site search is case-sensitive and is a prefix-type search.
-* Restore will fail for OneDrive for Business accounts or SharePoint Online sites under the strict SEC 17a-4(f) hold policy. You must remove the hold before you perform restore.
+* Restore will fail for OneDrive accounts or SharePoint Online sites under the strict SEC 17a-4(f) hold policy. You must remove the hold before you perform restore.
 * If you rename a tenant, move a tenant or change a SharePoint site URL, you cannot revert those changes when performing restore.
-* For OneDrive for Business restore, discovery search mailboxes, shared mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported.
+* For OneDrive restore, discovery search mailboxes, shared mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported.
 
