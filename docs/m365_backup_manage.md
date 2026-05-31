@@ -3,7 +3,7 @@ title: "Managing Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_manage.html"
-last_updated: "5/12/2026"
+last_updated: "5/26/2026"
 product_version: ""
 ---
 
@@ -16,21 +16,21 @@ To manage a backup policy, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Backup Policies.
-3. In the list of backup policies, select the policy you want to manage and do one of the following:
+3. In the list of backup policies, in the Actions column of the policy you want to manage, do one of the following:
 
 * Click Edit to rename the backup policy and add or remove backed-up objects from the backup policy. For details, see [Editing Flex Backup Policies](m365_backup_edit_flex.md) and [Editing Express Backup Policies](m365_backup_edit_express.md).
-* Click Start to run a backup policy session.
+* Click Run now to run a backup policy session.
 * Click Stop to stop a backup policy session that is already running.
 * Click Enable to allow the backup policy to run upon schedule again.
 * Click Disable to prevent the backup policy from running upon schedule. In the displayed window, click Disable to disable the backup policy.
 * Click Delete to delete the backup policy. In the displayed window, click Delete to confirm the deletion of the backup policy.
 
-If you delete a backup policy, you will not delete the data associated with it. Backed-up data deletion only occurs when the restore point goes beyond the retention period you have set for your Veeam Data Cloud for Microsoft 365 plan or after successfully offboarding a protection unit from an Express backup policy. For more information, see [Backup Retention](m365_data_backup.md#retention) and [Offboarding Protection Units](m365_restore_offboarding.md).
+If you delete a backup policy, you will not delete the data associated with it. Backed-up data deletion only occurs when the restore point goes beyond the retention period you set for your Veeam Data Cloud for Microsoft 365 plan or after successfully offboarding a protection unit from an Express backup policy. For more information, see [Backup Retention](m365_data_backup.md#retention) and [Offboarding Protection Units](m365_restore_offboarding.md).
 
-[![Managing Backup Policies](images/m365_backup_manage.png)](images/m365_backup_manage.png "Managing Backup Policies")
+[![Managing Backup Policies](images/m365_backup_manage_policies.webp)](images/m365_backup_manage_policies.webp "Managing Backup Policies")
 
 |  |
 | --- |
 | TIP |
-| You can view and download backup session logs in the Backup sessions section. For more information, see [Viewing Backup Logs](m365_backup_view_logs.md). |
+| You can click the name of a backup policy to view and download backup session logs. For more information, see [Viewing Backup Logs](m365_backup_view_logs.md). |
 
