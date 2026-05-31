@@ -3,7 +3,7 @@ title: "Backup Storage Regions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_regions.html"
-last_updated: "2/9/2026"
+last_updated: "5/27/2026"
 product_version: ""
 ---
 
@@ -12,9 +12,11 @@ product_version: ""
 
 Veeam Data Cloud for Microsoft Azure supports the following Microsoft Azure regions where you can store your Microsoft Azure backups.
 
+Backup Storage Regions
+
 | Global Region | Azure Region |
-| --- | --- |
-| AMER | Canada Central |
+| AMER | Brazil South |
+| Canada Central |
 | Canada East |
 | Central US |
 | Chile Central |
