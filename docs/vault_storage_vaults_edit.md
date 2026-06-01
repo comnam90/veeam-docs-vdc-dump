@@ -3,7 +3,7 @@ title: "Managing Storage Vaults"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html"
-last_updated: "5/25/2026"
+last_updated: "5/28/2026"
 product_version: ""
 ---
 
@@ -77,7 +77,7 @@ To specify the IP address range in a valid format, use the slash / punctuation m
 | Note |
 | Settings that allow access only from specific IP addresses do not apply to connections that originate from Azure services in the same region as the storage vault region. For more information, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security-limitations#restrictions-for-ip-network-rules). |
 
-* [For Azure editions] Select the Enable Private Endpoint option to create private endpoint.
+* [For Azure editions] Enable Private Endpoint. Select this option to create private endpoints.
 
 To learn more, see [Creating Private Endpoints](vault_private_endpoints_creation.md).
 

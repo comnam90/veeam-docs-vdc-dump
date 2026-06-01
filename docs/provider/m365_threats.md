@@ -3,7 +3,7 @@ title: "Threats"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_threats.html"
-last_updated: "5/20/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -24,7 +24,7 @@ Consider the following:
 
 Working with Malware Threats
 
-The advanced threat detection service in Veeam Data Cloud detects known malware signatures in your Microsoft OneDrive for Business, Microsoft SharePoint Online and Microsoft Teams backed-up data and flags them as malware threats.
+The advanced threat detection service in Veeam Data Cloud detects known malware signatures in your Microsoft OneDrive, Microsoft SharePoint Online and Microsoft Teams backed-up data and flags them as malware threats.
 
 To work with detected malware threats, do the following:
 
@@ -72,7 +72,7 @@ To work with detected malware threats, do the following:
 
 Working with Ransomware Threats
 
-The advanced threat detection service in Veeam Data Cloud detects suspicious encryption patterns, unusual file extension changes and entropy spikes deviating from the established baseline in your Microsoft OneDrive for Business, Microsoft SharePoint Online and Microsoft Teams data and flags them as ransomware threats.
+The advanced threat detection service in Veeam Data Cloud detects suspicious encryption patterns, unusual file extension changes and entropy spikes deviating from the established baseline in your Microsoft OneDrive, Microsoft SharePoint Online and Microsoft Teams data and flags them as ransomware threats.
 
 To work with detected ransomware threats, do the following:
 

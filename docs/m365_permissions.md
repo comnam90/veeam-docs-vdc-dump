@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_permissions.html"
-last_updated: "5/26/2026"
+last_updated: "5/29/2026"
 product_version: ""
 ---
 
@@ -20,7 +20,7 @@ For Veeam Data Cloud for Microsoft 365, Microsoft Entra ID automatically creates
 
 * Veeam Data Cloud for Microsoft 365
 
-* Multi-tenant Registration for MBS Billing
+* Veeam Data Cloud for MS 365
 
 Veeam Data Cloud [EMEA, AMER, APJ]
 
@@ -62,9 +62,9 @@ Veeam Data Cloud for Microsoft 365
 
 When you run your first backup session, the Veeam Data Cloud for Microsoft 365 Enterprise application is created. Veeam Data Cloud for Microsoft 365 uses this Enterprise application for backup and restore purposes.
 
-Multi-tenant Registration for MBS Billing
+Veeam Data Cloud for MS 365
 
-For Premium, you must (create, if manual connection, and) grant admin consent to a fourth Enterprise application, called Multi-tenant Registration for MBS Billing. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
+For Express backup policies, you must (create, if manual connection, and) grant admin consent to a fourth Enterprise application, called Veeam Data Cloud for MS 365. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
 
 Required User Account Roles for Microsoft Entra Application
 
@@ -94,7 +94,7 @@ All listed permissions are of the Application type.
 
 Permissions for Backup
 
-| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
+| API | Permission name | Exchange Online | SharePoint Online and OneDrive | Microsoft Teams | Description |
 | Microsoft Graph | Directory.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
 | Group.Read.All | ✔ | ✔ | ✔ | Querying Microsoft Entra ID for the list of groups and group sites. |
 | Sites.Read.All |  | ✔ | ✔ | Querying Microsoft Entra ID for the list of sites and getting download URLs for files and their versions. |
@@ -111,7 +111,7 @@ Permissions for Backup
 | Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Reading mailboxes content. |
 | Exchange.ManageAsApp | ✔ |  |  | Accessing Exchange Online PowerShell to do the following:   * Back up public folder and discovery search mailboxes. * Determine object type for shared mailboxes as Shared Mailbox.   Note: This permission is required to back up public folders and discovery search mailboxes. This permission works along with the Global Reader role granted to the Microsoft Entra application. For more information, see [Granting Global Reader Role to Microsoft Entra Application](#globalreader). |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading SharePoint sites and OneDrive accounts content. |
-| User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive for Business permission to add a Microsoft 365 organization successfully. |
+| User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive permission to add a Microsoft 365 organization successfully. |
 
 1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](m365_check_perms_for_o365_exchange_api.md).
 
@@ -121,7 +121,7 @@ All listed permissions are of the Application type.
 
 Permissions for Restore
 
-| API | Permission name | Exchange Online | SharePoint Online and OneDrive for Business | Microsoft Teams | Description |
+| API | Permission name | Exchange Online | SharePoint Online and OneDrive | Microsoft Teams | Description |
 | Microsoft Graph | Directory.Read.All | ✔ |  | ✔ | Querying Microsoft Entra ID for organization properties, the list of users and groups and their properties. |
 | Group.ReadWrite.All |  | ✔ | ✔ | Recreating in Microsoft Entra ID an associated group in case of a deleted team site restore. |
 | Sites.Read.All |  | ✔ | ✔ | Retrieving the list of sites when creating a backup policy, during backup and restore and for objects caching. |
@@ -136,7 +136,7 @@ Permissions for Restore
 | MailboxFolder.ReadWrite.All | ✔ |  |  | Creating folders. |
 | Office 365 Exchange Online1 | full\_access\_as\_app | ✔ |  | ✔ | Restoring mailboxes content. |
 | Office 365 SharePoint Online | Sites.FullControl.All |  | ✔ | ✔ | Reading and restoring SharePoint sites and OneDrive accounts content. |
-| User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive for Business permission to add a Microsoft 365 organization successfully. |
+| User.Read.All |  | ✔ | ✔ | Reading OneDrive accounts (getting site IDs).  Note: This permission is not used to back up Microsoft Teams data, but you must grant it along with SharePoint Online and OneDrive permission to add a Microsoft 365 organization successfully. |
 
 1You can check permissions for Office 365 Exchange Online API. For more information, see [Checking Permissions for Office 365 Exchange Online API](m365_check_perms_for_o365_exchange_api.md).
 
@@ -145,11 +145,11 @@ Permissions for Restore
 | Note |
 | To restore data using Microsoft Entra application, make sure that you configure the Microsoft Entra application settings. For more information, see [Configuring Microsoft Entra Application Settings](m365_configuring_ms_entra_app_settings.md). |
 
-Premium Permissions for Microsoft Entra Application
+Express or Premium Permissions for Microsoft Entra Application
 
-If you are under the Premium plan, the following additional permissions are required for the Microsoft Entra application:
+For Express backup policies under the Express or Premium plan, the following additional permissions are required for the Microsoft Entra application:
 
-Premium Permissions for Microsoft Entra Application
+Express or Premium Permissions for Microsoft Entra Application
 
 | API | Permission name | Application type | Delegated type | Description |
 | Microsoft Graph | BackupRestore-Control.ReadWrite.All | ✔ | ✔ | Updating or reading the status of the Microsoft 365 backup service.  Note: This is needed to back up and restore data through Microsoft Backup Storage and to manage the backup and restore service from the Microsoft side. |
