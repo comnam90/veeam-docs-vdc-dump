@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_considerations_limitations.html"
-last_updated: "5/29/2026"
+last_updated: "6/3/2026"
 product_version: ""
 ---
 
@@ -124,7 +124,11 @@ Even after Microsoft throttling is disabled, Microsoft still throttles traffic a
 
 Executing Backup Policies
 
-You should not be executing more than one or 2 backup policies at the same time. For example, you can have mailboxes and Teams backup policies running at the same time, because they process data of different applications. You must never have OneDrive and SharePoint backup policies running at the same time, because OneDrive is built on top of SharePoint.
+Avoid running more than one or 2 backup policies at the same time.
+
+OneDrive, SharePoint, and Teams are closely connected under the hood. When you run their backup policies at the same time, Microsoft 365 can slow down or break your backups. Schedule these at different times to avoid issues.
+
+Exchange backup policies can run at the same time as other services backup policies without issue.
 
 Backup Policies Start Time
 
