@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_security_details.html"
-last_updated: "6/1/2026"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
@@ -83,9 +83,9 @@ The default retention period is 30 days to ensure compliance with regulatory req
 
 Redundant Storage
 
-Veeam Data Cloud Vault applies different redundant storage configurations depending on the edition:
+Veeam Data Cloud Vault applies different redundant storage configurations depending on the product edition:
 
 * Foundation Core - Azure and Foundation Non-Core - Azure editions of Veeam Data Cloud Vault use Local Redundant Storage (LRS). For more information on LRS, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy#locally-redundant-storage).
-* Advanced Core - Azure and Advanced Non-Core - Azure editions of Veeam Data Cloud Vault use Zone-redundant Storage (ZRS). For more information on ZRS, see [this Microsoft article](For%20more%20information%20on%20LRS%2C%20see%20this%20Microsoft%20article.).
-* AWS editions of Veeam Data Cloud Vault use Amazon S3 Standard-Infrequent Access (Standard-IA). For more information on ZRS, see [this AWS article](https://aws.amazon.com/s3/storage-classes/).
+* Advanced Core - Azure and Advanced Non-Core - Azure editions of Veeam Data Cloud Vault use Zone-redundant Storage (ZRS). For more information on ZRS, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy#zone-redundant-storage).
+* AWS editions of Veeam Data Cloud Vault use Amazon S3 Standard-Infrequent Access (S3 Standard-IA). For more information on S3 Standard-IA, see [this AWS article](https://aws.amazon.com/s3/storage-classes/).
 
