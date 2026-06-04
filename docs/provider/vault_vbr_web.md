@@ -3,7 +3,7 @@ title: "Connecting Veeam Data Cloud Vault with Veeam Backup & Replication Using 
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/vault_vbr_web.html"
-last_updated: "4/29/2026"
+last_updated: "6/3/2026"
 product_version: ""
 ---
 
@@ -46,14 +46,14 @@ To connect Veeam Data Cloud Vault with Veeam Backup & Replication using web UI, 
 [![Using with Veeam Backup and Replication](images/vault_vbr_web_copy_code.webp)](images/vault_vbr_web_copy_code.webp "Using with Veeam Backup and Replication")
 
 1. In the Backup Server Registration Code window, click the Veeam Data Cloud Portal link.
-2. In Veeam Data Cloud, in the Register New Product window, paste the registration code in the Registration Code field and click Register.
+2. In Veeam Data Cloud, in the Register New Product window, paste the registration code in the Registration Code field. Then, from the Register for drop-down list, select the customer organization for which you want to authorize the Veeam Backup & Replication server and click Register.
 
 |  |
 | --- |
 | Note |
 | To connect Veeam Backup & Replication to Veeam Data Cloud Vault, you must obtain a Veeam Data Cloud Vault subscription and create at least one storage vault in this subscription.  If you do not have a subscription, request and assign it to your customer or your organization. For more information, see [Requesting Subscriptions](sp_subscriptions_request.md).  If you have not created a storage vault, create it in Veeam Data Cloud. For more information, see [Adding Storage Vaults](vault_storage_vaults_add.md). |
 
-[![Using with Veeam Backup and Replication](images/vault_vbr_web_register.webp)](images/vault_vbr_web_register.webp "Using with Veeam Backup and Replication")
+[![Using with Veeam Backup and Replication](images/sp_vault_vbr_web_register.webp)](images/sp_vault_vbr_web_register.webp "Using with Veeam Backup and Replication")
 
 1. Veeam will register the backup server in Veeam Data Cloud. In the Veeam Backup & Replication Web UI, in the Backup Server Registration Code window, click OK.
 2. If you have only one storage vault that has not been assigned to any Veeam Backup & Replication server, Veeam Data Cloud Vault will automatically assign this storage vault to your backup server. In Veeam Backup & Replication, at the Account step of the New Veeam Data Cloud Vault wizard, the storage vault will be automatically selected in the Vault drop-down list.
