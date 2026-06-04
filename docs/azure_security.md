@@ -3,14 +3,14 @@ title: "Security"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_security.html"
-last_updated: "4/24/2026"
+last_updated: "6/3/2026"
 product_version: ""
 ---
 
 # Security
 
 
-This section lists fundamental security features of <%VDCAzure%>.
+This section lists fundamental security features of Veeam Data Cloud for Microsoft Azure.
 
 Certifications
 
