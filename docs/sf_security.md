@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_security.html"
-last_updated: "10/31/2025"
+last_updated: "6/4/2026"
 product_version: ""
 ---
 
@@ -39,7 +39,7 @@ Veeam Data Cloud for Salesforce offers service-level immutability capabilities o
 
 Multi-Factor Authentication (MFA)
 
-Veeam Data Cloud leverages Microsoft Entra ID and Veeam as identity providers (IdP). Customers are advised to configure Multi-Factor Authentication in these supported identity providers.
+Veeam Data Cloud leverages Microsoft Entra ID and Veeam My Account as identity providers (IdP). Customers are advised to configure multi-factor authentication in these supported identity providers.
 
 Service Level Agreements (SLAs)
 
