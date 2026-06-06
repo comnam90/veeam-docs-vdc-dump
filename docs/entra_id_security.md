@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_security.html"
-last_updated: "8/6/2025"
+last_updated: "6/4/2026"
 product_version: ""
 ---
 
@@ -34,7 +34,7 @@ Veeam Data Cloud uses the following methods for data encryption:
 
 Multi-Factor Authentication (MFA)
 
-For user login, Veeam Data Cloud uses Microsoft single sign-on with Multi-Factor Authentication.
+Veeam Data Cloud leverages Microsoft Entra ID and Veeam My Account as identity providers (IdP). Customers are advised to configure multi-factor authentication in these supported identity providers.
 
 Service Level Agreements (SLAs)
 
