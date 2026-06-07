@@ -1,16 +1,16 @@
 ---
-title: "Entra ID Log Restore"
+title: "Entra ID Log Export"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_log_restore.html"
-last_updated: "5/21/2026"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
-# Entra ID Log Restore
+# Entra ID Log Export
 
 
-Entra ID log restore allows exporting Microsoft Entra ID audit and sign-in logs. After the restore session is finished, you can download the exported log files directly from Veeam Data Cloud or copy a shared access signature (SAS) link that you can use in Microsoft Azure Storage Explorer to download the exported log files. For more information on Microsoft Azure Storage Explorer, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/storage/storage-explorer/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows).
+You can export backed-up Microsoft Entra ID audit and sign-in logs. After the export session is finished, you can download the exported log files directly from Veeam Data Cloud or copy a shared access signature (SAS) link that you can use in Microsoft Azure Storage Explorer to download the exported log files. For more information on Microsoft Azure Storage Explorer, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/storage/storage-explorer/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows).
 
 To export audit and sign-in log files, do the following:
 
