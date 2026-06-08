@@ -3,7 +3,7 @@ title: "Step 3. Select Account and Restore Mode"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_entire_mode.html"
-last_updated: "3/2/2026"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
@@ -17,7 +17,7 @@ At the Restore Mode step of the wizard, specify the following restore settings:
 
 Specifying Azure Account
 
-Make sure the Default Azure account is selected. This is the Veeam service principal account that was created by Veeam Data Cloud for Microsoft Azure. This account has all the necessary roles and permissions for the restore operation.
+Make sure the Default service account is selected. This is the Veeam service principal account that was created by Veeam Data Cloud for Microsoft Azure. This account has all the necessary roles and permissions for the restore operation.
 
 Specifying Restore Mode and Destination
 
