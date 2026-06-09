@@ -3,7 +3,7 @@ title: "Data Backup"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_data_backup.html"
-last_updated: "5/4/2026"
+last_updated: "6/5/2026"
 product_version: ""
 ---
 
@@ -34,9 +34,9 @@ Snapshot-based retention works in the following way:
 
 Veeam Data Cloud for Microsoft 365 will repeat this operation for all subsequent restore points that contain newer states of the item until the retention period expires for the last restore point, and the last restore point is removed as well.
 
-You can set the retention period (1 year by default) while [adding your Microsoft 365 tenant to Veeam Data Cloud](m365_tenant_add.md). To increase the retention period, contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support).
+You can set the retention period (1 year by default) while [adding your Microsoft 365 tenant to Veeam Data Cloud](m365_tenant_add.md). For information on how to increase the retention period, see [Editing Backup Repositories](m365_settings_backup_repos.md#editrepo). Once set, you cannot decrease the retention period.
 
-Once the data is backed up, you cannot delete it.
+Once the data is backed up, you cannot delete it. If you delete a backup policy, you will not delete the data associated with it. If you remove an object from a backup policy, you will not delete the already backed-up data of that object. Backed-up data deletion only occurs when the restore point goes beyond the retention period you set for your Veeam Data Cloud for Microsoft 365 plan or after successfully [offboarding a protection unit](m365_restore_offboarding.md) from an Express backup policy.
 
 Backup and Restore of Public Folders
 
