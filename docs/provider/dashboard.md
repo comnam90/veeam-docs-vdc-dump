@@ -3,7 +3,7 @@ title: "Organization Dashboard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/dashboard.html"
-last_updated: "4/30/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -14,12 +14,17 @@ The organization dashboard provides a centralized view for monitoring data prote
 
 The dashboard helps you verify whether the recent data protection activities have been executed correctly. The clear visibility of errors and warnings helps you shorten your response time to issues and simplifies prevention and troubleshooting of potential problems. With the organization dashboard, you can see how much data is backed up and what the current trend is. This can help you to manage your Veeam Data Cloud licenses and provide accurate budget forecasts.
 
-The Dashboard page is available to users with the OrganizationAdmin role assigned.
+The Dashboard page is available to users with one of the following roles or role sets assigned:
+
+* OrganizationAdmin.
+* OrganizationViewer and a role that allows the user to work with one or more workloads. For example, OrganizationViewer, EntraID:Administrator and M365:BackupOperator.
+
+The Dashboard page displays only the data to which the user has access based on the roles assigned.
 
 |  |
 | --- |
 | Note |
-| The Dashboard page currently supports the Microsoft 365, Microsoft Entra ID and Salesforce workloads and can display only data from customer organizations that have the Delegated management by partner option enabled. For details, see the [Configuring Partner Access](https://helpcenter.veeam.com/docs/vdc/userguide/sp_partner_access.html) section of the Veeam Data Cloud User Guide. |
+| The Dashboard page currently supports the Microsoft 365, Microsoft Entra ID and Salesforce workloads and can display data only from customer organizations that have the Delegated management by partner option enabled. For details, see the [Configuring Partner Access](https://helpcenter.veeam.com/docs/vdc/userguide/sp_partner_access.html) section of the Veeam Data Cloud User Guide. |
 
 To view the Dashboard page, click the dashboard icon on the left.
 
