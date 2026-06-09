@@ -3,7 +3,7 @@ title: "Restoring VM Disks"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_vm_disks.html"
-last_updated: "12/15/2025"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,7 @@ To restore virtual disks attached to a protected Azure VMs, do the following:
 
 1. [Launch the Restore Disks wizard](azure_restore_vm_disks_launch.md).
 2. [Select a restore point](azure_restore_vm_disks_point.md).
-3. [Select Azure service account and restore mode](azure_restore_vm_disks_mode.md).
+3. [Select Veeam service account and restore mode](azure_restore_vm_disks_mode.md).
 4. [Specify settings for the restored disks](azure_restore_vm_disks_settings.md).
 5. [Review the restore setup and complete the restore process](azure_restore_vm_disks_complete.md).
 
