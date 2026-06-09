@@ -3,7 +3,7 @@ title: "Viewing Audit Logs"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/activity_audit.html"
-last_updated: "4/23/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -12,12 +12,10 @@ product_version: ""
 
 Veeam Data Cloud records all security-sensitive events and creates an audit log. In the Activity page, you can review a unified list of audit log events across all workloads within the Veeam Data Cloud organizations of your customers. This helps you monitor security-sensitive activities and verify whether they comply with your security policies. The Activity page includes all events related to access management and resource access. For details, see [Audit Log Events](activity_audit_events.md).
 
-The Activity page with audit logs is available to users with the OrganizationAdmin role assigned.
-
 |  |
 | --- |
 | Note |
-| The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads and can display only data from customer organizations that have the Delegated management by partner option enabled. For details on configuring partner access, see the [Configuring Partner Access](https://helpcenter.veeam.com/docs/vdc/userguide/sp_partner_access.html) section of the Veeam Data Cloud User Guide. |
+| The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads and can display data only from customer organizations that have the Delegated management by partner option enabled. For details on configuring partner access, see the [Configuring Partner Access](https://helpcenter.veeam.com/docs/vdc/userguide/sp_partner_access.html) section of the Veeam Data Cloud User Guide. |
 
 To open the Activity page with audit logs, click the activity icon on the left and then click Audit Log.
 
