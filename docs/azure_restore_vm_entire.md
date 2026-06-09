@@ -3,7 +3,7 @@ title: "Restoring Entire VMs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_entire.html"
-last_updated: "12/15/2025"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,7 @@ To restore the entire Azure VM, perform the following steps:
 
 1. [Launch the Restore Virtual Machines wizard](azure_restore_vm_entire_launch.md).
 2. [Select a restore point](azure_restore_vm_entire_point.md).
-3. [Select Azure service account and restore mode](azure_restore_vm_entire_mode.md).
+3. [Select Veeam service account and restore mode](azure_restore_vm_entire_mode.md).
 4. [Specify instance and network settings for the restored VM](azure_restore_vm_entire_settings.md).
 5. [Review the restore setup and complete the restore process](azure_restore_vm_entire_complete.md).
 
