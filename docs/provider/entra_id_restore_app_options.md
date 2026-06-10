@@ -3,7 +3,7 @@ title: "Step 3. Specify Restore Options"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_restore_app_options.html"
-last_updated: "10/9/2025"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
@@ -28,6 +28,12 @@ If you have selected the Overwrite option, Veeam Data Cloud will restore the rel
 * To restore applications and service principals from the Entra ID recycle bin instead of the backup, click Restore from Entra ID Recycle Bin. In this case, if the applications or service principals exist in both the recycle bin and the backup, they will be restored from the recycle bin and will preserve their object IDs. The applications and service principals that do not exist in the recycle bin will not be restored.
 
 To restore applications and service principals that cannot be restored from the recycle bin, launch the restore wizard again, select the necessary applications and service principals and clear the Restore from Entra ID Recycle Bin check box. The applications and service principals will be restored from the backup and get new object IDs.
+
+* Certificates of applications cannot be restored from the backup. To restore an application together with its certificate, provide the certificate file for one or more applications:
+
+1. Click Add Application Certificates.
+2. In the Applications' Certificates window, click the upload icon next to the application and select the certificate file.
+3. Click Save.
 
 [![Specifying Restore Options](images/entra_id_restore_app_options.webp)](images/entra_id_restore_app_options.webp "Specifying Restore Options")
 
