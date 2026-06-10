@@ -3,7 +3,7 @@ title: "Viewing Backup Sessions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_backup.html"
-last_updated: "4/23/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
