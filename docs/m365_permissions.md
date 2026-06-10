@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_permissions.html"
-last_updated: "5/29/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -14,49 +14,9 @@ Veeam Data Cloud for Microsoft 365 uses Microsoft Entra applications to establis
 
 For Veeam Data Cloud for Microsoft 365, Microsoft Entra ID automatically creates the following Enterprise applications (not application registrations) in your tenant:
 
-* Veeam Data Cloud [EMEA, AMER, APJ]
-
-* Veeam Data Cloud Registration [EMEA, AMER, APJ]
-
 * Veeam Data Cloud for Microsoft 365
 
 * Veeam Data Cloud for MS 365
-
-Veeam Data Cloud [EMEA, AMER, APJ]
-
-When you log in to Veeam Data Cloud for Microsoft 365 with a Microsoft account for the first time, you must accept the following permissions:
-
-Veeam Data Cloud [EMEA, AMER, APJ]
-
-| Permission | Type | Description |
-| View your basic profile |  |  |
-| openid | Delegated | Allows users to sign in to the app with their work or school accounts and allows the app to see basic user profile information. |
-| profile | Delegated | Allows the app to see the basic profile of the users (name, picture, user name, email address). |
-| email | Delegated | Allows the app to read the primary email address of the users. |
-| Maintain access to data you have given access to |  |  |
-| offline\_access | Delegated | Allows the app to see and update the data you gave it access to, even when users are not currently using the app. This does not give the app any additional permissions. |
-
-After you accept the permissions, the Veeam Data Cloud [EMEA, AMER, APJ] Enterprise application is created with those permissions. Veeam Data Cloud for Microsoft 365 uses this Enterprise application to authenticate the users who sign in to Veeam Data Cloud for Microsoft 365 with Microsoft accounts.
-
-When users log in to Veeam Data Cloud for Microsoft 365 for the first time, they must accept the following permissions: profile — View users' basic profile and offline\_access — Maintain access to data you have given it access to.
-
-Veeam Data Cloud Registration [EMEA, AMER, APJ]
-
-When you [add a Microsoft 365 tenant](m365_tenant_add.md) to Veeam Data Cloud for Microsoft 365, if you choose to automatically connect Veeam Data Cloud for Microsoft 365 to Microsoft 365, you must accept the following permissions upon connecting:
-
-Veeam Data Cloud Registration [EMEA, AMER, APJ]
-
-| Permission | Type | Description |
-| Application.Readwrite.All | Delegated | Allows the app to create, read and update application registrations required for backup and restore. |
-| AppRoleAssignment.ReadWrite.All | Delegated | Enables assignment of app roles when configuring required access. |
-| Directory.ReadWrite.All | Delegated | Allows the app to create and update directory objects needed for registration and configuration. |
-| RoleManagement.ReadWrite.Directory | Delegated | Allows managing directory role assignments needed for app registration. |
-
-After you accept the permissions, the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application is created. Veeam Data Cloud for Microsoft 365 uses this Enterprise application to automatically create the Veeam Data Cloud for Microsoft 365 application registration that is used for backup and restore.
-
-Once you have successfully added a Microsoft 365 tenant to Veeam Data Cloud for Microsoft 365, the permissions and consent for the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application are revoked. When using features such as reauthorizing Veeam Data Cloud, Veeam Data Cloud will ask for the permissions for the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application again.
-
-When you [add a Microsoft 365 tenant](m365_tenant_add.md) to Veeam Data Cloud for Microsoft 365, if you choose to manually connect Veeam Data Cloud for Microsoft 365 to Microsoft 365, the Veeam Data Cloud Registration [EMEA, AMER, APJ] Enterprise application is not created. You must manually create and grant admin consent to the Veeam Data Cloud for Microsoft 365 application registration. For more information on how to create a new application registration, see [this Microsoft article](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/walkthrough-register-app-azure-active-directory).
 
 Veeam Data Cloud for Microsoft 365
 
@@ -64,7 +24,12 @@ When you run your first backup session, the Veeam Data Cloud for Microsoft 365 E
 
 Veeam Data Cloud for MS 365
 
-For Express backup policies, you must (create, if manual connection, and) grant admin consent to a fourth Enterprise application, called Veeam Data Cloud for MS 365. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
+For Express backup policies, you must (create, if manual connection, and) grant admin consent to an Enterprise application, called Veeam Data Cloud for MS 365. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
+
+|  |
+| --- |
+| Note |
+| The Veeam Data Cloud for MS 365 Enterprise application was previously called Veeam Data Cloud Express and Multi-tenant Registration for MBS Billing. |
 
 Required User Account Roles for Microsoft Entra Application
 
@@ -156,7 +121,6 @@ Express or Premium Permissions for Microsoft Entra Application
 | BackupRestore-Configuration.ReadWrite.All | ✔ | ✔ | Reading and editing backup configuration policies. |
 | BackupRestore-Restore.ReadWrite.All | ✔ |  | Reading restore all sessions and starting restore sessions from backups. |
 | BackupRestore-Search.Read.All | ✔ |  | Searching for metadata properties in backup snapshots. |
-| BackupRestore-Monitor.Read.All | ✔ |  | Reading all monitoring, quota and billing information for the tenant. |
 | Group.Read.All | ✔ |  | Reading all groups.  Note: This is needed to resolve logic related to a group or the entire workload backup. Additionally, logic must pull details about items, sites, OneDrives, mailboxes and users it handles. |
 | Sites.Read.All | ✔ |  | Reading items in all site collections. |
 | Directory.Read.All | ✔ |  | Reading directory data. |
