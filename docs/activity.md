@@ -3,7 +3,7 @@ title: "Organization Activity"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity.html"
-last_updated: "4/23/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -17,10 +17,12 @@ Organization activities are the backup sessions and audit log events generated a
 | Note |
 | The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads. |
 
-This Activity page is available to users with one of the following roles or role sets assigned:
+The Activity page is available to users with one of the following roles or role sets assigned:
 
 * OrganizationAdmin.
-* OrganizationViewer and an administrator role for one or more workloads. For example, OrganizationViewer, EntraID:Administrator and M365:Administrator.
+* OrganizationViewer and a role that allows the user to work with one or more workloads. For example, OrganizationViewer, EntraID:Administrator and M365:BackupOperator.
+
+The Activity page displays only the data to which the user has access based on the roles assigned.
 
 To open the Activity page, click the activity icon on the left.
 
