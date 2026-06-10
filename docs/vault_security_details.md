@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_security_details.html"
-last_updated: "6/2/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -43,7 +43,7 @@ To monitor user activity and system interactions, Veeam Data Cloud Vault collect
 
 * User login attempts logs. Veeam Data Cloud collects logs of both successful and failed user login attempts.
 * API interaction logs. For API logs, Veeam Data Cloud Vault collects the calls made, their corresponding responses, and the associated timestamps.
-* Data access logs. These logs maintain information of what data was accessed, detailing the user, the time of access, and the duration of the session.
+* Veeam Data Cloud access logs. These logs contain details about what information was accessed through VDC, detailing the user, the time of access, and the duration of the session.
 * Backup and restore operation logs.
 
 Networking
