@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_permissions.html"
-last_updated: "5/29/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -14,31 +14,11 @@ Veeam Data Cloud for Microsoft 365 uses Microsoft Entra applications to establis
 
 For Veeam Data Cloud for Microsoft 365, Microsoft Entra ID automatically creates the following Enterprise applications (not application registrations) in your tenant:
 
-* Veeam Data Cloud [EMEA, AMER, APJ]
-
 * Veeam Data Cloud Registration [EMEA, AMER, APJ]
 
 * Veeam Data Cloud for Microsoft 365
 
 * Veeam Data Cloud for MS 365
-
-Veeam Data Cloud [EMEA, AMER, APJ]
-
-When you log in to Veeam Data Cloud for Microsoft 365 with a Microsoft account for the first time, you must accept the following permissions:
-
-Veeam Data Cloud [EMEA, AMER, APJ]
-
-| Permission | Type | Description |
-| View your basic profile |  |  |
-| openid | Delegated | Allows users to sign in to the app with their work or school accounts and allows the app to see basic user profile information. |
-| profile | Delegated | Allows the app to see the basic profile of the users (name, picture, user name, email address). |
-| email | Delegated | Allows the app to read the primary email address of the users. |
-| Maintain access to data you have given access to |  |  |
-| offline\_access | Delegated | Allows the app to see and update the data you gave it access to, even when users are not currently using the app. This does not give the app any additional permissions. |
-
-After you accept the permissions, the Veeam Data Cloud [EMEA, AMER, APJ] Enterprise application is created with those permissions. Veeam Data Cloud for Microsoft 365 uses this Enterprise application to authenticate the users who sign in to Veeam Data Cloud for Microsoft 365 with Microsoft accounts.
-
-When users log in to Veeam Data Cloud for Microsoft 365 for the first time, they must accept the following permissions: profile — View users' basic profile and offline\_access — Maintain access to data you have given it access to.
 
 Veeam Data Cloud Registration [EMEA, AMER, APJ]
 
@@ -64,7 +44,12 @@ When you run your first backup session, the Veeam Data Cloud for Microsoft 365 E
 
 Veeam Data Cloud for MS 365
 
-For Express backup policies, you must (create, if manual connection, and) grant admin consent to a fourth Enterprise application, called Veeam Data Cloud for MS 365. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
+For Express backup policies, you must (create, if manual connection, and) grant admin consent to an Enterprise application, called Veeam Data Cloud for MS 365. To view the required permissions for this Enterprise application, see [Express or Premium Permissions for Microsoft Entra Application](#express).
+
+|  |
+| --- |
+| Note |
+| The Veeam Data Cloud for MS 365 Enterprise application was previously called Veeam Data Cloud Express and Multi-tenant Registration for MBS Billing. |
 
 Required User Account Roles for Microsoft Entra Application
 
@@ -156,7 +141,6 @@ Express or Premium Permissions for Microsoft Entra Application
 | BackupRestore-Configuration.ReadWrite.All | ✔ | ✔ | Reading and editing backup configuration policies. |
 | BackupRestore-Restore.ReadWrite.All | ✔ |  | Reading restore all sessions and starting restore sessions from backups. |
 | BackupRestore-Search.Read.All | ✔ |  | Searching for metadata properties in backup snapshots. |
-| BackupRestore-Monitor.Read.All | ✔ |  | Reading all monitoring, quota and billing information for the tenant. |
 | Group.Read.All | ✔ |  | Reading all groups.  Note: This is needed to resolve logic related to a group or the entire workload backup. Additionally, logic must pull details about items, sites, OneDrives, mailboxes and users it handles. |
 | Sites.Read.All | ✔ |  | Reading items in all site collections. |
 | Directory.Read.All | ✔ |  | Reading directory data. |
