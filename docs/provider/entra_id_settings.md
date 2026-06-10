@@ -3,14 +3,14 @@ title: "Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_settings.html"
-last_updated: "5/20/2026"
+last_updated: "6/4/2026"
 product_version: ""
 ---
 
 # Settings
 
 
-The Veeam Data Cloud portal enables you to review general settings of the tenant, include additional Microsoft Entra ID objects in your Entra ID backup and reauthorize Veeam Data Cloud access to the tenant.
+The Veeam Data Cloud portal enables you to view general settings of the tenant, include additional Microsoft Entra ID objects in your Entra ID backup, and reauthorize Veeam Data Cloud access to the tenant.
 
 Viewing General Settings
 
@@ -24,30 +24,30 @@ To view the general settings of the tenant:
 
 Enabling Backup of Additional Objects
 
-You can include Entra ID Conditional Access policies and Microsoft Intune policies in the backup. If you allow Veeam Data Cloud to back up these objects, Veeam Data Cloud will automatically assign required permissions to the Microsoft Entra service principal that enables Veeam Data Cloud to back up and restore your Entra ID objects and logs. For details on required permissions, see [Permissions](entra_id_permissions.md).
+You can enable backup of additional Entra ID objects to include them in your backup scope. Once enabled, Veeam Data Cloud automatically assigns the Veeam Data Cloud for Microsoft Entra ID service principal the additional permissions required to back up and restore the selected objects. For details on required permissions, see [Permissions](entra_id_permissions.md).
 
 |  |
 | --- |
 | Note |
-| The restore and compare of additional objects are available only if you enable the backup of those objects first and Veeam Data Cloud completes an Entra ID backup with this option enabled. For details, see [Entra ID Conditional Access Policies Restore](entra_id_cap_restore.md), [Microsoft Intune Policies Restore](entra_id_intune_restore.md), [Comparing Entra ID Organization Contact Properties](entra_id_contacts_compare.md) and [Comparing Entra ID Device Properties](entra_id_devices_compare.md). |
+| The restore and compare of additional objects becomes available only if you enable the backup of those objects, and Veeam Data Cloud completes an Entra ID backup with this option enabled. For details, see [Entra ID Conditional Access Policies Restore](entra_id_cap_restore.md), [Microsoft Intune Policies Restore](entra_id_intune_restore.md), [Comparing Entra ID Organization Contact Properties](entra_id_contacts_compare.md) and [Comparing Entra ID Device Properties](entra_id_devices_compare.md). |
 
 To enable backup of additional objects, do the following:
 
 1. On the Entra ID page, click the name of the tenant you want to manage.
 2. Select Settings.
 3. Select the Permissions tab.
-4. Set the toggle next to the object type you want to back up to On.
+4. Next to the object type you want to back up, set the toggle to On.
 5. Click Save to apply the changes.
 
 [![Enabling Backup of Additional Objects](images/entra_id_settings_permissions.webp)](images/entra_id_settings_permissions.webp "Enabling Backup of Additional Objects")
 
 Disabling Backup of Additional Objects
 
-To disable the backup of additional objects, contact [Veeam Customer Support](https://my.veeam.com/my-cases).
+To disable backup of additional objects, contact [Veeam Customer Support](https://my.veeam.com/my-cases).
 
 Reauthorizing Veeam Data Cloud
 
-You can reauthorize Veeam Data Cloud access to the Microsoft Entra ID tenant, if the Veeam Data Cloud for Microsoft Entra ID service principal is deleted and authorization is revoked. Veeam Data Cloud verifies the service principal status every time you open the Connection tab on the Settings page and displays the current connection status before you proceed.
+If the Veeam Data Cloud for Microsoft Entra ID service principal is deleted and authorization is revoked, you can reauthorize Veeam Data Cloud access to the Microsoft Entra ID tenant. Veeam Data Cloud verifies the service principal status every time you open the Connection tab on the Settings page and displays the current connection status before you proceed.
 
 If the service principal is present and the connection is intact, Veeam Data Cloud displays a confirmation message, and the Reauthorize button is inactive. Reauthorization is required only when the connection status indicates a problem.
 
