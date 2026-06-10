@@ -3,7 +3,7 @@ title: "Entra ID Restore"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_data_restore.html"
-last_updated: "3/20/2026"
+last_updated: "6/5/2026"
 product_version: ""
 ---
 
@@ -19,7 +19,7 @@ Veeam Data Cloud offers the following types of data restore:
 * [Application restore](entra_id_app_restore.md) — to restore entire applications, service principals or their properties.
 * [Conditional Access policies restore](entra_id_cap_restore.md) — to restore entire Conditional Access policies or their properties.
 * [Microsoft Intune policies restore](entra_id_intune_restore.md) — to restore entire Microsoft Intune policies or their properties.
-* [Log restore](entra_id_log_restore.md) — to restore audit and sign-in logs.
+* [Log export](entra_id_log_restore.md) — to export audit and sign-in logs.
 * [Object export](entra_id_object_export.md) — to export entire Entra ID objects to files in JSON format.
 
 With Veeam Data Cloud, you can also compare properties of the following objects:
