@@ -3,7 +3,7 @@ title: "Licensing"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_licensing.html"
-last_updated: "4/7/2026"
+last_updated: "6/8/2026"
 product_version: ""
 ---
 
@@ -30,7 +30,7 @@ For more information on available licensing plans, see [Pricing and Plan Options
 Licensing Plans
 
 | Licensing Plan | Included Options | License Unit |
-| Veeam Data Cloud for Microsoft 365 Premium | Veeam Data Cloud for Microsoft Entra ID | Microsoft 365 user |
+| Veeam Data Cloud for Microsoft 365 Premium | Veeam Data Cloud for Microsoft Entra ID Veeam Data Cloud for Microsoft 365 Foundation Veeam Data Cloud for Microsoft 365 Express | Microsoft 365 user |
 | Veeam Data Cloud for Microsoft 365 Advanced | Veeam Data Cloud for Microsoft Entra ID Veeam Data Cloud for Microsoft 365 Foundation | Microsoft 365 user |
 | Veeam Data Cloud for Microsoft Entra ID Standalone | Veeam Data Cloud for Microsoft Entra ID | Entra ID user |
 

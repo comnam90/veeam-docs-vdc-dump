@@ -3,7 +3,7 @@ title: "Viewing Backup Sessions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/activity_backup.html"
-last_updated: "4/23/2026"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -15,7 +15,7 @@ For each data protection operation, Veeam Data Cloud starts a new backup session
 |  |
 | --- |
 | Note |
-| The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads and can display only data from customer organizations that have the Delegated management by partner option enabled. For details on configuring partner access, see the [Configuring Partner Access](https://helpcenter.veeam.com/docs/vdc/userguide/sp_partner_access.html) section of the Veeam Data Cloud User Guide. |
+| The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads and can display data only from customer organizations that have the Delegated management by partner option enabled. For details on configuring partner access, see the [Configuring Partner Access](https://helpcenter.veeam.com/docs/vdc/userguide/sp_partner_access.html) section of the Veeam Data Cloud User Guide. |
 
 To open the Activity page with backup sessions, click the activity icon on the left.
 

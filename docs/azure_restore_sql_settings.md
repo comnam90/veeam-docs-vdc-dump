@@ -3,7 +3,7 @@ title: "Step 4. Specify Restore Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_sql_settings.html"
-last_updated: "4/20/2026"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
@@ -12,7 +12,7 @@ product_version: ""
 
 At the Settings step of the wizard, you can specify the following:
 
-* [Azure Service Account or Entra ID Application that Veeam Data Cloud for Microsoft Azure will use to perform the restore operation](#auth)
+* [SQL Server Account or Entra ID Application that Veeam Data Cloud for Microsoft Azure will use to perform the restore operation](#auth)
 * [Settings for the SQL Server that will host the restored database](#restore)
 
 |  |
@@ -30,7 +30,7 @@ To specify the authentication method to connect to the SQL server, select one of
 
 * Entra ID Application — select this option to use an Entra ID application.
 
-To enable Microsoft Entra ID authentication, the Azure SQL Server must have your [Azure Service Account](azure_settings_accounts_service_view.md) application ID configured as its Entra ID administrator. You can set the Entra ID administrator in the settings of the Azure SQL Server in the Azure portal. To learn more, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql&tabs=azure-portal).
+To enable Microsoft Entra ID authentication, the Azure SQL Server must have the [Veeam service account](azure_settings_accounts_service_view.md) application ID configured as its Entra ID administrator. You can set the Entra ID administrator in the settings of the Azure SQL Server in the Azure portal. To learn more, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql&tabs=azure-portal).
 
 Specifying SQL Server Settings
 

@@ -3,7 +3,7 @@ title: "Managing Backup Repositories"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_backup_repos.html"
-last_updated: "5/29/2026"
+last_updated: "6/5/2026"
 product_version: ""
 ---
 
