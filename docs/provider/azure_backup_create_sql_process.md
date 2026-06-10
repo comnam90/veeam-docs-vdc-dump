@@ -3,7 +3,7 @@ title: "Step 5. Specify Policy Processing Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_backup_create_sql_process.html"
-last_updated: "5/22/2026"
+last_updated: "6/2/2026"
 product_version: ""
 ---
 
@@ -32,7 +32,7 @@ To back up the selected databases without a staging server, do the following:
 
 For an account to be displayed in the Account list, it must be added to Veeam Data Cloud as described in section [Adding Database Account](azure_settings_accounts_database_add.md). If you have not added the necessary Azure SQL account beforehand, you can do it without closing the New Azure SQL Policy wizard. To add an account, click Add and complete the [New SQL server account wizard](azure_settings_accounts_database_add.md).
 
-* Entra ID Application — to use an Entra ID application. Make sure that the Azure Service Account application is configured as the Entra ID administrator of the SQL Server, as described in [Configuring Entra ID Administrator](#entra_admin).
+* Entra ID Application — to use an Entra ID application. Make sure that the Veeam service account application is configured as the Entra ID administrator of the SQL Server, as described in [Configuring Entra ID Administrator](#entra_admin).
 
 1. Click Apply.
 
@@ -70,7 +70,7 @@ For an account to be displayed in the Account list, it must be added to Veeam Da
 | Important |
 | If the Azure SQL account you use to authenticate against the staging server does not have the sysadmin [server-level role](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver16) assigned, you can only use the source SQL Server as a staging server — otherwise, the backup operation will fail. |
 
-* Entra ID Application — to use an Entra ID application. Make sure that the Azure Service Account application is configured as the Entra ID administrator of the SQL Server, as described in [Configuring Entra ID Administrator](#entra_admin).
+* Entra ID Application — to use an Entra ID application. Make sure that the Veeam service account application is configured as the Entra ID administrator of the SQL Server, as described in [Configuring Entra ID Administrator](#entra_admin).
 
 1. Click Apply.
 
@@ -78,10 +78,10 @@ For an account to be displayed in the Account list, it must be added to Veeam Da
 
 Configuring Entra ID Administrator
 
-To enable Microsoft Entra ID authentication, the Azure SQL Server must have an Entra ID administrator that grants access to your [Azure Service Account](azure_settings_accounts_service_view.md) application. You can do this in one of the following ways:
+To enable Microsoft Entra ID authentication, the Azure SQL Server must have an Entra ID administrator that grants access to the [Veeam service account](azure_settings_accounts_service_view.md) application. You can do this in one of the following ways:
 
-* Assign the Azure Service Account application directly as the Entra ID administrator of the SQL Server.
-* Add the Azure Service Account application to a Microsoft Entra ID group, and assign that group as the Entra ID administrator of the SQL Server. Use this option if the SQL Server already has an administrator that you want to keep.
+* Assign the Veeam service account application directly as the Entra ID administrator of the SQL Server.
+* Add the Veeam service account application to a Microsoft Entra ID group, and assign that group as the Entra ID administrator of the SQL Server. Use this option if the SQL Server already has an administrator that you want to keep.
 
 |  |
 | --- |
