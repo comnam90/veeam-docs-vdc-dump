@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_sites.html"
-last_updated: "5/12/2026"
+last_updated: "6/10/2026"
 product_version: ""
 ---
 
@@ -21,17 +21,17 @@ Flex Restore
 To restore an entire SharePoint site from the backup:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Flex Restore and go to the SharePoint tab.
-3. By default, Veeam Data Cloud for Microsoft 365 uses the latest available restore point for data restore. If you want to select another restore point, in the Explore SharePoint Backup as at field, click the calendar icon and select the date and time when the necessary restore point was created.
-4. Select the site that you want to restore.
-5. Click Restore Selected Site.
+2. Select Flex Restore.
+3. Go to the SharePoint tab.
+4. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the  Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
+5. In the Actions column of the site that you want to restore, click Restore.
 
-[![Restoring SharePoint Sites](images/m365_restore_sharepoint_sites.webp)](images/m365_restore_sharepoint_sites.webp "Restoring SharePoint Sites")
+[![Restoring SharePoint Sites](images/m365_restore_sharepoint_site.webp)](images/m365_restore_sharepoint_site.webp "Restoring SharePoint Sites")
 
-1. In the Restore to section, select where to restore the site. You can select one of the following options:
+1. In the Restore entire site window, in the Restore destination section, select where to restore the site. You can select one of the following options:
 
 * Original location. Select this option if you want to restore the site to its original location.
-* The following site alias. Select this option if you want to restore the site content to another site within the same SharePoint instance.
+* To site alias. Select this option if you want to restore the site content to another site within the same SharePoint instance.
 
 If you select this option, type the Root Site URL and the Site URL. Veeam Data Cloud for Microsoft 365 will display the resulting URL of the target site.
 
@@ -40,20 +40,15 @@ If you select this option, type the Root Site URL and the Site URL. Veeam Data C
 | NOTE |
 | Options to download SharePoint sites are unavailable. |
 
-[![Restoring SharePoint Sites](images/m365_restore_sharepoint_sites_original.webp)](images/m365_restore_sharepoint_sites_original.webp "Restoring SharePoint Sites")
+[![Restoring SharePoint Sites](images/m365_restore_sharepoint_site_original.webp)](images/m365_restore_sharepoint_site_original.webp "Restoring SharePoint Sites")
 
 1. If you want to specify advanced restore options, do the following:
 
-1. Click Advanced options.
+1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:
 
-1. Select the Changed items check box if you want to restore items that have been modified in the production environment.
+1. Select the Changed items check box if you want to restore items that were modified in the production environment.
 2. Select the Missing items check box if you want to restore items that are missing in your target location. For example, some of the items were removed and you want to restore them from the backup.
-
-1. In the History restore options section, select the Restore only the latest version check box if you want to restore only the latest version of items. If you select this check box, you can select one of the following options:
-
-* Overwrite. Select this option to overwrite items in the production environment with the latest version of items in the backup.
-* Merge. Select this option to merge the latest version of items in the backup into items in the production environment. Only the latest file versions from the backup are restored and they are added (merged) to the existing file version history (if any).
 
 1. In the Additional options section, do the following:
 
@@ -64,9 +59,19 @@ If you do not select to restore permissions, existing permissions are kept and n
 1. Select the Restore List Views check box if you want to restore list views of the restored site.
 2. Select the Restore Subsites check box if you want to restore subsites of the restored site.
 
-[![Restoring SharePoint Sites](images/m365_restore_sharepoint_sites_options.webp)](images/m365_restore_sharepoint_sites_options.webp "Restoring SharePoint Sites")
+1. In the History restore options section, select the Restore only the latest version check box if you want to restore only the latest version of items. If you select this check box, you can select one of the following options:
+
+* Merge. Select this option to merge the latest version of items in the backup into items in the production environment. Only the latest file versions from the backup are restored and they are added (merged) to the existing file version history (if any).
+* Overwrite. Select this option to overwrite items in the production environment with the latest version of items in the backup.
+
+[![Restoring SharePoint Sites](images/m365_restore_sharepoint_site_options.webp)](images/m365_restore_sharepoint_site_options.webp "Restoring SharePoint Sites")
 
 1. Click Restore to start the restore process.
+
+|  |
+| --- |
+| tip |
+| You can view basic and access properties of a site. To do that, in the Actions column of the site, click Properties. |
 
 Express Restore
 
