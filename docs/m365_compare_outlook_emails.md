@@ -3,7 +3,7 @@ title: "Comparing Outlook Emails with Production"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_compare_outlook_emails.html"
-last_updated: "9/19/2025"
+last_updated: "6/9/2026"
 product_version: ""
 ---
 
@@ -15,23 +15,24 @@ Veeam Data Cloud for Microsoft 365 lets you compare backed-up Microsoft Outlook 
 To compare an email with the production environment:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Restore.
-3. On the Outlook tab, expand the mailbox that contains the folder with the email you want to compare.
-4. Select the folder that contains the email you want to compare.
-5. Select the check box next to the necessary email in the list of items.
-6. Click Compare With Production.
+2. Select Flex Restore.
+3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the  Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
+4. Click the name of the mailbox that contains the email you want to compare.
+5. Click on the folder that contains the email you want to compare.
+6. Select the email you want to compare and, in the Actions column, click View and compare with production.
 
-[![Comparing Emails with Production](images/m365_compare_outlook_emails.png)](images/m365_compare_outlook_emails.png "Comparing Emails with Production")
+[![Comparing Emails with Production](images/m365_restore_compare.webp)](images/m365_restore_compare.webp "Comparing Emails with Production")
 
-1. In the displayed window, compare properties of the email between the backup and the production environment. Use the following table columns:
+1. In the Compare with production window, compare properties of the email between the Backup version and the Production version. You can compare the following information:
 
-* Name — name of the email property.
-* Backup — property value for the email in the backup.
-* Production — property value for the email in the production environment.
+* Subject — subject of the email.
+* From — sender of the email.
+* To — receiver of the email.
+* CC — contacts to whom a copy of the email was sent.
+* BCC — contacts to whom a blind copy of the email was sent.
+* Body — the body of the email.
 
-1. If you want to compare the email message body, click View Body.
+[![Comparing Emails with Production](images/m365_restore_compare_details.webp)](images/m365_restore_compare_details.webp "Comparing Emails with Production")
 
-[![Comparing Emails with Production](images/m365_compare_outlook_emails_body.png)](images/m365_compare_outlook_emails_body.png "Comparing Emails with Production")
-
-Once you have completed comparing the backed-up email with the production environment, click Ok in the compare window.
+Once you have completed comparing the backed-up email with the production environment, click Close in the Compare with production window.
 
