@@ -3,7 +3,7 @@ title: "Restoring Posts"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_teams_posts.html"
-last_updated: "4/1/2026"
+last_updated: "6/11/2026"
 product_version: ""
 ---
 
@@ -24,43 +24,43 @@ To restore all posts of a Microsoft Teams channel:
 |  |
 | --- |
 | Note |
-| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty.  * Backup and restore of Microsoft Teams data is available to users of the Foundation and Premium plans only. Users can restore Teams data flexibly and do not need to select the restore method.  * To be able to restore team posts, make sure that Microsoft team posts backup is enabled. For details, see [Enabling Microsoft Team Posts Backup](m365_enable_team_chats_backup.md).   If team posts backup is not enabled for the organization, the backup does not contain team posts, and no posts are available for restore when you select the Posts node on the Teams Restore tab.   * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
+| Consider the following:   * If the organization does not have any backups, the Teams Restore tab will be empty.  * Backup and restore of Microsoft Teams data is available to users with Flex-based backup policies only. Users can restore Teams data flexibly and do not need to select the restore method.  * To be able to restore team posts, make sure that Microsoft team posts backup is enabled. For details, see [Enabling Microsoft Team Posts Backup](m365_enable_team_chats_backup.md).   If team posts backup is not enabled for the organization, the backup does not contain team posts, and no posts are available for restore when you select the Posts node on the Teams Restore tab.   * Before you start performing restore, check [Considerations and Limitations](m365_considerations_limitations.md#restore). |
 
-1. Select Restore.
-2. On the Teams tab, expand the team whose channel posts you want to restore.
-3. Expand the channel whose posts you want to restore and select Posts.
-4. Click Restore Selected Posts.
+1. Select Flex Restore.
+2. Go to the Teams tab.
+3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the  Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
+4. Click the name of the team whose posts you want to restore.
+5. Click the name of the channel whose posts you want to restore.
+6. In the Actions column of the Posts, click Restore.
 
-[![Restoring Teams Posts](images/m365_restore_teams_posts.webp)](images/m365_restore_teams_posts.webp "Restoring Teams Posts")
+[![Restoring Teams Posts](images/m365_restore_team_posts.webp)](images/m365_restore_team_posts.webp "Restoring Teams Posts")
 
-1. In the Restore Posts window, check the name of the team and channel whose posts you want to restore, and the time when the backup was created.
-2. In the Restore to section, select where to restore posts. You can select one of the following options:
+1. In the Restore Posts window, you can check the name of the team whose posts you want to restore, the time when the backup was created and the selected restore point.
+2. In the Restore destination section, check that the Restore to original location option is selected. You can restore posts to the original location only.
 
-* Original location. Select this option if you want to restore posts to the original channel. Veeam Data Cloud for Microsoft 365 will create a new tab in the original channel and restore posts to this tab.
-* Download in background. Select this option if you want to download the item to your computer. Veeam Data Cloud for Microsoft 365 will save the posts to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
+1. Click Restore to start the restore process. Your posts will be restored to a new tab created in the original channel.
 
-1. Start the restore process:
+[![Restoring Teams Posts](images/m365_restore_team_posts_options.webp)](images/m365_restore_team_posts_options.webp "Restoring Teams Posts")
 
-* Click Restore if you selected to restore posts to the original location.
-* Click Download if you selected to download posts in the background.
-
-[![Restoring Teams Posts](images/m365_restore_teams_posts_original.webp)](images/m365_restore_teams_posts_original.webp "Restoring Teams Posts")
+|  |
+| --- |
+| tip |
+| You can download all Teams posts to your computer. To do that, in the Actions column of the Posts, click Download as .zip. Veeam Data Cloud will save the Teams posts to a .ZIP file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md). |
 
 Restoring Specific Posts
 
 To restore specific posts of a Microsoft Teams channel:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
-2. Select Restore.
-3. On the Teams tab, expand the team whose channel posts you want to restore.
-4. Expand the channel whose posts you want to restore and select Posts.
-5. Select the check box next to the necessary post in the list of items and click Restore Selected Posts Item. You can select multiple posts.
+2. Select Flex Restore.
+3. Go to the Teams tab.
+4. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the  Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
+5. Click the name of the team whose posts you want to restore.
+6. Click the name of the channel whose posts you want to restore.
+7. Click on the Posts folder.
+8. Select the check box next to the necessary post in the list of items and click Download. You can select multiple posts.
 
-[![Restoring Teams Posts](images/m365_restore_teams_posts_specific.webp)](images/m365_restore_teams_posts_specific.webp "Restoring Teams Posts")
+Veeam Data Cloud downloads the posts in the .HTML format.
 
-1. In the Restore Post Item window, check the name of the team, channel and post you want to restore, and the time when the backup was created.
-2. In the Restore to section, the Download in background option is selected by default. Veeam Data Cloud for Microsoft 365 will save the posts to a .ZIP file.
-3. Click Download to start the download process.
-
-[![Restoring Teams Posts](images/m365_restore_teams_posts_specific_options.webp)](images/m365_restore_teams_posts_specific_options.webp "Restoring Teams Posts")
+[![Restoring Teams Posts](images/m365_restore_team_posts_download.webp)](images/m365_restore_team_posts_download.webp "Restoring Teams Posts")
 
