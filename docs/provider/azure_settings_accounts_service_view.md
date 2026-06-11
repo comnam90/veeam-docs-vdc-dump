@@ -3,7 +3,7 @@ title: "Viewing Veeam Service Account"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_settings_accounts_service_view.html"
-last_updated: "6/3/2026"
+last_updated: "6/10/2026"
 product_version: ""
 ---
 
@@ -12,7 +12,7 @@ product_version: ""
 
 The Veeam Service Account tab displays the following information about the Veeam Data Cloud service account:
 
-* Azure Tenant – the name of your Azure tenant.
+* Azure Tenant — the name of your Azure tenant.
 * Azure Tenant ID — the unique ID of your Azure tenant.
 * Application ID — the ID of the Azure application.
 * Status — the status of the Veeam service account. Possible values:
