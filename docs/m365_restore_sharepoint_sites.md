@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_sites.html"
-last_updated: "6/10/2026"
+last_updated: "6/11/2026"
 product_version: ""
 ---
 
@@ -101,8 +101,12 @@ Select the Fast restore check box if you want to select from the fastest availab
 
 1. In the Choose restore location option, select where you want to restore the data. You can select one of the following options:
 
-* Overwrite the existing site. Select this option to replace data in the original location with the data from the backup.
-* Create a site with a new URL. Select this option to restore the data to a new location. Veeam Data Cloud restores the data to a newly created site with an R and a number added to the end of the URL. For example, https://contoso.sharepoint.com/sites/originalSiteR0.
+* Overwrite the existing site. Select this option to replace the whole site in the original location with the data from the backup.
+* Create a site with a new URL. Select this option to restore the data to a new location. Veeam Data Cloud restores the data to a newly created site with an R and a number added to the end of the URL.
+
+For example, https://contoso.sharepoint.com/sites/originalSiteR0.
+
+The restored SharePoint site on the new URL will have a read-only lock.
 
 1. Click Restore to start the restore process.
 
