@@ -3,7 +3,7 @@ title: "Restoring Outlook Mailboxes"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_outlook_mailbox.html"
-last_updated: "5/5/2026"
+last_updated: "6/11/2026"
 product_version: ""
 ---
 
@@ -22,54 +22,52 @@ To restore an entire Microsoft Outlook mailbox from the backup:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Flex Restore.
-3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, in the Explore Outlook Backup as at field, click the calendar icon and select the date and time when the necessary restore point was created.
-4. Select the mailbox you want to restore.
+3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the  Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
 
-To restore multiple mailboxes, click on your organization and then select the check boxes next to the mailboxes you want to restore. You can restore multiple mailboxes only to the original location.
+[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_calendar.webp)](images/m365_restore_outlook_mailbox_calendar.webp "Restoring Outlook Mailbox")
 
-1. Click Restore Selected Mailbox.
+1. Select the check box next to the mailbox you want to restore.
 
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox.webp)](images/m365_restore_outlook_mailbox.webp "Restoring Outlook Mailbox")
+To restore multiple mailboxes, select the check boxes next to the mailboxes you want to restore. You can restore multiple mailboxes only to the original location.
 
-1. In the Restore to section, select where to restore the mailbox. You can select one of the following options:
+1. Click Restore.
 
-* Original location. Select this option if you want to restore the mailbox to its original location.
+[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_flex.webp)](images/m365_restore_outlook_mailbox_flex.webp "Restoring Outlook Mailbox")
+
+1. In the Restore entire mailbox window, in the Restore destination section, select where to restore the mailbox. You can select one of the following options:
+
+* Restore to original location. Select this option if you want to restore the mailbox to its original location.
 
 If you select this option, you can use the Advanced options toggle to display more options. For details, see the next step of the procedure.
 
-* Other users mailbox. Select this option if you want to restore the mailbox to another mailbox.
+* Restore to alternate location. Select this option if you want to restore the mailbox to another mailbox.
 
-If you select this option, in the Mailbox and Folder fields specify the address of the target mailbox and the target mailbox folder.
+If you select this option, in the Organization member and Target folder path fields select the user of the target mailbox and specify the target mailbox folder path.
 
 You can also click Advanced options to display more options. For details, see the next step of the procedure.
 
-* Download in background. Select this option if you want to download the mailbox content to your computer. Veeam Data Cloud for Microsoft 365 will save the mailbox content to a .PST file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md).
+[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_flex_original.webp)](images/m365_restore_outlook_mailbox_flex_original.webp "Restoring Outlook Mailbox")
+
+1. By default, when you restore a mailbox, Veeam Data Cloud for Microsoft 365 restores the entire content of the mailbox from the backup. If you want to change the restore options, do the following:
+
+1. Click Advanced options.
+2. In the Restore the following items section, do the following:
+
+1. Select the Restore changed items check box if you want to restore items that were changed.
+2. Select the Restore missing items check box if you want to restore items that are missing in your target location. For example, some of the items were removed and you want to restore them from the backup.
+
+1. In the Flag restored items section, select the Mark restored as unread check box if you want to mark each restored item as unread.
+2. In the Exclude mailbox folders section, select check boxes next to the folders that you do not want to restore from the backup: Drafts, Deleted Items, In-Place Hold Items or Litigation Hold Items.
+3. [For restore of multiple mailboxes to the original location] In the Mass mailbox restore section, select the Finish the restore of recent items before restoring the remaining items check box. In the Restore items from the last <N> days first field, specify a number of days for the data you want to prioritize. The default value is 7 days.
+
+[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_flex_options.webp)](images/m365_restore_outlook_mailbox_flex_options.webp "Restoring Outlook Mailbox")
+
+1. Click Restore to start the restore process.
 
 |  |
 | --- |
 | tip |
-| If you download a large mailbox, Veeam Data Cloud for Microsoft 365 will split the data into smaller .PST files, with each file representing up to 10 GB of the total size. For example, if your mailbox is 36 GB, Veeam Data Cloud for Microsoft 365 will generate a .ZIP file containing 4 .PST files: 3 .PST files of the 10 GB size and another .PST file of the 6 GB size. |
-
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_original.webp)](images/m365_restore_outlook_mailbox_original.webp "Restoring Outlook Mailbox")
-
-1. [For restore to the original location or another mailbox] By default, when you restore a mailbox, Veeam Data Cloud for Microsoft 365 restores the entire content of the mailbox from the backup. If you want to change the restore options, do the following:
-
-1. Click the Advanced options toggle.
-2. In the Restore the following items section, do the following:
-
-1. Select the Changed items check box if you want to restore items that have been changed.
-2. Select the Missing items check box if you want to restore items that are missing in your target location. For example, some of the items were removed and you want to restore them from the backup.
-
-1. In the Flag restored items section, select the Mark restored as unread check box if you want to mark each restored item as unread.
-2. [For restore of multiple mailboxes to the original location] In the Mass mailbox restore section, select the Finish the restore of recent items before restoring the remaining items check box. In the Restore items from the last <N> days first field, specify a number of days for the data you want to prioritize. The default value is 7 days.
-3. In the Exclude the following mailbox folders section, select check boxes next to the folders that you do not want to restore from the backup: Drafts, Deleted Items, In-Place Hold Items or Litigation Hold Items.
-
-[![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_options.webp)](images/m365_restore_outlook_mailbox_options.webp "Restoring Outlook Mailbox")
-
-1. Start the restore process:
-
-* Click Restore if you chose to restore data to the original location or another mailbox.
-* Click Download if you chose to download data in the background.
+| Consider the following:   * You can download the mailbox content to your computer. In the Actions column of the mailbox you want to download, click Download mailbox as .pst. Veeam Data Cloud for Microsoft 365 will save the mailbox content to a .PST file. For more information on how to get the downloaded data, see [Obtaining Downloaded Items](m365_obtain_downloaded_items.md). * If you download a large mailbox, Veeam Data Cloud for Microsoft 365 will split the data into smaller .PST files, with each file representing up to 10 GB of the total size. For example, if your mailbox is 36 GB, Veeam Data Cloud for Microsoft 365 will generate a .ZIP file containing 4 .PST files: 3 .PST files of the 10 GB size and another .PST file of the 6 GB size. |
 
 Express Restore
 

@@ -3,7 +3,7 @@ title: "Comparing Outlook Email with Production"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_self_restore_compare_outlook_email.html"
-last_updated: "4/27/2026"
+last_updated: "6/10/2026"
 product_version: ""
 ---
 
@@ -16,21 +16,21 @@ To compare an email with the production environment:
 
 1. Log in to Veeam Data Cloud for Microsoft 365.
 2. In Veeam Data Cloud for Microsoft 365, in the Outlook tab, you can view your Outlook data from the latest backup.
-3. Select the folder that contains the email you want to view.
-4. Locate the email you are looking for and select it. Selected items are highlighted in green.
-5. Click Compare With Production.
+3. Click on the folder that contains the email you want to view.
+4. Locate the email you are looking for and, in the Actions column, click View and compare with production.
 
-[![Comparing Outlook Email With Production](images/m365_self_restore_compare.webp)](images/m365_self_restore_compare.webp "Comparing Outlook Email With Production")
+[![Comparing Outlook Email With Production](images/m365_restore_self_outlook_compare.webp)](images/m365_restore_self_outlook_compare.webp "Comparing Outlook Email With Production")
 
-1. In the displayed window, compare properties of the email between the backup and the production environment. Use the following table columns:
+1. In the Compare with production window, compare properties of the email between the Backup version and the Production version. You can compare the following information:
 
-* Name — name of the email property.
-* Backup — property value for the email in the backup.
-* Production — property value for the email in the production environment.
+* Subject — subject of the email.
+* From — sender of the email.
+* To — receiver of the email.
+* CC — contacts to whom a copy of the email was sent.
+* BCC — contacts to whom a blind copy of the email was sent.
+* Body — the body of the email.
 
-1. If you want to compare the email message body, click View Body.
-
-[![Comparing Outlook Email With Production](images/m365_self_restore_compare_body.webp)](images/m365_self_restore_compare_body.webp "Comparing Outlook Email With Production")
+[![Comparing Outlook Email With Production](images/m365_restore_self_outlook_compare_details.webp)](images/m365_restore_self_outlook_compare_details.webp "Comparing Outlook Email With Production")
 
 |  |
 | --- |
