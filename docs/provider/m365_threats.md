@@ -3,7 +3,7 @@ title: "Threats"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_threats.html"
-last_updated: "5/29/2026"
+last_updated: "6/15/2026"
 product_version: ""
 ---
 
@@ -52,7 +52,7 @@ To work with detected malware threats, do the following:
 [![Viewing Malware Threats](images/m365_threats_malware_threats.webp)](images/m365_threats_malware_threats.webp "Viewing Malware Threats")
 
 1. Click the name in the Entity Name column or click View Details in the Actions column to view further details about the detected threat.
-2. In the Malware Threat Details window, Veeam Data Cloud displays a summary of the details of the threat. You can also view the following information for each infected file:
+2. In the Malware Threat Details window, Veeam Data Cloud displays a summary of the details of the threat. You can also view the following information for a sample of up to 10 infected files:
 
 * File Name. The name of the infected file.
 * File Location. The location of the infected file.
@@ -99,7 +99,7 @@ To work with detected ransomware threats, do the following:
 [![Viewing Ransomware Threats](images/m365_threats_ransomware_threats.webp)](images/m365_threats_ransomware_threats.webp "Viewing Ransomware Threats")
 
 1. Click the name in the Entity Name column or click View Details in the Actions column to view further details about the detected threat.
-2. In the Ransomware Threat Details window, Veeam Data Cloud displays a summary of the details of the threat. You can also view the name, location and date of creation for a sample of the infected files:
+2. In the Ransomware Threat Details window, Veeam Data Cloud displays a summary of the details of the threat. You can also view the name, location and date of creation for a sample of up to 10 infected files:
 
 * File Name. The name of the infected file.
 * File Location. The location of the infected file.
