@@ -3,7 +3,7 @@ title: "Microsoft 365 Protection"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_protection.html"
-last_updated: "5/29/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -16,9 +16,4 @@ Veeam Data Cloud for Microsoft 365 is a backup as a service solution developed f
 * Microsoft SharePoint Online
 * Microsoft OneDrive
 * Microsoft Teams
-
-|  |
-| --- |
-| TIP |
-| Using a different version of Veeam Data Cloud for Microsoft 365? You are viewing the guide for Microsoft 365 in the unified experience platform, our latest interface for managing workloads in one place. If you still use our original platform, click [here](https://helpcenter.veeam.com/docs/vdcm365/userguide/welcome.html) to go to the correct guide.  Existing users will gradually be moved to the unified experience platform with no action needed. |
 
