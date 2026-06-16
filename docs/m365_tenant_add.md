@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
-last_updated: "4/9/2026"
+last_updated: "6/12/2026"
 product_version: ""
 ---
 
