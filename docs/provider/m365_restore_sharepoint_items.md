@@ -3,7 +3,7 @@ title: "Restoring SharePoint List Items"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_items.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -43,7 +43,8 @@ To restore a list item, click the name of the list that contains the item. Selec
 
 [![Restoring SharePoint Items](images/m365_restore_sharepoint_list_options.webp)](images/m365_restore_sharepoint_list_options.webp "Restoring SharePoint Items")
 
-1. Click Restore to start the restore process.
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. Click Restore to start the restore process.
 
 |  |
 | --- |
