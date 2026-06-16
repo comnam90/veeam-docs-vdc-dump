@@ -3,7 +3,7 @@ title: "Restoring Tabs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_teams_tabs.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -31,7 +31,8 @@ To restore a Microsoft Teams channel tab:
 
 1. In the Restore Tab window, you can check the name of the team, channel and tab you want to restore, the time when the backup was created and the selected restore point.
 2. In the Restore destination section, check that the Restore to original location option is selected. You can restore channel tabs to their original location only. Other restore options are unavailable.
-3. If you want to specify advanced restore options, do the following:
+3. [Optional] In the Restore reason section, specify a reason for the restore.
+4. If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the Restore the following items section, you can do the following:
