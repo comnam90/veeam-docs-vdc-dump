@@ -3,7 +3,7 @@ title: "Restoring Shared Files"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_teams_files.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -35,7 +35,8 @@ To restore all shared files of a Microsoft Teams channel:
 1. In the Restore Shared Files window, you can check the name of the team and channel whose shared files you want to restore, the time when the backup was created and the selected restore point.
 2. In the Restore destination section, check that the Restore to original location option is selected. You can restore shared files to the original location only.
 
-1. If you want to specify advanced restore options, do the following:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:
@@ -72,7 +73,8 @@ To restore specific shared files of a Microsoft Teams channel:
 1. In the Restore Shared File window, you can check the name of the team, channel and shared file you want to restore, the time when the backup was created and the selected restore point.
 2. In the Restore destination section, check that the Restore to original location option is selected. You can restore shared files to the original location only.
 
-1. If you want to specify advanced restore options, do the following:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:
