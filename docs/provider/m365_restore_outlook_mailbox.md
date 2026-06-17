@@ -3,7 +3,7 @@ title: "Restoring Outlook Mailboxes"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_outlook_mailbox.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -48,9 +48,10 @@ You can also click Advanced options to display more options. For details, see th
 
 [![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_flex_original.webp)](images/m365_restore_outlook_mailbox_flex_original.webp "Restoring Outlook Mailbox")
 
-1. By default, when you restore a mailbox, Veeam Data Cloud for Microsoft 365 restores the entire content of the mailbox from the backup. If you want to change the restore options, do the following:
+1. [Optional] In the Restore reason section, specify the reason for the restore.
+2. By default, when you restore a mailbox, Veeam Data Cloud for Microsoft 365 restores the entire content of the mailbox from the backup. If you want to change the restore options, do the following:
 
-1. Click Advanced options.
+1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:
 
 1. Select the Restore changed items check box if you want to restore items that were changed.
@@ -99,7 +100,8 @@ To restore multiple mailboxes, select the check boxes next to the mailboxes you 
 * Original location. Select this option if you want to restore the mailbox to its original location.
 * New folder. Select this option if you want to restore the mailbox to a new location. Veeam Data Cloud restores the data to a newly created folder, called Recovered Items YYYY-MM-DD, HH:MM.
 
-1. Click Restore to start the restore process.
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. Click Restore to start the restore process.
 
 [![Restoring Outlook Mailbox](images/m365_restore_express_outlook_mailbox_options.webp)](images/m365_restore_express_outlook_mailbox_options.webp "Restoring Outlook Mailbox")
 
@@ -135,5 +137,6 @@ To restore specific items from an Express Outlook backup without restoring the e
 * Original location. Select this option if you want to restore the mailbox to its original location.
 * New folder. Select this option if you want to restore the mailbox to a new location. Veeam Data Cloud restores the data to a newly created folder, called Recovered Items YYYY-MM-DD, HH:MM.
 
-1. Click Restore to start the restore process.
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. Click Restore to start the restore process.
 
