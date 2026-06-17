@@ -3,7 +3,7 @@ title: "Permissions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_permissions.html"
-last_updated: "4/1/2026"
+last_updated: "6/17/2026"
 product_version: ""
 ---
 
@@ -34,7 +34,9 @@ Salesforce User
 | [Author Apex](https://help.salesforce.com/s/articleView?id=000386957&type=1) permission to allow Veeam Data Cloud to restore Apex classes. This feature is not available for Salesforce Professional edition. | Yes |
 | [Manage Authentication Providers](https://help.salesforce.com/s/articleView?id=xcloud.sso_provider_sfdc.htm&type=5) permission to allow Veeam Data Cloud to create and edit Authentication Providers. | Yes |
 | [Prompt Template Manager](https://help.salesforce.com/s/articleView?id=ai.prompt_builder_enable.htm&type=5) permission to allow Veeam Data Cloud to restore prompt templates. | The permission is automatically assigned if the Prompt Builder feature is enabled in your Salesforce tenant. |
-| [Modify Metadata Through Metadata API Functions](https://help.salesforce.com/s/articleView?id=platform.meta_modify_metadata_perm.htm&type=5) permission to allow Veeam Data Cloud to create permission set with missing permissions (automatically assigned permissions). If the user whose credentials are used to authorize the connection is not assigned this permission, Veeam Data Cloud will display the Failed to assign required permissions because user doesn't have permission "Modify Metadata Through Metadata API Functions" message in the backup session log. | No |
+| [Modify Metadata Through Metadata API Functions](https://help.salesforce.com/s/articleView?id=platform.meta_modify_metadata_perm.htm&type=5) permission to allow Veeam Data Cloud to create a permission set with missing permissions (automatically assigned permissions). If the user whose credentials are used to authorize the connection is not assigned this permission, Veeam Data Cloud will display the Failed to assign required permissions because user doesn't have permission "Modify Metadata Through Metadata API Functions" message in the backup session log. | No |
+| [Manage Profiles and Permission Sets](https://help.salesforce.com/s/articleView?id=000386319&type=1) permission to allow Veeam Data Cloud to create a permission set with missing permissions (automatically assigned permissions) along with the Modify Metadata Through Metadata API Functions permission. | No |
+| [Assign Permission Sets](https://help.salesforce.com/s/articleView?id=000386319&type=1) permission to allow Veeam Data Cloud to create a permission set with missing permissions (automatically assigned permissions) along with the Modify Metadata Through Metadata API Functions permission. | No |
 | Permission set licenses | For any managed application license that is required for accessing the data. For example, HVS and CPQ. | No |
 | Feature-based user licenses | Marketing User | Yes |
 | Service Cloud User | No |
