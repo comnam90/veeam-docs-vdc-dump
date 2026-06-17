@@ -3,7 +3,7 @@ title: "Comparing Outlook Email with Production"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_self_restore_compare_outlook_email.html"
-last_updated: "6/10/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -28,6 +28,7 @@ To compare an email with the production environment:
 * To — receiver of the email.
 * CC — contacts to whom a copy of the email was sent.
 * BCC — contacts to whom a blind copy of the email was sent.
+* Attachments — files attached to the email.
 * Body — the body of the email.
 
 [![Comparing Outlook Email With Production](images/m365_restore_self_outlook_compare_details.webp)](images/m365_restore_self_outlook_compare_details.webp "Comparing Outlook Email With Production")
