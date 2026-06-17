@@ -3,7 +3,7 @@ title: "Restoring SharePoint Libraries"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_libraries.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -39,11 +39,12 @@ To restore a SharePoint library from the backup:
 
 For multi-geo tenants, the target site must belong to the same protected regions as the current tenant.
 
-You can click Advanced options to display more options. For details, see the next step of the procedure.
+You can click Advanced options to display more options.
 
 [![Restoring SharePoint Libraries](images/m365_restore_sharepoint_library_original.webp)](images/m365_restore_sharepoint_library_original.webp "Restoring SharePoint Libraries")
 
-1. [For restore to another site] If you want to specify advanced restore options, do the following:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. [For restore to another site] If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:
