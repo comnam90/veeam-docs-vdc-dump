@@ -3,7 +3,7 @@ title: "Restoring Outlook Items"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_outlook_item.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -35,7 +35,7 @@ To restore a specific item within a folder of a mailbox:
 
 * Restore to original location. Select this option if you want to restore the item to its original location.
 
-If you select this option, you can use the Advanced options toggle to display more options. For details, see the next step of the procedure.
+If you select this option, you can use the Advanced options toggle to display more options.
 
 * Restore to alternate location. Select this option if you want to restore the item to another mailbox.
 
@@ -43,11 +43,12 @@ If you select this option, in the Organization member and Target folder path fie
 
 For multi-geo tenants, the target mailbox must belong to the same protected regions as the current tenant.
 
-You can also click Advanced options to display more options. For details, see the next step of the procedure.
+You can also click Advanced options to display more options.
 
 [![Restoring Outlook Item](images/m365_restore_outlook_item_original_location.webp)](images/m365_restore_outlook_item_original_location.webp "Restoring Outlook Item")
 
-1. If you want to specify advanced restore options, do the following:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:
