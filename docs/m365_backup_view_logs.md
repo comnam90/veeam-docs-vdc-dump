@@ -3,7 +3,7 @@ title: "Viewing Backup Logs"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_view_logs.html"
-last_updated: "5/29/2026"
+last_updated: "6/12/2026"
 product_version: ""
 ---
 
@@ -22,16 +22,16 @@ To view backup logs of Flex backup policies, do the following:
 
 [![Viewing Backup Logs](images/m365_backup_view_flex_name.webp)](images/m365_backup_view_flex_name.webp "Viewing Backup Logs")
 
-1. In the backup policy window, you can view information about the status and date of the last backup, the backup type and policy type and the date and time of the next scheduled backup.
+1. In the backup policy window, you can view information about the backup policy status, the status and date of the last backup, the backup type and policy type and the date and time of the next scheduled backup.
 
 You can also manage the backup policy. For more information, see [Managing Backup Policies](m365_backup_manage.md).
 
-1. In the Backup Sessions section, Veeam Data Cloud displays a list of backup sessions for the backup policy, in descending order from the most recent to the oldest.
+1. In the Backup sessions section, Veeam Data Cloud displays a list of backup sessions for the backup policy, in descending order from the most recent to the oldest.
 
 |  |
 | --- |
 | tip |
-| * You can select which backup policy statuses you want to see by clicking the Filter by status drop-down menu. * You can specify a date range for the backup policies you want to see by clicking Filter by date. * You can download session logs to your computer. To do this, click Download in CSV in the Actions column of the backup session. Veeam Data Cloud for Microsoft 365 will export the logs to a .CSV file.   In the .CSV file, you can filter the Status column to only view specific logs. For example, filter to the Warning status to only view log records with warning messages. |
+| * You can select which backup policy statuses you want to see by clicking the Filter by status drop-down menu. For more information about the available statuses, see [Flex Backup Session Status](#status). * You can specify a date range for the backup policies you want to see by clicking Filter by date. * You can download session logs to your computer. To do this, click Download in CSV in the Actions column of the backup session. Veeam Data Cloud for Microsoft 365 will export the logs to a .CSV file.   In the .CSV file, you can filter the Status column to only view specific logs. For example, filter to the Warning status to only view log records with warning messages. |
 
 1. Click on the date and time in the Session Start column to view the details of the backup session.
 
@@ -81,10 +81,6 @@ You can view the errors in the backup session logs.
 * Disconnected. The backup session was disconnected due to a network issue, configuration error or service disruption.
 * Not Configured. The backup session was not configured or set up properly (undefined backup targets, missing resources and so on).
 * Queued. The backup session is currently queued.
-* Retry. The backup session was completed with warnings or errors and is running again.
-* Error. The backup session ran into errors.
-
-You can view the errors in the backup session logs.
 
 Express Backup Policy Logs
 
@@ -111,7 +107,7 @@ Veeam Data Cloud also displays a summary of protection within the backup policy.
 * For SharePoint, the title of the SharePoint site.
 
 * [For SharePoint policies] Url. The Url of the SharePoint site.
-* State. The protection status of the object within this backup policy run. For details, see [Express Policy Protection Status](#prostatus).
+* State. The protection status of the object within this backup policy run. For more information, see [Express Policy Protection Status](#prostatus).
 * Details. Details about the protection status of the object.
 
 [![Viewing Backup Logs](images/m365_backup_view_express_policy.webp)](images/m365_backup_view_express_policy.webp "Viewing Backup Logs")
