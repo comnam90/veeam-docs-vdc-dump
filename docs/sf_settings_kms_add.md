@@ -3,7 +3,7 @@ title: "Adding AWS KMS Connections"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_settings_kms_add.html"
-last_updated: "10/17/2025"
+last_updated: "6/18/2026"
 product_version: ""
 ---
 
@@ -16,9 +16,10 @@ To add a connection to the AWS Key Management service, do the following:
 
 1. On the Salesforce page, click the name of the tenant you want to manage.
 2. Select Settings.
-3. Select the AWS KMS Connection tab.
-4. In the Connect to Key Management Service window, specify an access key pair. Veeam Data Cloud will use it to authenticate requests to the AWS Key Management service.
-5. Click Save.
+3. Select the Cloud Providers tab.
+4. Click Add Cloud Provider Connection.
+5. In the Connect to Key Management Service window, specify an access key pair. Veeam Data Cloud will use it to authenticate requests to the AWS Key Management service.
+6. Click Save.
 
 [![Adding AWS KMS Connections](images/sf_settings_kms_add.png)](images/sf_settings_kms_add.png "Adding AWS KMS Connections")
 
