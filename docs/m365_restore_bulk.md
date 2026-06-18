@@ -3,7 +3,7 @@ title: "Performing Bulk Restore"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_bulk.html"
-last_updated: "5/13/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -55,7 +55,8 @@ For OneDrive, Veeam Data Cloud restores the data to a newly created OneDrive wit
 
 For SharePoint, Veeam Data Cloud restores the data to a newly created site with an R and a number added to the end of the URL. For example, https://contoso.sharepoint.com/sites/originalSiteR0.
 
-1. In the Users tab, Veeam Data Cloud displays a list of the users whose mailboxes and OneDrive you added to the restore list. You can also perform the following actions:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. In the Users tab, Veeam Data Cloud displays a list of the users whose mailboxes and OneDrive you added to the restore list. You can also perform the following actions:
 
 * Click Add users by group and select a group from the list if you want to add a group of users for restore.
 * Click Upload users CSV to upload a .CSV or text file that contains a list of users for restore. The .CSV or text file must contain one email address per line.
