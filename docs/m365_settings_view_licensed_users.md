@@ -3,7 +3,7 @@ title: "Viewing Licensed Users"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_view_licensed_users.html"
-last_updated: "4/27/2026"
+last_updated: "6/12/2026"
 product_version: ""
 ---
 
@@ -22,6 +22,7 @@ In the table with your current Veeam Data Cloud for Microsoft 365 licensed users
 
 * Name — the email account that is licensed and the current state of the user (if they are licensed or not).
 * Last Backup Date — the last date that anything associated with the account was backed up.
+* Is Backed Up — shows whether the current data for the account is being backed up.
 * Mailbox — shows whether the mailbox of the user is protected or not.
 * Archive Mailbox — shows whether the archive mailbox of the user is protected or not.
 * OneDrive — shows whether the OneDrive of the user is protected or not.
