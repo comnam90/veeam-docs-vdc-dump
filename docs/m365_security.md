@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_security.html"
-last_updated: "5/29/2026"
+last_updated: "6/12/2026"
 product_version: ""
 ---
 
@@ -41,7 +41,7 @@ Offers service-level immutability capabilities on both Veeam Data Cloud for Micr
 
 Multi-Factor Authentication (MFA)
 
-Utilizes Microsoft single sign-on with Multi-Factor Authentication.
+Utilizes Microsoft single sign-on with Multi-Factor Authentication. For more information, see [Enabling Multi-Factor Authentication](accessing_vdc.md#mfa).
 
 Retention Period
 
