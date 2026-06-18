@@ -3,7 +3,7 @@ title: "Restoring SharePoint Documents"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_sharepoint_documents.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -38,6 +38,8 @@ To restore a SharePoint document from the backup:
 
 1. Restore items to the original list. If you select this option, the document will be restored to the original list of the site you specified.
 2. Restore items to the following list. If you select this option, in the List name field, type the name of the list. The document will be restored to the site and list you specified. If the target list does not exist, the restore process will fail.
+
+1. [Optional] In the Restore reason section, specify a reason for the restore.
 
 [![Restoring SharePoint Documents](images/m365_restore_sharepoint_document_options.webp)](images/m365_restore_sharepoint_document_options.webp "Restoring SharePoint Documents")
 
