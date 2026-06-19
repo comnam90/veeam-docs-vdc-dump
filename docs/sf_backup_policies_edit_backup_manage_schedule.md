@@ -3,7 +3,7 @@ title: "Managing Schedules"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_backup_policies_edit_backup_manage_schedule.html"
-last_updated: "8/6/2025"
+last_updated: "6/17/2026"
 product_version: ""
 ---
 
@@ -25,15 +25,19 @@ To create a new backup schedule for the policy, do the following:
 1. In the Add New Schedule window, specify the schedule settings:
 
 1. In the Schedule name field, specify a name for the schedule. The name must be unique within the Salesforce tenant.
-2. In the Start policy section, select the schedule type:
+2. In the Schedule type section, select the schedule type:
 
-* To run a backup policy once, select Once at and specify the time when the backup policy must run.
+* To run a backup policy once, select One-time and specify the date and time when the backup policy must run.
 
-Note that you cannot combine one-time schedules with periodic default and custom schedules for the same backup policy. If you select the Once at type of schedule as the default policy schedule, you must manually remove all periodic schedules configured for Salesforce objects, wait for the policy session to complete, and then re-configure periodic schedules for the policy.
+Note that you cannot combine one-time schedules with recurring default and custom schedules for the same backup policy. If you select the One-time type of schedule as the default policy schedule, you must manually remove all recurring schedules configured for Salesforce objects, wait for the policy session to complete, and then re-configure recurring schedules for the policy.
 
-* To run a backup policy periodically, select Daily and specify an interval in hours that defines how often the policy must run. Use the Start minute field to set the minutes of an hour when you want the policy to start.
+* To run a backup policy periodically, select Recurring and specify the following settings:
 
-For example, If you specify to run a backup policy every 9 hours at 30 minutes of an hour, Veeam Data Cloud will start the policy according to the following schedule (UTC): Mon 00:30, Mon 09:30, Mon 18:30, Tue 00:30, Tue 09:30, Tue 18:30 and so on.
+From the Days drop-down list, select Every day to run the backup policy every day, or select Selected days to run it on specific days of the week. If you select Selected days, use the Selection drop-down list to choose the days of the week.
+
+In the Run frequency section, select Repeat every to run the backup policy at a regular interval, and then specify the interval value, select the time unit (Hours or Minutes), and use the Starting at minute field to set the minute of an hour when the policy starts. Alternatively, select Once at a specific time to run the backup policy once a day at the time you specify.
+
+For example, if you specify to run a backup policy every 9 hours starting at minute 30, Veeam Data Cloud will start the policy according to the following schedule (in the selected time zone): Mon 00:30, Mon 09:30, Mon 18:30, Tue 00:30, Tue 09:30, Tue 18:30, and so on.
 
 |  |
 | --- |
@@ -41,8 +45,8 @@ For example, If you specify to run a backup policy every 9 hours at 30 minutes o
 | * If your Veeam Data Cloud for Salesforce subscription has more than 200 licensed users, the maximum backup frequency for a custom schedule is 15 minutes. * If your Veeam Data Cloud for Salesforce subscription has 200 or less licensed users, the maximum backup frequency for a custom schedule is 1 hour. |
 
 1. From the Time zone drop-down list, select a UTC time offset. By default, the time zone of your browser is selected.
-2. [Applies if you have selected the Daily option] If you want the backup policy to run only during the specific period of time, select the Backup window check box and specify the time interval.
-3. Review the settings and click Add.
+2. [Applies if you have selected the Recurring option] If you want the backup policy to run only during a specific period of time, select the Run window check box and specify the From and To time. The job starts only within the selected time window.
+3. Review the settings, and then click Add.
 
 [![Managing Schedules](images/sf_backup_policies_edit_backup_manage_schedule.png)](images/sf_backup_policies_edit_backup_manage_schedule.png "Managing Schedules")
 

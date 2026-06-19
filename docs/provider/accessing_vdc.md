@@ -3,7 +3,7 @@ title: "Accessing Veeam Data Cloud"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/accessing_vdc.html"
-last_updated: "5/29/2026"
+last_updated: "6/12/2026"
 product_version: ""
 ---
 
@@ -77,5 +77,5 @@ Logging Out
 
 To log out, click the user name initials in the top-right corner of the Veeam Data Cloud page, and then click Sign Out.
 
-[![Overview](images/sp_accessing_vdc_logout.webp)](images/sp_accessing_vdc_logout.webp "Overview")
+[![Overview](images/accessing_vdc_logout.webp)](images/accessing_vdc_logout.webp "Overview")[![Overview](images/sp_accessing_vdc_logout.webp)](images/sp_accessing_vdc_logout.webp "Overview")
 

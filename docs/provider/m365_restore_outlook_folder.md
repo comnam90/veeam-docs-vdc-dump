@@ -3,7 +3,7 @@ title: "Restoring Outlook Folders"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_outlook_folder.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -31,17 +31,18 @@ To restore a specific folder within a mailbox:
 
 * Restore to original location. Select this option if you want to restore the folder to its original location.
 
-If you select this option, you can use the Advanced options toggle to display more options. For details, see the next step of the procedure.
+If you select this option, you can use the Advanced options toggle to display more options.
 
 * Restore to alternate location. Select this option if you want to restore the folder to another mailbox.
 
 If you select this option, in the Organization member and Target folder path fields specify the address of the target mailbox and the target mailbox folder.
 
-You can also click Advanced options to display more options. For details, see the next step of the procedure.
+You can also click Advanced options to display more options.
 
 [![Restoring Outlook Folder](images/m365_restore_outlook_folder_original_location.webp)](images/m365_restore_outlook_folder_original_location.webp "Restoring Outlook Folder")
 
-1. If you want to specify advanced restore options, do the following:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:

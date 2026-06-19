@@ -3,7 +3,7 @@ title: "Restoring Entire OneDrive"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_onedrive_entire.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -44,7 +44,8 @@ If you select this option, do the following:
 
 [![Restoring Entire OneDrive](images/m365_restore_onedrive_entire_original_location.webp)](images/m365_restore_onedrive_entire_original_location.webp "Restoring Entire OneDrive")
 
-1. [For restore to the original location] If you want to specify advanced restore options, do the following:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. [For restore to the original location] If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the History restore options section, select one of the following options:
@@ -102,7 +103,8 @@ Select the Fast restore check box if you want to select from the fastest availab
 * Overwrite the existing drive. Select this option to replace data in the original location with the data from the backup.
 * Create a drive with a new URL. Select this option to restore the data to a new location. Veeam Data Cloud restores the data to a newly created OneDrive with an R and a number added to the end of the URL. For example, https://contoso-my.sharepoint.com/personal/user1\_contoso\_comR0.
 
-1. Click Restore to start the restore process.
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. Click Restore to start the restore process.
 
 [![Restoring Entire OneDrive](images/m365_restore_express_onedrive_options.webp)](images/m365_restore_express_onedrive_options.webp "Restoring Entire OneDrive")
 

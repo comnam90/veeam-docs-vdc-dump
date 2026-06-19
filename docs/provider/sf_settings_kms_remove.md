@@ -3,7 +3,7 @@ title: "Removing AWS KMS Connections"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sf_settings_kms_remove.html"
-last_updated: "10/17/2025"
+last_updated: "6/18/2026"
 product_version: ""
 ---
 
@@ -16,7 +16,7 @@ To remove a connection, do the following:
 
 1. On the Salesforce page, click the name of the tenant you want to manage.
 2. Select Settings.
-3. Select the AWS KMS Connection tab.
+3. Select the Cloud Providers tab.
 4. Click Delete next to the AWS Key Management Service connection that you want to remove.
 5. Click Remove to confirm the deletion.
 

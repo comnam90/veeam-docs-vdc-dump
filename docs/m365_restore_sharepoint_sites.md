@@ -3,7 +3,7 @@ title: "Restoring SharePoint Sites"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_restore_sharepoint_sites.html"
-last_updated: "6/11/2026"
+last_updated: "6/16/2026"
 product_version: ""
 ---
 
@@ -44,7 +44,8 @@ For multi-geo tenants, the target site must belong to the same protected regions
 
 [![Restoring SharePoint Sites](images/m365_restore_sharepoint_site_original.webp)](images/m365_restore_sharepoint_site_original.webp "Restoring SharePoint Sites")
 
-1. If you want to specify advanced restore options, do the following:
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. If you want to specify advanced restore options, do the following:
 
 1. Click the Advanced options toggle.
 2. In the Restore the following items section, do the following:
@@ -108,7 +109,8 @@ For example, https://contoso.sharepoint.com/sites/originalSiteR0.
 
 The restored SharePoint site on the new URL will have a read-only lock.
 
-1. Click Restore to start the restore process.
+1. [Optional] In the Restore reason section, specify a reason for the restore.
+2. Click Restore to start the restore process.
 
 [![Restoring SharePoint Sites](images/m365_restore_express_sharepoint_options.webp)](images/m365_restore_express_sharepoint_options.webp "Restoring SharePoint Sites")
 
