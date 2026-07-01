@@ -3,7 +3,7 @@ title: "Creating Roles"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/users_roles_custom.html"
-last_updated: "4/2/2026"
+last_updated: "6/23/2026"
 product_version: ""
 ---
 
@@ -54,6 +54,8 @@ Veeam Data Cloud for Microsoft 365 offers the following 3 user role templates wh
 * View Tenants
 * Manage Tenants
 * Onboard Tenants
+* Dashboard View
+* View Backup Activity
 * View Backups
 * Manage Backups
 
@@ -61,6 +63,9 @@ Veeam Data Cloud for Microsoft 365 offers the following 3 user role templates wh
 
 * List Tenants
 * View Tenants
+* Dashboard View
+* View Restore Activity
+* View Backup Activity
 * All SharePoint, Teams and OneDrive permissions
 * All Outlook permissions except for Preview Emails
 * Perform M365 Bulk Restore (for users under the Premium plan)
@@ -78,10 +83,18 @@ Microsoft 365 Role Permissions
 | Manage Tenants | Manage system settings within the Microsoft 365 tenant. |
 | Onboard Tenants | Create new workload tenants. |
 | Manage Multi-Geo Mapping | Manage Multi-Geo settings within the Microsoft 365 tenant. |
-| View Activity Logs | View Microsoft 365 tenant activity logs. |
-| View Licensing Dashboard | View the dashboard widgets that contain Microsoft 365 licensing information. |
 | Manage Reports | Manage, execute and view reports within the tenant. |
 | Manage Notification Settings | Manage notification settings within the tenant. |
+| Dashboard | |
+| Dashboard View | View the Dashboard page. |
+| View Protection Status | View Microsoft 365 protection coverage by service on the Dashboard page. |
+| View Licensing Dashboard | View the dashboard sections that contain Microsoft 365 licensing information. |
+| Activity Logs | |
+| View Activity Logs | View the Activity page. |
+| View Restore Activity | View the Restore Sessions tab in the Activity page. |
+| View Backup Activity | View the Backup Sessions tab in the Activity page and protection status data in the Dashboard page. |
+| View Protection Management Activity | View protection management logs in the Audit Logs tab. |
+| View Data Access Activity | View data access logs in the Audit Logs tab. |
 | Backup | |
 | View Backups | View Microsoft 365 backup policies and associated session logs. |
 | Manage Backups | Create and manage backup policies. |

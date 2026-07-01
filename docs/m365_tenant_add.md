@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
-last_updated: "6/12/2026"
+last_updated: "6/25/2026"
 product_version: ""
 ---
 
@@ -33,7 +33,7 @@ Alternatively, if your service provider has invited you to add a new tenant, cli
 1. Choose how you want to connect Veeam Data Cloud to the Microsoft tenancy:
 
 * Auto Connection. Select this option if you want to automatically connect Veeam Data Cloud to the Microsoft tenancy. This option is recommended and selected by default. Follow the [Automatic Connection Steps](#auto) instructions to proceed.
-* Manual Connection. Select this option if you want to manually connect  Veeam Data Cloud to the Microsoft tenancy. Follow the [Manual Connection Steps](#manual) instructions to proceed.
+* Manual Connection. Select this option if you want to manually connect Veeam Data Cloud to the Microsoft tenancy. Follow the [Manual Connection Steps](#manual) instructions to proceed.
 
 [![Adding Microsoft 365 Tenant](images/m365_tenant_add_connection.webp)](images/m365_tenant_add_connection.webp "Adding Microsoft 365 Tenant")
 
@@ -68,7 +68,7 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 1. In the Select the service you want to protect section, make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
 2. In the Backup policy type section, select one of the following options:
 
-* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites and teams.
+* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites (excluding personal sites) and teams.
 
 In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
 
@@ -116,7 +116,7 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 1. In the Select the service you want to protect section, make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
 2. In the Backup policy type section, select one of the following options:
 
-* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites and teams.
+* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites (excluding personal sites) and teams.
 
 In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
 
