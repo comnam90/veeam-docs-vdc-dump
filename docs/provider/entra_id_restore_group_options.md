@@ -3,7 +3,7 @@ title: "Step 3. Specify Restore Options"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_restore_group_options.html"
-last_updated: "1/29/2026"
+last_updated: "6/22/2026"
 product_version: ""
 ---
 
@@ -23,7 +23,10 @@ At the Options step of the wizard, configure the restore options, such as how to
 
 * To restore relationships of groups within the current tenant, click Keep Relationships. Veeam Data Cloud will restore the following relationships: assigned roles, the membership in a parent group, memberships in admin units, child groups, user members of the group and group owners. Note that Veeam Data Cloud restores only relationships — if a role, user, group or admin unit does not exist, it will not be restored.
 
-If you have selected the Overwrite option, Veeam Data Cloud will restore the relationships from the backup and will remove the relationships not present in the backup.
+In the Select how to handle relationship conflicts section, choose how Veeam Data Cloud resolves conflicts that occur when a relationship already exists in the destination:
+
+* Select Merge to keep the relationships that already exist in the destination and add the relationships from the backup that are missing.
+* Select Overwrite to restore all relationships existing in the backup and remove the relationships that are not present in the backup.
 
 * To restore groups from the Entra ID recycle bin instead of the backup, click Restore from Entra ID Recycle Bin. In this case, if the groups exist in both the recycle bin and the backup, they will be restored from the recycle bin and will preserve their object IDs. The groups that do not exist in the recycle bin will not be restored.
 
