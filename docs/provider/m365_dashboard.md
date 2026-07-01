@@ -3,7 +3,7 @@ title: "Viewing Dashboard"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_dashboard.html"
-last_updated: "5/22/2026"
+last_updated: "6/23/2026"
 product_version: ""
 ---
 
@@ -12,43 +12,65 @@ product_version: ""
 
 The Veeam Data Cloud for Microsoft 365 dashboard contains information on the state of backups, users and licenses, as well as information about user activity.
 
+Accessing Dashboard
+
 To view the Veeam Data Cloud for Microsoft 365 dashboard, do the following:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. The dashboard is the landing page when you open a tenant. To return to the dashboard from a different page, click Dashboard.
 
-The content on the Dashboard page is only visible to users with the OrganizationAdmin or M365:Administrator roles or a custom role with the View Activity Logs, View Licensing Dashboard and View Backups permissions. For more information about roles, see [Roles](users_roles.md).
+Required Permissions
+
+The content on the Dashboard page is only visible to users with the OrganizationAdmin or M365:Administrator roles.
+
+Users with a custom role require the following permissions to view dashboard sections:
+
+* Dashboard View. View the Dashboard page.
+
+* View Protections Status. View the Protection Status (Flex) section and the Microsoft 365 tiles for each service.
+* View Licensing Dashboard. View the License Activity (Flex) section.
+
+* View Activity Logs. View the Recent User Activities section.
+
+* View Restore Activity. View restore sessions data in the Recent User Activities section.
+* View Backup Activity. View protection status in the Protection Status (Flex) section and view backup sessions data in the Recent User Activities section.
+* View Protection Management Activity. View protection management audit logs in the Recent User Activities section.
+* View Data Access Activity. View data access audit logs in the Recent User Activities section.
+
+* Manage Tenants. View the Storage Consumption section.
+* Browse Restore Points. Explore the restore data of the Microsoft 365 tiles for each service.
+
+For more information about roles, see [Roles](users_roles.md).
+
+Dashboard Sections
 
 The Dashboard page displays the following sections:
 
-* The Backup section displays information about the date, time and status of the last backup. The section also provides the following information about the Microsoft 365 user accounts in the organization:
+* The Protection Status (Flex) section displays the protection status of your workload tenant objects. The protection status is represented as the ratio of protected objects to the total number of objects included in Veeam Data Cloud Flex backup policies. Veeam Data Cloud calculates the total number of objects from the section with the Microsoft services tiles.
+* The Exchange, SharePoint Sites, Teams and Onedrive tiles section displays the number of Microsoft Exchange Online, Microsoft SharePoint Online, Microsoft Teams and Microsoft OneDrive objects that are protected within scheduled Flex-based backup policies (not manually triggered backup policies) for each service. An object is the smallest unit available for backup. For example, a mailbox, site or OneDrive. An object is considered protected if a restore point was created within the Recovery Point Objective (RPO) defined by the Flex backup policy schedule assigned to this object.
 
-* Protected Accounts. The total number of accounts whose data is being backed up. This total includes shared mailboxes, resource mailboxes, group mailboxes and public folder mailboxes that have a Microsoft 365 license assigned.
-* Express Only. The total number of Express licenses consumed. This is visible only when Express licenses are consumed.
-* Premium. The total number of Premium licenses consumed. This is visible only when Premium licenses are consumed.
-* Flex Only. The total number of Flex licenses consumed.
-* No License Required. The total number of accounts without a valid Microsoft 365 license assigned, whose data is not being backed up.
-* Unprotected Accounts. The total number of accounts whose data is not being backed up.
+Consider the following:
 
-|  |
-| --- |
-| note |
-| Veeam Data Cloud calculates the number of unprotected accounts according to the following rules. During the initial backup session, Veeam Data Cloud creates the first restore point that contains all objects included in the backup policy. During subsequent backup sessions, Veeam Data Cloud creates restore points that contain objects for which a new version appeared in Microsoft 365 since the previous backup session. If a restore point that contains the object has not been created within the last 31 days, the object will be considered an unprotected account. For more information, see [Backup Retention](m365_data_backup.md#retention) and [License Consumption](m365_licensing.md#consumption). |
+* Only the services you chose to protect when you  [added the Microsoft 365 tenant to Veeam Data Cloud](sp_m365_tenant_add.md) will be visible in the section.
+* If the tenant has no completed backup policies, each service tile will display the No backup policy assigned message. Click Assign Policy to go to the Backup Policies page where you can create new backup policies. For more information, see [Creating Flex Backup Policies](m365_backup_create_flex.md).
+* If a backup policy is running, the number of protected objects for each service within that backup policy will be 0.
+* When a backup policy completes successfully, Veeam Data Cloud updates each tile in the section to display the number of protected objects and the progress percentage in each service.
+* If one object is protected in multiple backup policies, Veeam Data Cloud will count it multiple times in the services tiles.
 
-* The Backup Storage section provides information about the total storage used by all the backups each month.
-* The License Activity section provides information about active users from your Microsoft 365 tenancy in the last 7, 30 or 90 days. Active and inactive users both consume Microsoft 365 licenses, however, inactive users are users who have not used any Microsoft 365 apps during the specified period.
-* The Microsoft 365 Storage Use section provides information about the tenant repository storage usage.
+* The License Activity (Flex) section displays daily usage data for Veeam Data Cloud license consumption for Flex-based backups in the tenant, in the last 14, 30 (default) or 90 days.
+* The Storage Consumption section displays the overall Veeam Data Cloud for Microsoft 365 storage consumption across each backup repository within the tenant.
 
-|  |
-| --- |
-| tip |
-| If the Microsoft 365 Storage Use section shows GUIDs instead of the names of the users, the Microsoft 365 Global Administrator can disable the Display concealed user, group and site names in all reports setting in the Microsoft 365 admin center. For details, see [this Microsoft article](https://learn.microsoft.com/en-us/microsoft-365/troubleshoot/miscellaneous/reports-show-anonymous-user-name#resolution). |
+* The Recent User Activities section displays information about the latest actions the Veeam Data Cloud for Microsoft 365 users took and the date and time of those actions. Click View All Activities for a full overview of Veeam Data Cloud for Microsoft 365 user activity. For more information, see [Activity](m365_activity.md).
 
-* In the Recent User Activity section, you can view information about actions that Veeam Data Cloud for Microsoft 365 users took and the date and time of those actions. In this section you can:
+[![Viewing Dashboard](images/m365_view_dashboard.webp)](images/m365_view_dashboard.webp "Viewing Dashboard")
 
-* Click Refresh to refresh the view with the latest information.
+Dashboard Notifications
 
-* Click View All Activity for a full overview of Veeam Data Cloud for Microsoft 365 user activity. For more information, see [Activity](m365_activity.md).
+Veeam Data Cloud displays notifications that require your attention in the dashboard page. Veeam Data Cloud notifies you about upcoming maintenance or about changes that you need to make.
 
-[![Viewing Dashboard](images/m365_viewing_dashboard.webp)](images/m365_viewing_dashboard.webp "Viewing Dashboard")
+For example, the following notification requires you to update permissions for the users you want to have access to the Dashboard and Activity pages:
+
+New permissions are required to view all information on the Dashboard and Activity pages. If you use custom roles, update them in Settings → Roles to include the new Dashboard and Activity permissions.
+
+If you dismiss a notification, it will not appear again.
 
