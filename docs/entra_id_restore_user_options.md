@@ -3,7 +3,7 @@ title: "Step 3. Specify Restore Options"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_restore_user_options.html"
-last_updated: "3/25/2026"
+last_updated: "6/22/2026"
 product_version: ""
 ---
 
@@ -34,7 +34,10 @@ At the Options step of the wizard, configure the restore options, such as how to
 * In the Reason for Restore field, enter a reason for restoring users. This information will be saved to the session history, and you will be able to reference it later.
 * To restore relationships of users within the current tenant, click Keep Relationships. Veeam Data Cloud will restore the following relationships: assigned roles, group memberships, group ownerships, admin unit memberships, application ownerships, user manager and direct reports for the user. Note that Veeam Data Cloud restores only relationships — if a role, group or admin unit does not exist, it will not be restored.
 
-If you have selected the Overwrite option, Veeam Data Cloud will restore the relationships from the backup and will remove the relationships not present in the backup.
+In the Select how to handle relationship conflicts section, choose how Veeam Data Cloud resolves conflicts that occur when a relationship already exists in the destination:
+
+* Select Merge to keep the relationships that already exist in the destination and add the relationships from the backup that are missing.
+* Select Overwrite to restore all relationships existing in the backup and remove the relationships that are not present in the backup.
 
 * To restore users from the Entra ID recycle bin instead of the backup, click Restore from Entra ID Recycle Bin. In this case, if the users exist in both the recycle bin and the backup, they will be restored from the recycle bin and will preserve their object IDs. The users that do not exist in the recycle bin will not be restored.
 
