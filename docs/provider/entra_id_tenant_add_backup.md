@@ -3,7 +3,7 @@ title: "Step 4. Specify Backup Policy Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_tenant_add_backup.html"
-last_updated: "3/30/2026"
+last_updated: "6/30/2026"
 product_version: ""
 ---
 
@@ -13,7 +13,10 @@ product_version: ""
 At the Backup step of the wizard, specify the following:
 
 1. In the Retention Period field, specify a retention period for which Veeam Data Cloud will keep backups before they are deleted. The maximum value is 99 for both months and years.
-2. In the Additional Resources to Protect section, you can allow Veeam Data Cloud to back up the following Entra ID objects:
+
+You can increase the retention period later. For details, see [Increasing Retention Period](entra_id_backup_retention.md).
+
+1. In the Additional Resources to Protect section, you can allow Veeam Data Cloud to back up the following Entra ID objects:
 
 * To allow Veeam Data Cloud to back up Conditional Access policies, select Conditional Access Policies.
 * To allow Veeam Data Cloud to back up Microsoft Intune policies, select Intune Policies.

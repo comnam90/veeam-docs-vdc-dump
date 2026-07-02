@@ -3,7 +3,7 @@ title: "Accessing Veeam Data Cloud"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/accessing_vdc.html"
-last_updated: "6/12/2026"
+last_updated: "7/1/2026"
 product_version: ""
 ---
 
@@ -32,6 +32,11 @@ Enabling Multi-Factor Authentication
 
 Veeam Data Cloud supports multi-factor authentication (MFA) through its identity providers. For more information on how to enable MFA for your Veeam My Account, see [this Veeam KB article](https://www.veeam.com/kb4716). For more information on how to enable MFA for sign-in with a Microsoft 365 account, see [Microsoft documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-enable-azure-mfa).
 
+|  |
+| --- |
+| Important |
+| As of July 7, 2026, Veeam Data Cloud will require multi-factor authentication for users who log in with Veeam My Account. |
+
 Logging In to Veeam Data Cloud
 
 To access Veeam Data Cloud, you can use the direct link to the Veeam Data Cloud portal that you received in your invitation email or go to the <https://cloud.veeam.com> webpage.
@@ -54,7 +59,10 @@ To log in to Veeam Data Cloud using the link that you received in your invitatio
 * Select Continue with Veeam to log in with your Veeam My Account credentials. You will be redirected to the Sign in to Veeam authentication page.
 
 1. Specify or select your credentials that you want to use to log in to Veeam Data Cloud.
-2. If your account is a part of multiple Veeam Data Cloud organizations, on the Choose an Organization page, select an organization you want to manage.
+
+If you log in to Veeam Data Cloud with your Microsoft account for the first time, you must accept permissions for the Veeam Data Cloud enterprise application. For details, see [Microsoft Entra Application Permissions](accessing_vdc.md#permissions).
+
+1. If your account is a part of multiple Veeam Data Cloud organizations, on the Choose an Organization page, select an organization you want to manage.
 
 [![Overview](images/accessing_vdc_login.png)](images/accessing_vdc_login.png "Overview")
 
@@ -69,7 +77,10 @@ To log in to Veeam Data Cloud, do the following:
 * Select Continue with Veeam to log in with your Veeam My Account credentials. You will be redirected to the Sign in to Veeam authentication page.
 
 1. Specify or select your credentials that you want to use to log in to Veeam Data Cloud.
-2. If your account is a part of multiple Veeam Data Cloud organizations, on the Choose an Organization page, select an organization you want to manage.
+
+If you log in to Veeam Data Cloud with your Microsoft account for the first time, you must accept permissions for the Veeam Data Cloud enterprise application. For details, see [Microsoft Entra Application Permissions](accessing_vdc.md#permissions).
+
+1. If your account is a part of multiple Veeam Data Cloud organizations, on the Choose an Organization page, select an organization you want to manage.
 
 [![Overview](images/accessing_vdc_login.png)](images/accessing_vdc_login.png "Overview")
 
@@ -78,4 +89,21 @@ Logging Out
 To log out, click the user name initials in the top-right corner of the Veeam Data Cloud page, and then click Sign Out.
 
 [![Overview](images/accessing_vdc_logout.png)](images/accessing_vdc_logout.png "Overview")
+
+Microsoft Entra Application Permissions
+
+When you log in to Veeam Data Cloud with your Microsoft account for the first time, you must accept permissions for the Veeam Data Cloud enterprise application. If your Microsoft account is not authorized to accept the requested permissions, ask your Microsoft Entra ID administrator to grant the permissions on behalf of your organization or to approve the pending Veeam Data Cloud enterprise application in your Microsoft Entra ID tenant.
+
+The Veeam Data Cloud enterprise application requires the following permissions.
+
+Microsoft Entra Application Permissions
+
+| Permission | Type | Description |
+| Sign you in and read your profile | — | — |
+| openid | Delegated | Allows users to sign in to the app with their work or school accounts and allows the app to see basic user profile information. |
+| profile | Delegated | Allows the app to see the basic profile of the users (name, picture, user name, email address). |
+| email | Delegated | Allows the app to read the primary email address of the users. |
+| User.Read | Delegated | Allows users to sign-in to the app, and allows the app to read the profile of signed-in users. It also allows the app to read basic company information of signed-in users. |
+| Maintain access to data you have given access to | — | — |
+| offline\_access | Delegated | Allows the app to see and update the data you gave it access to, even when users are not currently using the app. This does not give the app any additional permissions. |
 

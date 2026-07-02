@@ -3,7 +3,7 @@ title: "Enabling Microsoft Team Posts Backup"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_enable_team_chats_backup.html"
-last_updated: "4/27/2026"
+last_updated: "7/1/2026"
 product_version: ""
 ---
 
@@ -11,28 +11,6 @@ product_version: ""
 
 
 To create Microsoft Teams backups that include private and shared channels and public channel messages, you must configure the team posts backup settings. Microsoft Teams channels, tabs, files and metadata are protected regardless of whether you enable Microsoft team posts backup or not.
-
-Before You Begin
-
-Before you configure the Microsoft team posts backup, consider the following:
-
-* When you perform backup of Microsoft Teams data, Veeam Data Cloud for Microsoft 365 does not back up the following objects:
-
-* One-on-one and group posts.
-
-For more information about chats in Microsoft Teams, see [this Microsoft article](https://support.microsoft.com/en-us/office/first-things-to-know-about-chat-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2).
-
-* Audio and video calls.
-* Video recordings saved to Microsoft Stream.
-* Contacts.
-* Calendar: information about meetings and meeting posts.
-* Code snippets, audio files and banner notifications in posts.
-* Data of applications added as channel tabs (such as Website, Planner, Word, Excel, PowerPoint, Visio, PDF, Document Library, OneNote, SharePoint, Stream, Forms, Power BI, Power Automate and Azure DevOps) and other 3rd party applications if their data does not reside in the SharePoint document library of the team.
-* The TeamsMessagesData folder of the group mailbox that belongs to the Microsoft 365 group associated with the backed-up team.
-
-* Microsoft Teams service is not supported for organizations in Microsoft Entra China and Germany regions. For more information about Microsoft Entra Germany, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/germany/).
-* Team posts backup is not supported for Microsoft 365 organizations in Microsoft Entra China, Germany and US Government regions.
-* During backup and restore of an archived team, Veeam Data Cloud for Microsoft 365 does not preserve the Make the SharePoint site read-only for team members property of the team on the Microsoft 365 side.
 
 Enabling Team Posts Backup
 

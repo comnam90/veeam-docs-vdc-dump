@@ -3,121 +3,124 @@ title: "Backup Storage Regions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_regions.html"
-last_updated: "5/7/2026"
+last_updated: "6/19/2026"
 product_version: ""
 ---
 
 # Backup Storage Regions
 
 
-This section lists Microsoft Azure and AWS regions available for Veeam Data Cloud Vault storage vault location. Available regions depend on the Veeam Data Cloud Vault edition. To learn more about product editions, see [Veeam Data Cloud Vault Editions](vault_editions.md).
+This section lists countries, Microsoft Azure regions and AWS regions available for Veeam Data Cloud Vault storage vault location. Available countries and regions depend on the Veeam Data Cloud Vault edition. To learn more about product editions, see [Veeam Data Cloud Vault Editions](vault_editions.md).
+
+|  |
+| --- |
+| Note |
+| Consider the following:   * Foundation editions of Veeam Data Cloud Vault let you choose a country where you want to create a storage vault. Veeam Data Cloud Vault will create the storage vault in the default region associated with this country. * Advanced editions of Veeam Data Cloud Vault let you choose a country and region where you want to create a storage vault. Veeam Data Cloud Vault will create the storage vault in the specified region. |
 
 Backup Storage Regions for Foundation Core Editions
 
-For Foundation Core - Azure and Foundation Core - AWS editions, the following storage regions are available:
+For Foundation Core - Azure and Foundation Core - AWS editions, Veeam Data Cloud Vault offers storage regions in the following countries:
 
 Backup Storage Regions for Foundation Core Editions
 
 | Country | Azure Region | AWS Region |
-| United States | Central US | US East 1 |
-| East US 2 | US East 2 |
-| South Central US | US West 2 |
-| West US 2 | — |
-| Canada | Canada Central | — |
+| Australia | ✔ | — |
+| Austria | ✔ | — |
+| Canada | ✔ | — |
+| France | ✔ | — |
+| Germany | ✔ | — |
+| Hong Kong | ✔ | — |
+| India | ✔ | — |
+| Indonesia | ✔ | — |
+| Ireland | ✔ | — |
+| Israel | ✔ | — |
+| Italy | ✔ | — |
+| Japan | ✔ | — |
+| Malaysia | ✔ | — |
+| Netherlands | ✔ | — |
+| New Zealand | ✔ | — |
+| Singapore | ✔ | — |
+| South Korea | ✔ | — |
+| Spain | — | ✔ |
+| Sweden | ✔ | ✔ |
+| Switzerland | ✔ | — |
+| United Kingdom | ✔ | — |
+| United States | ✔ | ✔ |
+
+Backup Storage Regions for Advanced Core Editions
+
+For Advanced Core - Azure and Advanced Core - AWS editions, the following countries and storage regions are available:
+
+Backup Storage Regions for Advanced Core Editions
+
+| Country | Azure Region | AWS Region |
+| Australia | Australia East | Asia Pacific (Sydney) |
+| Austria | Austria East | — |
+| Brazil | — | South America (Sao Paulo) |
+| Canada | Canada Central | Canada (Central) |
 | Canada East | — |
-| France | France Central | — |
-| Germany | Germany West Central | — |
+| France | France Central | Europe (Paris) |
+| Germany | Germany West Central | Europe (Frankfurt) |
+| Hong Kong | East Asia | Asia Pacific (Hong Kong) |
+| India | Central India | Asia Pacific (Mumbai) |
+| — | Asia Pacific (Hyderabad) |
+| Indonesia | Indonesia Central | Asia Pacific (Jakarta) |
 | Ireland | North Europe | — |
-| Israel | Israel Central | — |
-| Italy | Italy North | — |
+| Israel | — | Israel (Tel Aviv) |
+| Italy | Italy North | Europe (Milan) |
+| Japan | Japan East | Asia Pacific (Tokyo) |
+| Japan West | Asia Pacific (Osaka) |
+| Malaysia | Malaysia West | Asia Pacific (Malaysia) |
 | Netherlands | West Europe | — |
-| Spain | — | EU South 2 |
-| Sweden | Sweden Central | EU North 1 |
-| Switzerland | Switzerland North | — |
-| United Kingdom | UK South | — |
-| Australia | Australia East | — |
-| Hong Kong | East Asia | — |
-| India | India Central | — |
-| Japan | Japan East | — |
-| Japan West | — |
-| Singapore | Southeast Asia | — |
-| Malaysia | Malaysia West | — |
-| Indonesia | Indonesia Central | — |
-| Korea | Korea Central | — |
 | New Zealand | New Zealand North | — |
-
-Backup Storage Regions for Advanced Core Editions
-
-For Advanced Core - Azure and Advanced Core - AWS editions, the following storage regions are available:
-
-Backup Storage Regions for Advanced Core Editions
-
-| Country | Azure Region | AWS Region |
-| United States | Central US | US East 1 |
-| East US 2 | US East 2 |
-| South Central US | US West 2 |
+| Singapore | Southeast Asia | Asia Pacific (Singapore) |
+| South Africa | — | Africa (Cape Town) |
+| South Korea | Korea Central | Asia Pacific (Seoul) |
+| Spain | — | Europe (Spain) |
+| Sweden | Sweden Central | Europe (Stockholm) |
+| Switzerland | Switzerland North | Europe (Zurich) |
+| Taiwan | — | Asia Pacific (Taipei) |
+| Thailand | — | Asia Pacific (Thailand) |
+| UAE | — | Middle East (UAE) |
+| United Kingdom | UK South | Europe (London) |
+| United States | Central US | US East (N. Virginia) |
+| South Central US | US East (Ohio) |
+| East US 2 | US West (Oregon) |
 | West US 2 | — |
-| Brazil | — | SA East 1 |
-| Canada | Canada Central | Canada Central 1 |
-| France | France Central | EU West 3 |
-| Germany | Germany West Central | EU Central 1 |
-| Ireland | North Europe | — |
-| Italy | Italy North | EU South 1 |
-| Netherlands | West Europe | — |
-| South Africa | — | AF South 1 |
-| Spain | — | EU South 2 |
-| Sweden | Sweden Central | EU North 1 |
-| Switzerland | Switzerland North | EU Central 2 |
-| United Kingdom | UK South | EU West 2 |
-| Australia | Australia East | AP Southeast 2 |
-| Hong Kong | East Asia | AP East 1 |
-| India | India Central | AP South 1 |
-| — | AP South 2 |
-| Indonesia | — | AP Southeast 3 |
-| Japan | Japan East | AP Northeast 1 |
-| Japan West | AP Northeast 3 |
-| Korea | — | AP Northeast 2 |
-| Malaysia | — | AP Southeast 5 |
-| Singapore | Southeast Asia | Singapore |
-| Thailand | — | AP Southeast 7 |
-| Israel | — | Israel |
-| UAE | — | Middle East |
-| New Zealand | New Zealand North | — |
+| West US 3 | — |
 
 Backup Storage Regions for Foundation Non-Core Editions
 
-For Foundation Non-Core - Azure and Foundation Non-Core - AWS editions, the following storage regions are available:
+For Foundation Non-Core - Azure and Foundation Non-Core - AWS editions, Veeam Data Cloud Vault offers storage regions in the following countries:
 
 Backup Storage Regions for Foundation Non-Core Editions
 
 | Country | Azure Region | AWS Region |
-| United States | East US | — |
-| North Central US | — |
-| West US | — |
-| Brazil | Brazil South | SA East 1 |
-| Canada | — | Canada Central 1 |
-| Germany | — | EU Central 1 |
-| Switzerland | — | EU Central 2 |
-| South Africa | South Africa North | AF South 1 |
-| South Africa West | — |
-| United Arab Emirates | UAE North | — |
-| Australia | Australia Southeast | AP Southeast 2 |
-| India | South India | — |
-| Indonesia | — | AP Southeast 3 |
-| Japan | — | AP Northeast 1 |
-| — | AP Northeast 3 |
-| Malaysia | — | AP Southeast 5 |
-| Thailand | — | AP Southeast 7 |
-| Taiwan | — | Taipei |
+| Australia | ✔ | ✔ |
+| Brazil | ✔ | ✔ |
+| Canada | — | ✔ |
+| Germany | — | ✔ |
+| India | ✔ | — |
+| Indonesia | — | ✔ |
+| Japan | — | ✔ |
+| Malaysia | — | ✔ |
+| South Africa | ✔ | ✔ |
+| Switzerland | — | ✔ |
+| Taiwan | — | ✔ |
+| Thailand | — | ✔ |
+| United Arab Emirates | ✔ | — |
+| United States | ✔ | — |
 
 Backup Storage Regions for Advanced Non-Core Editions
 
-For Advanced Non-Core - Azure edition, the following storage regions are available:
+For Advanced Non-Core - Azure edition, the following countries and storage regions are available:
 
 Backup Storage Regions for Advanced Non-Core Editions
 
 | Country | Azure Region | AWS Region |
-| United States | East US | — |
 | Brazil | Brazil South | — |
+| India | South India | — |
 | South Africa | South Africa North | — |
+| South Africa West | — |
+| United States | East US | — |
 
