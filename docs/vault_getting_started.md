@@ -3,7 +3,7 @@ title: "Getting Started with Veeam Data Cloud Vault"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_getting_started.html"
-last_updated: "3/11/2026"
+last_updated: "7/2/2026"
 product_version: ""
 ---
 
@@ -19,7 +19,7 @@ Veeam offers several ways for obtaining Veeam Data Cloud Vault. For more informa
 1. Invite other users to your Veeam Data Cloud organization and assign them roles so that they can use the portal. For details, see [Users and Roles](users_manage.md).
 2. Prepare to use Veeam Data Cloud Vault:
 
-1. Learn about Veeam Data Cloud Vault editions, integration options with supported Veeam products, key considerations and limitations. For details, see [Planning and Preparation](m365_planning.md).
+1. Learn about Veeam Data Cloud Vault editions, integration options with supported Veeam products, key considerations and limitations. For details, see [Veeam Data Cloud Vault Editions](vault_editions.md), [Integration with Veeam Products](vault_integration.md) and [Considerations and Limitations](vault_considerations.md).
 2. Learn about Veeam backup data retention and immutability. For details, see the [Immutability for Object Storage Repositories](https://helpcenter.veeam.com/docs/vbr/userguide/immutability_object_storage_repositories.html?ver=13) and [How Immutability Works](https://helpcenter.veeam.com/docs/vbr/userguide/hiw_immutability_os.html?ver=13) sections in the Veeam Backup & Replication User Guide.
 3. Estimate you storage space needs with [Veeam Data Cloud Vault Calculator](https://www.veeam.com/calculators/simple/vdc/vault).
 
