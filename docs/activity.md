@@ -3,7 +3,7 @@ title: "Organization Activity"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity.html"
-last_updated: "6/9/2026"
+last_updated: "7/2/2026"
 product_version: ""
 ---
 
@@ -15,7 +15,7 @@ Organization activities are the backup sessions and audit log events generated a
 |  |
 | --- |
 | Note |
-| The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads. |
+| The Activity page currently supports the Microsoft 365, Microsoft Azure, Entra ID and Salesforce workloads.  For the Microsoft Azure workload, only events related to VM and SQL backup policies are supported. |
 
 The Activity page is available to users with one of the following roles or role sets assigned:
 
