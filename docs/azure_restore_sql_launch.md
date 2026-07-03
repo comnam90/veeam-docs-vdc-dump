@@ -3,7 +3,7 @@ title: "Step 1. Launch SQL Database Restore Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_sql_launch.html"
-last_updated: "2/27/2026"
+last_updated: "7/1/2026"
 product_version: ""
 ---
 
@@ -21,7 +21,12 @@ To launch the SQL Database Restore wizard, do the following:
 | Note |
 | You can select one or more Azure SQL databases to restore. If you select more than one database, all selected databases must belong to the same SQL Server. |
 
-1. Click Restore Database. Alternately, right-click the selected database and, in the context menu, choose Restore Database.
+|  |
+| --- |
+| Tip |
+| You can also launch the SQL Database Restore wizard with a preselected restore point. To do this, click the link in the Restore Points column, then in the Available Restore Points window, select a restore point. |
+
+1. Click Restore Database. Alternatively, right-click the selected database and, in the context menu, choose Restore Database.
 
 [![Step 1. Launch SQL Database Restore Wizard](images/azure_restore_sql_launch.png)](images/azure_restore_sql_launch.png)
 
