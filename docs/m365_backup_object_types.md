@@ -3,7 +3,7 @@ title: "Backup Object Types"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_object_types.html"
-last_updated: "5/29/2026"
+last_updated: "7/1/2026"
 product_version: ""
 ---
 
@@ -18,11 +18,11 @@ Under the Foundation plan, the following object types and their child objects ar
 
 * Organization — consists of all objects within your Microsoft 365 organization. The objects you can exclude from the backup are:
 
-+ Microsoft 365 Users and their child objects: Mailbox, Archive Mailbox, OneDrive, Personal Site
-+ Groups and their child objects: members with Mailbox, Archive Mailbox, OneDrive and Sites, and Group Mailbox and Group Site for Microsoft 365 groups
-+ SharePoint Sites
-+ Teams
-+ Teams posts (if backup of team posts is enabled)
+* Microsoft 365 Users and their child objects: Mailbox, Archive Mailbox, OneDrive, Personal Site
+* Groups and their child objects: members with Mailbox, Archive Mailbox, OneDrive and Sites, and Group Mailbox and Group Site for Microsoft 365 groups
+* SharePoint Sites
+* Teams
+* Teams posts (if backup of team posts is enabled)
 
 * Microsoft 365 Users — consists of users, shared mailboxes, public mailboxes and discovery search mailboxes. The child objects you can process or exclude from the backup are: Mailbox, Archive Mailbox, OneDrive and Personal Site.
 * Groups — consists of Microsoft 365 groups, dynamic Entra ID groups, security groups (nested security groups are also supported if they are discoverable) and distribution groups. The child objects you can process or exclude from the backup are: members with Mailbox, Archive Mailbox, OneDrive and Sites. For Microsoft 365 groups, Group Mailbox and Group Site are also available.
@@ -59,23 +59,5 @@ The objects that are backed up are Files, Folders and Metadata.
 * Entire Organization — consists of all Microsoft 365 SharePoint accounts within your organization.
 * SharePoint Sites — consists of Microsoft SharePoint sites and subsites. You can either select the root site, which automatically selects all its subsites, or any of its subsites.
 
-For a selected items backup policy, you can choose which objects to process in the backup when you [create new backup policies](m365_backup_create_express.md) and when you [edit existing backup policies](m365_backup_edit_express.md). For example, when you create an Express Outlook backup policy, click Microsoft 365 Users and select the users you want to back up.
-
-Considerations
-
-Consider the following:
-
-* To back up user mailboxes, make sure that a mailbox has a valid Microsoft 365 license.
-* To back up SharePoint Online and OneDrive objects, make sure that a user account has a valid Microsoft 365 license with a SharePoint Online plan enabled.
-* To back up public folder mailboxes, first check the considerations listed in [Backup and Restore of Public Folders](m365_data_backup.md#public).
-* Veeam Data Cloud for Microsoft 365 does not back up permissions for sharing mailbox folders and Calendar.
-* Veeam Data Cloud for Microsoft 365 does not support backup of dynamic distribution groups. Members of dynamic distribution groups cannot be resolved.
-* When you perform backup of SharePoint Online data, Veeam Data Cloud for Microsoft 365 does not back up the following objects:
-
-+ External SharePoint lists. For more information, see [this Microsoft article](https://support.microsoft.com/en-us/office/differences-between-native-and-external-lists-6601eda9-b722-4bf8-a2bf-ce25cf3d2fd0).
-+ SharePoint folder attachments
-+ SharePoint site collection recycle bin
-+ SharePoint sites created by Microsoft Loop
-
-* Veeam Data Cloud for Microsoft 365 does not back up the TeamsMessagesData folder.
+For a selected items backup policy, you can choose which objects to process in the backup when you [create new backup policies](m365_backup_create_express.md) and when you [edit existing backup policies](m365_backup_edit_express.md). For example, when you create an Express Outlook backup policy, click Select next to Users and select the users you want to back up.
 
