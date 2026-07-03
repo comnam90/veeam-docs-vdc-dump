@@ -3,7 +3,7 @@ title: "Step 4. Specify Restore Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_sql_settings.html"
-last_updated: "6/2/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -22,28 +22,28 @@ At the Settings step of the wizard, you can specify the following:
 
 * [New names for the restored databases](#rename)
 
+|  |
+| --- |
+| Note |
+| The Server Settings and Database Settings sections are available only if you select to restore to a new location. |
+
 Specifying Authentication Method
 
-To specify the authentication method to connect to the SQL server, select one of the following options:
-
-* Username and Password — select this option to use an Azuse SQL account. In the SQL Account section, click Select account and choose the necessary SQL account.
+To specify the authentication method to connect to the SQL server, in the SQL Authentication section, select one of the following options:
 
 * Entra ID Application — select this option to use an Entra ID application.
 
 To enable Microsoft Entra ID authentication, the Azure SQL Server must have the [Veeam service account](azure_settings_accounts_service_view.md) application ID configured as its Entra ID administrator. You can set the Entra ID administrator in the settings of the Azure SQL Server in the Azure portal. To learn more, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql&tabs=azure-portal).
 
+* Username and Password — select this option to use an Azuse SQL account. In the SQL Account section, click Select account and choose the necessary SQL account.
+
 Specifying SQL Server Settings
 
 To specify settings for the target SQL Server that will host the restored database, do the following:
 
-1. From the SQL Server list, select a target SQL server.
-
-|  |
-| --- |
-| Note |
-| The target SQL Server must belong to the same region as the restored database. |
-
-1. Click Select SQL Account and in the Select SQL Account window, choose an account that will be used to authenticate against the target SQL Server.
+1. In the Server Settings section, from the Region list, select the region of the target SQL server.
+2. From the SQL Server list, select the target SQL server that will host the restored database.
+3. From the Elastic Pool drop-down list, select an elastic pool to which the restored database will be added.
 
 Renaming Restored Databases
 
