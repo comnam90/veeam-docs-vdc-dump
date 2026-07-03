@@ -3,7 +3,7 @@ title: "BYOK Encryption"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_byok_encryption.html"
-last_updated: "3/4/2026"
+last_updated: "7/1/2026"
 product_version: ""
 ---
 
@@ -163,7 +163,7 @@ After BYOK encryption is configured for your Veeam Data Cloud for Microsoft 365 
 |  |
 | --- |
 | important |
-| In the event of key loss, you will lose the access to the encrypted data with no way to recover them. |
+| In the event of key loss, you will lose the access to the encrypted data with no way to recover it. |
 
 * You must monitor the client secret expiration date. You must create a new client secret and provide the new client secret Value to Veeam Customer Support before the current one expires. If the client secret expires, Veeam Data Cloud will lose access and operations (backup and restore) in the Veeam Data Cloud for Microsoft 365 workload tenant will fail until you provide a new client secret.
 * If you have a key rotation security policy, you can manage it in Microsoft Azure Key Vault. If you use the latest key version, there is no action needed in Veeam Data Cloud. For information on key rotation, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/key-vault/keys/how-to-configure-key-rotation).
