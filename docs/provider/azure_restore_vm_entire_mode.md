@@ -3,7 +3,7 @@ title: "Step 3. Select Account and Restore Mode"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_vm_entire_mode.html"
-last_updated: "6/2/2026"
+last_updated: "7/1/2026"
 product_version: ""
 ---
 
@@ -28,8 +28,8 @@ Specifying Restore Mode and Destination
 
 In the Restore mode section, select one of the following options:
 
-* Restore to the original location — select this option to restore a VM with the original name and settings.
-* Restore to original location with different settings — select this option to restore a VM with a different name or settings. If you choose this option, the Restore Virtual Machines wizard will display an additional step - [Settings](azure_restore_vm_entire_settings.md). At this step, you can specify new settings for the restored VM.
+* Restore to the original location — select this option to restore the VM to its original location with the original name and settings.
+* Restore to new location with different settings — select this option to restore the VM to a new location with a different name or settings. If you select this option, you must specify the restore destination, including the Azure subscription and region. The Restore Virtual Machines wizard then includes an additional [Settings](azure_restore_vm_entire_settings.md) step where you can specify the new settings for the restored VM.
 
 [![Step 3. Select Account and Restore Mode](images/azure_restore_vm_entire_mode.webp)](images/azure_restore_vm_entire_mode.webp)
 
