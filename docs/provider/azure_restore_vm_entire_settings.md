@@ -3,7 +3,7 @@ title: "Step 4. Specify VM and Network Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_vm_entire_settings.html"
-last_updated: "12/15/2025"
+last_updated: "6/18/2026"
 product_version: ""
 ---
 
@@ -13,7 +13,7 @@ product_version: ""
 |  |
 | --- |
 | Important |
-| This step is available only if you have selected the Restore to original location with different settings option at the [Restore Mode](azure_restore_vm_entire_mode.md) step of the wizard. |
+| This step is available only if you have selected the Restore to new location with different settings option at the [Restore Mode](azure_restore_vm_entire_mode.md) step of the wizard. |
 
 At the Settings step of the wizard, you can specify the following:
 
