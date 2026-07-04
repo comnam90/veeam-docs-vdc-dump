@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/sp_m365_tenant_add.html"
-last_updated: "4/16/2026"
+last_updated: "6/25/2026"
 product_version: ""
 ---
 
@@ -32,9 +32,9 @@ If the necessary subscription is not in the list, request a new subscription in 
 1. Choose how you want to connect Veeam Data Cloud to the Microsoft tenancy:
 
 * Auto Connection. Select this option if you want to automatically connect Veeam Data Cloud to the Microsoft tenancy. This option is recommended and selected by default. Follow the [Automatic Connection Steps](#auto) instructions to proceed.
-* Manual Connection. Select this option if you want to manually connect  Veeam Data Cloud to the Microsoft tenancy. Follow the [Manual Connection Steps](#manual) instructions to proceed.
+* Manual Connection. Select this option if you want to manually connect Veeam Data Cloud to the Microsoft tenancy. Follow the [Manual Connection Steps](#manual) instructions to proceed.
 
-[![Adding Microsoft 365 Tenant](images/m365_tenant_add_connection.webp)](images/m365_tenant_add_connection.webp "Adding Microsoft 365 Tenant")
+[![Adding Microsoft 365 Tenant](images/sp_m365_tenant_add_connection.webp)](images/sp_m365_tenant_add_connection.webp "Adding Microsoft 365 Tenant")
 
 Automatic Connection Steps
 
@@ -52,7 +52,9 @@ After you add the tenant, you must also enable the Express backup service in ord
 
 1. Click Sign in with Microsoft.
 
-[![Adding Microsoft 365 Tenant](images/m365_tenant_add_signin.webp)](images/m365_tenant_add_signin.webp "Adding Microsoft 365 Tenant")
+Alternatively, if you do not want to sign in on behalf of your customer, you can send the customer a sign-in link. Click Copy Invite Link and share the link with your customer. Instruct the customer to open the link in a browser and authenticate with their account as described in steps 4 and 5. After the customer completes the authentication process, proceed to step 6.
+
+[![Adding Microsoft 365 Tenant](images/sp_m365_tenant_add_signin.webp)](images/sp_m365_tenant_add_signin.webp "Adding Microsoft 365 Tenant")
 
 1. In the Microsoft authentication window, select the Microsoft account under which you want to authenticate against Microsoft 365. The account must have the Microsoft 365 Global Admin permissions.
 2. Accept the required permissions.
@@ -67,7 +69,7 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 1. In the Select the service you want to protect section, make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
 2. In the Backup policy type section, select one of the following options:
 
-* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites and teams.
+* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites (excluding personal sites) and teams.
 
 In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
 
@@ -120,7 +122,7 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 1. In the Select the service you want to protect section, make sure to select only the services that are available in the Microsoft 365 tenant that you are connecting to.
 2. In the Backup policy type section, select one of the following options:
 
-* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites and teams.
+* Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites (excluding personal sites) and teams.
 
 In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
 

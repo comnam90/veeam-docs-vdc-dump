@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_considerations.html"
-last_updated: "4/21/2026"
+last_updated: "7/2/2026"
 product_version: ""
 ---
 
@@ -75,7 +75,7 @@ Integration with Veeam Backup for Microsoft Azure
 
 You cannot connect a storage vault as an external repository in Veeam Backup & Replication to copy backups created by Veeam Backup for Microsoft Azure or to restore data from such backups. To create backup copies of Veeam Backup for Microsoft Azure backups or to restore data from them in Veeam Data Cloud Vault, you must add the storage vault as an Azure-type object storage repository using your Microsoft Azure storage account credentials. To be able to do that, perform the following steps:
 
-1. Configure Veeam Backup for Microsoft Azure to work with Veeam Data Cloud Vault. For more information, see the [Adding Storage Vaults Using Web UI](https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html?ver=8.1https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html?ver=8.1) section in the Veeam Backup for Microsoft Azure User Guide.
+1. Configure Veeam Backup for Microsoft Azure to work with Veeam Data Cloud Vault. For more information, see the [Adding Storage Vaults Using Web UI](https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html?ver=8.1) section in the Veeam Backup for Microsoft Azure User Guide.
 2. Configure Veeam Backup for Microsoft Azure backup jobs with a Veeam Data Cloud storage vault used as the target location.
 3. Contact [Veeam Customer Support](https://www.veeam.com/support.html#Data_Cloud_Support) to enable shared keys on the storage vault.
 4. Use shared keys to add the storage vault. For the storage vault to work as an external repository in Veeam Backup & Replication, use a repository of the Azure type.

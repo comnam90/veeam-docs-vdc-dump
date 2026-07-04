@@ -3,7 +3,7 @@ title: "Viewing Backup Sessions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/activity_backup.html"
-last_updated: "6/9/2026"
+last_updated: "7/2/2026"
 product_version: ""
 ---
 
@@ -15,7 +15,7 @@ For each data protection operation, Veeam Data Cloud starts a new backup session
 |  |
 | --- |
 | Note |
-| The Activity page currently supports the Microsoft 365, Entra ID and Salesforce workloads. |
+| The Activity page currently supports the Microsoft 365, Microsoft Azure, Entra ID and Salesforce workloads.  For the Microsoft Azure workload, only events related to VM and SQL backup policies are supported. |
 
 To open the Activity page with backup sessions, click the activity icon on the left.
 

@@ -3,7 +3,7 @@ title: "Organization Dashboard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/dashboard.html"
-last_updated: "6/9/2026"
+last_updated: "7/2/2026"
 product_version: ""
 ---
 
@@ -24,7 +24,7 @@ The Dashboard page displays only the data to which the user has access based on 
 |  |
 | --- |
 | Note |
-| The Dashboard page currently supports the Microsoft 365, Microsoft Entra ID and Salesforce workloads. |
+| The Dashboard page currently supports the Microsoft 365, Microsoft Azure, Microsoft Entra ID and Salesforce workloads.  For the Microsoft Azure workload, only events related to VM and SQL backup policies are supported. |
 
 To view the Dashboard page, click the dashboard icon on the left.
 

@@ -3,7 +3,7 @@ title: "Step 8. Specify Notifications Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_backup_create_vm_notifications.html"
-last_updated: "6/8/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -16,8 +16,9 @@ To configure notifications about policy completion results, do the following:
 
 1. Turn on the Enable notifications toggle.
 2. In the Emails field, specify one or more email addresses. If you specify multiple email addresses, you must separate them with semicolons.
+3. In the Notify on section, select what policy session results you want to be notified about — Failure, Warning or Success.
 
-Notifications include the policy name, execution date and time and completion status — Success, Warning or Error.
+Notifications include the policy name, execution date and time and completion status.
 
 [![Specify Notifications Settings](images/azure_backup_create_vm_notifications.png)](images/azure_backup_create_vm_notifications.png "Specify Notifications Settings")
 

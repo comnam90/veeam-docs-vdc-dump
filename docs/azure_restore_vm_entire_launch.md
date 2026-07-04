@@ -3,7 +3,7 @@ title: "Step 1. Launch Restore Virtual Machines Wizard"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_entire_launch.html"
-last_updated: "2/27/2026"
+last_updated: "7/1/2026"
 product_version: ""
 ---
 
@@ -20,7 +20,12 @@ To launch the Restore Virtual Machines wizard, do the following:
 | Note |
 | You can select one or multiple Azure VMs to restore. To select all the protected Azure VMs for restore, select the check box next to the Name column header. |
 
-1. Click Restore > VM Restore. Alternately, right-click your selection and, in the context menu, choose Restore > VM Restore.
+|  |
+| --- |
+| Tip |
+| You can also launch the Restore Virtual Machines wizard with a preselected restore point. To do this, click the link in the Restore Points column, then in the Available Restore Points window, select a restore point. |
+
+1. Click Restore > VM Restore. Alternatively, right-click your selection and, in the context menu, choose Restore > VM Restore.
 
 [![Step 1. Launch Restore Virtual Machines Wizard](images/azure_restore_vm_entire_launch.png)](images/azure_restore_vm_entire_launch.png)
 
