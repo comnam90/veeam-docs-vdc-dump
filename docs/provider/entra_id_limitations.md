@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_limitations.html"
-last_updated: "4/7/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -19,6 +19,7 @@ Tenant Backup and Restore
 * Veeam Data Cloud backs up your Entra ID tenant automatically every day. You cannot edit the backup schedule.
 * Veeam Data Cloud backs up all essential and all additional objects that you enabled for backup. You cannot exclude a specific object from backup.
 * The built-in Entra ID roles are read only and cannot be restored.
+* Veeam Data Cloud backs up Entra ID roles (directory roles). It does not back up Azure roles (Azure role-based access control) and classic subscription administrator roles.
 * The Entra ID distribution groups and mail-enabled security groups cannot be restored.
 * You can restore up to 1,000 objects at a time. If you want to restore more objects, run separate restore sessions.
 
