@@ -3,14 +3,14 @@ title: "Restoring Entire VMs"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_vm_entire.html"
-last_updated: "6/2/2026"
+last_updated: "6/18/2026"
 product_version: ""
 ---
 
 # Restoring Entire VMs
 
 
-You can restore an entire Azure VM from a cloud-native snapshot or image-level backup. Veeam Data Cloud for Microsoft Azure allows you to restore one or multiple Azure VMs within a single restore operation.
+You can restore an entire Azure VM from a cloud-native snapshot or image-level backup. Veeam Data Cloud for Microsoft Azure allows you to restore one or multiple Azure VMs within a single restore operation. You can restore data to the original location or to a new location.
 
 To restore the entire Azure VM, perform the following steps:
 
