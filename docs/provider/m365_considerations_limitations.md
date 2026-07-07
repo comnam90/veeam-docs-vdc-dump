@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_considerations_limitations.html"
-last_updated: "7/1/2026"
+last_updated: "7/7/2026"
 product_version: ""
 ---
 
@@ -120,7 +120,7 @@ Backup
 
 Before you back up your data, consider the listed recommendations and best practices for Veeam Data Cloud for Microsoft 365.
 
-General Considerations
+General Backup Considerations
 
 * Backup of a Microsoft 365 tenant organization is not supported if the initial domain of the organization was changed.
 * Backup of dynamic distribution groups is not supported. Members of dynamic distribution groups cannot be resolved. Dynamic Entra ID groups can be used instead. For more information, see [Dynamic Entra ID Groups](#entragroups).
@@ -129,7 +129,7 @@ General Considerations
 
 Flex Backup Considerations
 
-Exchange Online
+Exchange Online Backup
 
 * To back up user mailboxes, make sure that a mailbox has a valid Microsoft 365 license.
 * Backup and restore of public folders requires the Variable License Model.
@@ -145,7 +145,7 @@ Exchange Online
 * Grouping of lists with To Do tasks is ignored during backup.
 * The TeamsMessagesData folder is not supported for backup.
 
-OneDrive and SharePoint Online
+OneDrive and SharePoint Online Backup
 
 * To back up SharePoint Online and OneDrive objects, make sure that a user account has a valid Microsoft 365 license with a SharePoint Online plan enabled.
 * If a SharePoint item has several versions with identical owshiddenversion values, only the latest version of this item is backed up. All the other versions are skipped from processing.
@@ -178,7 +178,7 @@ For more information, see [this Microsoft article](https://support.microsoft.com
 * A personal view of a SharePoint list
 * Communication site owners
 
-Teams
+Teams Backup
 
 * As part of Microsoft Teams data backup, Veeam Data Cloud backs up only the following types of channel tabs: Website, Planner, Word, Excel, PowerPoint, Visio, PDF, Document Library, OneNote, SharePoint, Stream, Forms, Power BI, Power Automate (ex Flow) and Azure DevOps.
 * When you perform backup of Microsoft Teams data, Veeam Data Cloud for Microsoft 365 does not back up the following objects:
@@ -221,7 +221,7 @@ Restore
 
 Before you restore your data, consider the listed recommendations and best practices for Veeam Data Cloud for Microsoft 365.
 
-General Considerations
+General Restore Considerations
 
 * [Data restore methods](m365_restore.md) apply to Microsoft Outlook mailboxes, entire Microsoft OneDrives and Microsoft SharePoint sites. For other types of Outlook, OneDrive and SharePoint objects, you do not need to select the restore method.
 * Backup and restore of Microsoft Teams data is available for Flex-based backup policies only. Users can restore Teams data flexibly and do not need to select the restore method.
@@ -236,7 +236,7 @@ As a workaround, you can download the required OneNote file to your computer and
 
 Flex Restore Considerations
 
-Exchange Online
+Exchange Online Restore
 
 * Mailboxes can be restored only to mailboxes of the same type. For example, a user mailbox to a user mailbox, an archive mailbox to an archive mailbox.
 
@@ -245,13 +245,13 @@ Exchange Online
 * Restore of the Team Chat and TeamsMessagesData folders is not supported.
 * Restoring an entire mailbox to a specified folder in Exchange Online results in the duplication of Tasks, Contacts, and Calendars content.
 
-OneDrive
+OneDrive Restore
 
 * Restore of OneNote notebooks from backups of Microsoft OneDrive data is not supported.
 * Restoring Shortcuts to shared folders is not supported.
 * Item size is displayed as zero bytes if this item was being uploaded to OneDrive during backup.
 
-SharePoint Online
+SharePoint Online Restore
 
 Status Restore Limitations
 
@@ -341,7 +341,7 @@ Sites Restore
 * Restoring SharePoint sites created for Teams private and shared channels fails with the error: Web template not found: TEAMCHANNEL#1 if these sites are restored to a different location or to their original location where the parent site no longer exists.
 * Restoring master pages and custom Style Library items to SharePoint sites with the DenyAddAndCustomizePages restriction enabled is not supported. Other content types may be affected as well. This is a Microsoft limitation and SharePoint does not allow customizations to be written to sites where it is active. Note that this restriction is enabled permanently by default on OneDrive personal sites.
 
-Teams
+Teams Restore
 
 * You can restore Microsoft Teams data to the original organization only.
 * Veeam Data Cloud for Microsoft 365 does not change roles for team owners during restore. For example, you create a backup of your organization, and then change the role for a team member from Member to Owner. In this case, if you restore this team member from the backup, Veeam Data Cloud for Microsoft 365 will not set their role to Member.
@@ -376,7 +376,7 @@ Teams
 
 Express Restore Considerations
 
-General
+General Express Restore Considerations
 
 * Veeam Data Cloud for Microsoft 365 replaces data in the original location with the data from the backup. For example, if a user is making edits on a SharePoint site and you restore it to a previous state, the user will lose their edits.
 * When you create a backup policy for an Exchange Online mailbox, OneDrive account or SharePoint Online site, Veeam Data Cloud for Microsoft 365 starts generating restore points.
@@ -397,7 +397,7 @@ For more information, see [this Microsoft article](https://learn.microsoft.com/e
 * For Exchange Online, if the user account is permanently deleted, Microsoft retains the inactive mailbox for a set time. To restore the inactive mailbox, you must convert it to a new, active mailbox that is linked to a new user. For details, see [this Microsoft article](https://learn.microsoft.com/en-us/purview/recover-an-inactive-mailbox). Once you convert the inactive mailbox to an active one, remove the deleted user from the backup policy. Then, add the new user with the linked active mailbox to the backup policy.
 * For OneDrive, you can restore the OneDrive to the original location. Once restored, the OneDrive is in an "orphaned" state. For details on how to connect the OneDrive to a user, see [this Microsoft article](https://learn.microsoft.com/en-us/sharepoint/troubleshoot/sharing-and-permissions/fix-site-user-id-mismatch).
 
-Exchange Online
+Exchange Online Express Restore
 
 * For Exchange Online restore, only mailbox items that were changed, deleted to the Recoverable Items folder or purged can be restored. New mailbox items are kept. This can lead to unwanted data being restored.
 * You cannot back up mailbox draft items and thus cannot restore them.
@@ -407,7 +407,7 @@ Exchange Online
 * The Outlook mailbox folder structure is not backed up. This means that while you perform a mailbox restore with multiple hierarchical folders, the folder structure is not reconstructed when restored. The restored mailbox items are located in a different folder, created by Microsoft.
 * Discovery search mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported. Veeam Data Cloud will display the following warning when you add an unsupported mailbox to a backup policy: Mailbox cannot be added to policy since the recipient type is not supported.
 
-OneDrive and SharePoint Online
+OneDrive and SharePoint Online Express Restore
 
 * Restore is only available for cloud root SharePoint sites, as Veeam Data Cloud for Microsoft 365 only backs up cloud root SharePoint sites.
 
