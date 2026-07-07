@@ -3,7 +3,7 @@ title: "Restoring Teams"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_teams_team.html"
-last_updated: "6/16/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -21,8 +21,9 @@ To restore a Microsoft Teams team:
 
 1. Select Flex Restore.
 2. Go to the Teams tab.
-3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the  Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
-4. Select the check box next to the team you want to restore.
+3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
+4. If you want to view all the available restore points for a team, in the Actions column of the team, click View all restore points of this object. In the Restore Points window, you can view all the restore points for the team, from newest to oldest.
+5. Select the check box next to the team you want to restore.
 
 To restore multiple teams, select the check boxes next to the teams you want to restore.
 
