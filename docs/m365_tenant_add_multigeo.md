@@ -3,7 +3,7 @@ title: "Adding Multi-Geo Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add_multigeo.html"
-last_updated: "5/11/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -27,7 +27,7 @@ To add a Microsoft 365 multi-geo tenant, use the Add Microsoft 365 tenant wizard
 1. Choose how you want to connect Veeam Data Cloud to the Microsoft multi-geo tenancy:
 
 * Auto Connection. Select this option if you want to automatically connect Veeam Data Cloud to the Microsoft multi-geo tenancy. This option is recommended and selected by default. Follow the [Automatic Connection Steps](#automatic) instructions to proceed.
-* Manual Connection. Select this option if you want to manually connect  Veeam Data Cloud to the Microsoft multi-geo tenancy. Follow the [Manual Connection Steps](#manually) instructions to proceed.
+* Manual Connection. Select this option if you want to manually connect Veeam Data Cloud to the Microsoft multi-geo tenancy. Follow the [Manual Connection Steps](#manually) instructions to proceed.
 
 [![Adding Multi-Geo Microsoft 365 Tenant](images/m365_tenant_add_multigeo_connection.webp)](images/m365_tenant_add_multigeo_connection.webp "Adding Multi-Geo Microsoft 365 Tenant")
 
@@ -54,7 +54,7 @@ If you choose to automatically connect Veeam Data Cloud to your Microsoft 365 mu
 
 For information on supported Microsoft Azure regions, see [Backup Storage Regions](m365_region_availability.md).
 
-1. In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
+1. In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for 99 years.
 
 Once you set the retention period, you cannot reduce it. For more information, see [Backup Retention](m365_data_backup.md#retention).
 
@@ -113,7 +113,7 @@ X.509 compatible certificates from a trusted CA (Certificate Authority) and self
 
 For information on supported Microsoft Azure regions, see [Backup Storage Regions](m365_region_availability.md).
 
-1. In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
+1. In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for 99 years.
 
 Once you set the retention period, you cannot reduce it. For more information, see [Backup Retention](m365_data_backup.md#retention).
 
