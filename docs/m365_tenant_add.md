@@ -3,7 +3,7 @@ title: "Adding Microsoft 365 Tenants"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_tenant_add.html"
-last_updated: "6/25/2026"
+last_updated: "7/7/2026"
 product_version: ""
 ---
 
@@ -49,8 +49,6 @@ If you choose to automatically connect Veeam Data Cloud to your Microsoft 365 te
 1. In the Choose the type of Flex connection section, select Auto Connection.
 2. If you also have a subscription to the Premium license plan and want to connect Microsoft Backup Storage to Veeam Data Cloud, select the Include Express Connection check box. To skip the Express connection, do not select the check box.
 
-After you add the tenant, you must also enable the Express backup service in order to create Express backup policies. For more information, see [Enabling Express Backup](m365_settings_enable_express_backup.md).
-
 1. Click Sign in with Microsoft.
 
 [![Adding Microsoft 365 Tenant](images/m365_tenant_add_signin.webp)](images/m365_tenant_add_signin.webp "Adding Microsoft 365 Tenant")
@@ -70,7 +68,7 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 
 * Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites (excluding personal sites) and teams.
 
-In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
+In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for 99 years.
 
 Once you set the retention period, you cannot reduce it. For more information, see [Backup Retention](m365_data_backup.md#retention).
 
@@ -118,7 +116,7 @@ For information on supported Microsoft Azure regions, see [Backup Storage Region
 
 * Auto-create policies. This option is recommended and enables automatic backup policies for all users, sites (excluding personal sites) and teams.
 
-In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for an indefinite time.
+In the Retention Period section, set the number of Years or Days for the retention period of your backups, or select Unlimited to keep the backups for 99 years.
 
 Once you set the retention period, you cannot reduce it. For more information, see [Backup Retention](m365_data_backup.md#retention).
 
@@ -137,8 +135,6 @@ You can click Skip to skip this step if you do not want to connect the tenant to
 1. In the Microsoft authentication window, select the Microsoft account under which you want to authenticate against Microsoft 365. The account must have the Microsoft 365 Global Admin permissions.
 2. Accept the required permissions.
 3. Return to Veeam Data Cloud. If the connection is successful, Veeam Data Cloud displays the following message: The authorization process has been completed successfully.
-
-After you add the tenant, you must also enable the Express backup service in order to create Express backup policies. For more information, see [Enabling Express Backup](m365_settings_enable_express_backup.md).
 
 1. Click Ok.
 
