@@ -3,7 +3,7 @@ title: "Restoring Outlook Mailboxes"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_restore_outlook_mailbox.html"
-last_updated: "6/16/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -22,9 +22,11 @@ To restore an entire Microsoft Outlook mailbox from the backup:
 
 1. On the Microsoft 365 page, click the name of the tenant you want to manage.
 2. Select Flex Restore.
-3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the  Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
+3. By default, Veeam Data Cloud uses the latest available restore point for data restore. If you want to select another restore point, click on the Restore Point information box. On the calendar, select the date and time when the necessary restore point was created and click Apply.
 
 [![Restoring Outlook Mailbox](images/m365_restore_outlook_mailbox_calendar.webp)](images/m365_restore_outlook_mailbox_calendar.webp "Restoring Outlook Mailbox")
+
+If you want to view all the available restore points for a mailbox, in the Actions column of the mailbox, click View all restore points of this object. In the Restore Points window, you can view all the restore points for the mailbox, from newest to oldest.[![Restoring Outlook Mailboxes](images/m365_restore_outlook_mailbox_restore_points.webp)](images/m365_restore_outlook_mailbox_restore_points.webp "Restoring Outlook Mailboxes")
 
 1. Select the check box next to the mailbox you want to restore.
 

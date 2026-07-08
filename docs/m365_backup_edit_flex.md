@@ -3,7 +3,7 @@ title: "Editing Flex Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_edit_flex.html"
-last_updated: "5/29/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -36,7 +36,7 @@ To edit a Flex backup policy, do the following:
 
 [![Editing Backup Policy](images/m365_backup_flex_edit_objects.webp)](images/m365_backup_flex_edit_objects.webp "Editing Backup Policy")
 
-1. [For specific items backup policies] In the Add additional items section, to add more items to the backup policy do the following:
+1. [For specific items backup policies] In the Add more items section, to add more items to the backup policy do the following:
 
 * Click Select next to Users and select users to to add to the backup policy. For each selected user, you can select check boxes to include their Mailbox, Archive Mailbox, OneDrive and Personal Site in the backup.
 

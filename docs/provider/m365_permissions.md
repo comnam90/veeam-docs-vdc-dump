@@ -3,7 +3,7 @@ title: "Microsoft Entra Application Permissions"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_permissions.html"
-last_updated: "6/9/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -87,7 +87,6 @@ Permissions for Backup
 | ChannelMessage.Read.All |  |  | ✔ | Accessing Microsoft Teams public channel messages. |
 | ChannelMember.Read.All |  |  | ✔ | Accessing Microsoft Teams private and shared channels. |
 | Sites.Read.All |  | ✔ | ✔ | Retrieving the list of sites when creating a backup policy, during backup and restore and for objects caching. |
-| Reports.Read.All | ✔ | ✔ | ✔ | Building the Veeam Data Cloud dashboard. |
 | User.Read.All | ✔ |  |  | Getting mailbox id. |
 | User.ReadBasic.All | ✔ |  |  | Translating folder and item ids. |
 | MailboxItem.ImportExport.All | ✔ |  |  | Downloading items data. |
