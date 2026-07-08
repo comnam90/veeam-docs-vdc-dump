@@ -3,7 +3,7 @@ title: "Creating Express Backup Policies"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_create_express.html"
-last_updated: "5/29/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -39,7 +39,7 @@ To create new Express backup policies, do the following:
 
 1. Select the application whose items you want to back up: Outlook, OneDrive or SharePoint.
 
-Keep in mind that there can only be one Express entire organization backup policy for each application type. If the backup policy already exists when you try to create a new one, Veeam Data Cloud for Microsoft 365 will offer you to edit the existing backup policy. Veeam Data Cloud will display the following message: You already have a policy for Exchange/OneDrive/SharePoint. Click Next below to edit it. You can then proceed with editing the existing backup policy.
+Keep in mind that there can only be one Express entire organization backup policy for each application type. If the backup policy already exists when you try to create a new one, Veeam Data Cloud for Microsoft 365 will offer you to edit the existing backup policy. Veeam Data Cloud will display the following message: A full Exchange/OneDrive/SharePoint backup policy is already set for this Microsoft 365 tenant. Click Continue to edit it. You can then proceed with editing the existing backup policy.
 
 If the existing backup policy is disabled when you try to create a new one, Veeam Data Cloud for Microsoft 365 will instruct you to enable the existing backup policy. Veeam Data Cloud will display the following message: Your Exchange/OneDrive/SharePoint backup policy is currently disabled. You will need to enable it before you can edit it. Once you enable the backup policy, you can proceed with editing it. To learn more, see [Editing Express Backup Policies](m365_backup_edit_express.md).
 
@@ -47,13 +47,21 @@ If the existing backup policy is disabled when you try to create a new one, Veea
 2. [Optional] In the Description field, provide a description for future reference.
 3. Select one of the following options:
 
-* If you want to back up your entire tenancy, select Backup entire organization and click Add Policy.
+* If you want to back up your entire tenancy, select Back up entire organization.
 
 If you back up the entire organization, when the backup policy session starts, Veeam Data Cloud checks the entire content of the organization, and the list of items to back up is automatically updated. For example, if some users were added or deleted from the organization between backup policy runs, the backup policy reflects those changes.
 
+* If you want to exclude objects from the backup policy, select the Exclude some items check box. Click Select next to Users, Groups or SharePoint Sites and select specific objects to exclude.
+
+For Users, you can also click Upload a CSV file to upload a .CSV or text file with one email address per line.
+
+For SharePoint Sites, you can also click Upload a CSV file to upload a .CSV file with one SharePoint site URL per line.
+
+* Click Add Policy.
+
 [![Creating Express Backup Policies](images/m365_backup_create_express_entire.webp)](images/m365_backup_create_express_entire.webp "Creating Express Backup Policies")
 
-* If you want to select which items to add to the backup, select Backup specific items and do the following:
+* If you want to select which items to add to the backup, select Back up specific items and do the following:
 
 * For Outlook and OneDrive, click Select next to Users or Groups and select specific objects to back up.
 
@@ -62,6 +70,12 @@ For Users, you can also click Upload a CSV file to upload a .CSV or text file wi
 * For SharePoint, click Select next to SharePoint Sites and select specific objects to back up.
 
 You can also click Upload a CSV file to upload a .CSV file with one SharePoint site URL per line.
+
+* To exclude objects from the backup policy, select the Exclude some items check box. Click Select next to Users, Groups or SharePoint Sites and select specific objects to exclude.
+
+For Users, you can also click Upload a CSV file to upload a .CSV or text file with one email address per line.
+
+For SharePoint Sites, you can also click Upload a CSV file to upload a .CSV file with one SharePoint site URL per line.
 
 * Click Add Policy.
 
