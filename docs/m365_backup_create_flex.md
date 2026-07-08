@@ -3,7 +3,7 @@ title: "Creating Flex Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_flex.html"
-last_updated: "5/29/2026"
+last_updated: "7/3/2026"
 product_version: ""
 ---
 
@@ -34,11 +34,11 @@ If this is the first backup policy for the tenant, Veeam Data Cloud does not dis
 
 1. Select one of the following options:
 
-* Select Backup entire organization to back up all objects within your Microsoft organization. When the backup policy session starts, Veeam Data Cloud will back up the entire content of the organization, and the list of items to back up will be automatically updated. For example, if some mailboxes were added or deleted from the organization between backup policy runs, the backup policy will reflect those changes.
+* Select Back up entire organization to back up all objects within your Microsoft organization. When the backup policy session starts, Veeam Data Cloud will back up the entire content of the organization, and the list of items to back up will be automatically updated. For example, if some mailboxes were added or deleted from the organization between backup policy runs, the backup policy will reflect those changes.
 
 [![Creating Flex Backup Policies](images/m365_backup_create_flex_entire.webp)](images/m365_backup_create_flex_entire.webp "Creating Flex Backup Policies")
 
-* Select Backup specific items to back up specific objects within your Microsoft organization. In the Select objects to include in the backup section, do the following:
+* Select Back up specific items to back up specific objects within your Microsoft organization. In the Select objects to include in the backup section, do the following:
 
 * Click Select next to Users and select users to back up. For each selected user, you can select check boxes to include their Mailbox, Archive Mailbox, OneDrive and Personal Site in the backup.
 
