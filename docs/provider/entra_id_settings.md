@@ -3,7 +3,7 @@ title: "Settings"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_settings.html"
-last_updated: "6/4/2026"
+last_updated: "7/9/2026"
 product_version: ""
 ---
 
