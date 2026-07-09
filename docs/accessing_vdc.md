@@ -3,7 +3,7 @@ title: "Accessing Veeam Data Cloud"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/accessing_vdc.html"
-last_updated: "7/1/2026"
+last_updated: "7/9/2026"
 product_version: ""
 ---
 
@@ -35,7 +35,7 @@ Veeam Data Cloud supports multi-factor authentication (MFA) through its identity
 |  |
 | --- |
 | Important |
-| As of July 7, 2026, Veeam Data Cloud will require multi-factor authentication for users who log in with Veeam My Account. |
+| Veeam Data Cloud requires multi-factor authentication for users who log in with Veeam My Account. |
 
 Logging In to Veeam Data Cloud
 
