@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/entra_id_security.html"
-last_updated: "6/4/2026"
+last_updated: "7/10/2026"
 product_version: ""
 ---
 
@@ -32,9 +32,13 @@ Veeam Data Cloud uses the following methods for data encryption:
 * Storage service-side encryption (SSE) to encrypt data at rest in storage accounts.
 * Service-managed keys to automatically and seamlessly encrypt data at rest in databases.
 
+Immutability
+
+Veeam Data Cloud for Microsoft Entra ID offers service-level immutability capabilities on Entra ID backups. Once the data is backed up, it cannot be altered, tampered with, or deleted by users, including administrators or attackers.
+
 Multi-Factor Authentication (MFA)
 
-Veeam Data Cloud leverages Microsoft Entra ID and Veeam My Account as identity providers (IdP). Customers are advised to configure multi-factor authentication in these supported identity providers.
+Veeam Data Cloud leverages Microsoft Entra ID and Veeam My Account as identity providers (IdP). Customers are advised to configure multi-factor authentication in these supported identity providers. For details, see [Accessing Veeam Data Cloud](accessing_vdc.md#mfa).
 
 Service Level Agreements (SLAs)
 
