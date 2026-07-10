@@ -3,7 +3,7 @@ title: "Step 2. Connect to Salesforce Tenant"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_tenants_add_connect.html"
-last_updated: "5/15/2026"
+last_updated: "7/8/2026"
 product_version: ""
 ---
 
@@ -40,7 +40,7 @@ You may need to add another IP address when Veeam Data Cloud starts to provision
 |  |
 | --- |
 | Note |
-| If you are adding a sandbox Salesforce tenant that was previously backed up with Veeam Data Cloud and later refreshed in Salesforce, Veeam Data Cloud prompts you to choose whether to delete the existing backup and add the tenant as new or to keep the existing backup and only refresh the connection token for the sandbox tenant.   * If you choose to refresh the token, Veeam Data Cloud will proceed to the Summary step of the wizard, where you can review your settings and confirm the changes.  * If you choose to add the tenant as new, the wizard will continue to the next step, where you specify tenant settings. |
+| If you are adding a sandbox Salesforce tenant that was previously backed up with Veeam Data Cloud and later refreshed in Salesforce, Veeam Data Cloud prompts you to choose whether to delete the existing backup and add the tenant as new or to keep the existing backup and only refresh the connection token for the sandbox tenant.   * If you choose to refresh the token, Veeam Data Cloud will proceed to the Summary step of the wizard, where you can review your settings and confirm the changes.  * If you choose to add the tenant as new, the wizard will continue to the next step, where you specify tenant settings.   If you are adding a Salesforce tenant that was previously backed up and deleted in Veeam Data Cloud, and it still has the In Retention status, Veeam Data Cloud prompts you to choose whether to delete the existing backup and add the tenant as new or to keep the existing backup and restore the tenant in Veeam Data Cloud.   * If you choose to keep the existing backup, Veeam Data Cloud will proceed to the Summary step of the wizard, where you can review your settings and confirm the changes.  * If you choose to add the tenant as new, the wizard will continue to the next step, where you specify tenant settings. |
 
 [![Connecting to Salesforce Tenant](images/sf_tenants_add_connect_eca.webp)](images/sf_tenants_add_connect_eca.webp "Connecting to Salesforce Tenant")
 
