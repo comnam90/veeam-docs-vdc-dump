@@ -3,7 +3,7 @@ title: "Settings"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_settings.html"
-last_updated: "6/4/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -69,3 +69,4 @@ After authorization, Veeam Data Cloud updates the Microsoft Entra ID service pri
 
 [![Reauthorizing Entra ID Connection](images/entra_id_settings_connection.webp)](images/entra_id_settings_connection.webp "Reauthorizing Entra ID Connection")
 
+Page updated 2026-07-09
