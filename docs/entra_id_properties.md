@@ -3,7 +3,7 @@ title: "Supported Entra ID Item Properties"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/entra_id_properties.html"
-last_updated: "5/22/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -56,7 +56,7 @@ Users
 | OnPremisesExtensionAttributes | — |
 | OnPremisesImmutableId | Microsoft Entra ID requires this property to be unique. You can only restore it if the value is not already assigned to another item. |
 | OtherMails | — |
-| OwnedObjects | — |
+| OwnedObjects | Ownership of devices is read-only in EntraID. |
 | PasswordPolicies | — |
 | PostalCode | — |
 | PreferredDataLocation | — |
@@ -92,7 +92,7 @@ Groups
 | MailEnabled | Read-only property in Entra ID. |
 | MailNickname | Microsoft Entra ID requires this property to be unique. You can only restore it if the value is not already assigned to another item. |
 | MemberOf | — |
-| Members | — |
+| Members | Membership of devices is read-only in EntraID. |
 | MembershipRule | — |
 | MembershipRuleProcessingState | — |
 | OnPremisesDomainName | Read-only property in Entra ID. |
@@ -346,3 +346,4 @@ Devices
 | BitlockerRecoveryKeys | Read-only property in Entra ID. |
 | Id | Read-only property in Entra ID. |
 
+Page updated 2026-07-08
