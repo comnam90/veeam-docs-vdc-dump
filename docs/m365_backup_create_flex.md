@@ -3,7 +3,7 @@ title: "Creating Flex Backup Policies"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_backup_create_flex.html"
-last_updated: "7/3/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -72,10 +72,11 @@ For SharePoint Sites, you can also click Upload a CSV file to upload a .CSV file
 |  |
 | --- |
 | NOTE |
-| Consider the following:   * For SharePoint Online, OneDrive and Teams items, Veeam Data Cloud backs up the latest version of the item by default. To back up all versions, go to Settings > Backup Options and select All versions. For more information, see [Managing Backup Options](m365_settings_manage_backup_options.md). * By default, backup policies run every 24 hours and generate restore points. For more information, see [Retention Period](m365_security.md#rpo). |
+| Consider the following:   * For SharePoint Online, OneDrive and Teams items, Veeam Data Cloud backs up the latest version of the item by default. To back up all versions, go to Settings > Backup Options and select All versions. If you make this change, the backups will include all the versions of the item created after the latest backed-up version. For more information, see [Managing Backup Options](m365_settings_manage_backup_options.md). * By default, backup policies run every 24 hours and generate restore points. For more information, see [Retention Period](m365_security.md#rpo). |
 
 |  |
 | --- |
 | TIP |
 | During your initial full backup, Microsoft may be throttling your traffic due to the high load of Microsoft Exchange data. To mitigate this, you can temporarily disable Microsoft Exchange throttling in the Microsoft 365 admin center. For detailed instructions on how to disable Microsoft throttling, see [this Veeam KB article](https://www.veeam.com/kb4198). |
 
+Page updated 2026-07-10
