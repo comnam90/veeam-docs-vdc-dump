@@ -3,7 +3,7 @@ title: "Managing Notifications"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_settings_notifications.html"
-last_updated: "5/5/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -15,12 +15,7 @@ Veeam Data Cloud for Microsoft 365 allows you to configure email recipients for 
 |  |
 | --- |
 | note |
-| Veeam Data Cloud for Microsoft 365 email notifications are sent from the no-reply@mail.cloud.veeam.com email address. To ensure you receive all communications from Veeam Data Cloud for Microsoft 365, you must include no-reply@mail.cloud.veeam.com in your allowed, approved or safe senders list in your email client. |
-
-|  |
-| --- |
-| tip |
-| You can select a time zone in the Time zone drop-down list. This setting affects the time shown in the email notifications you receive from Veeam Data Cloud for Microsoft 365. By default, Veeam Data Cloud for Microsoft 365 uses the UTC time zone. |
+| Consider the following:   * Veeam Data Cloud for Microsoft 365 email notifications are sent from the no-reply@mail.cloud.veeam.com email address. To ensure you receive all communications from Veeam Data Cloud for Microsoft 365, you must include no-reply@mail.cloud.veeam.com in your allowed, approved or safe senders list in your email client. * Veeam Data Cloud for Microsoft 365 uses the UTC time zone in the email notifications. |
 
 Email Recipients
 
@@ -66,3 +61,4 @@ To configure Microsoft Teams channel notifications, do the following:
 
 [![Managing Notifications](images/m365_settings_notifications_teams.webp)](images/m365_settings_notifications_teams.webp "Managing Notifications")
 
+Page updated 2026-07-15
