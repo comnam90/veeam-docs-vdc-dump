@@ -3,7 +3,7 @@ title: "Viewing Restore Sessions"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_restore.html"
-last_updated: "10/17/2025"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -32,3 +32,4 @@ If you want to provide [Veeam Customer Support](https://my.veeam.com/my-cases) w
 
 [![Viewing Restore Sessions](images/sf_activity_restore_session.png)](images/sf_activity_restore_session.png "Viewing Restore Sessions")
 
+Page updated 2026-07-15
