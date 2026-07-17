@@ -3,7 +3,7 @@ title: "Advanced Search Criteria"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/m365_search_criteria.html"
-last_updated: "3/17/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -57,6 +57,14 @@ Outlook
 | End Date | Choose date from calendar (dd/mm/yyyy) |
 | Flag | true or false |
 | Flag Status | NotFlagged, Completed or FollowUp |
+| Importance | Low, Normal or High |
+| Incomplete | true or false |
+| is Completed | true or false |
+| Priority | Low, Normal or High |
+| Read | true or false |
+| Sensitivity | Normal, Personal, Private or Confidential |
+| Start Date | Choose date from calendar (dd/mm/yyyy) |
+| Title | text |
 | Message | Bcc Address | text |
 | Bcc Name | text |
 | Cc Address | text |
@@ -135,7 +143,7 @@ OneDrive and SharePoint
 | Contact | Full Name | text |
 | Anniversary | Choose date from calendar (dd/mm/yyyy) |
 | Assistant Number | text |
-| Assistant's Name | text |
+| Assistants Name | text |
 | Birthday | Choose date from calendar (dd/mm/yyyy) |
 | Business Telephone | text |
 | Callback Number | text |
@@ -227,6 +235,7 @@ OneDrive and SharePoint
 | Company | text |
 | Created By | text |
 | Expires | Choose date from calendar (dd/mm/yyyy) |
+| Location | text |
 | Task Status | text |
 
 Teams
@@ -245,3 +254,4 @@ Teams
 | Size | number and size unit (for example, 1KB, 1MB, 1GB) |
 | Version | text |
 
+Page updated 2026-07-02
