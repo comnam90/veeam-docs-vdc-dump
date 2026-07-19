@@ -3,7 +3,7 @@ title: "Reloading Fields and Files"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/sf_activity_backup_reload_fields.html"
-last_updated: "11/13/2025"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -32,8 +32,9 @@ To reload object fields and files, do the following:
 
 1. On the Salesforce page, click the name of the tenant you want to manage.
 2. To view the list of backup sessions, select Activity on the left.
-3. Choose the latest data session and click Reload Object Fields.
+3. Choose the latest data or file session and click Reload Object Fields or Reload Files.
 4. In the Reload Object Fields window, select items that you want to include in the backup policy and click Run.
 
 [![Reloading Fields and Files](images/sf_backup_policies_reload_fields.png)](images/sf_backup_policies_reload_fields.png "Reloading Fields and Files")
 
+Page updated 2026-07-15
