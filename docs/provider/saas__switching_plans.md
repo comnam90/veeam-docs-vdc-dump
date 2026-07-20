@@ -3,7 +3,7 @@ title: "Switching Between Standalone and Bundle Licensing Plans"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas__switching_plans.html"
-last_updated: "4/20/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -29,6 +29,11 @@ The status of the Veeam Data Cloud tenants then changes to In retention.
 
 After the bundle is activated, the status of the Veeam Data Cloud tenants included in this subscription changes from In retention to Provisioned. Veeam Data Cloud automatically continues protecting the tenants.
 
+|  |
+| --- |
+| Note |
+| To take advantage of the bundle and start protecting the newly included workloads, you must take action in Veeam Data Cloud, depending on the bundle type:   * Enable Microsoft 365 Express backup. For details, see [Enabling Express Backup](https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_enable_express_backup.html) and [Creating Express Backup Policies](https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_create_express.html). * Add a Microsoft Entra ID tenant. For details, see [Adding Microsoft Entra ID Tenants](https://helpcenter.veeam.com/docs/vdc/provider/entra_id_tenant_add.html). * Add a Salesforce tenant. For details, see [Adding Salesforce Tenants](https://helpcenter.veeam.com/docs/vdc/provider/sf_tenants_add.html).   For details on available bundles, see [License Consumption](saas_license_consumption.md). |
+
 Switching from Bundle to Standalone
 
 You can change your licensing plan from bundle to standalone. For example, if you have an active bundle Veeam Data Cloud for Microsoft 365 Premium Plus, you can switch to a standalone plan such as Veeam Data Cloud for Microsoft 365 Foundation.
@@ -44,3 +49,4 @@ The status of the Veeam Data Cloud tenants then changes to In retention.
 
 After the subscription is activated, the status of the Veeam Data Cloud tenants included in this subscription changes from In retention to Provisioned. Veeam Data Cloud automatically continues protecting the tenants.
 
+Page updated 2026-07-20
