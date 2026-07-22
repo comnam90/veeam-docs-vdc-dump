@@ -3,14 +3,14 @@ title: "Restoring VM Disks"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_restore_vm_disks.html"
-last_updated: "6/2/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
 # Restoring VM Disks
 
 
-You can restore corrupted virtual disks of an Azure VM from a cloud-native snapshot or image-level backup. Veeam Data Cloud for Microsoft Azure allows you to restore virtual disks to the original location or to a new location.
+You can restore corrupted virtual disks of an Azure VM from a cloud-native snapshot or image-level backup. Veeam Data Cloud for Microsoft Azure allows you to restore virtual disks to the original location or to a new location. A new location can be a different region within the same Azure subscription, or the same or a different region in another Azure subscription. The target region must be one of the supported Azure regions.
 
 To restore virtual disks attached to a protected Azure VMs, do the following:
 
@@ -20,3 +20,4 @@ To restore virtual disks attached to a protected Azure VMs, do the following:
 4. [Specify settings for the restored disks](azure_restore_vm_disks_settings.md).
 5. [Review the restore setup and complete the restore process](azure_restore_vm_disks_complete.md).
 
+Page updated 2026-07-21
