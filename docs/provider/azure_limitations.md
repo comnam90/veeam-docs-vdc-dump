@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/azure_limitations.html"
-last_updated: "5/19/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -25,6 +25,7 @@ Consider the following about backup and restore of Azure resources:
 
 * To store backups, Veeam Data Cloud for Microsoft Azure automatically creates a repository in every Azure region whose resources are protected by the backup policy.
 * Due to Microsoft Azure limitations, Veeam Data Cloud for Microsoft Azure does not support retention of locked snapshots. This means that Veeam Data Cloud for Microsoft Azure will not be able to remove an outdated snapshot during a retention session if the snapshot is protected from deletions and modifications using the lock feature. For more information on the lock feature, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json).
+* Backup is not supported for Microsoft organizations in US Government GCC High regions.
 
 Azure VMs
 
@@ -79,3 +80,4 @@ Consider the following about backup and restore of Azure File shares:
 * Veeam Data Cloud for Microsoft Azure does not support backup of Azure Files file shares when the associated storage account is configured with network restrictions.
 * Due to Microsoft Azure limitations, Veeam Data Cloud for Microsoft Azure does not support backup of [NFS Azure file shares](https://learn.microsoft.com/en-us/azure/storage/files/files-nfs-protocol).
 
+Page updated 2026-07-13

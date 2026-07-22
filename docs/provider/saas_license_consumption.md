@@ -3,7 +3,7 @@ title: "License Consumption"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas_license_consumption.html"
-last_updated: "5/19/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -52,11 +52,11 @@ Standalone Licensing Plans
 | Veeam Data Cloud for Microsoft 365 Express | Microsoft 365 User | 4 |
 | Veeam Data Cloud for Microsoft Entra ID | Microsoft Entra ID User | 0.7 |
 | Veeam Data Cloud for Salesforce | Salesforce User | 3 |
-| Veeam Data Cloud for Microsoft Azure | 1 TB | 38 |
-| Veeam Data Cloud Vault Advanced Core (Azure and AWS) | 1 TB | 24 |
-| Veeam Data Cloud Vault Advanced Non-Core (Azure) | 1 TB | 38 |
-| Veeam Data Cloud Vault Foundation Core (Azure and AWS) | 1 TB | 14 |
-| Veeam Data Cloud Vault Foundation Non-Core (Azure and AWS) | 1 TB | 22 |
+| Veeam Data Cloud for Microsoft Azure | TB | 38 |
+| Veeam Data Cloud Vault Advanced Core (Azure and AWS) | TB | 24 |
+| Veeam Data Cloud Vault Advanced Non-Core (Azure) | TB | 38 |
+| Veeam Data Cloud Vault Foundation Core (Azure and AWS) | TB | 14 |
+| Veeam Data Cloud Vault Foundation Non-Core (Azure and AWS) | TB | 22 |
 
 For more information on licensing for a specific product, see the Licensing section of the product in the Veeam Data Cloud Guide for Service Providers:
 
@@ -66,3 +66,4 @@ For more information on licensing for a specific product, see the Licensing sect
 * [Veeam Data Cloud for Salesforce](https://helpcenter.veeam.com/docs/vdc/provider/sf_licensing.html)
 * [Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/provider/vault_licensing.html)
 
+Page updated 2026-07-14

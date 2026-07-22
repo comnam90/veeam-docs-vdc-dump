@@ -3,7 +3,7 @@ title: "Security"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_security.html"
-last_updated: "6/12/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -23,7 +23,7 @@ Data Sovereignty
 
 Redundant Storage
 
-* Veeam Data Cloud for Microsoft 365 Flex uses Local Redundant Storage (LRS) by default. For more information on LRS, see [this Microsoft article](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy#locally-redundant-storage).
+* Veeam Data Cloud for Microsoft 365 Flex uses redundant storage to protect customer data, ensuring high durability and availability.
 * Veeam Data Cloud for Microsoft 365 Express uses the native backup storage provided by the Microsoft 365 Backup Storage APIs.
 
 Isolated Environment
@@ -59,3 +59,4 @@ Service Level Agreements (SLAs)
 
 Veeam Data Cloud for Microsoft 365 Flex offers a 99.9% uptime SLA, excluding planned outages. For more information, see the [Veeam Data Cloud Service Agreement](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html).
 
+Page updated 2026-07-15
