@@ -3,7 +3,7 @@ title: "Step 3. Select Account and Restore Mode"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/azure_restore_vm_entire_mode.html"
-last_updated: "7/1/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -21,11 +21,6 @@ Make sure the Default service account is selected. This is the Veeam service pri
 
 Specifying Restore Mode and Destination
 
-|  |
-| --- |
-| Note |
-| You can restore VMs to their original location only. |
-
 In the Restore mode section, select one of the following options:
 
 * Restore to the original location — select this option to restore the VM to its original location with the original name and settings.
@@ -33,3 +28,4 @@ In the Restore mode section, select one of the following options:
 
 [![Step 3. Select Account and Restore Mode](images/azure_restore_vm_entire_mode.png)](images/azure_restore_vm_entire_mode.png)
 
+Page updated 2026-07-21
