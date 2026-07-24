@@ -3,14 +3,14 @@ title: "Managing Storage Vaults"
 product: "vdc"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html"
-last_updated: "5/28/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
 # Managing Storage Vaults
 
 
-Veeam Data Cloud Vault provides detailed information about your storage vaults and allows you to edit vault names, configure access to storage vaults and assign storage vaults to workloads.
+Veeam Data Cloud Vault provides detailed information about your storage vaults and allows you to edit vault names, configure access and encryption for storage vaults, and assign storage vaults to workloads.
 
 Viewing Storage Vault Details
 
@@ -27,6 +27,8 @@ For each storage vault, Veeam Data Cloud displays the following information:
 You can change the storage vault name. For more information, see [Editing Storage Vault Details](#name).
 
 * The status of the storage vault. To learn more about storage vault statuses, see [Deleting Storage Vaults](vault_storage_vaults_delete_nonempty.md).
+* [For Azure editions] The BYOK (Bring Your Own Key) tag. The tag is visible only if the storage vault uses a customer-managed encryption key. For more information on BYOK encryption, see [Veeam Data Cloud Encryption Keys](encryption_keys.md).
+
 * The storage region that you selected when you added the storage vault.
 * The ID of the storage vault.
 
@@ -41,7 +43,7 @@ To regenerate the secret key, click Regenerate Key and follow the steps . For mo
 
 * The Total Storage Used counter that provides information about the total amount of storage used. Storage amount is specified in TB (TB is considered as 2^40 bytes).
 
-* The Storage Used graph provides information about  the total storage capacity used by each storage vault over the past 6 months. To view details for a specific month, move the cursor to a specific location on the graph.
+* The Storage Used graph provides information about the total storage capacity used by each storage vault over the past 6 months. To view details for a specific month, move the cursor to a specific location on the graph.
 
 [![Viewing Storage Vaults Details](images/vault_storage_vaults.png)](images/vault_storage_vaults.png "Viewing Storage Vaults Details")
 
@@ -54,7 +56,7 @@ To edit the storage vault details, do the following:
 3. On the Storage Vaults page, locate the storage vault whose details you want to edit.
 
 1. Click the edit icon next to the storage vault name.
-2. In the Edit Vault Details window, in the Vault Name field, edit the name of the storage vault. The name must be between 3 and 50 characters in length.
+2. In the Edit Vault Details window, in the Edit Details tab, in the Vault Name field, edit the name of the storage vault. The name must be between 3 and 50 characters in length.
 3. If you want to adjust storage vault access, select one of the following options:
 
 * Allow from all networks. Select this option to allow access from all IP addresses.
@@ -81,9 +83,17 @@ To specify the IP address range in a valid format, use the slash / punctuation m
 
 To learn more, see [Creating Private Endpoints](vault_private_endpoints_creation.md).
 
-1. Click Done.
-
 [![Editing Vault Details](images/vault_storage_vault_details.png)](images/vault_storage_vault_details.png "Editing Vault Details")
+
+1. [For Azure editions] If you want to configure the encryption method for this storage vault, go to the Encryption tab and select one of the following options:
+
+* Microsoft Managed Key. Select this option (default) to use Veeam-managed encryption.
+
+* Customer Managed Key. Select this option to use your own, customer-managed encryption. From the Encryption Key drop-down list, select the encryption key you want to use. For the drop-down list to be visible, you must first configure an encryption key in the Veeam Data Cloud settings. An encryption key is available on the list only when it is in the Ready or Active status. For more information on encryption keys, see [Veeam Data Cloud Encryption Keys](encryption_keys.md).
+
+[![Editing Vault Details](images/vault_storage_vault_encryption.webp)](images/vault_storage_vault_encryption.webp "Editing Vault Details")
+
+1. Click Done.
 
 Assigning Storage Vaults to Workloads
 
@@ -149,3 +159,4 @@ To regenerate the key, complete the following steps:
 
 [![Retrieving Secret Key](images/vault_storage_vault_key_retrieval.png)](images/vault_storage_vault_key_retrieval.png "Retrieving Secret Key")
 
+Page updated 2026-07-22

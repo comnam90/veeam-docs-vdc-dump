@@ -3,7 +3,7 @@ title: "Switching Between Standalone and Bundle Licensing Plans"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/saas__switching_plans.html"
-last_updated: "4/20/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -27,7 +27,12 @@ The status of the Veeam Data Cloud tenants then changes to In retention.
 
 1. Request a new bundle licensing plan. For details, see [Requesting Subscriptions](https://helpcenter.veeam.com/docs/vdc/provider/sp_subscriptions_request.html).
 
-After the bundle is activated, the status of the Veeam Data Cloud tenants included in this subscription changes from In retention to Provisioned. Veeam Data Cloud automatically continues protecting the tenants.
+After the bundle is activated, the status of the Veeam Data Cloud tenants included in this subscription changes from In retention to Provisioned. Veeam Data Cloud continues protecting the tenants with existing backup policies.
+
+|  |
+| --- |
+| Note |
+| To take advantage of the bundle and start protecting the newly included workloads, you must take action in Veeam Data Cloud, depending on the bundle type:   * Enable Microsoft 365 Express backup. For details, see [Enabling Express Backup](https://helpcenter.veeam.com/docs/vdc/provider/m365_settings_enable_express_backup.html) and [Creating Express Backup Policies](https://helpcenter.veeam.com/docs/vdc/provider/m365_backup_create_express.html). * Add a Microsoft Entra ID tenant. For details, see [Adding Microsoft Entra ID Tenants](https://helpcenter.veeam.com/docs/vdc/provider/entra_id_tenant_add.html). * Add a Salesforce tenant. For details, see [Adding Salesforce Tenants](https://helpcenter.veeam.com/docs/vdc/provider/sf_tenants_add.html).   For details on available bundles, see [License Consumption](saas_license_consumption.md). |
 
 Switching from Bundle to Standalone
 
@@ -42,5 +47,6 @@ The status of the Veeam Data Cloud tenants then changes to In retention.
 
 1. Request a new standalone subscription. For details, see [Requesting Subscriptions](https://helpcenter.veeam.com/docs/vdc/provider/sp_subscriptions_request.html).
 
-After the subscription is activated, the status of the Veeam Data Cloud tenants included in this subscription changes from In retention to Provisioned. Veeam Data Cloud automatically continues protecting the tenants.
+After the subscription is activated, the status of the Veeam Data Cloud tenants included in this subscription changes from In retention to Provisioned. Veeam Data Cloud continues protecting the tenants with existing backup policies.
 
+Page updated 2026-07-23

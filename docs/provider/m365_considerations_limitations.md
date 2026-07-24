@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/m365_considerations_limitations.html"
-last_updated: "7/7/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -152,7 +152,7 @@ OneDrive and SharePoint Online Backup
 * SharePoint web parts can only be backed up if their ‘exportmode’ property is enabled. Non-exportable web parts are not supported. For more information, see [this Veeam KB article](https://www.veeam.com/kb3146).
 * SharePoint web parts export mode can only be changed automatically if such type of a property is supported and can be modified in the source SharePoint Online site or OneDrive account.
 * To back up and restore SharePoint sites with certain specific templates, such as Business Intelligence Center, Product Catalog, and Visio Process Repository, an organization must have a valid SharePoint license.
-* SharePoint Online personal site and OneDrive account backup will fail if the site has reached its storage space quota and if your service account is not granted with the Site Collection Administrator permissions for this site.
+* SharePoint Online personal site and OneDrive account backup will fail if the site has reached its storage space quota and if your service account is not granted with the Site Collection Administrator (site admin) permissions for this site.
 * A backup of a SharePoint site created within the last 24 hours before the backup policy run may be performed with an error because of the time required for its configuration update.
 * Version history backup is not supported for the Microsoft SharePoint .aspx web pages.
 * Backup of the SharePoint App Store applications added to a site is not supported.
@@ -325,6 +325,8 @@ Sites Restore
 * If you plan to restore SharePoint site pages, consider that Veeam Data Cloud for Microsoft 365 does not support the restore of items that are not stored in the SharePoint content database (in particular, pages, page references and items based on default templates). Such items cannot be restored, except for data from Wiki Content (text and images), which is stored in the database. Thus, site pages that contain only text and images can be restored and displayed properly.
 * The SharePoint web part customized template cannot be preserved upon a restore. All web parts will be restored with the default template.
 
+* When restoring a site, make sure the target site already exists in the target location; Veeam Data Cloud for Microsoft 365 does not create sites.
+
 * SharePoint root site node restore is not supported if only subsites of this root are included in a backup. The node is displayed and accessible for restore in Veeam Data Cloud, but the restore will finish with a new web part created and a warning that no master page is available for this web part.
 * SharePoint App Store applications restore is not supported.
 * SharePoint Team site restore to another location is not supported for the STS#0 and STS#3 site templates.
@@ -434,3 +436,4 @@ For more information, see [this Microsoft article](https://learn.microsoft.com/e
 * If you rename a tenant, move a tenant or change a SharePoint site URL, you cannot revert those changes when performing restore.
 * For OneDrive restore, discovery search mailboxes, shared mailboxes, public folder mailboxes, remote mailboxes and resource mailboxes are not supported.
 
+Page updated 2026-07-24

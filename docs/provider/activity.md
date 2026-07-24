@@ -3,14 +3,14 @@ title: "Organization Activity"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/activity.html"
-last_updated: "7/2/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
 # Organization Activity
 
 
-Organization activities are the backup sessions and audit log events generated across all workloads in the Veeam Data Cloud organizations of your customers. The Activity page consolidates these records into a single, filterable interface, so you can quickly identify issues, verify backup session statuses, and ensure that all objects are properly protected.
+Organization activities are the data protection sessions and audit log events generated across all workloads in the Veeam Data Cloud organizations of your customers. The Activity page consolidates these records into a single, filterable interface, so you can quickly identify issues, verify backup session statuses, and ensure that all objects are properly protected.
 
 |  |
 | --- |
@@ -29,5 +29,7 @@ To open the Activity page, click the activity icon on the left.
 In This Section
 
 * [Viewing Backup Sessions](activity_backup.md)
+* [Viewing Restore Sessions](activity_restore.md)
 * [Viewing Audit Logs](activity_audit.md)
 
+Page updated 2026-07-24
