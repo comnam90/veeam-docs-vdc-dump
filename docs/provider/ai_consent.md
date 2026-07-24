@@ -3,7 +3,7 @@ title: "Configuring AI Consent"
 product: "vdc"
 doc_type: "provider"
 source_url: "https://helpcenter.veeam.com/docs/vdc/provider/ai_consent.html"
-last_updated: "4/17/2026"
+last_updated: "2026"
 product_version: ""
 ---
 
@@ -16,9 +16,30 @@ When you log in to your new Veeam Data Cloud organization for the first time, yo
 
 You can configure your consent for the following AI options:
 
-* Generative AI features — Veeam Data Cloud generative AI models allow you to ask questions in natural language and receive contextual, actionable answers. Regardless of your consent, you have access to the Veeam Intelligence chatbot.
-* Non-generative ML/AI models features — Veeam Data Cloud non-generative AI and machine learning allow you to use advanced threat and ransomware detection for your Microsoft 365 tenants.
-* Veeam may use anonymized aggregate data for training and improvement — anonymized, aggregated data improves threat detection models, reduces false positives, and expands detection to new threat types and zero-day attacks. Before Veeam uses any data for training, all identifying information such as customer names, account IDs, organization details and user names is removed and patterns are combined across many customers. No individual customer data can be identified or reconstructed.
+* Generative AI features — Veeam Data Cloud generative AI models allow you to ask questions in natural language and receive contextual, actionable answers. This includes the following:
+
+* Conversational insights into your environment
+* Summaries of operational and security events
+* Recommended next steps
+
+Generative AI features use only the backup and system metadata already visible in your Veeam Data Cloud dashboards. The contents of your protected data never leave their backup storage region. Veeam Data Cloud processes prompts and responses within the EU data zone (home region: Sweden Central), and operators do not retain or review them.
+
+Regardless of your consent, you have access to the Veeam Intelligence chatbot.
+
+* Non-generative ML/AI models features — Veeam Data Cloud non-generative AI and machine learning allow you to use advanced threat and ransomware detection for your Microsoft 365 tenants. This includes the following:
+
+* Identifying ransomware-affected restore points and the last known good state for recovery
+* Detecting identity-based anomalies such as privilege escalations and account cycling
+* Surfacing unusual patterns in backup and restore activity
+
+* Veeam may use anonymized aggregate data for training and improvement — anonymized, aggregated data helps Veeam do the following:
+
+* Improve threat detection models and reduce false positives
+* Expand detection to new threat types and zero-day attacks
+
+Before Veeam uses any data for training, all identifying information such as customer names, account IDs, organization details and user names is removed, and patterns are combined across many customers. No individual customer data can be identified or reconstructed.
+
+This option is independent. Regardless of your consent, every AI and ML feature works the same.
 
 To configure the AI consent settings, do the following:
 
@@ -34,3 +55,4 @@ To configure the AI consent settings, do the following:
 
 [![Configuring AI Consent](images/ai_consent.webp)](images/ai_consent.webp "Configuring AI Consent")
 
+Page updated 2026-07-23
